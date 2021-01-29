@@ -3,7 +3,7 @@ title: employee resource type | Microsoft Docs
 description: An employee object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents an employee in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET employee](../api/dynamics_employee_Get.md)|employee|Gets a employee object.|
-|[DELETE employee](../api/dynamics_employee_Delete.md)|none|Deletes a employee object.|
-|[POST employee](../api/dynamics_employee_Create.md)|employee|Creates a employee object.|
-|[PATCH employee](../api/dynamics_employee_Update.md)|employee|Updates a employee object.|
+|[GET employee](../api/dynamics_employee_get.md)|employee|Gets a employee object.|
+|[DELETE employee](../api/dynamics_employee_delete.md)|none|Deletes a employee object.|
+|[POST employee](../api/dynamics_employee_create.md)|employee|Creates a employee object.|
+|[PATCH employee](../api/dynamics_employee_update.md)|employee|Updates a employee object.|
 
 
 ## Navigation
@@ -102,6 +102,7 @@ Here is a JSON representation of the employee resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

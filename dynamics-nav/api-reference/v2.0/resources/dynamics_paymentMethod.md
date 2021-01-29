@@ -3,7 +3,7 @@ title: paymentMethod resource type | Microsoft Docs
 description: A payment method object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a payment method in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET paymentMethod](../api/dynamics_paymentMethod_Get.md)|paymentMethod|Gets a payment method object.|
-|[DELETE paymentMethod](../api/dynamics_paymentMethod_Delete.md)|none|Deletes a payment method object.|
-|[POST paymentMethod](../api/dynamics_paymentMethod_Create.md)|paymentMethod|Creates a payment method object.|
-|[PATCH paymentMethod](../api/dynamics_paymentMethod_Update.md)|paymentMethod|Updates a payment method object.|
+|[GET paymentMethod](../api/dynamics_paymentmethod_get.md)|paymentMethod|Gets a payment method object.|
+|[DELETE paymentMethod](../api/dynamics_paymentmethod_delete.md)|none|Deletes a payment method object.|
+|[POST paymentMethod](../api/dynamics_paymentmethod_create.md)|paymentMethod|Creates a payment method object.|
+|[PATCH paymentMethod](../api/dynamics_paymentmethod_update.md)|paymentMethod|Updates a payment method object.|
 
 
 
@@ -56,6 +56,7 @@ Here is a JSON representation of the paymentMethod resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

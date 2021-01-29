@@ -3,7 +3,7 @@ title: vendorPaymentJournal resource type | Microsoft Docs
 description: A vendor payment journal object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a vendor payment journal in [!INCLUDE[d365fin_long_md](../../includes
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET vendorPaymentJournal](../api/dynamics_vendorPaymentJournal_Get.md)|vendorPaymentJournal|Gets a vendor payment journal object.|
-|[DELETE vendorPaymentJournal](../api/dynamics_vendorPaymentJournal_Delete.md)|none|Deletes a vendor payment journal object.|
-|[POST vendorPaymentJournal](../api/dynamics_vendorPaymentJournal_Create.md)|vendorPaymentJournal|Creates a vendor payment journal object.|
-|[PATCH vendorPaymentJournal](../api/dynamics_vendorPaymentJournal_Update.md)|vendorPaymentJournal|Updates a vendor payment journal object.|
+|[GET vendorPaymentJournal](../api/dynamics_vendorpaymentjournal_get.md)|vendorPaymentJournal|Gets a vendor payment journal object.|
+|[DELETE vendorPaymentJournal](../api/dynamics_vendorpaymentjournal_delete.md)|none|Deletes a vendor payment journal object.|
+|[POST vendorPaymentJournal](../api/dynamics_vendorpaymentjournal_create.md)|vendorPaymentJournal|Creates a vendor payment journal object.|
+|[PATCH vendorPaymentJournal](../api/dynamics_vendorpaymentjournal_update.md)|vendorPaymentJournal|Updates a vendor payment journal object.|
 
 
 ## Navigation
@@ -66,6 +66,7 @@ Here is a JSON representation of the vendorPaymentJournal resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

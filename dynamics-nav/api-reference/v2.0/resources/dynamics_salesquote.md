@@ -3,7 +3,7 @@ title: salesQuote resource type | Microsoft Docs
 description: A sales quote object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a sales quote in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET salesQuote](../api/dynamics_salesQuote_Get.md)|salesQuote|Gets a sales quote object.|
-|[DELETE salesQuote](../api/dynamics_salesQuote_Delete.md)|none|Deletes a sales quote object.|
-|[POST salesQuote](../api/dynamics_salesQuote_Create.md)|salesQuote|Creates a sales quote object.|
-|[PATCH salesQuote](../api/dynamics_salesQuote_Update.md)|salesQuote|Updates a sales quote object.|
+|[GET salesQuote](../api/dynamics_salesquote_get.md)|salesQuote|Gets a sales quote object.|
+|[DELETE salesQuote](../api/dynamics_salesquote_delete.md)|none|Deletes a sales quote object.|
+|[POST salesQuote](../api/dynamics_salesquote_create.md)|salesQuote|Creates a sales quote object.|
+|[PATCH salesQuote](../api/dynamics_salesquote_update.md)|salesQuote|Updates a sales quote object.|
 
 ## Bound Actions
 
@@ -176,6 +176,7 @@ Here is a JSON representation of the salesQuote resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

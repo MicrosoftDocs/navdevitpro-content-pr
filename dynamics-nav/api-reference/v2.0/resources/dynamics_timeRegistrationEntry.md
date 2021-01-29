@@ -3,7 +3,7 @@ title: timeRegistrationEntry resource type | Microsoft Docs
 description: A time registration entry object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a time registration entry in [!INCLUDE[d365fin_long_md](../../include
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Get.md)|timeRegistrationEntry|Gets a time registration entry object.|
-|[DELETE timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Delete.md)|none|Deletes a time registration entry object.|
-|[POST timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Create.md)|timeRegistrationEntry|Creates a time registration entry object.|
-|[PATCH timeRegistrationEntry](../api/dynamics_timeRegistrationEntry_Update.md)|timeRegistrationEntry|Updates a time registration entry object.|
+|[GET timeRegistrationEntry](../api/dynamics_timeregistrationentry_get.md)|timeRegistrationEntry|Gets a time registration entry object.|
+|[DELETE timeRegistrationEntry](../api/dynamics_timeregistrationentry_delete.md)|none|Deletes a time registration entry object.|
+|[POST timeRegistrationEntry](../api/dynamics_timeregistrationentry_create.md)|timeRegistrationEntry|Creates a time registration entry object.|
+|[PATCH timeRegistrationEntry](../api/dynamics_timeregistrationentry_update.md)|timeRegistrationEntry|Updates a time registration entry object.|
 
 
 ## Navigation
@@ -84,6 +84,7 @@ Here is a JSON representation of the timeRegistrationEntry resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

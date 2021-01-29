@@ -3,7 +3,7 @@ title: salesInvoice resource type | Microsoft Docs
 description: A sales invoice object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a sales invoice in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET salesInvoice](../api/dynamics_salesInvoice_Get.md)|salesInvoice|Gets a sales invoice object.|
-|[DELETE salesInvoice](../api/dynamics_salesInvoice_Delete.md)|none|Deletes a sales invoice object.|
-|[POST salesInvoice](../api/dynamics_salesInvoice_Create.md)|salesInvoice|Creates a sales invoice object.|
-|[PATCH salesInvoice](../api/dynamics_salesInvoice_Update.md)|salesInvoice|Updates a sales invoice object.|
+|[GET salesInvoice](../api/dynamics_salesinvoice_get.md)|salesInvoice|Gets a sales invoice object.|
+|[DELETE salesInvoice](../api/dynamics_salesinvoice_delete.md)|none|Deletes a sales invoice object.|
+|[POST salesInvoice](../api/dynamics_salesinvoice_create.md)|salesInvoice|Creates a sales invoice object.|
+|[PATCH salesInvoice](../api/dynamics_salesinvoice_update.md)|salesInvoice|Updates a sales invoice object.|
 
 ## Bound Actions
 
@@ -200,6 +200,7 @@ Here is a JSON representation of the salesInvoice resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

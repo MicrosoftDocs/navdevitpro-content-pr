@@ -3,7 +3,7 @@ title: salesQuoteLine resource type | Microsoft Docs
 description: A sales quote line object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a sales quote line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET salesQuoteLine](../api/dynamics_salesQuoteLine_Get.md)|salesQuoteLine|Gets a sales quote line object.|
-|[DELETE salesQuoteLine](../api/dynamics_salesQuoteLine_Delete.md)|none|Deletes a sales quote line object.|
-|[POST salesQuoteLine](../api/dynamics_salesQuoteLine_Create.md)|salesQuoteLine|Creates a sales quote line object.|
-|[PATCH salesQuoteLine](../api/dynamics_salesQuoteLine_Update.md)|salesQuoteLine|Updates a sales quote line object.|
+|[GET salesQuoteLine](../api/dynamics_salesquoteline_get.md)|salesQuoteLine|Gets a sales quote line object.|
+|[DELETE salesQuoteLine](../api/dynamics_salesquoteline_delete.md)|none|Deletes a sales quote line object.|
+|[POST salesQuoteLine](../api/dynamics_salesquoteline_create.md)|salesQuoteLine|Creates a sales quote line object.|
+|[PATCH salesQuoteLine](../api/dynamics_salesquoteline_update.md)|salesQuoteLine|Updates a sales quote line object.|
 
 
 ## Navigation
@@ -106,6 +106,7 @@ Here is a JSON representation of the salesQuoteLine resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

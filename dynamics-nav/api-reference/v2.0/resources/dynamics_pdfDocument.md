@@ -3,7 +3,7 @@ title: pdfDocument resource type | Microsoft Docs
 description: A pdf document object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ Represents a pdf document in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET pdfDocument](../api/dynamics_pdfDocument_Get.md)|pdfDocument|Gets a pdf document object.|
+|[GET pdfDocument](../api/dynamics_pdfdocument_get.md)|pdfDocument|Gets a pdf document object.|
 
 
 ## Navigation
@@ -61,6 +61,7 @@ Here is a JSON representation of the pdfDocument resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

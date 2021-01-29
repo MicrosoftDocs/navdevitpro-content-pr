@@ -3,7 +3,7 @@ title: dimensionSetLine resource type | Microsoft Docs
 description: A dimension set line object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d36
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET dimensionSetLine](../api/dynamics_dimensionSetLine_Get.md)|dimensionSetLine|Gets a dimension set line object.|
-|[DELETE dimensionSetLine](../api/dynamics_dimensionSetLine_Delete.md)|none|Deletes a dimension set line object.|
-|[POST dimensionSetLine](../api/dynamics_dimensionSetLine_Create.md)|dimensionSetLine|Creates a dimension set line object.|
-|[PATCH dimensionSetLine](../api/dynamics_dimensionSetLine_Update.md)|dimensionSetLine|Updates a dimension set line object.|
+|[GET dimensionSetLine](../api/dynamics_dimensionsetline_get.md)|dimensionSetLine|Gets a dimension set line object.|
+|[DELETE dimensionSetLine](../api/dynamics_dimensionsetline_delete.md)|none|Deletes a dimension set line object.|
+|[POST dimensionSetLine](../api/dynamics_dimensionsetline_create.md)|dimensionSetLine|Creates a dimension set line object.|
+|[PATCH dimensionSetLine](../api/dynamics_dimensionsetline_update.md)|dimensionSetLine|Updates a dimension set line object.|
 
 
 ## Navigation
@@ -88,6 +88,7 @@ Here is a JSON representation of the dimensionSetLine resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

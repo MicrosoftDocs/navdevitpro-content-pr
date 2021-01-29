@@ -3,7 +3,7 @@ title: incomeStatement resource type | Microsoft Docs
 description: An income statement object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ Represents an income statement in [!INCLUDE[d365fin_long_md](../../includes/d365
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET incomeStatement](../api/dynamics_incomeStatement_Get.md)|incomeStatement|Gets a income statement object.|
+|[GET incomeStatement](../api/dynamics_incomestatement_get.md)|incomeStatement|Gets a income statement object.|
 
 
 
@@ -59,6 +59,7 @@ Here is a JSON representation of the incomeStatement resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

@@ -3,7 +3,7 @@ title: vendorPurchase resource type | Microsoft Docs
 description: A vendor purchase object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ Represents a vendor purchase in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET vendorPurchase](../api/dynamics_vendorPurchase_Get.md)|vendorPurchase|Gets a vendor purchase object.|
+|[GET vendorPurchase](../api/dynamics_vendorpurchase_get.md)|vendorPurchase|Gets a vendor purchase object.|
 
 
 
@@ -55,6 +55,7 @@ Here is a JSON representation of the vendorPurchase resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

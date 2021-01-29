@@ -3,7 +3,7 @@ title: generalLedgerEntry resource type | Microsoft Docs
 description: A general ledger entry object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ Represents a general ledger entry in [!INCLUDE[d365fin_long_md](../../includes/d
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET generalLedgerEntry](../api/dynamics_generalLedgerEntry_Get.md)|generalLedgerEntry|Gets a general ledger entry object.|
+|[GET generalLedgerEntry](../api/dynamics_generalledgerentry_get.md)|generalLedgerEntry|Gets a general ledger entry object.|
 
 
 ## Navigation
@@ -74,6 +74,7 @@ Here is a JSON representation of the generalLedgerEntry resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

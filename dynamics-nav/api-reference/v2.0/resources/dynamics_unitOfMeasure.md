@@ -3,7 +3,7 @@ title: unitOfMeasure resource type | Microsoft Docs
 description: An unit of measure object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents an unit of measure in [!INCLUDE[d365fin_long_md](../../includes/d365f
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET unitOfMeasure](../api/dynamics_unitOfMeasure_Get.md)|unitOfMeasure|Gets a unit of measure object.|
-|[DELETE unitOfMeasure](../api/dynamics_unitOfMeasure_Delete.md)|none|Deletes a unit of measure object.|
-|[POST unitOfMeasure](../api/dynamics_unitOfMeasure_Create.md)|unitOfMeasure|Creates a unit of measure object.|
-|[PATCH unitOfMeasure](../api/dynamics_unitOfMeasure_Update.md)|unitOfMeasure|Updates a unit of measure object.|
+|[GET unitOfMeasure](../api/dynamics_unitofmeasure_get.md)|unitOfMeasure|Gets a unit of measure object.|
+|[DELETE unitOfMeasure](../api/dynamics_unitofmeasure_delete.md)|none|Deletes a unit of measure object.|
+|[POST unitOfMeasure](../api/dynamics_unitofmeasure_create.md)|unitOfMeasure|Creates a unit of measure object.|
+|[PATCH unitOfMeasure](../api/dynamics_unitofmeasure_update.md)|unitOfMeasure|Updates a unit of measure object.|
 
 
 
@@ -60,6 +60,7 @@ Here is a JSON representation of the unitOfMeasure resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

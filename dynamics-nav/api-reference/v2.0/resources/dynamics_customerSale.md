@@ -3,7 +3,7 @@ title: customerSale resource type | Microsoft Docs
 description: A customer sale object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ Represents a customer sale in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET customerSale](../api/dynamics_customerSale_Get.md)|customerSale|Gets a customer sale object.|
+|[GET customerSale](../api/dynamics_customersale_get.md)|customerSale|Gets a customer sale object.|
 
 
 
@@ -55,6 +55,7 @@ Here is a JSON representation of the customerSale resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

@@ -3,7 +3,7 @@ title: picture resource type | Microsoft Docs
 description: A picture object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,9 +26,9 @@ Represents a picture in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET picture](../api/dynamics_picture_Get.md)|picture|Gets a picture object.|
-|[DELETE picture](../api/dynamics_picture_Delete.md)|none|Deletes a picture object.|
-|[PATCH picture](../api/dynamics_picture_Update.md)|picture|Updates a picture object.|
+|[GET picture](../api/dynamics_picture_get.md)|picture|Gets a picture object.|
+|[DELETE picture](../api/dynamics_picture_delete.md)|none|Deletes a picture object.|
+|[PATCH picture](../api/dynamics_picture_update.md)|picture|Updates a picture object.|
 
 
 ## Navigation
@@ -67,6 +67,7 @@ Here is a JSON representation of the picture resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

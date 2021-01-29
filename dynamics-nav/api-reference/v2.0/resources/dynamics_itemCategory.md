@@ -3,7 +3,7 @@ title: itemCategory resource type | Microsoft Docs
 description: An item category object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents an item category in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET itemCategory](../api/dynamics_itemCategory_Get.md)|itemCategory|Gets a item category object.|
-|[DELETE itemCategory](../api/dynamics_itemCategory_Delete.md)|none|Deletes a item category object.|
-|[POST itemCategory](../api/dynamics_itemCategory_Create.md)|itemCategory|Creates a item category object.|
-|[PATCH itemCategory](../api/dynamics_itemCategory_Update.md)|itemCategory|Updates a item category object.|
+|[GET itemCategory](../api/dynamics_itemcategory_get.md)|itemCategory|Gets a item category object.|
+|[DELETE itemCategory](../api/dynamics_itemcategory_delete.md)|none|Deletes a item category object.|
+|[POST itemCategory](../api/dynamics_itemcategory_create.md)|itemCategory|Creates a item category object.|
+|[PATCH itemCategory](../api/dynamics_itemcategory_update.md)|itemCategory|Updates a item category object.|
 
 
 
@@ -56,6 +56,7 @@ Here is a JSON representation of the itemCategory resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

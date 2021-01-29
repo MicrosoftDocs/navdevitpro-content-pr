@@ -3,7 +3,7 @@ title: purchaseInvoiceLine resource type | Microsoft Docs
 description: A purchase invoice line object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a purchase invoice line in [!INCLUDE[d365fin_long_md](../../includes/
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Get.md)|purchaseInvoiceLine|Gets a purchase invoice line object.|
-|[DELETE purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Delete.md)|none|Deletes a purchase invoice line object.|
-|[POST purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Create.md)|purchaseInvoiceLine|Creates a purchase invoice line object.|
-|[PATCH purchaseInvoiceLine](../api/dynamics_purchaseInvoiceLine_Update.md)|purchaseInvoiceLine|Updates a purchase invoice line object.|
+|[GET purchaseInvoiceLine](../api/dynamics_purchaseinvoiceline_get.md)|purchaseInvoiceLine|Gets a purchase invoice line object.|
+|[DELETE purchaseInvoiceLine](../api/dynamics_purchaseinvoiceline_delete.md)|none|Deletes a purchase invoice line object.|
+|[POST purchaseInvoiceLine](../api/dynamics_purchaseinvoiceline_create.md)|purchaseInvoiceLine|Creates a purchase invoice line object.|
+|[PATCH purchaseInvoiceLine](../api/dynamics_purchaseinvoiceline_update.md)|purchaseInvoiceLine|Updates a purchase invoice line object.|
 
 
 ## Navigation
@@ -110,6 +110,7 @@ Here is a JSON representation of the purchaseInvoiceLine resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

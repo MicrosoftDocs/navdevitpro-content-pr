@@ -3,7 +3,7 @@ title: attachment resource type | Microsoft Docs
 description: An attachments object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents an attachments in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET attachment](../api/dynamics_attachment_Get.md)|attachment|Gets a attachments object.|
-|[DELETE attachment](../api/dynamics_attachment_Delete.md)|none|Deletes a attachments object.|
-|[POST attachment](../api/dynamics_attachment_Create.md)|attachment|Creates a attachments object.|
-|[PATCH attachment](../api/dynamics_attachment_Update.md)|attachment|Updates a attachments object.|
+|[GET attachment](../api/dynamics_attachment_get.md)|attachment|Gets a attachments object.|
+|[DELETE attachment](../api/dynamics_attachment_delete.md)|none|Deletes a attachments object.|
+|[POST attachment](../api/dynamics_attachment_create.md)|attachment|Creates a attachments object.|
+|[PATCH attachment](../api/dynamics_attachment_update.md)|attachment|Updates a attachments object.|
 
 
 ## Navigation
@@ -73,6 +73,7 @@ Here is a JSON representation of the attachment resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

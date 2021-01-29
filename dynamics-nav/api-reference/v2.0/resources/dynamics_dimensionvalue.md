@@ -3,7 +3,7 @@ title: dimensionValue resource type | Microsoft Docs
 description: A dimension value object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ Represents a dimension value in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET dimensionValue](../api/dynamics_dimensionValue_Get.md)|dimensionValue|Gets a dimension value object.|
+|[GET dimensionValue](../api/dynamics_dimensionvalue_get.md)|dimensionValue|Gets a dimension value object.|
 
 
 ## Navigation
@@ -60,6 +60,7 @@ Here is a JSON representation of the dimensionValue resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

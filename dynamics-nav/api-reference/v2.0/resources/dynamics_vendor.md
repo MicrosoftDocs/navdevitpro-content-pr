@@ -3,7 +3,7 @@ title: vendor resource type | Microsoft Docs
 description: A vendor object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET vendor](../api/dynamics_vendor_Get.md)|vendor|Gets a vendor object.|
-|[DELETE vendor](../api/dynamics_vendor_Delete.md)|none|Deletes a vendor object.|
-|[POST vendor](../api/dynamics_vendor_Create.md)|vendor|Creates a vendor object.|
-|[PATCH vendor](../api/dynamics_vendor_Update.md)|vendor|Updates a vendor object.|
+|[GET vendor](../api/dynamics_vendor_get.md)|vendor|Gets a vendor object.|
+|[DELETE vendor](../api/dynamics_vendor_delete.md)|none|Deletes a vendor object.|
+|[POST vendor](../api/dynamics_vendor_create.md)|vendor|Creates a vendor object.|
+|[PATCH vendor](../api/dynamics_vendor_update.md)|vendor|Updates a vendor object.|
 
 
 ## Navigation
@@ -103,6 +103,7 @@ Here is a JSON representation of the vendor resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

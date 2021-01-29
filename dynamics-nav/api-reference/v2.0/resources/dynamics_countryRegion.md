@@ -3,7 +3,7 @@ title: countryRegion resource type | Microsoft Docs
 description: A country/region object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a country/region in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET countryRegion](../api/dynamics_countryRegion_Get.md)|countryRegion|Gets a country/region object.|
-|[DELETE countryRegion](../api/dynamics_countryRegion_Delete.md)|none|Deletes a country/region object.|
-|[POST countryRegion](../api/dynamics_countryRegion_Create.md)|countryRegion|Creates a country/region object.|
-|[PATCH countryRegion](../api/dynamics_countryRegion_Update.md)|countryRegion|Updates a country/region object.|
+|[GET countryRegion](../api/dynamics_countryregion_get.md)|countryRegion|Gets a country/region object.|
+|[DELETE countryRegion](../api/dynamics_countryregion_delete.md)|none|Deletes a country/region object.|
+|[POST countryRegion](../api/dynamics_countryregion_create.md)|countryRegion|Creates a country/region object.|
+|[PATCH countryRegion](../api/dynamics_countryregion_update.md)|countryRegion|Updates a country/region object.|
 
 
 
@@ -58,6 +58,7 @@ Here is a JSON representation of the countryRegion resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

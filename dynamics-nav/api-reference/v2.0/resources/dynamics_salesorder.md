@@ -3,7 +3,7 @@ title: salesOrder resource type | Microsoft Docs
 description: A sales order object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a sales order in [!INCLUDE[d365fin_long_md](../../includes/d365fin_lo
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET salesOrder](../api/dynamics_salesOrder_Get.md)|salesOrder|Gets a sales order object.|
-|[DELETE salesOrder](../api/dynamics_salesOrder_Delete.md)|none|Deletes a sales order object.|
-|[POST salesOrder](../api/dynamics_salesOrder_Create.md)|salesOrder|Creates a sales order object.|
-|[PATCH salesOrder](../api/dynamics_salesOrder_Update.md)|salesOrder|Updates a sales order object.|
+|[GET salesOrder](../api/dynamics_salesorder_get.md)|salesOrder|Gets a sales order object.|
+|[DELETE salesOrder](../api/dynamics_salesorder_delete.md)|none|Deletes a sales order object.|
+|[POST salesOrder](../api/dynamics_salesorder_create.md)|salesOrder|Creates a sales order object.|
+|[PATCH salesOrder](../api/dynamics_salesorder_update.md)|salesOrder|Updates a sales order object.|
 
 ## Bound Actions
 
@@ -165,6 +165,7 @@ Here is a JSON representation of the salesOrder resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

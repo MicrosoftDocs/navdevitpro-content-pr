@@ -3,7 +3,7 @@ title: salesCreditMemoLine resource type | Microsoft Docs
 description: A sales credit memo line object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a sales credit memo line in [!INCLUDE[d365fin_long_md](../../includes
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Get.md)|salesCreditMemoLine|Gets a sales credit memo line object.|
-|[DELETE salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Delete.md)|none|Deletes a sales credit memo line object.|
-|[POST salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Create.md)|salesCreditMemoLine|Creates a sales credit memo line object.|
-|[PATCH salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Update.md)|salesCreditMemoLine|Updates a sales credit memo line object.|
+|[GET salesCreditMemoLine](../api/dynamics_salescreditmemoline_get.md)|salesCreditMemoLine|Gets a sales credit memo line object.|
+|[DELETE salesCreditMemoLine](../api/dynamics_salescreditmemoline_delete.md)|none|Deletes a sales credit memo line object.|
+|[POST salesCreditMemoLine](../api/dynamics_salescreditmemoline_create.md)|salesCreditMemoLine|Creates a sales credit memo line object.|
+|[PATCH salesCreditMemoLine](../api/dynamics_salescreditmemoline_update.md)|salesCreditMemoLine|Updates a sales credit memo line object.|
 
 
 ## Navigation
@@ -110,6 +110,7 @@ Here is a JSON representation of the salesCreditMemoLine resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

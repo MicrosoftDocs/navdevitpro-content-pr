@@ -3,7 +3,7 @@ title: shipmentMethod resource type | Microsoft Docs
 description: A shipment method object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a shipment method in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET shipmentMethod](../api/dynamics_shipmentMethod_Get.md)|shipmentMethod|Gets a shipment method object.|
-|[DELETE shipmentMethod](../api/dynamics_shipmentMethod_Delete.md)|none|Deletes a shipment method object.|
-|[POST shipmentMethod](../api/dynamics_shipmentMethod_Create.md)|shipmentMethod|Creates a shipment method object.|
-|[PATCH shipmentMethod](../api/dynamics_shipmentMethod_Update.md)|shipmentMethod|Updates a shipment method object.|
+|[GET shipmentMethod](../api/dynamics_shipmentmethod_get.md)|shipmentMethod|Gets a shipment method object.|
+|[DELETE shipmentMethod](../api/dynamics_shipmentmethod_delete.md)|none|Deletes a shipment method object.|
+|[POST shipmentMethod](../api/dynamics_shipmentmethod_create.md)|shipmentMethod|Creates a shipment method object.|
+|[PATCH shipmentMethod](../api/dynamics_shipmentmethod_update.md)|shipmentMethod|Updates a shipment method object.|
 
 
 
@@ -56,6 +56,7 @@ Here is a JSON representation of the shipmentMethod resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

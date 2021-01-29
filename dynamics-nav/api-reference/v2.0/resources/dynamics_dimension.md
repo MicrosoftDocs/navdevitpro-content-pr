@@ -3,7 +3,7 @@ title: dimension resource type | Microsoft Docs
 description: A dimension object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ Represents a dimension in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET dimension](../api/dynamics_dimension_Get.md)|dimension|Gets a dimension object.|
+|[GET dimension](../api/dynamics_dimension_get.md)|dimension|Gets a dimension object.|
 
 
 ## Navigation
@@ -58,6 +58,7 @@ Here is a JSON representation of the dimension resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

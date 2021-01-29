@@ -3,7 +3,7 @@ title: salesCreditMemo resource type | Microsoft Docs
 description: A sales credit memo object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET salesCreditMemo](../api/dynamics_salesCreditMemo_Get.md)|salesCreditMemo|Gets a sales credit memo object.|
-|[DELETE salesCreditMemo](../api/dynamics_salesCreditMemo_Delete.md)|none|Deletes a sales credit memo object.|
-|[POST salesCreditMemo](../api/dynamics_salesCreditMemo_Create.md)|salesCreditMemo|Creates a sales credit memo object.|
-|[PATCH salesCreditMemo](../api/dynamics_salesCreditMemo_Update.md)|salesCreditMemo|Updates a sales credit memo object.|
+|[GET salesCreditMemo](../api/dynamics_salescreditmemo_get.md)|salesCreditMemo|Gets a sales credit memo object.|
+|[DELETE salesCreditMemo](../api/dynamics_salescreditmemo_delete.md)|none|Deletes a sales credit memo object.|
+|[POST salesCreditMemo](../api/dynamics_salescreditmemo_create.md)|salesCreditMemo|Creates a sales credit memo object.|
+|[PATCH salesCreditMemo](../api/dynamics_salescreditmemo_update.md)|salesCreditMemo|Updates a sales credit memo object.|
 
 ## Bound Actions
 
@@ -174,6 +174,7 @@ Here is a JSON representation of the salesCreditMemo resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

@@ -3,7 +3,7 @@ title: itemVariant resource type | Microsoft Docs
 description: An item variant object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents an item variant in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET itemVariant](../api/dynamics_itemVariant_Get.md)|itemVariant|Gets a item variant object.|
-|[DELETE itemVariant](../api/dynamics_itemVariant_Delete.md)|none|Deletes a item variant object.|
-|[POST itemVariant](../api/dynamics_itemVariant_Create.md)|itemVariant|Creates a item variant object.|
-|[PATCH itemVariant](../api/dynamics_itemVariant_Update.md)|itemVariant|Updates a item variant object.|
+|[GET itemVariant](../api/dynamics_itemvariant_get.md)|itemVariant|Gets a item variant object.|
+|[DELETE itemVariant](../api/dynamics_itemvariant_delete.md)|none|Deletes a item variant object.|
+|[POST itemVariant](../api/dynamics_itemvariant_create.md)|itemVariant|Creates a item variant object.|
+|[PATCH itemVariant](../api/dynamics_itemvariant_update.md)|itemVariant|Updates a item variant object.|
 
 
 ## Navigation
@@ -63,6 +63,7 @@ Here is a JSON representation of the itemVariant resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

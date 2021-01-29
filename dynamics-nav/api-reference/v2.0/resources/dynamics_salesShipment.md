@@ -3,7 +3,7 @@ title: salesShipment resource type | Microsoft Docs
 description: A sales shipment object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ Represents a sales shipment in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET salesShipment](../api/dynamics_salesShipment_Get.md)|salesShipment|Gets a sales shipment object.|
+|[GET salesShipment](../api/dynamics_salesshipment_get.md)|salesShipment|Gets a sales shipment object.|
 
 
 ## Navigation
@@ -135,6 +135,7 @@ Here is a JSON representation of the salesShipment resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

@@ -3,7 +3,7 @@ title: trialBalance resource type | Microsoft Docs
 description: A trial balance object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ Represents a trial balance in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET trialBalance](../api/dynamics_trialBalance_Get.md)|trialBalance|Gets a trial balance object.|
+|[GET trialBalance](../api/dynamics_trialbalance_get.md)|trialBalance|Gets a trial balance object.|
 
 
 ## Navigation
@@ -68,6 +68,7 @@ Here is a JSON representation of the trialBalance resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

@@ -3,7 +3,7 @@ title: agedAccountsPayable resource type | Microsoft Docs
 description: An aged accounts payable object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ Represents an aged accounts payable in [!INCLUDE[d365fin_long_md](../../includes
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET agedAccountsPayable](../api/dynamics_agedAccountsPayable_Get.md)|agedAccountsPayable|Gets a aged accounts payable object.|
+|[GET agedAccountsPayable](../api/dynamics_agedaccountspayable_get.md)|agedAccountsPayable|Gets a aged accounts payable object.|
 
 
 ## Navigation
@@ -72,6 +72,7 @@ Here is a JSON representation of the agedAccountsPayable resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

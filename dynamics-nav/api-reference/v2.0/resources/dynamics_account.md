@@ -3,7 +3,7 @@ title: account resource type | Microsoft Docs
 description: An account object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ Represents an account in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET account](../api/dynamics_account_Get.md)|account|Gets a account object.|
+|[GET account](../api/dynamics_account_get.md)|account|Gets a account object.|
 
 
 ## Navigation
@@ -68,6 +68,7 @@ Here is a JSON representation of the account resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

@@ -3,7 +3,7 @@ title: journalLine resource type | Microsoft Docs
 description: A journal line object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a journal line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET journalLine](../api/dynamics_journalLine_Get.md)|journalLine|Gets a journal line object.|
-|[DELETE journalLine](../api/dynamics_journalLine_Delete.md)|none|Deletes a journal line object.|
-|[POST journalLine](../api/dynamics_journalLine_Create.md)|journalLine|Creates a journal line object.|
-|[PATCH journalLine](../api/dynamics_journalLine_Update.md)|journalLine|Updates a journal line object.|
+|[GET journalLine](../api/dynamics_journalline_get.md)|journalLine|Gets a journal line object.|
+|[DELETE journalLine](../api/dynamics_journalline_delete.md)|none|Deletes a journal line object.|
+|[POST journalLine](../api/dynamics_journalline_create.md)|journalLine|Creates a journal line object.|
+|[PATCH journalLine](../api/dynamics_journalline_update.md)|journalLine|Updates a journal line object.|
 
 
 ## Navigation
@@ -93,6 +93,7 @@ Here is a JSON representation of the journalLine resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

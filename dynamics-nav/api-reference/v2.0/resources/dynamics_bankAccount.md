@@ -3,7 +3,7 @@ title: bankAccount resource type | Microsoft Docs
 description: A bank account object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a bank account in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET bankAccount](../api/dynamics_bankAccount_Get.md)|bankAccount|Gets a bank account object.|
-|[DELETE bankAccount](../api/dynamics_bankAccount_Delete.md)|none|Deletes a bank account object.|
-|[POST bankAccount](../api/dynamics_bankAccount_Create.md)|bankAccount|Creates a bank account object.|
-|[PATCH bankAccount](../api/dynamics_bankAccount_Update.md)|bankAccount|Updates a bank account object.|
+|[GET bankAccount](../api/dynamics_bankaccount_get.md)|bankAccount|Gets a bank account object.|
+|[DELETE bankAccount](../api/dynamics_bankaccount_delete.md)|none|Deletes a bank account object.|
+|[POST bankAccount](../api/dynamics_bankaccount_create.md)|bankAccount|Creates a bank account object.|
+|[PATCH bankAccount](../api/dynamics_bankaccount_update.md)|bankAccount|Updates a bank account object.|
 
 
 
@@ -54,6 +54,7 @@ Here is a JSON representation of the bankAccount resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

@@ -3,7 +3,7 @@ title: item resource type | Microsoft Docs
 description: An item object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET item](../api/dynamics_item_Get.md)|item|Gets a item object.|
-|[DELETE item](../api/dynamics_item_Delete.md)|none|Deletes a item object.|
-|[POST item](../api/dynamics_item_Create.md)|item|Creates a item object.|
-|[PATCH item](../api/dynamics_item_Update.md)|item|Updates a item object.|
+|[GET item](../api/dynamics_item_get.md)|item|Gets a item object.|
+|[DELETE item](../api/dynamics_item_delete.md)|none|Deletes a item object.|
+|[POST item](../api/dynamics_item_create.md)|item|Creates a item object.|
+|[PATCH item](../api/dynamics_item_update.md)|item|Updates a item object.|
 
 
 ## Navigation
@@ -91,6 +91,7 @@ Here is a JSON representation of the item resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

@@ -3,7 +3,7 @@ title: subscriptions resource type | Microsoft Docs
 description: A subscriptions object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a subscriptions in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET subscriptions](../api/dynamics_subscriptions_Get.md)|subscriptions|Gets a subscriptions object.|
-|[DELETE subscriptions](../api/dynamics_subscriptions_Delete.md)|none|Deletes a subscriptions object.|
-|[POST subscriptions](../api/dynamics_subscriptions_Create.md)|subscriptions|Creates a subscriptions object.|
-|[PATCH subscriptions](../api/dynamics_subscriptions_Update.md)|subscriptions|Updates a subscriptions object.|
+|[GET subscriptions](../api/dynamics_subscriptions_get.md)|subscriptions|Gets a subscriptions object.|
+|[DELETE subscriptions](../api/dynamics_subscriptions_delete.md)|none|Deletes a subscriptions object.|
+|[POST subscriptions](../api/dynamics_subscriptions_create.md)|subscriptions|Creates a subscriptions object.|
+|[PATCH subscriptions](../api/dynamics_subscriptions_update.md)|subscriptions|Updates a subscriptions object.|
 
 
 
@@ -70,6 +70,7 @@ Here is a JSON representation of the subscriptions resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

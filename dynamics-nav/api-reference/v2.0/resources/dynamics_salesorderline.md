@@ -3,7 +3,7 @@ title: salesOrderLine resource type | Microsoft Docs
 description: A sales order line object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a sales order line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET salesOrderLine](../api/dynamics_salesOrderLine_Get.md)|salesOrderLine|Gets a sales order line object.|
-|[DELETE salesOrderLine](../api/dynamics_salesOrderLine_Delete.md)|none|Deletes a sales order line object.|
-|[POST salesOrderLine](../api/dynamics_salesOrderLine_Create.md)|salesOrderLine|Creates a sales order line object.|
-|[PATCH salesOrderLine](../api/dynamics_salesOrderLine_Update.md)|salesOrderLine|Updates a sales order line object.|
+|[GET salesOrderLine](../api/dynamics_salesorderline_get.md)|salesOrderLine|Gets a sales order line object.|
+|[DELETE salesOrderLine](../api/dynamics_salesorderline_delete.md)|none|Deletes a sales order line object.|
+|[POST salesOrderLine](../api/dynamics_salesorderline_create.md)|salesOrderLine|Creates a sales order line object.|
+|[PATCH salesOrderLine](../api/dynamics_salesorderline_update.md)|salesOrderLine|Updates a sales order line object.|
 
 
 ## Navigation
@@ -118,6 +118,7 @@ Here is a JSON representation of the salesOrderLine resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

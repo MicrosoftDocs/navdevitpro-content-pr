@@ -3,7 +3,7 @@ title: journal resource type | Microsoft Docs
 description: A journal object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET journal](../api/dynamics_journal_Get.md)|journal|Gets a journal object.|
-|[DELETE journal](../api/dynamics_journal_Delete.md)|none|Deletes a journal object.|
-|[POST journal](../api/dynamics_journal_Create.md)|journal|Creates a journal object.|
-|[PATCH journal](../api/dynamics_journal_Update.md)|journal|Updates a journal object.|
+|[GET journal](../api/dynamics_journal_get.md)|journal|Gets a journal object.|
+|[DELETE journal](../api/dynamics_journal_delete.md)|none|Deletes a journal object.|
+|[POST journal](../api/dynamics_journal_create.md)|journal|Creates a journal object.|
+|[PATCH journal](../api/dynamics_journal_update.md)|journal|Updates a journal object.|
 
 ## Bound Actions
 
@@ -73,6 +73,7 @@ Here is a JSON representation of the journal resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

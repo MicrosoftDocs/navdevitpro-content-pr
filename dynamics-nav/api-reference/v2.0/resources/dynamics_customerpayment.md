@@ -3,7 +3,7 @@ title: customerPayment resource type | Microsoft Docs
 description: A customer payment object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365f
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET customerPayment](../api/dynamics_customerPayment_Get.md)|customerPayment|Gets a customer payment object.|
-|[DELETE customerPayment](../api/dynamics_customerPayment_Delete.md)|none|Deletes a customer payment object.|
-|[POST customerPayment](../api/dynamics_customerPayment_Create.md)|customerPayment|Creates a customer payment object.|
-|[PATCH customerPayment](../api/dynamics_customerPayment_Update.md)|customerPayment|Updates a customer payment object.|
+|[GET customerPayment](../api/dynamics_customerpayment_get.md)|customerPayment|Gets a customer payment object.|
+|[DELETE customerPayment](../api/dynamics_customerpayment_delete.md)|none|Deletes a customer payment object.|
+|[POST customerPayment](../api/dynamics_customerpayment_create.md)|customerPayment|Creates a customer payment object.|
+|[PATCH customerPayment](../api/dynamics_customerpayment_update.md)|customerPayment|Updates a customer payment object.|
 
 
 ## Navigation
@@ -85,6 +85,7 @@ Here is a JSON representation of the customerPayment resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

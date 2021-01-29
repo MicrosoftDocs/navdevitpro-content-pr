@@ -3,7 +3,7 @@ title: customer resource type | Microsoft Docs
 description: A customer object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET customer](../api/dynamics_customer_Get.md)|customer|Gets a customer object.|
-|[DELETE customer](../api/dynamics_customer_Delete.md)|none|Deletes a customer object.|
-|[POST customer](../api/dynamics_customer_Create.md)|customer|Creates a customer object.|
-|[PATCH customer](../api/dynamics_customer_Update.md)|customer|Updates a customer object.|
+|[GET customer](../api/dynamics_customer_get.md)|customer|Gets a customer object.|
+|[DELETE customer](../api/dynamics_customer_delete.md)|none|Deletes a customer object.|
+|[POST customer](../api/dynamics_customer_create.md)|customer|Creates a customer object.|
+|[PATCH customer](../api/dynamics_customer_update.md)|customer|Updates a customer object.|
 
 
 ## Navigation
@@ -109,6 +109,7 @@ Here is a JSON representation of the customer resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

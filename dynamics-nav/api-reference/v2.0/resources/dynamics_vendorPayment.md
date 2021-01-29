@@ -3,7 +3,7 @@ title: vendorPayment resource type | Microsoft Docs
 description: A vendor payment object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a vendor payment in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET vendorPayment](../api/dynamics_vendorPayment_Get.md)|vendorPayment|Gets a vendor payment object.|
-|[DELETE vendorPayment](../api/dynamics_vendorPayment_Delete.md)|none|Deletes a vendor payment object.|
-|[POST vendorPayment](../api/dynamics_vendorPayment_Create.md)|vendorPayment|Creates a vendor payment object.|
-|[PATCH vendorPayment](../api/dynamics_vendorPayment_Update.md)|vendorPayment|Updates a vendor payment object.|
+|[GET vendorPayment](../api/dynamics_vendorpayment_get.md)|vendorPayment|Gets a vendor payment object.|
+|[DELETE vendorPayment](../api/dynamics_vendorpayment_delete.md)|none|Deletes a vendor payment object.|
+|[POST vendorPayment](../api/dynamics_vendorpayment_create.md)|vendorPayment|Creates a vendor payment object.|
+|[PATCH vendorPayment](../api/dynamics_vendorpayment_update.md)|vendorPayment|Updates a vendor payment object.|
 
 
 ## Navigation
@@ -86,6 +86,7 @@ Here is a JSON representation of the vendorPayment resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

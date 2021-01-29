@@ -3,7 +3,7 @@ title: agedAccountsReceivable resource type | Microsoft Docs
 description: An aged accounts receivable object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ Represents an aged accounts receivable in [!INCLUDE[d365fin_long_md](../../inclu
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET agedAccountsReceivable](../api/dynamics_agedAccountsReceivable_Get.md)|agedAccountsReceivable|Gets a aged accounts receivable object.|
+|[GET agedAccountsReceivable](../api/dynamics_agedaccountsreceivable_get.md)|agedAccountsReceivable|Gets a aged accounts receivable object.|
 
 
 ## Navigation
@@ -72,6 +72,7 @@ Here is a JSON representation of the agedAccountsReceivable resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

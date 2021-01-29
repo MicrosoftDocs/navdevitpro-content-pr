@@ -3,7 +3,7 @@ title: cashFlowStatement resource type | Microsoft Docs
 description: A cash flow statement object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ Represents a cash flow statement in [!INCLUDE[d365fin_long_md](../../includes/d3
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET cashFlowStatement](../api/dynamics_cashFlowStatement_Get.md)|cashFlowStatement|Gets a cash flow statement object.|
+|[GET cashFlowStatement](../api/dynamics_cashflowstatement_get.md)|cashFlowStatement|Gets a cash flow statement object.|
 
 
 
@@ -59,6 +59,7 @@ Here is a JSON representation of the cashFlowStatement resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

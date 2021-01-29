@@ -3,7 +3,7 @@ title: currency resource type | Microsoft Docs
 description: A currency object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a currency in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET currency](../api/dynamics_currency_Get.md)|currency|Gets a currency object.|
-|[DELETE currency](../api/dynamics_currency_Delete.md)|none|Deletes a currency object.|
-|[POST currency](../api/dynamics_currency_Create.md)|currency|Creates a currency object.|
-|[PATCH currency](../api/dynamics_currency_Update.md)|currency|Updates a currency object.|
+|[GET currency](../api/dynamics_currency_get.md)|currency|Gets a currency object.|
+|[DELETE currency](../api/dynamics_currency_delete.md)|none|Deletes a currency object.|
+|[POST currency](../api/dynamics_currency_create.md)|currency|Creates a currency object.|
+|[PATCH currency](../api/dynamics_currency_update.md)|currency|Updates a currency object.|
 
 
 
@@ -62,6 +62,7 @@ Here is a JSON representation of the currency resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

@@ -3,7 +3,7 @@ title: customerFinancialDetail resource type | Microsoft Docs
 description: A customer financial detail object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ Represents a customer financial detail in [!INCLUDE[d365fin_long_md](../../inclu
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET customerFinancialDetail](../api/dynamics_customerFinancialDetail_Get.md)|customerFinancialDetail|Gets a customer financial detail object.|
+|[GET customerFinancialDetail](../api/dynamics_customerfinancialdetail_get.md)|customerFinancialDetail|Gets a customer financial detail object.|
 
 
 ## Navigation
@@ -60,6 +60,7 @@ Here is a JSON representation of the customerFinancialDetail resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

@@ -3,7 +3,7 @@ title: balanceSheet resource type | Microsoft Docs
 description: A balance sheet object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ Represents a balance sheet in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET balanceSheet](../api/dynamics_balanceSheet_Get.md)|balanceSheet|Gets a balance sheet object.|
+|[GET balanceSheet](../api/dynamics_balancesheet_get.md)|balanceSheet|Gets a balance sheet object.|
 
 
 
@@ -59,6 +59,7 @@ Here is a JSON representation of the balanceSheet resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also

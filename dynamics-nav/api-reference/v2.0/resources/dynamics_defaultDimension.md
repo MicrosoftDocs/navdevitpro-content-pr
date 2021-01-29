@@ -3,7 +3,7 @@ title: defaultDimension resource type | Microsoft Docs
 description: A default dimensions object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,10 +26,10 @@ Represents a default dimensions in [!INCLUDE[d365fin_long_md](../../includes/d36
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET defaultDimension](../api/dynamics_defaultDimension_Get.md)|defaultDimension|Gets a default dimensions object.|
-|[DELETE defaultDimension](../api/dynamics_defaultDimension_Delete.md)|none|Deletes a default dimensions object.|
-|[POST defaultDimension](../api/dynamics_defaultDimension_Create.md)|defaultDimension|Creates a default dimensions object.|
-|[PATCH defaultDimension](../api/dynamics_defaultDimension_Update.md)|defaultDimension|Updates a default dimensions object.|
+|[GET defaultDimension](../api/dynamics_defaultdimension_get.md)|defaultDimension|Gets a default dimensions object.|
+|[DELETE defaultDimension](../api/dynamics_defaultdimension_delete.md)|none|Deletes a default dimensions object.|
+|[POST defaultDimension](../api/dynamics_defaultdimension_create.md)|defaultDimension|Creates a default dimensions object.|
+|[PATCH defaultDimension](../api/dynamics_defaultdimension_update.md)|defaultDimension|Updates a default dimensions object.|
 
 
 ## Navigation
@@ -75,6 +75,7 @@ Here is a JSON representation of the defaultDimension resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
 
 
 ## See Also
