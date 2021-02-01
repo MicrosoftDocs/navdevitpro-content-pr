@@ -3,7 +3,7 @@ title: GET shipmentMethods | Microsoft Docs
 description: Gets a shipmentMethod object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
-ms.topic: article
+ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
