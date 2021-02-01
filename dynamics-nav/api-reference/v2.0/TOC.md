@@ -242,4 +242,3 @@
 ## [Vendor purchase](resources/dynamics_vendorpurchase.md)
 ### [Get vendor purchase](api/dynamics_vendorpurchase_get.md)
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
- -->
