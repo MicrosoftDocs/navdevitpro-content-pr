@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/24/2021
 ms.author: solsen
 ---
 
@@ -43,6 +43,7 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 |[picture](dynamics_picture.md)|picture |Gets the picture of the vendor.|
 |[defaultDimensions](dynamics_defaultdimension.md)|defaultDimensions |Gets the defaultdimensions of the vendor.|
 |[agedAccountsPayable](dynamics_agedaccountspayable.md)|agedAccountsPayable |Gets the agedaccountspayable of the vendor.|
+|[contactsInformation](dynamics_contactsinformation.md)|contactsInformation |Gets the contactsinformation of the vendor.|
 
 ## Properties
 

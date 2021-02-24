@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/24/2021
 ms.author: solsen
 ---
 
@@ -56,6 +56,8 @@ Represents a dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d36
 |[salesShipmentLine](dynamics_salesshipmentline.md)|salesShipmentLine |Gets the salesshipmentline of the dimensionSetLine.|
 |[purchaseReceipt](dynamics_purchasereceipt.md)|purchaseReceipt |Gets the purchasereceipt of the dimensionSetLine.|
 |[purchaseReceiptLine](dynamics_purchasereceiptline.md)|purchaseReceiptLine |Gets the purchasereceiptline of the dimensionSetLine.|
+|[purchaseOrder](dynamics_purchaseorder.md)|purchaseOrder |Gets the purchaseorder of the dimensionSetLine.|
+|[purchaseOrderLine](dynamics_purchaseorderline.md)|purchaseOrderLine |Gets the purchaseorderline of the dimensionSetLine.|
 
 ## Properties
 

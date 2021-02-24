@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/24/2021
 ms.author: solsen
 ---
 
@@ -34,7 +34,7 @@ Represents a purchase invoice in [!INCLUDE[d365fin_long_md](../../includes/d365f
 ## Bound Actions
 
 The purchaseInvoice resource type offers a bound action called `post` which posts the corresponding purchaseInvoice batch.
-Posting the purchaseInvoice batch is illustrated in the following example:
+This is illustrated in the following example:
 `POST https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/purchaseInvoices({id})/Microsoft.NAV.post`
 
 The response has no content; the response code is 204.
@@ -90,6 +90,8 @@ The response has no content; the response code is 204.
 |payToPostCode|string|Pay to post code.|
 |currencyId|GUID|Specifies which currency the purchase invoice uses.|
 |currencyCode|string|The default currency code for the purchase invoice.|
+|orderId|GUID|The id of the order to which the purchase invoice is associated to. Read-Only.|
+|orderNumber|string|The number of the order to which the purchase invoice is associated to. Read-Only.|
 |pricesIncludeTax|boolean|Specifies whether the prices include Tax or not. Read-Only.|
 |discountAmount|decimal|The purchase invoice discount amount.|
 |discountAppliedBeforeTax|boolean|Specifies whether the discount is applied before tax.|
@@ -141,6 +143,8 @@ Here is a JSON representation of the purchaseInvoice resource.
     "payToPostCode": "string",
     "currencyId": "GUID",
     "currencyCode": "string",
+    "orderId": "GUID",
+    "orderNumber": "string",
     "pricesIncludeTax": "boolean",
     "discountAmount": "decimal",
     "discountAppliedBeforeTax": "boolean",

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/24/2021
 ms.author: solsen
 ---
 
@@ -33,6 +33,7 @@ Represents a purchase receipt line in [!INCLUDE[d365fin_long_md](../../includes/
 
 | Navigation |Return Type| Description |
 |:----------|:----------|:-----------------|
+|[purchaseReceipt](dynamics_purchasereceipt.md)|purchaseReceipt |Gets the purchasereceipt of the purchaseReceiptLine.|
 |[account](dynamics_account.md)|account |Gets the account of the purchaseReceiptLine.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the purchaseReceiptLine.|
 

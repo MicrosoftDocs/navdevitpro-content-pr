@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/01/2021
+ms.date: 02/24/2021
 ms.author: solsen
 ---
 
@@ -41,6 +41,8 @@ Represents a company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[customers](dynamics_customer.md)|customers |Gets the customers of the company.|
 |[customerFinancialDetails](dynamics_customerfinancialdetail.md)|customerFinancialDetails |Gets the customerfinancialdetails of the company.|
 |[agedAccountsReceivables](dynamics_agedaccountsreceivable.md)|agedAccountsReceivables |Gets the agedaccountsreceivables of the company.|
+|[contactsInformation](dynamics_contactsinformation.md)|contactsInformation |Gets the contactsinformation of the company.|
+|[contacts](dynamics_contact.md)|contacts |Gets the contacts of the company.|
 |[vendors](dynamics_vendor.md)|vendors |Gets the vendors of the company.|
 |[agedAccountsPayables](dynamics_agedaccountspayable.md)|agedAccountsPayables |Gets the agedaccountspayables of the company.|
 |[companyInformation](dynamics_companyinformation.md)|companyInformation |Gets the companyinformation of the company.|
@@ -83,11 +85,14 @@ Represents a company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |[projects](dynamics_project.md)|projects |Gets the projects of the company.|
 |[bankAccounts](dynamics_bankaccount.md)|bankAccounts |Gets the bankaccounts of the company.|
 |[vendorPayments](dynamics_vendorpayment.md)|vendorPayments |Gets the vendorpayments of the company.|
+|[applyVendorEntries](dynamics_applyvendorentry.md)|applyVendorEntries |Gets the applyvendorentries of the company.|
 |[vendorPaymentJournals](dynamics_vendorpaymentjournal.md)|vendorPaymentJournals |Gets the vendorpaymentjournals of the company.|
 |[salesShipments](dynamics_salesshipment.md)|salesShipments |Gets the salesshipments of the company.|
 |[salesShipmentLines](dynamics_salesshipmentline.md)|salesShipmentLines |Gets the salesshipmentlines of the company.|
 |[purchaseReceipts](dynamics_purchasereceipt.md)|purchaseReceipts |Gets the purchasereceipts of the company.|
 |[purchaseReceiptLines](dynamics_purchasereceiptline.md)|purchaseReceiptLines |Gets the purchasereceiptlines of the company.|
+|[purchaseOrders](dynamics_purchaseorder.md)|purchaseOrders |Gets the purchaseorders of the company.|
+|[purchaseOrderLines](dynamics_purchaseorderline.md)|purchaseOrderLines |Gets the purchaseorderlines of the company.|
 |[customerSales](dynamics_customersale.md)|customerSales |Gets the customersales of the company.|
 |[vendorPurchases](dynamics_vendorpurchase.md)|vendorPurchases |Gets the vendorpurchases of the company.|
 

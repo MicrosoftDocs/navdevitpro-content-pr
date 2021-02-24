@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/24/2021
 ms.author: solsen
 ---
 
@@ -37,6 +37,7 @@ Represents a picture in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 |:----------|:----------|:-----------------|
 |[item](dynamics_item.md)|item |Gets the item of the picture.|
 |[customer](dynamics_customer.md)|customer |Gets the customer of the picture.|
+|[contact](dynamics_contact.md)|contact |Gets the contact of the picture.|
 |[vendor](dynamics_vendor.md)|vendor |Gets the vendor of the picture.|
 |[employee](dynamics_employee.md)|employee |Gets the employee of the picture.|
 

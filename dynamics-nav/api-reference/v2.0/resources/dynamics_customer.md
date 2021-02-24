@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/24/2021
 ms.author: solsen
 ---
 
@@ -45,6 +45,7 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 |[picture](dynamics_picture.md)|picture |Gets the picture of the customer.|
 |[defaultDimensions](dynamics_defaultdimension.md)|defaultDimensions |Gets the defaultdimensions of the customer.|
 |[agedAccountsReceivable](dynamics_agedaccountsreceivable.md)|agedAccountsReceivable |Gets the agedaccountsreceivable of the customer.|
+|[contactsInformation](dynamics_contactsinformation.md)|contactsInformation |Gets the contactsinformation of the customer.|
 
 ## Properties
 
