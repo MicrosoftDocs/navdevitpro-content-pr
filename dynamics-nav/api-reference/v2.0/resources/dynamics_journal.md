@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/24/2021
 ms.author: solsen
 ---
 
@@ -34,7 +34,7 @@ Represents a journal in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 ## Bound Actions
 
 The journal resource type offers a bound action called `post` which posts the corresponding journal batch.
-Posting the journal batch is illustrated in the following example:
+This is illustrated in the following example:
 `POST https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/journals({id})/Microsoft.NAV.post`
 
 The response has no content; the response code is 204.

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/24/2021
 ms.author: solsen
 ---
 
@@ -33,32 +33,32 @@ Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365
 
 ## Bound Actions
 
-The salesCreditMemo resource type offers a bound action called `cancelAndSend` which posts the corresponding salesCreditMemo batch.
-Posting the salesCreditMemo batch is illustrated in the following example:
+The salesCreditMemo resource type offers a bound action called `cancelAndSend` which cancel and sends the corresponding salesCreditMemo batch.
+This is illustrated in the following example:
 `CANCELANDSEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesCreditMemos({id})/Microsoft.NAV.cancelAndSend`
 
 The response has no content; the response code is 204.
 
-The salesCreditMemo resource type offers a bound action called `cancel` which posts the corresponding salesCreditMemo batch.
-Posting the salesCreditMemo batch is illustrated in the following example:
+The salesCreditMemo resource type offers a bound action called `cancel` which cancels the corresponding salesCreditMemo batch.
+This is illustrated in the following example:
 `CANCEL https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesCreditMemos({id})/Microsoft.NAV.cancel`
 
 The response has no content; the response code is 204.
 
-The salesCreditMemo resource type offers a bound action called `postAndSend` which posts the corresponding salesCreditMemo batch.
-Posting the salesCreditMemo batch is illustrated in the following example:
+The salesCreditMemo resource type offers a bound action called `postAndSend` which post and sends the corresponding salesCreditMemo batch.
+This is illustrated in the following example:
 `POSTANDSEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesCreditMemos({id})/Microsoft.NAV.postAndSend`
 
 The response has no content; the response code is 204.
 
 The salesCreditMemo resource type offers a bound action called `post` which posts the corresponding salesCreditMemo batch.
-Posting the salesCreditMemo batch is illustrated in the following example:
+This is illustrated in the following example:
 `POST https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesCreditMemos({id})/Microsoft.NAV.post`
 
 The response has no content; the response code is 204.
 
-The salesCreditMemo resource type offers a bound action called `send` which posts the corresponding salesCreditMemo batch.
-Posting the salesCreditMemo batch is illustrated in the following example:
+The salesCreditMemo resource type offers a bound action called `send` which sends the corresponding salesCreditMemo batch.
+This is illustrated in the following example:
 `SEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesCreditMemos({id})/Microsoft.NAV.send`
 
 The response has no content; the response code is 204.
