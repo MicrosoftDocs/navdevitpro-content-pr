@@ -1,5 +1,5 @@
 ---
-title: Get contact | Microsoft Docs
+title: Get contacts | Microsoft Docs
 description: Gets a contact object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
@@ -13,7 +13,7 @@ ms.author: solsen
 
 <!-- NOTE: This article is an auto-generated stub from the metadata file. -->
 <!-- The sections marked with an EDIT_IS_REQUIRED require manual editing. -->
-# Get contact
+# Get contacts
 
 Retrieves the properties and relationships of a contact object for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 

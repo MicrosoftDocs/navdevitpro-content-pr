@@ -1,5 +1,5 @@
 ---
-title: Delete contact | Microsoft Docs
+title: Delete contacts | Microsoft Docs
 description: Deletes a contact object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.service: "dynamics365-business-central"
@@ -13,7 +13,7 @@ ms.author: solsen
 
 <!-- NOTE: This article is an auto-generated stub from the metadata file. -->
 <!-- The sections marked with an EDIT_IS_REQUIRED require manual editing. -->
-# Delete contact
+# Delete contacts
 
 Deletes a contact from [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
