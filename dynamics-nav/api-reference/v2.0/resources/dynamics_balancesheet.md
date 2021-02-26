@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -34,7 +34,7 @@ Represents a balance sheet in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the balance sheet. Non-editable.|
 |lineNumber|integer|The balance sheet item line number.|
 |display|string|The balance sheet item display name.|
 |balance|decimal|Specifies balance sheet's total balance.|

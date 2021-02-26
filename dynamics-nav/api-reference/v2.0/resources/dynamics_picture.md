@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/24/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -45,7 +45,7 @@ Represents a picture in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the picture. Non-editable.|
 |parentType|NAV.pictureEntityParentType|The type of the parent document of the picture. It can be "Customer","Item", "Vendor", "Employee". |
 |width|integer|The width of the picture.|
 |height|integer|The height of the picture.|

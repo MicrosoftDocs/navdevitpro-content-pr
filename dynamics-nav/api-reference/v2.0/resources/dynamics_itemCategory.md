@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -37,7 +37,7 @@ Represents an item category in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the item category. Non-editable.|
 |code|string|The code of the item category.|
 |displayName|string|Specifies the item category's name. This name will appear on all sales documents for the item category.|
 |lastModifiedDateTime|datetime|The last datetime the item category was modified. Read-Only.|

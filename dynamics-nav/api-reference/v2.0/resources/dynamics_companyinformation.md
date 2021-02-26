@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -40,7 +40,7 @@ Represents a company information in [!INCLUDE[d365fin_long_md](../../includes/d3
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the company information. Non-editable.|
 |displayName|string|Specifies the company information's name. This name will appear on all sales documents for the company information.|
 |addressLine1|string|Specifies the company information's address. This address will appear on all sales documents for the company information.|
 |addressLine2|string|Specifies the company information's address. This address will appear on all sales documents for the company information.|

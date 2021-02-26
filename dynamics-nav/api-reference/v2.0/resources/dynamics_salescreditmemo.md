@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/24/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -81,7 +81,7 @@ The response has no content; the response code is 204.
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the sales credit memo. Non-editable.|
 |number|string|Specifies the number of the sales credit memo.|
 |externalDocumentNumber|string|Specifies an external document number for the sales credit memo.|
 |creditMemoDate|date|The credit memo date.|

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -43,7 +43,7 @@ Represents a vendor payment journal in [!INCLUDE[d365fin_long_md](../../includes
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the vendor payment journal. Non-editable.|
 |code|string|The code of the vendor payment journal.|
 |displayName|string|Specifies the vendor payment journal's name. This name will appear on all sales documents for the vendor payment journal.|
 |balancingAccountId|GUID|The balancing G/L Account ID.|

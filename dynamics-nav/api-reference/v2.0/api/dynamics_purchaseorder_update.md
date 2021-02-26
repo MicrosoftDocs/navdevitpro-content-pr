@@ -39,7 +39,7 @@ In the request body, supply the values for relevant fields that should be update
 
 ## Response
 
-If successful, this method returns a ```200 OK``` response code and an updated **purchaseOrder ** object in the response body.
+If successful, this method returns a ```200 OK``` response code and an updated **purchaseOrder** object in the response body.
 
 ## Example
 
@@ -51,7 +51,7 @@ Here is an example of the request.
 PATCH https://{businesscentralPrefix}/api/v2.0/companies({id})/purchaseOrders({id})
 Content-type: application/json
 {
-    "id" : "5d115c9c-44e3-ea11-bb43-000d3a2feca1",,
+    "id" : "5d115c9c-44e3-ea11-bb43-000d3a2feca1",
     "number" : "108001"
 }
 ```

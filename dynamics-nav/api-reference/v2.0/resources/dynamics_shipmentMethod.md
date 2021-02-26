@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -37,7 +37,7 @@ Represents a shipment method in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the shipment method. Non-editable.|
 |code|string|The code of the shipment method.|
 |displayName|string|Specifies the shipment method's name. This name will appear on all sales documents for the shipment method.|
 |lastModifiedDateTime|datetime|The last datetime the shipment method was modified. Read-Only.|

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -42,7 +42,7 @@ Represents a pdf document in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the pdf document. Non-editable.|
 |parentId|GUID|The ID of the parent entity. |
 |parentType|NAV.attachmentEntityBufferDocumentType|The type of the parent document of the pdf document. It can be " ", "Journal", "Sales Order", "Sales Quote", "Sales Credit Memo", "Sales Invoice" or "Purchase Invoice".|
 |pdfDocumentContent|stream|The content of the PDF document.|

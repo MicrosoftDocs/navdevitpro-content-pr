@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/24/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -51,7 +51,7 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the customer. Non-editable.|
 |number|string|Specifies the number of the customer.|
 |displayName|string|Specifies the customer's name. This name will appear on all sales documents for the customer.|
 |type|NAV.contactType|Specifies the type of customer, can be "Company" or "Person".|

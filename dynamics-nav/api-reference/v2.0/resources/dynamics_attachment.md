@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/24/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -49,7 +49,7 @@ Represents an attachments in [!INCLUDE[d365fin_long_md](../../includes/d365fin_l
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the attachments. Non-editable.|
 |parentId|GUID|The ID of the parent entity. |
 |fileName|string|Logical filename.|
 |byteSize|integer|File size.|

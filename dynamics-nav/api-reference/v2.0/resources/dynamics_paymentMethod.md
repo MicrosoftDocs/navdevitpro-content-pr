@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -37,7 +37,7 @@ Represents a payment method in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the payment method. Non-editable.|
 |code|string|The code of the payment method.|
 |displayName|string|Specifies the payment method's name. This name will appear on all sales documents for the payment method.|
 |lastModifiedDateTime|datetime|The last datetime the payment method was modified. Read-Only.|

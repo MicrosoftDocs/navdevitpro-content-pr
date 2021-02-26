@@ -45,7 +45,7 @@ Represents a purchase order line in [!INCLUDE[d365fin_long_md](../../includes/d3
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the purchase order line. Non-editable.|
 |documentId|GUID|The ID of the parent purchase order line. |
 |sequence|integer|The line sequence number.|
 |itemId|GUID|The ID of the item in the purchase order line.|

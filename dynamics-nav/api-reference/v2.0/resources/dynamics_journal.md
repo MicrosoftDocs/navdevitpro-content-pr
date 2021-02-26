@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/24/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -50,7 +50,7 @@ The response has no content; the response code is 204.
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the journal. Non-editable.|
 |code|string|The code of the journal.|
 |displayName|string|Specifies the journal's name. This name will appear on all sales documents for the journal.|
 |lastModifiedDateTime|datetime|The last datetime the journal was modified. Read-Only.|

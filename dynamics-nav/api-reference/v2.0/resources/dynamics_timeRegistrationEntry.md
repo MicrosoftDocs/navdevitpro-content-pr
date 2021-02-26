@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -45,7 +45,7 @@ Represents a time registration entry in [!INCLUDE[d365fin_long_md](../../include
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the time registration entry. Non-editable.|
 |employeeId|GUID|The unique ID of employee.|
 |employeeNumber|string|The employee's number.|
 |jobId|GUID|The ID of the time registration entry job.|

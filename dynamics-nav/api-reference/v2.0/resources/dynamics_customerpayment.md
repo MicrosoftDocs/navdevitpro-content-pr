@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -44,7 +44,7 @@ Represents a customer payment in [!INCLUDE[d365fin_long_md](../../includes/d365f
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the customer payment. Non-editable.|
 |journalId|GUID|The ID of the journal.|
 |journalDisplayName|string|The display name of the journal that this line belongs to. Read-Only.|
 |lineNumber|integer|The customer payment item line number.|

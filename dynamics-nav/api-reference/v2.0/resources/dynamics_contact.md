@@ -43,7 +43,7 @@ Represents a contact in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the contact. Non-editable.|
 |number|string|Specifies the number of the contact.|
 |type|NAV.contactType|Specifies the type of contact, can be "Company" or "Person".|
 |displayName|string|Specifies the contact's name. This name will appear on all sales documents for the contact.|

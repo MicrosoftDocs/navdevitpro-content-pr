@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -43,7 +43,7 @@ Represents a customer payment journal in [!INCLUDE[d365fin_long_md](../../includ
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the customer payment journal. Non-editable.|
 |code|string|The code of the customer payment journal.|
 |displayName|string|Specifies the customer payment journal's name. This name will appear on all sales documents for the customer payment journal.|
 |lastModifiedDateTime|datetime|The last datetime the customer payment journal was modified. Read-Only.|

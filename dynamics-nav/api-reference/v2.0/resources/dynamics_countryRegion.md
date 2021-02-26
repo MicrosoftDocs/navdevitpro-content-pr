@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -37,7 +37,7 @@ Represents a country/region in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the country/region. Non-editable.|
 |code|string|The code of the country/region.|
 |displayName|string|Specifies the country/region's name. This name will appear on all sales documents for the country/region.|
 |addressFormat|string|Specifies the format of the address that is displayed on external-facing documents. You link an address format to a country/region code so that external-facing documents based on cards or documents with that country/region code use the specified address format.|

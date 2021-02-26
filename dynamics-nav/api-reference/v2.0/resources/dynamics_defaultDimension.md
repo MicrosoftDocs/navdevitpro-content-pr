@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -48,7 +48,7 @@ Represents a default dimensions in [!INCLUDE[d365fin_long_md](../../includes/d36
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the default dimensions. Non-editable.|
 |parentType|NAV.defaultDimensionParentType|The type of the parent document of the default dimensions. It can be " ", "Customer", "Item", "Vendor" or "Employee".|
 |parentId|GUID|The ID of the parent entity. |
 |dimensionId|GUID|The unique ID of dimension.|

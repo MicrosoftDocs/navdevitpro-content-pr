@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -39,7 +39,7 @@ Represents an account in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the account. Non-editable.|
 |number|string|Specifies the number of the account.|
 |displayName|string|Specifies the account's name. This name will appear on all sales documents for the account.|
 |category|NAV.glAccountCategory|Specifies the category of the account. It can be " ", "Assets", "Liabilities", "Equity", "Income", "Cost of Goods Sold" or "Expense".|

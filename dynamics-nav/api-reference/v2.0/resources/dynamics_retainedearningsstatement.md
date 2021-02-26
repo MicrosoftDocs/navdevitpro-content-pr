@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -34,7 +34,7 @@ Represents a retained earnings statement in [!INCLUDE[d365fin_long_md](../../inc
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the retained earnings statement. Non-editable.|
 |lineNumber|integer|The retained earnings statement item line number.|
 |display|string|The retained earnings statement item display name.|
 |netChange|decimal|The retained earnings statement net change. |

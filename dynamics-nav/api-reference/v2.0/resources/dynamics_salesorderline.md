@@ -47,7 +47,7 @@ Represents a sales order line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the sales order line. Non-editable.|
 |documentId|GUID|The ID of the parent sales order line. |
 |sequence|integer|The line sequence number.|
 |itemId|GUID|The ID of the item in the sales order line.|

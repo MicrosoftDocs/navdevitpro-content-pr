@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -42,7 +42,7 @@ Represents an item variant in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the item variant. Non-editable.|
 |itemId|GUID|The ID of the item in the item variant.|
 |itemNumber|string|The name of the item in the item variant.|
 |code|string|The code of the item variant.|

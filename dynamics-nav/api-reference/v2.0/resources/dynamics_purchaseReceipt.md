@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -42,7 +42,7 @@ Represents a purchase receipt in [!INCLUDE[d365fin_long_md](../../includes/d365f
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the purchase receipt. Non-editable.|
 |number|string|Specifies the number of the purchase receipt.|
 |invoiceDate|date|The invoice date .|
 |postingDate|date|The date that the purchase receipt   is posted.|

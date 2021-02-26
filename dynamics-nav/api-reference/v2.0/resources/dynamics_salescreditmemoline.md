@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -47,7 +47,7 @@ Represents a sales credit memo line in [!INCLUDE[d365fin_long_md](../../includes
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the sales credit memo line. Non-editable.|
 |documentId|GUID|The ID of the parent sales credit memo line. |
 |sequence|integer|The line sequence number.|
 |itemId|GUID|The ID of the item in the sales credit memo line.|

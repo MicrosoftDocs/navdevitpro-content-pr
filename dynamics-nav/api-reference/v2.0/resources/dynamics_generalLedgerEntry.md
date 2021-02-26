@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -41,7 +41,7 @@ Represents a general ledger entry in [!INCLUDE[d365fin_long_md](../../includes/d
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the general ledger entry. Non-editable.|
 |entryNumber|integer|G/L Entry number.|
 |postingDate|date|The date that the general ledger entry   is posted.|
 |documentNumber|string|Specifies a document number for the general ledger entry.|

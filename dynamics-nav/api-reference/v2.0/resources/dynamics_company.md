@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/24/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -100,7 +100,7 @@ Represents a company in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_m
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the company. Non-editable.|
 |systemVersion|string|Specifies the internal version of the company.|
 |name|string|Represents the company's name.|
 |displayName|string|Specifies the company's name. This name will appear on all sales documents for the company.|

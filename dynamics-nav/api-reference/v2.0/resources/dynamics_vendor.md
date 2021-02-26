@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/24/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -49,7 +49,7 @@ Represents a vendor in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the vendor. Non-editable.|
 |number|string|Specifies the number of the vendor.|
 |displayName|string|Specifies the vendor's name. This name will appear on all sales documents for the vendor.|
 |addressLine1|string|Specifies the vendor's address. This address will appear on all sales documents for the vendor.|

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -39,7 +39,7 @@ Represents a customer financial detail in [!INCLUDE[d365fin_long_md](../../inclu
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the customer financial detail. Non-editable.|
 |number|string|Specifies the number of the customer financial detail.|
 |balance|decimal|Specifies customer financial detail's total balance.|
 |totalSalesExcludingTax|decimal|Total sales exluding tax.|

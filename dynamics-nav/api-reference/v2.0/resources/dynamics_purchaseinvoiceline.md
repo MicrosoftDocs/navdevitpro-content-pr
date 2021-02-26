@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -47,7 +47,7 @@ Represents a purchase invoice line in [!INCLUDE[d365fin_long_md](../../includes/
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the purchase invoice line. Non-editable.|
 |documentId|GUID|The ID of the parent purchase invoice line. |
 |sequence|integer|The line sequence number.|
 |itemId|GUID|The ID of the item in the purchase invoice line.|

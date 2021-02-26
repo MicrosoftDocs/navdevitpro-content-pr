@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -34,7 +34,7 @@ Represents an income statement in [!INCLUDE[d365fin_long_md](../../includes/d365
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the income statement. Non-editable.|
 |lineNumber|integer|The income statement item line number.|
 |display|string|The income statement item display name.|
 |netChange|decimal|The income statement net change. |

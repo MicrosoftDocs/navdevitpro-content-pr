@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -44,7 +44,7 @@ Represents a sales shipment in [!INCLUDE[d365fin_long_md](../../includes/d365fin
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the sales shipment. Non-editable.|
 |number|string|Specifies the number of the sales shipment.|
 |externalDocumentNumber|string|Specifies an external document number for the sales shipment.|
 |invoiceDate|date|The invoice date .|
