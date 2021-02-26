@@ -159,5 +159,5 @@ Content-type: application/json
 
 ## See Also
 
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
 [purchaseOrder](../resources/dynamics_purchaseOrder.md)
