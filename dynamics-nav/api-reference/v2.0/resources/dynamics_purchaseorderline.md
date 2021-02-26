@@ -1,4 +1,3 @@
-
 ---
 title: purchaseOrderLine resource type | Microsoft Docs
 description: A purchase order line object in Dynamics 365 Business Central.
@@ -8,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/24/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -71,10 +70,10 @@ Represents a purchase order line in [!INCLUDE[d365fin_long_md](../../includes/d3
 |netTaxAmount|decimal|The net tax amount is the tax amount calculated from net amount. Read-Only.|
 |netAmountIncludingTax|decimal|The net amount including tax is the total net amount including tax. Read-Only.|
 |expectedReceiptDate|date|The date the item in the line is expected to be received.|
-|receivedQuantity|decimal|The received quantity.|
-|invoicedQuantity|decimal|The invoiced'd quantity.|
+|receivedQuantity|decimal|The quantity of items from the purchase order line that was received.|
+|invoicedQuantity|decimal|The quantity of items from the purchase order line that was invoiced.|
 |invoiceQuantity|decimal|The quantity of items from the purchase order line to be invoiced.|
-|receiveQuantity|decimal|The received quantity.|
+|receiveQuantity|decimal|The quantity of items from the purchase order line to be received.|
 |itemVariantId|GUID|The ID of the item variant in the purchase order line.|
 
 ## JSON representation

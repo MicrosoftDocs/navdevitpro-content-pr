@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/29/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -73,7 +73,7 @@ Represents a sales order line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |netAmountIncludingTax|decimal|The net amount including tax is the total net amount including tax. Read-Only.|
 |shipmentDate|date|The date the item in the line is expected to ship.|
 |shippedQuantity|decimal|The quantity of items from the order already shipped.|
-|invoicedQuantity|decimal|The invoiced'd quantity.|
+|invoicedQuantity|decimal|The quantity of items from the sales order line that was invoiced.|
 |invoiceQuantity|decimal|The quantity of items from the sales order line to be invoiced.|
 |shipQuantity|decimal|The quantity of items from the order to be shipped.|
 |itemVariantId|GUID|The ID of the item variant in the sales order line.|
