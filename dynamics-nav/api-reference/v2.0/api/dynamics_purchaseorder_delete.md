@@ -61,4 +61,7 @@ HTTP/1.1 204 No Content
 ## See Also
 
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[purchaseOrder](../resources/dynamics_purchaseOrder.md)
+[purchaseOrder](../resources/dynamics_purchaseOrder.md)  
+[GET purchaseOrder](dynamics_purchaseorder_get.md)  
+[POST purchaseOrder](dynamics_purchaseorder_create.md)  
+[PATCH purchaseOrder](dynamics_purchaseorder_update.md)  

@@ -72,4 +72,5 @@ Here is an example of the response.
 ## See Also
 
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
-[applyVendorEntry](../resources/dynamics_applyVendorEntry.md)
+[applyVendorEntry](../resources/dynamics_applyVendorEntry.md)  
+[PATCH applyVendorEntry](dynamics_applyvendorentry_update.md)  

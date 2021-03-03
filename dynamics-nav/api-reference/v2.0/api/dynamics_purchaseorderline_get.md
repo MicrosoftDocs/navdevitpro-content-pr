@@ -90,5 +90,8 @@ Here is an example of the response.
 
 ## See Also
 
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[purchaseOrderLine](../resources/dynamics_purchaseOrderLine.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
+[purchaseOrderLine](../resources/dynamics_purchaseOrderLine.md)  
+[DELETE purchaseOrderLine](dynamics_purchaseorderline_delete.md)  
+[POST purchaseOrderLine](dynamics_purchaseorderline_create.md)  
+[PATCH purchaseOrderLine](dynamics_purchaseorderline_update.md)  

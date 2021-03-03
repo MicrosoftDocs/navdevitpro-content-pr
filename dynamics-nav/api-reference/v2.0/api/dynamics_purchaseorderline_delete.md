@@ -62,5 +62,8 @@ HTTP/1.1 204 No Content
 
 ## See Also
 
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)
-[purchaseOrderLine](../resources/dynamics_purchaseOrderLine.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
+[purchaseOrderLine](../resources/dynamics_purchaseOrderLine.md)  
+[GET purchaseOrderLine](dynamics_purchaseorderline_get.md)  
+[POST purchaseOrderLine](dynamics_purchaseorderline_create.md)  
+[PATCH purchaseOrderLine](dynamics_purchaseorderline_update.md)  

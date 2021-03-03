@@ -61,5 +61,8 @@ HTTP/1.1 204 No Content
 
 ## See Also
 
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
-[contact](../resources/dynamics_contact.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
+[contact](../resources/dynamics_contact.md)  
+[GET contact](dynamics_contact_get.md)  
+[POST contact](dynamics_contact_create.md)  
+[PATCH contact](dynamics_contact_update.md)  

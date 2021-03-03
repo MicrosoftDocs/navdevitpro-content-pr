@@ -65,5 +65,5 @@ Here is an example of the response.
 
 ## See Also
 
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
-[contactInformation](../resources/dynamics_contactInformation.md)
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
+[contactInformation](../resources/dynamics_contactInformation.md)  
