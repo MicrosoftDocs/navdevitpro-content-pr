@@ -5,7 +5,7 @@ description: Updates a employee default dimensions in Dynamics 365 Business Cent
 author: SusanneWindfeldPedersen
 
 ms.service: "dynamics365-business-central"
-ms.topic: reference
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
