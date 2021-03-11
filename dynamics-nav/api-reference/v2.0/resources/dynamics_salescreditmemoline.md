@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -15,26 +15,27 @@ ms.author: solsen
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 Represents a sales credit memo line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Get.md)|salesCreditMemoLine|Gets a sales credit memo line object.|
-|[DELETE salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Delete.md)|none|Deletes a sales credit memo line object.|
-|[POST salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Create.md)|salesCreditMemoLine|Creates a sales credit memo line object.|
-|[PATCH salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Update.md)|salesCreditMemoLine|Updates a sales credit memo line object.|
-
-
+|[GET salesCreditMemoLine](../api/dynamics_salescreditmemoline_get.md)|salesCreditMemoLine|Gets a sales credit memo line object.|
+|[DELETE salesCreditMemoLine](../api/dynamics_salescreditmemoline_delete.md)|none|Deletes a sales credit memo line object.|
+|[POST salesCreditMemoLine](../api/dynamics_salescreditmemoline_create.md)|salesCreditMemoLine|Creates a sales credit memo line object.|
+|[PATCH salesCreditMemoLine](../api/dynamics_salescreditmemoline_update.md)|salesCreditMemoLine|Updates a sales credit memo line object.|
 
 
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[salesCreditMemo](dynamics_salescreditmemo.md)|salesCreditMemo |Gets the salescreditmemo of the salesCreditMemoLine.|
 |[item](dynamics_item.md)|item |Gets the item of the salesCreditMemoLine.|
 |[account](dynamics_account.md)|account |Gets the account of the salesCreditMemoLine.|
@@ -42,12 +43,11 @@ Represents a sales credit memo line in [!INCLUDE[d365fin_long_md](../../includes
 |[itemVariant](dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesCreditMemoLine.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesCreditMemoLine.|
 
-
 ## Properties
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the sales credit memo line. Non-editable.|
 |documentId|GUID|The ID of the parent sales credit memo line. |
 |sequence|integer|The line sequence number.|
 |itemId|GUID|The ID of the item in the sales credit memo line.|
@@ -74,7 +74,6 @@ Represents a sales credit memo line in [!INCLUDE[d365fin_long_md](../../includes
 |shipmentDate|date|The date the item in the line is expected to ship.|
 |itemVariantId|GUID|The ID of the item variant in the sales credit memo line.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the salesCreditMemoLine resource.
@@ -82,38 +81,40 @@ Here is a JSON representation of the salesCreditMemoLine resource.
 
 ```json
 {
-   "id": "GUID",
-   "documentId": "GUID",
-   "sequence": "integer",
-   "itemId": "GUID",
-   "accountId": "GUID",
-   "lineType": "NAV.invoiceLineAggLineType",
-   "lineObjectNumber": "string",
-   "description": "string",
-   "unitOfMeasureId": "GUID",
-   "unitOfMeasureCode": "string",
-   "unitPrice": "decimal",
-   "quantity": "decimal",
-   "discountAmount": "decimal",
-   "discountPercent": "decimal",
-   "discountAppliedBeforeTax": "boolean",
-   "amountExcludingTax": "decimal",
-   "taxCode": "string",
-   "taxPercent": "decimal",
-   "totalTaxAmount": "decimal",
-   "amountIncludingTax": "decimal",
-   "invoiceDiscountAllocation": "decimal",
-   "netAmount": "decimal",
-   "netTaxAmount": "decimal",
-   "netAmountIncludingTax": "decimal",
-   "shipmentDate": "date",
-   "itemVariantId": "GUID"
+    "id": "GUID",
+    "documentId": "GUID",
+    "sequence": "integer",
+    "itemId": "GUID",
+    "accountId": "GUID",
+    "lineType": "NAV.invoiceLineAggLineType",
+    "lineObjectNumber": "string",
+    "description": "string",
+    "unitOfMeasureId": "GUID",
+    "unitOfMeasureCode": "string",
+    "unitPrice": "decimal",
+    "quantity": "decimal",
+    "discountAmount": "decimal",
+    "discountPercent": "decimal",
+    "discountAppliedBeforeTax": "boolean",
+    "amountExcludingTax": "decimal",
+    "taxCode": "string",
+    "taxPercent": "decimal",
+    "totalTaxAmount": "decimal",
+    "amountIncludingTax": "decimal",
+    "invoiceDiscountAllocation": "decimal",
+    "netAmount": "decimal",
+    "netTaxAmount": "decimal",
+    "netAmountIncludingTax": "decimal",
+    "shipmentDate": "date",
+    "itemVariantId": "GUID"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Get.md)   
-[DELETE salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Delete.md)   
-[POST salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Create.md)   
-[PATCH salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Update.md)   
 
+
+## See Also
+[GET salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Get.md)
+[DELETE salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Delete.md)
+[POST salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Create.md)
+[PATCH salesCreditMemoLine](../api/dynamics_salesCreditMemoLine_Update.md)

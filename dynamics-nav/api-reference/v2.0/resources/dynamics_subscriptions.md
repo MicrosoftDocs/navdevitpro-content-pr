@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
@@ -15,21 +15,21 @@ ms.author: solsen
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 Represents a subscriptions in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET subscriptions](../api/dynamics_subscriptions_Get.md)|subscriptions|Gets a subscriptions object.|
-|[DELETE subscriptions](../api/dynamics_subscriptions_Delete.md)|none|Deletes a subscriptions object.|
-|[POST subscriptions](../api/dynamics_subscriptions_Create.md)|subscriptions|Creates a subscriptions object.|
-|[PATCH subscriptions](../api/dynamics_subscriptions_Update.md)|subscriptions|Updates a subscriptions object.|
-
-
-
+|[GET subscriptions](../api/dynamics_subscriptions_get.md)|subscriptions|Gets a subscriptions object.|
+|[DELETE subscriptions](../api/dynamics_subscriptions_delete.md)|none|Deletes a subscriptions object.|
+|[POST subscriptions](../api/dynamics_subscriptions_create.md)|subscriptions|Creates a subscriptions object.|
+|[PATCH subscriptions](../api/dynamics_subscriptions_update.md)|subscriptions|Updates a subscriptions object.|
 
 
 
@@ -49,7 +49,6 @@ Represents a subscriptions in [!INCLUDE[d365fin_long_md](../../includes/d365fin_
 |systemModifiedAt|datetime|The last datetime the subscriptions was modified.|
 |systemModifiedBy|GUID|The ID of the user who last modified the company.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the subscriptions resource.
@@ -57,23 +56,25 @@ Here is a JSON representation of the subscriptions resource.
 
 ```json
 {
-   "subscriptionId": "string",
-   "notificationUrl": "string",
-   "resource": "string",
-   "userId": "GUID",
-   "lastModifiedDateTime": "datetime",
-   "clientState": "string",
-   "expirationDateTime": "datetime",
-   "systemCreatedAt": "datetime",
-   "systemCreatedBy": "GUID",
-   "systemModifiedAt": "datetime",
-   "systemModifiedBy": "GUID"
+    "subscriptionId": "string",
+    "notificationUrl": "string",
+    "resource": "string",
+    "userId": "GUID",
+    "lastModifiedDateTime": "datetime",
+    "clientState": "string",
+    "expirationDateTime": "datetime",
+    "systemCreatedAt": "datetime",
+    "systemCreatedBy": "GUID",
+    "systemModifiedAt": "datetime",
+    "systemModifiedBy": "GUID"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET subscriptions](../api/dynamics_subscriptions_Get.md)   
-[DELETE subscriptions](../api/dynamics_subscriptions_Delete.md)   
-[POST subscriptions](../api/dynamics_subscriptions_Create.md)   
-[PATCH subscriptions](../api/dynamics_subscriptions_Update.md)   
 
+
+## See Also
+[GET subscriptions](../api/dynamics_subscriptions_Get.md)
+[DELETE subscriptions](../api/dynamics_subscriptions_Delete.md)
+[POST subscriptions](../api/dynamics_subscriptions_Create.md)
+[PATCH subscriptions](../api/dynamics_subscriptions_Update.md)

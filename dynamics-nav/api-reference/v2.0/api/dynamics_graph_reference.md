@@ -36,7 +36,7 @@ In this section, you can find API documentation for Microsoft Graph.
 |account resource type|[account](../resources/dynamics_account.md)|
 |countriesRegions resource type|[countriesRegions](../resources/dynamics_countryregion.md)|
 |currencies resource type|[currencies](../resources/dynamics_currency.md)|
-|unitsOfMeasure resource type|[unitsOfMeasure](../resources/dynamics_unitsofmeasure.md)|
+|unitsOfMeasure resource type|[unitsOfMeasure](../resources/dynamics_unitofmeasure.md)|
 |balance sheet resource type|[balanceSheet](../resources/dynamics_balancesheet.md)|
 |trial balance resource type|[trialBalance](../resources/dynamics_trialbalance.md)|
 |income statement resource type|[incomeStatement](../resources/dynamics_incomestatement.md)|

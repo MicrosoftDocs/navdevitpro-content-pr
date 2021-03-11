@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
@@ -15,25 +15,25 @@ ms.author: solsen
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 Represents an aged accounts payable in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET agedAccountsPayable](../api/dynamics_agedAccountsPayable_Get.md)|agedAccountsPayable|Gets a aged accounts payable object.|
-
-
+|[GET agedAccountsPayable](../api/dynamics_agedaccountspayable_get.md)|agedAccountsPayable|Gets a aged accounts payable object.|
 
 
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[vendor](dynamics_vendor.md)|vendor |Gets the vendor of the agedAccountsPayable.|
-
 
 ## Properties
 
@@ -51,7 +51,6 @@ Represents an aged accounts payable in [!INCLUDE[d365fin_long_md](../../includes
 |agedAsOfDate|date|The period start date.|
 |periodLengthFilter|string|Specifies the length of the periods.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the agedAccountsPayable resource.
@@ -59,20 +58,22 @@ Here is a JSON representation of the agedAccountsPayable resource.
 
 ```json
 {
-   "vendorId": "GUID",
-   "vendorNumber": "string",
-   "name": "string",
-   "currencyCode": "string",
-   "balanceDue": "decimal",
-   "currentAmount": "decimal",
-   "period1Amount": "decimal",
-   "period2Amount": "decimal",
-   "period3Amount": "decimal",
-   "agedAsOfDate": "date",
-   "periodLengthFilter": "string"
+    "vendorId": "GUID",
+    "vendorNumber": "string",
+    "name": "string",
+    "currencyCode": "string",
+    "balanceDue": "decimal",
+    "currentAmount": "decimal",
+    "period1Amount": "decimal",
+    "period2Amount": "decimal",
+    "period3Amount": "decimal",
+    "agedAsOfDate": "date",
+    "periodLengthFilter": "string"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET agedAccountsPayable](../api/dynamics_agedAccountsPayable_Get.md)   
 
+
+## See Also
+[GET agedAccountsPayable](../api/dynamics_agedAccountsPayable_Get.md)

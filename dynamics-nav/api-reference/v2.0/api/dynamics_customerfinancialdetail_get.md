@@ -22,8 +22,8 @@ Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_lon
 
 ```
 GET businesscentralPrefix/companies({id})/customerFinancialDetails
-GET businesscentralPrefix/companies({id})/customers?$expand=customerFinancialDetails
-GET businesscentralPrefix/companies({id})/customers({customerId})?$expand=customerFinancialDetails
+GET businesscentralPrefix/companies({id})/customers?$expand=customerFinancialDetail
+GET businesscentralPrefix/companies({id})/customers({customerId})?$expand=customerFinancialDetail
 ```
 
 ## Request headers

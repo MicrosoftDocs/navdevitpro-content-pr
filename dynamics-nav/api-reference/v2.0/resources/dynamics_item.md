@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
@@ -15,32 +15,32 @@ ms.author: solsen
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET item](../api/dynamics_item_Get.md)|item|Gets a item object.|
-|[DELETE item](../api/dynamics_item_Delete.md)|none|Deletes a item object.|
-|[POST item](../api/dynamics_item_Create.md)|item|Creates a item object.|
-|[PATCH item](../api/dynamics_item_Update.md)|item|Updates a item object.|
-
-
+|[GET item](../api/dynamics_item_get.md)|item|Gets a item object.|
+|[DELETE item](../api/dynamics_item_delete.md)|none|Deletes a item object.|
+|[POST item](../api/dynamics_item_create.md)|item|Creates a item object.|
+|[PATCH item](../api/dynamics_item_update.md)|item|Updates a item object.|
 
 
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[itemCategory](dynamics_itemcategory.md)|itemCategory |Gets the itemcategory of the item.|
 |[unitOfMeasure](dynamics_unitofmeasure.md)|unitOfMeasure |Gets the unitofmeasure of the item.|
 |[picture](dynamics_picture.md)|picture |Gets the picture of the item.|
 |[defaultDimensions](dynamics_defaultdimension.md)|defaultDimensions |Gets the defaultdimensions of the item.|
 |[itemVariants](dynamics_itemvariant.md)|itemVariants |Gets the itemvariants of the item.|
-
 
 ## Properties
 
@@ -64,7 +64,6 @@ Represents an item in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.
 |baseUnitOfMeasureCode|string|The item's base unit of measure code.|
 |lastModifiedDateTime|datetime|The last datetime the item was modified. Read-Only.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the item resource.
@@ -72,29 +71,31 @@ Here is a JSON representation of the item resource.
 
 ```json
 {
-   "id": "GUID",
-   "number": "string",
-   "displayName": "string",
-   "type": "NAV.itemType",
-   "itemCategoryId": "GUID",
-   "itemCategoryCode": "string",
-   "blocked": "boolean",
-   "gtin": "string",
-   "inventory": "decimal",
-   "unitPrice": "decimal",
-   "priceIncludesTax": "boolean",
-   "unitCost": "decimal",
-   "taxGroupId": "GUID",
-   "taxGroupCode": "string",
-   "baseUnitOfMeasureId": "GUID",
-   "baseUnitOfMeasureCode": "string",
-   "lastModifiedDateTime": "datetime"
+    "id": "GUID",
+    "number": "string",
+    "displayName": "string",
+    "type": "NAV.itemType",
+    "itemCategoryId": "GUID",
+    "itemCategoryCode": "string",
+    "blocked": "boolean",
+    "gtin": "string",
+    "inventory": "decimal",
+    "unitPrice": "decimal",
+    "priceIncludesTax": "boolean",
+    "unitCost": "decimal",
+    "taxGroupId": "GUID",
+    "taxGroupCode": "string",
+    "baseUnitOfMeasureId": "GUID",
+    "baseUnitOfMeasureCode": "string",
+    "lastModifiedDateTime": "datetime"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET item](../api/dynamics_item_Get.md)   
-[DELETE item](../api/dynamics_item_Delete.md)   
-[POST item](../api/dynamics_item_Create.md)   
-[PATCH item](../api/dynamics_item_Update.md)   
 
+
+## See Also
+[GET item](../api/dynamics_item_Get.md)
+[DELETE item](../api/dynamics_item_Delete.md)
+[POST item](../api/dynamics_item_Create.md)
+[PATCH item](../api/dynamics_item_Update.md)

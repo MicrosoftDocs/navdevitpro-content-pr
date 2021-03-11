@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -15,26 +15,27 @@ ms.author: solsen
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 Represents a dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET dimensionSetLine](../api/dynamics_dimensionSetLine_Get.md)|dimensionSetLine|Gets a dimension set line object.|
-|[DELETE dimensionSetLine](../api/dynamics_dimensionSetLine_Delete.md)|none|Deletes a dimension set line object.|
-|[POST dimensionSetLine](../api/dynamics_dimensionSetLine_Create.md)|dimensionSetLine|Creates a dimension set line object.|
-|[PATCH dimensionSetLine](../api/dynamics_dimensionSetLine_Update.md)|dimensionSetLine|Updates a dimension set line object.|
-
-
+|[GET dimensionSetLine](../api/dynamics_dimensionsetline_get.md)|dimensionSetLine|Gets a dimension set line object.|
+|[DELETE dimensionSetLine](../api/dynamics_dimensionsetline_delete.md)|none|Deletes a dimension set line object.|
+|[POST dimensionSetLine](../api/dynamics_dimensionsetline_create.md)|dimensionSetLine|Creates a dimension set line object.|
+|[PATCH dimensionSetLine](../api/dynamics_dimensionsetline_update.md)|dimensionSetLine|Updates a dimension set line object.|
 
 
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[salesInvoice](dynamics_salesinvoice.md)|salesInvoice |Gets the salesinvoice of the dimensionSetLine.|
 |[salesInvoiceLine](dynamics_salesinvoiceline.md)|salesInvoiceLine |Gets the salesinvoiceline of the dimensionSetLine.|
 |[dimension](dynamics_dimension.md)|dimension |Gets the dimension of the dimensionSetLine.|
@@ -55,13 +56,14 @@ Represents a dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d36
 |[salesShipmentLine](dynamics_salesshipmentline.md)|salesShipmentLine |Gets the salesshipmentline of the dimensionSetLine.|
 |[purchaseReceipt](dynamics_purchasereceipt.md)|purchaseReceipt |Gets the purchasereceipt of the dimensionSetLine.|
 |[purchaseReceiptLine](dynamics_purchasereceiptline.md)|purchaseReceiptLine |Gets the purchasereceiptline of the dimensionSetLine.|
-
+|[purchaseOrder](dynamics_purchaseorder.md)|purchaseOrder |Gets the purchaseorder of the dimensionSetLine.|
+|[purchaseOrderLine](dynamics_purchaseorderline.md)|purchaseOrderLine |Gets the purchaseorderline of the dimensionSetLine.|
 
 ## Properties
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the dimension set line. Non-editable.|
 |code|string|The code of the dimension set line.|
 |parentId|GUID|The ID of the parent entity. |
 |parentType|NAV.dimensionSetEntryBufferParentType|The type of the parent document of the dimension set line. It can be " ", "Journal Line", "Sales Order", "Sales Order Line", "Sales Quote", "Sales Quote Line", "Sales Credit Memo", "Sales Credit Memo Line", "Sales Invoice", "Sales Invoice Line", "Purchase Invoice", "Purchase Invoice Line", "General Ledger Entry" or "Time Registration Entry".|
@@ -70,7 +72,6 @@ Represents a dimension set line in [!INCLUDE[d365fin_long_md](../../includes/d36
 |valueCode|string|The code of the value of the dimension.  |
 |valueDisplayName|string|The display name of the value of the dimension. Read-Only.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the dimensionSetLine resource.
@@ -78,20 +79,22 @@ Here is a JSON representation of the dimensionSetLine resource.
 
 ```json
 {
-   "id": "GUID",
-   "code": "string",
-   "parentId": "GUID",
-   "parentType": "NAV.dimensionSetEntryBufferParentType",
-   "displayName": "string",
-   "valueId": "GUID",
-   "valueCode": "string",
-   "valueDisplayName": "string"
+    "id": "GUID",
+    "code": "string",
+    "parentId": "GUID",
+    "parentType": "NAV.dimensionSetEntryBufferParentType",
+    "displayName": "string",
+    "valueId": "GUID",
+    "valueCode": "string",
+    "valueDisplayName": "string"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET dimensionSetLine](../api/dynamics_dimensionSetLine_Get.md)   
-[DELETE dimensionSetLine](../api/dynamics_dimensionSetLine_Delete.md)   
-[POST dimensionSetLine](../api/dynamics_dimensionSetLine_Create.md)   
-[PATCH dimensionSetLine](../api/dynamics_dimensionSetLine_Update.md)   
 
+
+## See Also
+[GET dimensionSetLine](../api/dynamics_dimensionSetLine_Get.md)
+[DELETE dimensionSetLine](../api/dynamics_dimensionSetLine_Delete.md)
+[POST dimensionSetLine](../api/dynamics_dimensionSetLine_Create.md)
+[PATCH dimensionSetLine](../api/dynamics_dimensionSetLine_Update.md)

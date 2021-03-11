@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -15,61 +15,58 @@ ms.author: solsen
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 Represents a sales credit memo in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET salesCreditMemo](../api/dynamics_salesCreditMemo_Get.md)|salesCreditMemo|Gets a sales credit memo object.|
-|[DELETE salesCreditMemo](../api/dynamics_salesCreditMemo_Delete.md)|none|Deletes a sales credit memo object.|
-|[POST salesCreditMemo](../api/dynamics_salesCreditMemo_Create.md)|salesCreditMemo|Creates a sales credit memo object.|
-|[PATCH salesCreditMemo](../api/dynamics_salesCreditMemo_Update.md)|salesCreditMemo|Updates a sales credit memo object.|
-
+|[GET salesCreditMemo](../api/dynamics_salescreditmemo_get.md)|salesCreditMemo|Gets a sales credit memo object.|
+|[DELETE salesCreditMemo](../api/dynamics_salescreditmemo_delete.md)|none|Deletes a sales credit memo object.|
+|[POST salesCreditMemo](../api/dynamics_salescreditmemo_create.md)|salesCreditMemo|Creates a sales credit memo object.|
+|[PATCH salesCreditMemo](../api/dynamics_salescreditmemo_update.md)|salesCreditMemo|Updates a sales credit memo object.|
 
 ## Bound Actions
-The salesCreditMemo resource type offers a bound action called `cancelAndSend` which posts the corresponding salesCreditMemo batch.
 
- Posting the salesCreditMemo batch is illustrated in the following example:
-`CANCELANDSEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesCreditMemos({id})/Microsoft.NAV.cancelAndSend`.
-
-The response has no content; the response code is 204.
-
-The salesCreditMemo resource type offers a bound action called `cancel` which posts the corresponding salesCreditMemo batch.
-
- Posting the salesCreditMemo batch is illustrated in the following example:
-`CANCEL https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesCreditMemos({id})/Microsoft.NAV.cancel`.
+The salesCreditMemo resource type offers a bound action called `cancelAndSend` which cancel and sends the corresponding salesCreditMemo batch.
+This is illustrated in the following example:
+`CANCELANDSEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesCreditMemos({id})/Microsoft.NAV.cancelAndSend`
 
 The response has no content; the response code is 204.
 
-The salesCreditMemo resource type offers a bound action called `postAndSend` which posts the corresponding salesCreditMemo batch.
+The salesCreditMemo resource type offers a bound action called `cancel` which cancels the corresponding salesCreditMemo batch.
+This is illustrated in the following example:
+`CANCEL https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesCreditMemos({id})/Microsoft.NAV.cancel`
 
- Posting the salesCreditMemo batch is illustrated in the following example:
-`POSTANDSEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesCreditMemos({id})/Microsoft.NAV.postAndSend`.
+The response has no content; the response code is 204.
+
+The salesCreditMemo resource type offers a bound action called `postAndSend` which post and sends the corresponding salesCreditMemo batch.
+This is illustrated in the following example:
+`POSTANDSEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesCreditMemos({id})/Microsoft.NAV.postAndSend`
 
 The response has no content; the response code is 204.
 
 The salesCreditMemo resource type offers a bound action called `post` which posts the corresponding salesCreditMemo batch.
-
- Posting the salesCreditMemo batch is illustrated in the following example:
-`POST https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesCreditMemos({id})/Microsoft.NAV.post`.
-
-The response has no content; the response code is 204.
-
-The salesCreditMemo resource type offers a bound action called `send` which posts the corresponding salesCreditMemo batch.
-
- Posting the salesCreditMemo batch is illustrated in the following example:
-`SEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesCreditMemos({id})/Microsoft.NAV.send`.
+This is illustrated in the following example:
+`POST https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesCreditMemos({id})/Microsoft.NAV.post`
 
 The response has no content; the response code is 204.
 
+The salesCreditMemo resource type offers a bound action called `send` which sends the corresponding salesCreditMemo batch.
+This is illustrated in the following example:
+`SEND https://<server address>:<server API port>/<server instance name>/api/v2.0/companies({id})/salesCreditMemos({id})/Microsoft.NAV.send`
+
+The response has no content; the response code is 204.
 
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[customer](dynamics_customer.md)|customer |Gets the customer of the salesCreditMemo.|
 |[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the salesCreditMemo.|
 |[currency](dynamics_currency.md)|currency |Gets the currency of the salesCreditMemo.|
@@ -80,12 +77,11 @@ The response has no content; the response code is 204.
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesCreditMemo.|
 |[attachments](dynamics_attachment.md)|attachments |Gets the attachments of the salesCreditMemo.|
 
-
 ## Properties
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the sales credit memo. Non-editable.|
 |number|string|Specifies the number of the sales credit memo.|
 |externalDocumentNumber|string|Specifies an external document number for the sales credit memo.|
 |creditMemoDate|date|The credit memo date.|
@@ -127,7 +123,6 @@ The response has no content; the response code is 204.
 |phoneNumber|string|Specifies the sales credit memo's telephone number.|
 |email|string|Specifies the sales credit memo's email address.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the salesCreditMemo resource.
@@ -135,53 +130,55 @@ Here is a JSON representation of the salesCreditMemo resource.
 
 ```json
 {
-   "id": "GUID",
-   "number": "string",
-   "externalDocumentNumber": "string",
-   "creditMemoDate": "date",
-   "postingDate": "date",
-   "dueDate": "date",
-   "customerId": "GUID",
-   "customerNumber": "string",
-   "customerName": "string",
-   "billToName": "string",
-   "billToCustomerId": "GUID",
-   "billToCustomerNumber": "string",
-   "sellToAddressLine1": "string",
-   "sellToAddressLine2": "string",
-   "sellToCity": "string",
-   "sellToCountry": "string",
-   "sellToState": "string",
-   "sellToPostCode": "string",
-   "billToAddressLine1": "string",
-   "billToAddressLine2": "string",
-   "billToCity": "string",
-   "billToCountry": "string",
-   "billToState": "string",
-   "billToPostCode": "string",
-   "currencyId": "GUID",
-   "currencyCode": "string",
-   "paymentTermsId": "GUID",
-   "shipmentMethodId": "GUID",
-   "salesperson": "string",
-   "pricesIncludeTax": "boolean",
-   "discountAmount": "decimal",
-   "discountAppliedBeforeTax": "boolean",
-   "totalAmountExcludingTax": "decimal",
-   "totalTaxAmount": "decimal",
-   "totalAmountIncludingTax": "decimal",
-   "status": "NAV.salesCrMemoEntityBufferStatus",
-   "lastModifiedDateTime": "datetime",
-   "invoiceId": "GUID",
-   "invoiceNumber": "string",
-   "phoneNumber": "string",
-   "email": "string"
+    "id": "GUID",
+    "number": "string",
+    "externalDocumentNumber": "string",
+    "creditMemoDate": "date",
+    "postingDate": "date",
+    "dueDate": "date",
+    "customerId": "GUID",
+    "customerNumber": "string",
+    "customerName": "string",
+    "billToName": "string",
+    "billToCustomerId": "GUID",
+    "billToCustomerNumber": "string",
+    "sellToAddressLine1": "string",
+    "sellToAddressLine2": "string",
+    "sellToCity": "string",
+    "sellToCountry": "string",
+    "sellToState": "string",
+    "sellToPostCode": "string",
+    "billToAddressLine1": "string",
+    "billToAddressLine2": "string",
+    "billToCity": "string",
+    "billToCountry": "string",
+    "billToState": "string",
+    "billToPostCode": "string",
+    "currencyId": "GUID",
+    "currencyCode": "string",
+    "paymentTermsId": "GUID",
+    "shipmentMethodId": "GUID",
+    "salesperson": "string",
+    "pricesIncludeTax": "boolean",
+    "discountAmount": "decimal",
+    "discountAppliedBeforeTax": "boolean",
+    "totalAmountExcludingTax": "decimal",
+    "totalTaxAmount": "decimal",
+    "totalAmountIncludingTax": "decimal",
+    "status": "NAV.salesCrMemoEntityBufferStatus",
+    "lastModifiedDateTime": "datetime",
+    "invoiceId": "GUID",
+    "invoiceNumber": "string",
+    "phoneNumber": "string",
+    "email": "string"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET salesCreditMemo](../api/dynamics_salesCreditMemo_Get.md)   
-[DELETE salesCreditMemo](../api/dynamics_salesCreditMemo_Delete.md)   
-[POST salesCreditMemo](../api/dynamics_salesCreditMemo_Create.md)   
-[PATCH salesCreditMemo](../api/dynamics_salesCreditMemo_Update.md)   
 
+
+## See Also
+[GET salesCreditMemo](../api/dynamics_salesCreditMemo_Get.md)
+[DELETE salesCreditMemo](../api/dynamics_salesCreditMemo_Delete.md)
+[POST salesCreditMemo](../api/dynamics_salesCreditMemo_Create.md)
+[PATCH salesCreditMemo](../api/dynamics_salesCreditMemo_Update.md)
