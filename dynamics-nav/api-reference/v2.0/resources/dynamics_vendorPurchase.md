@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 01/29/2021
 ms.author: solsen
 ---
 
@@ -15,18 +15,18 @@ ms.author: solsen
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 Represents a vendor purchase in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET vendorPurchase](../api/dynamics_vendorPurchase_Get.md)|vendorPurchase|Gets a vendor purchase object.|
-
-
-
+|[GET vendorPurchase](../api/dynamics_vendorpurchase_get.md)|vendorPurchase|Gets a vendor purchase object.|
 
 
 
@@ -40,7 +40,6 @@ Represents a vendor purchase in [!INCLUDE[d365fin_long_md](../../includes/d365fi
 |totalPurchaseAmount|decimal|Represents the vendor purchases.|
 |dateFilter_FilterOnly|date|Represents the date filter for the vendor purchase.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the vendorPurchase resource.
@@ -48,14 +47,16 @@ Here is a JSON representation of the vendorPurchase resource.
 
 ```json
 {
-   "vendorId": "GUID",
-   "vendorNumber": "string",
-   "name": "string",
-   "totalPurchaseAmount": "decimal",
-   "dateFilter_FilterOnly": "date"
+    "vendorId": "GUID",
+    "vendorNumber": "string",
+    "name": "string",
+    "totalPurchaseAmount": "decimal",
+    "dateFilter_FilterOnly": "date"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET vendorPurchase](../api/dynamics_vendorPurchase_Get.md)   
 
+
+## See Also
+[GET vendorPurchase](../api/dynamics_vendorPurchase_Get.md)

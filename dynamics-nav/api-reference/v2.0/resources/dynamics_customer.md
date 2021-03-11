@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -15,26 +15,27 @@ ms.author: solsen
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET customer](../api/dynamics_customer_Get.md)|customer|Gets a customer object.|
-|[DELETE customer](../api/dynamics_customer_Delete.md)|none|Deletes a customer object.|
-|[POST customer](../api/dynamics_customer_Create.md)|customer|Creates a customer object.|
-|[PATCH customer](../api/dynamics_customer_Update.md)|customer|Updates a customer object.|
-
-
+|[GET customer](../api/dynamics_customer_get.md)|customer|Gets a customer object.|
+|[DELETE customer](../api/dynamics_customer_delete.md)|none|Deletes a customer object.|
+|[POST customer](../api/dynamics_customer_create.md)|customer|Creates a customer object.|
+|[PATCH customer](../api/dynamics_customer_update.md)|customer|Updates a customer object.|
 
 
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the customer.|
 |[currency](dynamics_currency.md)|currency |Gets the currency of the customer.|
 |[paymentTerm](dynamics_paymentterm.md)|paymentTerm |Gets the paymentterm of the customer.|
@@ -44,13 +45,13 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 |[picture](dynamics_picture.md)|picture |Gets the picture of the customer.|
 |[defaultDimensions](dynamics_defaultdimension.md)|defaultDimensions |Gets the defaultdimensions of the customer.|
 |[agedAccountsReceivable](dynamics_agedaccountsreceivable.md)|agedAccountsReceivable |Gets the agedaccountsreceivable of the customer.|
-
+|[contactsInformation](dynamics_contactinformation.md)|contactsInformation |Gets the contactsinformation of the customer.|
 
 ## Properties
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the customer. Non-editable.|
 |number|string|Specifies the number of the customer.|
 |displayName|string|Specifies the customer's name. This name will appear on all sales documents for the customer.|
 |type|NAV.contactType|Specifies the type of customer, can be "Company" or "Person".|
@@ -75,7 +76,6 @@ Represents a customer in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_
 |blocked|NAV.customerBlocked|Specifies which transactions with the customer cannot be posted. It can be " ", "Ship", "Invoice" or "All".|
 |lastModifiedDateTime|datetime|The last datetime the customer was modified. Read-Only.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the customer resource.
@@ -83,36 +83,38 @@ Here is a JSON representation of the customer resource.
 
 ```json
 {
-   "id": "GUID",
-   "number": "string",
-   "displayName": "string",
-   "type": "NAV.contactType",
-   "addressLine1": "string",
-   "addressLine2": "string",
-   "city": "string",
-   "state": "string",
-   "country": "string",
-   "postalCode": "string",
-   "phoneNumber": "string",
-   "email": "string",
-   "website": "string",
-   "taxLiable": "boolean",
-   "taxAreaId": "GUID",
-   "taxAreaDisplayName": "string",
-   "taxRegistrationNumber": "string",
-   "currencyId": "GUID",
-   "currencyCode": "string",
-   "paymentTermsId": "GUID",
-   "shipmentMethodId": "GUID",
-   "paymentMethodId": "GUID",
-   "blocked": "NAV.customerBlocked",
-   "lastModifiedDateTime": "datetime"
+    "id": "GUID",
+    "number": "string",
+    "displayName": "string",
+    "type": "NAV.contactType",
+    "addressLine1": "string",
+    "addressLine2": "string",
+    "city": "string",
+    "state": "string",
+    "country": "string",
+    "postalCode": "string",
+    "phoneNumber": "string",
+    "email": "string",
+    "website": "string",
+    "taxLiable": "boolean",
+    "taxAreaId": "GUID",
+    "taxAreaDisplayName": "string",
+    "taxRegistrationNumber": "string",
+    "currencyId": "GUID",
+    "currencyCode": "string",
+    "paymentTermsId": "GUID",
+    "shipmentMethodId": "GUID",
+    "paymentMethodId": "GUID",
+    "blocked": "NAV.customerBlocked",
+    "lastModifiedDateTime": "datetime"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET customer](../api/dynamics_customer_Get.md)   
-[DELETE customer](../api/dynamics_customer_Delete.md)   
-[POST customer](../api/dynamics_customer_Create.md)   
-[PATCH customer](../api/dynamics_customer_Update.md)   
 
+
+## See Also
+[GET customer](../api/dynamics_customer_Get.md)
+[DELETE customer](../api/dynamics_customer_Delete.md)
+[POST customer](../api/dynamics_customer_Create.md)
+[PATCH customer](../api/dynamics_customer_Update.md)

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -15,35 +15,34 @@ ms.author: solsen
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 Represents a dimension in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET dimension](../api/dynamics_dimension_Get.md)|dimension|Gets a dimension object.|
-
-
+|[GET dimension](../api/dynamics_dimension_get.md)|dimension|Gets a dimension object.|
 
 
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[dimensionValues](dynamics_dimensionvalue.md)|dimensionValues |Gets the dimensionvalues of the dimension.|
-
 
 ## Properties
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the dimension. Non-editable.|
 |code|string|The code of the dimension.|
 |displayName|string|Specifies the dimension's name. This name will appear on all sales documents for the dimension.|
 |lastModifiedDateTime|datetime|The last datetime the dimension was modified. Read-Only.|
-
 
 ## JSON representation
 
@@ -52,13 +51,15 @@ Here is a JSON representation of the dimension resource.
 
 ```json
 {
-   "id": "GUID",
-   "code": "string",
-   "displayName": "string",
-   "lastModifiedDateTime": "datetime"
+    "id": "GUID",
+    "code": "string",
+    "displayName": "string",
+    "lastModifiedDateTime": "datetime"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET dimension](../api/dynamics_dimension_Get.md)   
 
+
+## See Also
+[GET dimension](../api/dynamics_dimension_Get.md)

@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -15,32 +15,32 @@ ms.author: solsen
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 Represents a company information in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET companyInformation](../api/dynamics_companyInformation_Get.md)|companyInformation|Gets a company information object.|
-|[PATCH companyInformation](../api/dynamics_companyInformation_Update.md)|companyInformation|Updates a company information object.|
-
-
+|[GET companyInformation](../api/dynamics_companyinformation_get.md)|companyInformation|Gets a company information object.|
+|[PATCH companyInformation](../api/dynamics_companyinformation_update.md)|companyInformation|Updates a company information object.|
 
 
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the companyInformation.|
-
 
 ## Properties
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the company information. Non-editable.|
 |displayName|string|Specifies the company information's name. This name will appear on all sales documents for the company information.|
 |addressLine1|string|Specifies the company information's address. This address will appear on all sales documents for the company information.|
 |addressLine2|string|Specifies the company information's address. This address will appear on all sales documents for the company information.|
@@ -59,7 +59,6 @@ Represents a company information in [!INCLUDE[d365fin_long_md](../../includes/d3
 |picture|stream|The company information's picture.|
 |lastModifiedDateTime|datetime|The last datetime the company information was modified. Read-Only.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the companyInformation resource.
@@ -67,28 +66,30 @@ Here is a JSON representation of the companyInformation resource.
 
 ```json
 {
-   "id": "GUID",
-   "displayName": "string",
-   "addressLine1": "string",
-   "addressLine2": "string",
-   "city": "string",
-   "state": "string",
-   "country": "string",
-   "postalCode": "string",
-   "phoneNumber": "string",
-   "faxNumber": "string",
-   "email": "string",
-   "website": "string",
-   "taxRegistrationNumber": "string",
-   "currencyCode": "string",
-   "currentFiscalYearStartDate": "date",
-   "industry": "string",
-   "picture": "stream",
-   "lastModifiedDateTime": "datetime"
+    "id": "GUID",
+    "displayName": "string",
+    "addressLine1": "string",
+    "addressLine2": "string",
+    "city": "string",
+    "state": "string",
+    "country": "string",
+    "postalCode": "string",
+    "phoneNumber": "string",
+    "faxNumber": "string",
+    "email": "string",
+    "website": "string",
+    "taxRegistrationNumber": "string",
+    "currencyCode": "string",
+    "currentFiscalYearStartDate": "date",
+    "industry": "string",
+    "picture": "stream",
+    "lastModifiedDateTime": "datetime"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET companyInformation](../api/dynamics_companyInformation_Get.md)   
-[PATCH companyInformation](../api/dynamics_companyInformation_Update.md)   
 
+
+## See Also
+[GET companyInformation](../api/dynamics_companyInformation_Get.md)
+[PATCH companyInformation](../api/dynamics_companyInformation_Update.md)

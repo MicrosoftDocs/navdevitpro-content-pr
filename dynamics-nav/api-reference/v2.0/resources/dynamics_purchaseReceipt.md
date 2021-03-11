@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/22/2020
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -15,34 +15,34 @@ ms.author: solsen
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 Represents a purchase receipt in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET purchaseReceipt](../api/dynamics_purchaseReceipt_Get.md)|purchaseReceipt|Gets a purchase receipt object.|
-
-
+|[GET purchaseReceipt](../api/dynamics_purchasereceipt_get.md)|purchaseReceipt|Gets a purchase receipt object.|
 
 
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[vendor](dynamics_vendor.md)|vendor |Gets the vendor of the purchaseReceipt.|
 |[countryRegion](dynamics_countryregion.md)|countryRegion |Gets the countryregion of the purchaseReceipt.|
 |[purchaseReceiptLines](dynamics_purchasereceiptline.md)|purchaseReceiptLines |Gets the purchasereceiptlines of the purchaseReceipt.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the purchaseReceipt.|
 
-
 ## Properties
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the purchase receipt. Non-editable.|
 |number|string|Specifies the number of the purchase receipt.|
 |invoiceDate|date|The invoice date .|
 |postingDate|date|The date that the purchase receipt   is posted.|
@@ -75,7 +75,6 @@ Represents a purchase receipt in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |currencyCode|string|The default currency code for the purchase receipt.|
 |lastModifiedDateTime|datetime|The last datetime the purchase receipt was modified. Read-Only.|
 
-
 ## JSON representation
 
 Here is a JSON representation of the purchaseReceipt resource.
@@ -83,41 +82,43 @@ Here is a JSON representation of the purchaseReceipt resource.
 
 ```json
 {
-   "id": "GUID",
-   "number": "string",
-   "invoiceDate": "date",
-   "postingDate": "date",
-   "dueDate": "date",
-   "vendorNumber": "string",
-   "vendorName": "string",
-   "payToName": "string",
-   "payToContact": "string",
-   "payToVendorNumber": "string",
-   "shipToName": "string",
-   "shipToContact": "string",
-   "buyFromAddressLine1": "string",
-   "buyFromAddressLine2": "string",
-   "buyFromCity": "string",
-   "buyFromCountry": "string",
-   "buyFromState": "string",
-   "buyFromPostCode": "string",
-   "shipToAddressLine1": "string",
-   "shipToAddressLine2": "string",
-   "shipToCity": "string",
-   "shipToCountry": "string",
-   "shipToState": "string",
-   "shipToPostCode": "string",
-   "payToAddressLine1": "string",
-   "payToAddressLine2": "string",
-   "payToCity": "string",
-   "payToCountry": "string",
-   "payToState": "string",
-   "payToPostCode": "string",
-   "currencyCode": "string",
-   "lastModifiedDateTime": "datetime"
+    "id": "GUID",
+    "number": "string",
+    "invoiceDate": "date",
+    "postingDate": "date",
+    "dueDate": "date",
+    "vendorNumber": "string",
+    "vendorName": "string",
+    "payToName": "string",
+    "payToContact": "string",
+    "payToVendorNumber": "string",
+    "shipToName": "string",
+    "shipToContact": "string",
+    "buyFromAddressLine1": "string",
+    "buyFromAddressLine2": "string",
+    "buyFromCity": "string",
+    "buyFromCountry": "string",
+    "buyFromState": "string",
+    "buyFromPostCode": "string",
+    "shipToAddressLine1": "string",
+    "shipToAddressLine2": "string",
+    "shipToCity": "string",
+    "shipToCountry": "string",
+    "shipToState": "string",
+    "shipToPostCode": "string",
+    "payToAddressLine1": "string",
+    "payToAddressLine2": "string",
+    "payToCity": "string",
+    "payToCountry": "string",
+    "payToState": "string",
+    "payToPostCode": "string",
+    "currencyCode": "string",
+    "lastModifiedDateTime": "datetime"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET purchaseReceipt](../api/dynamics_purchaseReceipt_Get.md)   
 
+
+## See Also
+[GET purchaseReceipt](../api/dynamics_purchaseReceipt_Get.md)

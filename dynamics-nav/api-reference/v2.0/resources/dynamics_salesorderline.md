@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/03/2021
+ms.date: 02/26/2021
 ms.author: solsen
 ---
 
@@ -15,26 +15,27 @@ ms.author: solsen
 
 [!INCLUDE[api_v2_note](../../includes/api_v2_note.md)]
 
+<!-- START>DO_NOT_EDIT -->
+<!-- IMPORTANT:Do not edit any of the content between here and the END>DO_NOT_EDIT. -->
 Represents a sales order line in [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)].
 
-> [!NOTE]  
+> [!NOTE]
 > For information about enabling APIs for [!INCLUDE[navnow](../../includes/navnow_md.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## Methods
+
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
-|[GET salesOrderLine](../api/dynamics_salesOrderLine_Get.md)|salesOrderLine|Gets a sales order line object.|
-|[DELETE salesOrderLine](../api/dynamics_salesOrderLine_Delete.md)|none|Deletes a sales order line object.|
-|[POST salesOrderLine](../api/dynamics_salesOrderLine_Create.md)|salesOrderLine|Creates a sales order line object.|
-|[PATCH salesOrderLine](../api/dynamics_salesOrderLine_Update.md)|salesOrderLine|Updates a sales order line object.|
-
-
+|[GET salesOrderLine](../api/dynamics_salesorderline_get.md)|salesOrderLine|Gets a sales order line object.|
+|[DELETE salesOrderLine](../api/dynamics_salesorderline_delete.md)|none|Deletes a sales order line object.|
+|[POST salesOrderLine](../api/dynamics_salesorderline_create.md)|salesOrderLine|Creates a sales order line object.|
+|[PATCH salesOrderLine](../api/dynamics_salesorderline_update.md)|salesOrderLine|Updates a sales order line object.|
 
 
 ## Navigation
 
-| Navigation |Return Type| Description | 
- |:----------|:----------|:-----------------|
+| Navigation |Return Type| Description |
+|:----------|:----------|:-----------------|
 |[salesOrder](dynamics_salesorder.md)|salesOrder |Gets the salesorder of the salesOrderLine.|
 |[item](dynamics_item.md)|item |Gets the item of the salesOrderLine.|
 |[account](dynamics_account.md)|account |Gets the account of the salesOrderLine.|
@@ -42,12 +43,11 @@ Represents a sales order line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |[itemVariant](dynamics_itemvariant.md)|itemVariant |Gets the itemvariant of the salesOrderLine.|
 |[dimensionSetLines](dynamics_dimensionsetline.md)|dimensionSetLines |Gets the dimensionsetlines of the salesOrderLine.|
 
-
 ## Properties
 
 | Property           | Type   |Description     |
 |:-------------------|:-------|:---------------|
-|id|GUID|The unique ID of the item. Non-editable.|
+|id|GUID|The unique ID of the sales order line. Non-editable.|
 |documentId|GUID|The ID of the parent sales order line. |
 |sequence|integer|The line sequence number.|
 |itemId|GUID|The ID of the item in the sales order line.|
@@ -73,11 +73,10 @@ Represents a sales order line in [!INCLUDE[d365fin_long_md](../../includes/d365f
 |netAmountIncludingTax|decimal|The net amount including tax is the total net amount including tax. Read-Only.|
 |shipmentDate|date|The date the item in the line is expected to ship.|
 |shippedQuantity|decimal|The quantity of items from the order already shipped.|
-|invoicedQuantity|decimal|The invoiced'd quantity.|
+|invoicedQuantity|decimal|The quantity of items from the sales order line that was invoiced.|
 |invoiceQuantity|decimal|The quantity of items from the sales order line to be invoiced.|
 |shipQuantity|decimal|The quantity of items from the order to be shipped.|
 |itemVariantId|GUID|The ID of the item variant in the sales order line.|
-
 
 ## JSON representation
 
@@ -86,42 +85,44 @@ Here is a JSON representation of the salesOrderLine resource.
 
 ```json
 {
-   "id": "GUID",
-   "documentId": "GUID",
-   "sequence": "integer",
-   "itemId": "GUID",
-   "accountId": "GUID",
-   "lineType": "NAV.invoiceLineAggLineType",
-   "lineObjectNumber": "string",
-   "description": "string",
-   "unitOfMeasureId": "GUID",
-   "unitOfMeasureCode": "string",
-   "quantity": "decimal",
-   "unitPrice": "decimal",
-   "discountAmount": "decimal",
-   "discountPercent": "decimal",
-   "discountAppliedBeforeTax": "boolean",
-   "amountExcludingTax": "decimal",
-   "taxCode": "string",
-   "taxPercent": "decimal",
-   "totalTaxAmount": "decimal",
-   "amountIncludingTax": "decimal",
-   "invoiceDiscountAllocation": "decimal",
-   "netAmount": "decimal",
-   "netTaxAmount": "decimal",
-   "netAmountIncludingTax": "decimal",
-   "shipmentDate": "date",
-   "shippedQuantity": "decimal",
-   "invoicedQuantity": "decimal",
-   "invoiceQuantity": "decimal",
-   "shipQuantity": "decimal",
-   "itemVariantId": "GUID"
+    "id": "GUID",
+    "documentId": "GUID",
+    "sequence": "integer",
+    "itemId": "GUID",
+    "accountId": "GUID",
+    "lineType": "NAV.invoiceLineAggLineType",
+    "lineObjectNumber": "string",
+    "description": "string",
+    "unitOfMeasureId": "GUID",
+    "unitOfMeasureCode": "string",
+    "quantity": "decimal",
+    "unitPrice": "decimal",
+    "discountAmount": "decimal",
+    "discountPercent": "decimal",
+    "discountAppliedBeforeTax": "boolean",
+    "amountExcludingTax": "decimal",
+    "taxCode": "string",
+    "taxPercent": "decimal",
+    "totalTaxAmount": "decimal",
+    "amountIncludingTax": "decimal",
+    "invoiceDiscountAllocation": "decimal",
+    "netAmount": "decimal",
+    "netTaxAmount": "decimal",
+    "netAmountIncludingTax": "decimal",
+    "shipmentDate": "date",
+    "shippedQuantity": "decimal",
+    "invoicedQuantity": "decimal",
+    "invoiceQuantity": "decimal",
+    "shipQuantity": "decimal",
+    "itemVariantId": "GUID"
 }
 ```
-## See also
+<!-- IMPORTANT: END>DO_NOT_EDIT -->
 
-[GET salesOrderLine](../api/dynamics_salesOrderLine_Get.md)   
-[DELETE salesOrderLine](../api/dynamics_salesOrderLine_Delete.md)   
-[POST salesOrderLine](../api/dynamics_salesOrderLine_Create.md)   
-[PATCH salesOrderLine](../api/dynamics_salesOrderLine_Update.md)   
 
+
+## See Also
+[GET salesOrderLine](../api/dynamics_salesOrderLine_Get.md)
+[DELETE salesOrderLine](../api/dynamics_salesOrderLine_Delete.md)
+[POST salesOrderLine](../api/dynamics_salesOrderLine_Create.md)
+[PATCH salesOrderLine](../api/dynamics_salesOrderLine_Update.md)
