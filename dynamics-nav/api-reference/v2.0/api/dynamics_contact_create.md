@@ -106,6 +106,9 @@ Content-type: application/json
     "lastModifiedDateTime" : "2021-06-01"
 }
 ```
+## Remarks
+
+This resource type requires [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] version 18.0.
 
 ## See Also
 

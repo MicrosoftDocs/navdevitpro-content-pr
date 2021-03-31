@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/26/2021
+ms.date: 03/31/2021
 ms.author: solsen
 ---
 
@@ -62,6 +62,10 @@ Here is a JSON representation of the contactInformation resource.
 }
 ```
 <!-- IMPORTANT: END>DO_NOT_EDIT -->
+
+## Remarks
+
+This resource type requires [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] version 18.0.
 
 ## See Also
 [GET contactInformation](../api/dynamics_contactinformation_get.md)  

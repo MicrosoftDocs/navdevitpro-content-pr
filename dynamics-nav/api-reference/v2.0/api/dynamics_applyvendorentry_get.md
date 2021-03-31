@@ -69,6 +69,10 @@ Here is an example of the response.
 }
 ```
 
+## Remarks
+
+This resource type requires [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] version 18.0.
+
 ## See Also
 
 [Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
