@@ -70,7 +70,7 @@ Here is an example of the response.
     "phoneNumber": "4465-4899-4643",
     "mobilePhone": "4564-4564-7831",
     "email": "",
-    "personalEmail": "ah@cronus-demosite.com",
+    "personalEmail": "ah@contoso.com",
     "employmentDate": "2001-06-01",
     "terminationDate": "0001-01-01",
     "status": "Active",
