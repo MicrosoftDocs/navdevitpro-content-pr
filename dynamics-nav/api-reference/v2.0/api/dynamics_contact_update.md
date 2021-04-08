@@ -78,7 +78,7 @@ Content-type: application/json
     "postalCode": "31772",
     "phoneNumber": "+1 425 555 0100",
     "mobilePhoneNumber" : "",
-    "email" : "ah@cronus-demosite.com",
+    "email" : "ah@contoso.com",
     "website" : "",
     "searchName" : "",
     "privacyBlocked" : true,
