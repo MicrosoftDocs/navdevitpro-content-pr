@@ -29,7 +29,10 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create MenuSuites 
   The links to these objects are displayed on the department page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. When the link is selected in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the object that it links to is run. MenuSuites are designed in Navigation Pane Designer but they are run in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
 > [!NOTE]  
->  MenuSuites cannot be run directly from Object Designer in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
+> MenuSuites cannot be run directly from Object Designer in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
+
+> [!NOTE]  
+> Adding codeunits in MenuSuites is not supported.
 
  A menu links to a department and a menu item links to a specific object in the department. You can create a group that contains related menu items. When you design menu items and groups in Navigation Pane Designer, you can organize them to display on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] by department or by category. Menu items are displayed as links that users can use to open objects such as reports and pages.  
 
