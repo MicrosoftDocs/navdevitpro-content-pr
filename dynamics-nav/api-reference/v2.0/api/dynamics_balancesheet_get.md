@@ -20,7 +20,7 @@ Retrieve the properties and relationships of a balance sheet report object for [
 ## HTTP request
 Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 ```
-GET businesscentralPrefix/companies({id})/balanceSheet
+GET businesscentralPrefix/companies({id})/balanceSheets
 ```
 
 ## Request headers
@@ -65,5 +65,6 @@ Here is an example of the response.
 
 
 ## See also
-[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)    
-[balancesheet](../resources/dynamics_balancesheet.md)    
+
+[Tips for working with the APIs](/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips)  
+[balancesheet](../resources/dynamics_balancesheet.md)  
