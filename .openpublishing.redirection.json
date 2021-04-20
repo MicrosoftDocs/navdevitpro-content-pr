@@ -7140,7 +7140,6 @@
       "redirect_url": "How-to--Implement-Security-Certificates-in-a-Production-Environment",
       "redirect_document_id": false
     },
-    ,
     {
       "source_path": "dynamics-nav/api-reference/v2.0/dynamics_rate_limits.md",
       "redirect_url": "/dynamics365/business-central/dev-itpro/administration/operational-limits-online",
