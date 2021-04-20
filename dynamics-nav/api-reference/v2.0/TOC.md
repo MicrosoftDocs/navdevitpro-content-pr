@@ -4,7 +4,7 @@
 ## [Endpoints for the APIs](endpoints-apis-for-dynamics.md)
 ## [Working with Webhooks](dynamics_subscriptions.md)
 ## [Current API Limits](dynamics-current-limits.md)
-## [Working With API Rate Limits](dynamics-rate-limits.md)
+## [Operational Limits for Business Central Online](/dynamics365/business-central/dev-itpro/administration/operational-limits-online)
 <!-- ## [OpenAPI Specification](dynamics-open-api.md) -->
 ## [Error Codes](dynamics_error_codes.md)
 <!-- START>DO_NOT_EDIT -->
