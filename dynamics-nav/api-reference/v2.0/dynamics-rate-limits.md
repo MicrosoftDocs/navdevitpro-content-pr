@@ -60,7 +60,8 @@ There are several areas to consider, which can reduce the amount of calls from a
     Deep insert can also be performed in Batch calls.
 
 ## See Also
-[Current API Limits](dynamics-current-limits.md)  
+
+[Operational Limits for Business Central Online](/dynamics365/business-central/dev-itpro/administration/operational-limits-online)  
 [Best practices on transient errors](https://docs.microsoft.com/azure/architecture/best-practices/transient-faults)  
 [Using OData Batch request](https://docs.microsoft.com/openspecs/windows_protocols/ms-odata/dd99aa5c-d81e-4eac-9e07-039491356bf6)  
 [Microsoft API Terms of Use](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use)
