@@ -13,7 +13,7 @@ author: jswymer
 ---
 
 # Resolving Codeunit 1410 Doc. Exch. Service Mgt. Error When Converting a Database
-Use the [!INCLUDE[nav_dev_short_md](includes/nav_dev_short_md.md)] to change the **DotNet** data type variables of the local function **Initialize** to the use Microsoft.Dynamics.Nav.OAuth version 10.0.0.0 assembly (for Dynamics NAV 2017) or version 11.0.0.0 (for Dynamics NAV 2018), as shown in the following table.
+Use the [!INCLUDE[nav_dev_short_md](includes/nav_dev_short_md.md)] to change the **DotNet** data type variables of the local function **Initialize** to the use Microsoft.Dynamics.Nav.OAuth version 10.0.0.0 assembly (for Dynamics NAV 2017) or version 11.0.0.0 (for Dynamics NAV 2018), as shown in the following table for Dynamics NAV 2018.
 
 |  Variable  |  DatType  |  Subtype  |
 |------------|-----------|-----------|
