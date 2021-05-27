@@ -7141,8 +7141,68 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "dynamics-nav/api-reference/v2.0/dynamics_rate_limits.md",
+      "source_path": "dynamics-nav/api-reference/v1.0/dynamics-rate-limits.md",
       "redirect_url": "/dynamics365/business-central/dev-itpro/administration/operational-limits-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "dynamics-nav/api-reference/v1.0/dynamics_subscriptions.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v1.0/dynamics_subscriptions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "dynamics-nav/api-reference/v1.0/dynamics_error_codes.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v1.0/dynamics_error_codes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "dynamics-nav/api-reference/v1.0/dynamics-current-limits.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v1.0/dynamics-current-limits",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "dynamics-nav/api-reference/v1.0/dynamics-open-api.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v1.0/dynamics-open-api",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "dynamics-nav/api-reference/v1.0/enabling-apis-for-dynamics-nav.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v1.0/enabling-apis-for-dynamics-nav",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "dynamics-nav/api-reference/v1.0/enabling-apis-for-dynamics.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v1.0/enabling-apis-for-dynamics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "dynamics-nav/api-reference/v2.0/dynamics_subscriptions.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics_subscriptions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "dynamics-nav/api-reference/v2.0/dynamics_error_codes.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics_error_codes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "dynamics-nav/api-reference/v2.0/dynamics-current-limits.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-current-limits",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "dynamics-nav/api-reference/v2.0/dynamics-open-api.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-open-api",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "dynamics-nav/api-reference/v2.0/enabling-apis-for-dynamics-nav.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0/enabling-apis-for-dynamics-nav",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "dynamics-nav/api-reference/v2.0/enabling-apis-for-dynamics.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0/enabling-apis-for-dynamics",
       "redirect_document_id": false
     }
   ]

@@ -367,8 +367,8 @@
 ## [Development Cmdlets](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.model.tools)
 ## [Development Cmdlets for Extensions](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.apps.tools)
 <!-- Business Central API starts, has its own TOC so commenting out for now-->
-# [Business Central API Reference v1.0](api-reference/v1.0/index.md)
-# [Business Central API Reference v2.0](api-reference/v2.0/index.md)
+# [Business Central API Reference v1.0](/dynamics365/business-central/dev-itpro/api-reference/v1.0/index.md)
+# [Business Central API Reference v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/index.md)
 <!--
 ## [Enabling the APIs for Dynamics 365 Business Central](enabling-apis-for-dynamics-nav.md)
 ## [Endpoints for the APIs](endpoints-apis-for-dynamics.md)
