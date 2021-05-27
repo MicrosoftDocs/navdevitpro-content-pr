@@ -3,7 +3,7 @@ title: "Enabling APIs for Microsoft Dynamics NAV"
 description: "Describing the steps you must go through to enable access to the APIs."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 04/01/2019
+ms.date: 10/01/2020
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -13,12 +13,14 @@ ms.author: solsen
 ---
 
 # Enabling the APIs for Dynamics 365 Business Central
+
 [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] exposes an API that makes it possible to integrate with other services. To enable integration with these APIs, you must go through a few steps to enable the access for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
 
 > [!IMPORTANT]  
 > REST programming is not natively supported in C/SIDE. In order to run the APIs you must add the REST dependent types manually. Existing W1 objects can compile and load, but some .NET types cannot be loaded into the C/SIDE Development environment variable editor due to missing server dependencies.
 
 ## Enable access to the APIs
+
 1. Open [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] Administration tool. 
 2. Expand the **OData Services** tab, and select the **Enable OData Services** checkbox first, then select the **Enable API Services** checkbox.
 3. Check that the values for the **OData Base URL** and **Port** are entered correctly.  

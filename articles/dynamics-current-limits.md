@@ -3,7 +3,7 @@ title: "API Limits in Dynamics 365 Business Central"
 description: ""
 author: jswymer
 ms.custom: na
-ms.date: 01/14/2020
+ms.date: 10/01/2020
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -29,17 +29,13 @@ HTTP response code `429 - Too Many Requests` is returned if limits are exceeded.
 
 HTTP response code `504 - Gateway Timeout` is returned when a request exceeds 10-minutes execution time.
 
-## Maximum Requests
+## Maximum Connections
 
-The maximum number of simultaneous and pending OData or SOAP requests. HTTP response code `429 - Too Many Requests` is returned if limits are exceeded.
+The maximum number of simultaneous OData or SOAP requests. HTTP response code `429 - Too Many Requests` is returned if limits are exceeded.
 
-|Limit|OData|SOAP|
-|-----|-----|----| 
-|Max concurrent requests|5|5|
-|Max queued requests |95|95|
-|Max connections|100|100|
-
-The **Max connections** is a combination of **Max concurrent requests** and **Max queued requests**.
+|OData|SOAP|
+|-----|----| 
+|100|100|
 
 ## Operation Timeout
 
@@ -59,7 +55,8 @@ The maximum size of the OData or SOAP request. HTTP response code `413: Request 
 
 
 ## See Also
-[Working with API Rate Limits](dynamics-rate-limits.md)  
+
+[Operational Limits for Business Central Online](/dynamics365/business-central/dev-itpro/administration/operational-limits-online)
 [Best practices on transient errors](https://docs.microsoft.com/azure/architecture/best-practices/transient-faults)  
 [Using OData Batch request](https://docs.microsoft.com/openspecs/windows_protocols/ms-odata/dd99aa5c-d81e-4eac-9e07-039491356bf6)  
 [Microsoft API Terms of Use](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use)
