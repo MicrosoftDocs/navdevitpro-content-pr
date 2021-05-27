@@ -7166,6 +7166,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "dynamics-nav/api-reference/v1.0/enabling-apis-for-dynamics-nav.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v1.0/enabling-apis-for-dynamics-nav",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "dynamics-nav/api-reference/v1.0/enabling-apis-for-dynamics.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v1.0/enabling-apis-for-dynamics",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "dynamics-nav/api-reference/v1.0/api/*.md",
       "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v1.0/dynamics-open-api",
       "redirect_document_id": false
@@ -7188,6 +7198,16 @@
     {
       "source_path": "dynamics-nav/api-reference/v2.0/dynamics-open-api.md",
       "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-open-api",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "dynamics-nav/api-reference/v2.0/enabling-apis-for-dynamics-nav.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0/enabling-apis-for-dynamics-nav",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "dynamics-nav/api-reference/v2.0/enabling-apis-for-dynamics.md",
+      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0/enabling-apis-for-dynamics",
       "redirect_document_id": false
     }
   ]
