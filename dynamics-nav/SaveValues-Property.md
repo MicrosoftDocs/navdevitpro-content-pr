@@ -21,7 +21,7 @@ Sets whether user-specific control values are saved for this page.
  **Yes** if user-defined control values are saved; otherwise, **No**. The default is **No**.  
   
 ## Remarks  
- This information is saved in the Page Data Personalization table.  
+ This information is saved in the Page Data Personalization table. The user defined filters are not saved for pages, but request pages.
   
 ## See Also  
  [Properties](Properties.md)
