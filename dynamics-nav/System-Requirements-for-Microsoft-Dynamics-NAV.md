@@ -8,7 +8,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2018"
-ms.date: 01/24/2019
+ms.date: 06/01/2021
 ---
 # System Requirements for [!INCLUDE[nav2018_md](includes/nav2018_md.md)]
 
