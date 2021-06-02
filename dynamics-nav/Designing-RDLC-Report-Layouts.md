@@ -28,10 +28,14 @@ To create an RDLC layout, you use Report Designer for Visual Studio or Report Bu
   
   For general information about SQL Server Report Builder, see [Report Design View \(Report Builder\)](https://go.microsoft.com/fwlink/?LinkId=317717).  
   
-## Working with SQL Server Report Builder or Visual Studio Report Designer  
+## Working with SQL Server Report Builder or Visual Studio Report Designer
+
  By default, Visual Studio Report Designer is used when you work with RDLC layouts if it is installed on the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. Otherwise, SQL Server Report Builder is used. SQL Server Report Builder is installed with the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
   
  If your computer is running both Visual Studio Report Designer and SQL Server Report Builder, you can configure the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to use SQL Server Report Builder when you design layouts instead of Visual Studio Report Designer.  
+
+> [!NOTE]
+> Starting with Dynamics NAV 2018 cumulative update 41, the Setup installation program installs Report Builder 15.0 for SQL Server 2019, instead of Report Builder for SQL Server 2016. If Report Builder for SQL Server 2016 is already installed on your computer it will be updated to Report Builder 15.0. If you install Dynamics NAV 2018 cumulative update 41 or later on a computer that is also running an older Dynamics NAV version, you won't be able to use Report Builder in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] for the older version.
   
 #### To configure the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to use SQL Server Report Builder  
   
