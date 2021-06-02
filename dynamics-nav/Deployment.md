@@ -36,7 +36,7 @@ The topics in the Deployment node are intended to help an administrator install 
 -   If you have either SQL Server 2000 or Microsoft SQL Server Desktop Engine \(MSDE\) installed on a computer where you want to install [!INCLUDE[navnow](includes/navnow_md.md)], then you must remove it before you begin installing. The presence of either of these database products causes a Setup error.
 - [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]
 
-  Starting with Dynamics NAV 2018 cumulative update 41 and Dynamics NAV 2017cumulative update 54, the prerequisite SQL Server Native Client is no longer be installed by Setup or included on the installation media (DVD). This change doesn't affect the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] installation if you upgrading from an earlier version, because the prerequisite should already have been installed. However, for a clean installation of the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you'll have to manually install the SQL Server Native Client; otherwise, you may experience problems connecting the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to the database. To install the SQL Server Native Client, follow these steps:
+  - Starting with Dynamics NAV 2018 cumulative update 41 and Dynamics NAV 2017cumulative update 54, the prerequisite SQL Server Native Client is no longer be installed by Setup or included on the installation media (DVD). This change doesn't affect the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] installation if you upgrading from an earlier version, because the prerequisite should already have been installed. However, for a clean installation of the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you'll have to manually install the SQL Server Native Client; otherwise, you may experience problems connecting the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to the database. To install the SQL Server Native Client, follow these steps:
 
     1. Download an earlier cumulative update to the computer where you're installing [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].
       
@@ -46,6 +46,7 @@ The topics in the Deployment node are intended to help an administrator install 
     2. Unzip the files.
     3. Open the **DVD\Prerequisite Components\Microsoft SQL Server folder**, then double-click either the sqlncli.msi or sqlncli64.msi, depending on whether the computer has an 86-bit or 64-bit operating system respectively.
     4. Follow the instructions.
+
 
 ## See Also  
  [Product and Architecture Overview](Product-and-Architecture-Overview.md)   
