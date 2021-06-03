@@ -92,9 +92,11 @@ The following sections list the specifications of minimum hardware and software 
 |Supported operating systems|<ul><li>Windows 10 Pro, Enterprise, or Education \(64-bit edition\)</li><li>  Windows 8.1 Professional or Enterprise \(32-bit and 64-bit editions\)</li><li> Windows Server 2019</li><li> Windows Server, version 1809 or later</li><li>   Windows Server 2016 Standard, Essentials, or Datacenter</li><li>   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\)</li><li>   Windows Server 2012 Standard or Essentials \(64-bit edition\)|  
 |Hardware resources|<ul><li>Hard disk space: 500 MB.</li><li>   Memory: 2 GB.</li></ul>|  
 |Reports|<ul><li>Microsoft Report Viewer 2015 for Save as Excel, Save as PDF, and Save as Word functionality.</li></ul>|  
-|[!INCLUDE[crm](includes/crm_md.md)] integration|<ul><li>Windows Identity Framework.<br />     For a list of supported [!INCLUDE[crm](includes/crm_md.md)] versions, see [Microsoft Dynamics 365 for Sales Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM).</li></ul>|  
+|[!INCLUDE[crm](includes/crm_md.md)] integration|<ul><li>Windows Identity Foundation*<br />For a list of supported [!INCLUDE[crm](includes/crm_md.md)] versions, see [Microsoft Dynamics 365 for Sales Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM).</li></ul>|  
 |Additional software|<ul><li>Microsoft .NET Framework 3.5.1, 4.5.2, 4.7, or 4.8.</li><li>   Windows PowerShell 3.0 or 4.0.</li></ul>|  
 |Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer:<br /><br /> <ul><li>Microsoft .NET Framework 4.5.2.</li><li>Microsoft Report Viewer 2015.</li><li>Windows Identity Framework.</li></ul></li></ul>|  
+
+\* Starting with cumulative update 54, Windows Identity Foundation is added to the product by Nuget. It's not installed by Setup.  
 
 ##  <a name="WebServer"></a> Microsoft Dynamics NAV Web Server Components Requirements  
 

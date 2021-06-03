@@ -91,9 +91,11 @@ The following sections list the minimum hardware and software requirements to in
 |-|-|  
 |Supported operating systems|<ul><li>Windows 10 Pro, Enterprise, or Education \(64-bit edition\).</li><li>Windows Server 2019 Standard, Essentials, or Datacenter.</li><li>Windows 8.1 Professional or Enterprise \(64-bit edition\).</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).</li><li>Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Hardware resources|<ul><li>Hard disk space: 500 MB.</li><li>Memory: 2 GB.|  
-|[!INCLUDE[crm](includes/crm_md.md)] integration|<ul><li>Windows Identity Framework.<br />     For a list of supported [!INCLUDE[crm](includes/crm_md.md)] versions, see [Microsoft Dynamics 365 for Sales Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM).|  
+|[!INCLUDE[crm](includes/crm_md.md)] integration|<ul><li>Windows Identity Foundation.<br />     For a list of supported [!INCLUDE[crm](includes/crm_md.md)] versions, see [Microsoft Dynamics 365 for Sales Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM).|  
 |Additional software|<ul><li>Microsoft .NET Framework 4.7 or 4.8</li><li>Windows PowerShell 4.0.|  
-|Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer:<ul><li>Microsoft .NET Framework 4.7.</li><li>Windows Identity Framework.</li><li>Report Builder for SQL Server 2016 (cumulative update 40 and earlier). Report Builder 15.0 for SQL Server 2019 (cumulative update 41 and later)<br><br> This is not installed if a version of SQL Server Report Builder or Microsoft Visual Studio is already present on the target computer.</li></ul></li></ul>|  
+|Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer:<ul><li>Microsoft .NET Framework 4.7.</li><li>Windows Identity Foundation*.</li><li>Report Builder for SQL Server 2016 (cumulative update 40 and earlier). Report Builder 15.0 for SQL Server 2019 (cumulative update 41 and later)<br><br> This is not installed if a version of SQL Server Report Builder or Microsoft Visual Studio is already present on the target computer.</li></ul></li></ul>|  
+
+\* Starting with cumulative update 41, Windows Identity Foundation is added to the product by Nuget. It's not installed by Setup.  
 
 ###  <a name="WebServer"></a> Dynamics NAV Web Server Components Requirements  
 
