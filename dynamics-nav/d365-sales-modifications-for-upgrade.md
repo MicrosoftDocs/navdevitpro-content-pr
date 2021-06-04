@@ -80,6 +80,8 @@ DotNet "'Microsoft.Xrm.Sdk'.<class>”
 
 ### Update Microsoft.IdentityModel.Clients.ActiveDirectory (post-upgrade)
 
-Microsoft.IdentityModel.Clients.ActiveDirectory version 3.19.8 is provided on the installation media (DVD). It should be installed automatically when you install Dynamic NAV Server. But after upgrade, it's a good idea to verify that you have the correct version in the Dynamics NAV Server installation folder. By default, the folder is C:\Program Files\Microsoft Dynamics NAV\110\Service. To check the version, search for "Microsoft.IdentityModel.Clients.ActiveDirectory.dll", open it's **Properties**, and look at the **File Version** on the **Details** tab. If the version is not 3.19.8, copy the Microsoft.IdentityModel.Clients.ActiveDirectory.dll file from the **ServiceTier\program files\Microsoft Dynamics NAV\110\Service** folder of the installation media (DVD) to your Dynamics NAV Serve installation folder.
+Microsoft.IdentityModel.Clients.ActiveDirectory version 3.19.8 is provided on the installation media (DVD). It should be installed automatically when you install Dynamic NAV Server. But after upgrade, it's a good idea to verify that you have the correct version in the Dynamics NAV Server installation folder. By default, the folder is C:\Program Files\Microsoft Dynamics NAV\110\Service.
+
+To check the version, search the folder for "Microsoft.IdentityModel.Clients.ActiveDirectory.dll". Open it's **Properties**, and look at the **File Version** on the **Details** tab. If the version is not 3.19.8, copy the Microsoft.IdentityModel.Clients.ActiveDirectory.dll file from the **ServiceTier\program files\Microsoft Dynamics NAV\110\Service** folder of the installation media (DVD) to your Dynamics NAV Serve installation folder.
 
  
