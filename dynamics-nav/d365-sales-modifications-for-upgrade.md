@@ -46,7 +46,7 @@ The following sections describe the changes that you have to make.
 Change:
 
 ```
-DotNet "'Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.<class>” 
+DotNet "'Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.<class/type>” 
 ```
 
 To:
@@ -56,20 +56,21 @@ DotNet "'Newtonsoft.Json'.something”
 ```
 
 Change:
+
 ```
-DotNet "'Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.<class>" 
+DotNet "'Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.<class/type>" 
 ```
 
 To:
 
 ```
-DotNet "'Microsoft.Xrm.Sdk'.something” 
+DotNet "'Microsoft.Xrm.Sdk'.<class/type>” 
 ```
 
 Change:
 
 ```
-'Microsoft.Xrm.Tooling.Connector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.<class>” 
+'Microsoft.Xrm.Tooling.Connector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.<class/type>” 
 ```
 
 To:
