@@ -34,6 +34,9 @@ Converting a database does not upgrade the application objects (like pages, repo
 > [!IMPORTANT]  
 >  Before you start, make sure that you have applied the changes that are described in KB 2804640 [Code corrections for some Microsoft Dynamics NAV 2013 reports to prevent compilation errors with Report Viewer 2012 when upgrading to later versions of Microsoft Dynamics NAV](https://mbs.microsoft.com/knowledgebase/KBDisplay.aspx?scid=kb;EN-US;2804640).
 -->
+## Prepare [!INCLUDE[crm](includes/crm_md.md)] integration code for upgrade
+ 
+If your solution integrates with [!INCLUDE[crm](includes/crm_md.md)], and you're upgrading to Dynamics NAV cumulative update 41 (Build 47056) or later, you'll have modify some code before you upgrade. For more information, see [Modifying Dynamics 365 Sales Code for Technical Upgrade to Dynamics NAV 2018](d365-sales-modifications-for-upgrade.md).
 
 ## Task 1: Preparing the Old Database  
 To convert the old database to a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] database, the first task is to back up the old database and then prepare to convert it.

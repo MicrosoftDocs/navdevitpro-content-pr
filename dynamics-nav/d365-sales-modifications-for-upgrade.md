@@ -1,0 +1,82 @@
+---
+title: "Converting a Database - Technical Upgrade"
+ms.custom: na
+ms.date: 03/01/2018
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.author: jswymer
+ms.prod: "dynamics-nav-2018"
+author: jswymer
+---
+# Modifying Dynamics 365 Sales Code for Technical Upgrade to Dynamics NAV 2018
+
+**Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)] cumulative update 41 and later.
+
+If your solution integrates with [!INCLUDE[crm](includes/crm_md.md)], and you're upgrading to Dynamics NAV cumulative update 41 (Build 47056) or later, you'll have modify some code before you do the upgrade. Dynamics NAV cumulative update 41 introduced the following changes will will affect the integration:
+
+- Support for CRM version 8.x has been removed and replaced with CRM SDK version 9.1. The CRM SDK version 9.1 is now part of Dynamics NAV Integration Solution (.zip) found on the installation media (DVD).
+
+- Newtonsoft.Json.dll version 10.0.0.3 is used in the binaries, instead of version 9.0.1 
+
+- Microsoft.IdentityModel.Clients.ActiveDirectory version 3.19.8 is required instead of version 2.28.
+
+
+## Required modifications
+
+In C/AL code, you'll have change the version-specific references in objects to CRM Version 8 and Newtonsoft.json.dll version 9 to be version-agnostic. The following base application objects objects have been identified as containing such explicit version-specific references, which you'll need to change as a minimum. You're application might contain more.
+
+- Codeunit 1355
+- Codeunit 2801
+- Codeunit 5330
+- Codeunit 5459
+- Codeunit 5468
+- Codeunit 7820
+- Page 2823 
+- Table 5330
+
+The follwoing section describe the changes that you have to make.
+
+### Variable declaration changes
+
+Change:
+
+```
+DotNet "'Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.something” 
+```
+
+To:
+
+```
+DotNet "'Newtonsoft.Json'.something” 
+```
+
+Change:
+```
+DotNet "'Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.something 
+```
+
+To:
+
+```
+DotNet "'Microsoft.Xrm.Sdk'.something” 
+```
+
+Change:
+
+```
+'Microsoft.Xrm.Tooling.Connector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.something” 
+```
+
+To:
+
+``` 
+DotNet "'Microsoft.Xrm.Sdk'.something” 
+```
+
+### Update Microsoft.IdentityModel.Clients.ActiveDirectory (post-upgrade)
+
+Microsoft.IdentityModel.Clients.ActiveDirectory" version 3.19.8 is provide on the installation media DVD. It should be installed automatically with Dynamic NAV Server. But after upgrade, it's a good idea to verify that you have the correct version in the Dynamics NAV Serve installation folder. By default, the folder is C:\Program Files\Microsoft Dynamics NAV\110\Service. Search for Microsoft.IdentityModel.Clients.ActiveDirectory.dll, opens it's **Properties**, and look at the **File Version** on the **Details** tab. If the version is not 3.19.8, copy the Microsoft.IdentityModel.Clients.ActiveDirectory.dll from the **ServiceTier\program files\Microsoft Dynamics NAV\110\Service** folder of the installation media (DVD) to your Dynamics NAV Serve installation folder.
+
+ 
