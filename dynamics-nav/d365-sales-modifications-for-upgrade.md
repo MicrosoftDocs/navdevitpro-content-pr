@@ -43,41 +43,41 @@ The following sections describe the changes that you have to make.
 
 ### Variable declaration changes
 
-Change:
+- Change:
 
-```
-DotNet "'Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.<class/type>” 
-```
+  ```
+  DotNet "'Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.<class/type>” 
+  ```
 
-To:
+  To:
 
-```
-DotNet "'Newtonsoft.Json'.something” 
-```
+  ```
+  DotNet "'Newtonsoft.Json'.something” 
+  ```
 
-Change:
+- Change:
 
-```
-DotNet "'Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.<class/type>" 
-```
+  ```
+  DotNet "'Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.<class/type>" 
+  ```
 
-To:
+  To:
 
-```
-DotNet "'Microsoft.Xrm.Sdk'.<class/type>” 
-```
+  ```
+  DotNet "'Microsoft.Xrm.Sdk'.<class/type>” 
+  ```
 
-Change:
+- Change:
 
-```
-'Microsoft.Xrm.Tooling.Connector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.<class/type>” 
-```
+  ```
+  DotNet 'Microsoft.Xrm.Tooling.Connector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.<class/type>” 
+  ```
 
-To:
+  To:
 
-``` 
-DotNet "'Microsoft.Xrm.Sdk'.<class>” 
-```
+  ``` 
+  DotNet "'Microsoft.Xrm.Sdk'.<class>” 
+  ```
 
 ### Update Microsoft.IdentityModel.Clients.ActiveDirectory (post-upgrade)
 
