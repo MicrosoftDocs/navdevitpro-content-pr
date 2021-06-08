@@ -24,7 +24,7 @@ Dynamics NAV cumulative update 41 introduced the following changes will will aff
 
 - Newtonsoft.Json.dll version 10.0.0.3 is used in the binaries, instead of version 9.0.1 
 
-- Microsoft.IdentityModel.Clients.ActiveDirectory version 3.19.8 is required instead of version 2.28.
+- Microsoft.IdentityModel.Clients.ActiveDirectory version 3.19 is required instead of version 2.28.
 
 The following sections explain how to address these changes. 
 
@@ -81,7 +81,7 @@ In C/AL code, you'll have change the version-specific references to CRM version 
 
 ## Update Microsoft.IdentityModel.Clients.ActiveDirectory (post-upgrade)
 
-Microsoft.IdentityModel.Clients.ActiveDirectory version 3.19.8 is provided on the installation media (DVD). It should be installed automatically when you install Dynamic NAV Server. But after upgrade, it's a good idea to verify that you have the correct version in the Dynamics NAV Server installation folder. By default, the folder is C:\Program Files\Microsoft Dynamics NAV\110\Service.
+Microsoft.IdentityModel.Clients.ActiveDirectory version 3.19 is provided on the installation media (DVD). It should be installed automatically when you install Dynamic NAV Server. But after upgrade, it's a good idea to verify that you have the correct version in the Dynamics NAV Server installation folder. By default, the folder is C:\Program Files\Microsoft Dynamics NAV\110\Service.
 
-To check the version, search the folder for "Microsoft.IdentityModel.Clients.ActiveDirectory.dll". Open it's **Properties**, and look at the **File Version** on the **Details** tab. If the version is not 3.19.8, copy the Microsoft.IdentityModel.Clients.ActiveDirectory.dll file from the **ServiceTier\program files\Microsoft Dynamics NAV\110\Service** folder of the installation media (DVD) to your Dynamics NAV Serve installation folder.
+To check the version, search the folder for "Microsoft.IdentityModel.Clients.ActiveDirectory.dll". Open it's **Properties**, and look at the **File Version** on the **Details** tab. If the version is not 3.19, copy the Microsoft.IdentityModel.Clients.ActiveDirectory.dll file from the **ServiceTier\program files\Microsoft Dynamics NAV\110\Service** folder of the installation media (DVD) to your Dynamics NAV Serve installation folder.
 
