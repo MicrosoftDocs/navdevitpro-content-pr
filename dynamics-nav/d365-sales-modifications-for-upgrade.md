@@ -52,7 +52,7 @@ In C/AL code, you'll have change the version-specific references to CRM version 
   To:
 
   ```
-  DotNet "'Newtonsoft.Json'.something” 
+  DotNet "'Newtonsoft.Json'.<class/type> 
   ```
 
 - Change:
@@ -76,7 +76,7 @@ In C/AL code, you'll have change the version-specific references to CRM version 
   To:
 
   ``` 
-  DotNet "'Microsoft.Xrm.Sdk'.<class>” 
+  DotNet "'Microsoft.Xrm.Sdk'.<class/type>” 
   ```
 
 ## Update Microsoft.IdentityModel.Clients.ActiveDirectory (post-upgrade)
