@@ -58,7 +58,7 @@ In C/AL code, you'll have change the version-specific references to CRM version 
 - Change:
 
   ```
-  DotNet "'Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.<class/type>" 
+  DotNet "'Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.<class/type>"  
   ```
 
   To:
@@ -76,7 +76,7 @@ In C/AL code, you'll have change the version-specific references to CRM version 
   To:
 
   ``` 
-  DotNet "'Microsoft.Xrm.Sdk'.<class/type>” 
+  DotNet "'Microsoft.Xrm.Tooling.Connector'.<class/type>” 
   ```
 
 ## Update Microsoft.IdentityModel.Clients.ActiveDirectory (post-upgrade)
