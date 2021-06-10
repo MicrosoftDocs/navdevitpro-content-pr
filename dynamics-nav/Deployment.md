@@ -29,11 +29,31 @@ The topics in the Deployment node are intended to help an administrator install 
 
 ## Installation Notes  
 
--   Before installing [!INCLUDE[navnowlong](includes/navnowlong_md.md)] components on a computer, you must remove \(uninstall\) any previous versions.  
+-   Before installing [!INCLUDE[navnowlong](includes/navnowlong_md.md)] components on a computer, you must remove \(uninstall\) any previous versions.
 
 -   All RoleTailored components must be from the same version and build of [!INCLUDE[navnow](includes/navnow_md.md)] for the software to run correctly.  
 
--   If you have either SQL Server 2000 or Microsoft SQL Server Desktop Engine \(MSDE\) installed on a computer where you want to install [!INCLUDE[navnow](includes/navnow_md.md)], then you must remove it before you begin installing. The presence of either of these database products causes a Setup error.  
+-   If you have either SQL Server 2000 or Microsoft SQL Server Desktop Engine \(MSDE\) installed on a computer where you want to install [!INCLUDE[navnow](includes/navnow_md.md)], then you must remove it before you begin installing. The presence of either of these database products causes a Setup error.
+- SQL Server Native Client for [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]
+
+  - Starting with Dynamics NAV 2018 cumulative update 41 and Dynamics NAV 2017cumulative update 54, the prerequisite SQL Server Native Client is no longer installed by Setup or included on the installation media (DVD). This change doesn't affect the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] installation if you upgrading from an earlier version, because the prerequisite should already have been installed. However, for a clean installation of the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you'll have to manually install the SQL Server Native Client; otherwise, you may experience problems connecting the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to the database. To install the SQL Server Native Client, follow these steps:
+
+    1. Download an earlier cumulative update to the computer where you're installing [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].
+      
+       For Dynamics VAV 2018, go to [Released Cumulative Updates for Microsoft Dynamics NAV 2018](https://support.microsoft.com/en-us/topic/released-cumulative-updates-for-microsoft-dynamics-nav-2018-c469ba91-ee7a-ec06-e72a-6c8e331ea978)
+
+       For Dynamics NAV 2017, go to [Released Cumulative Updates for Microsoft Dynamics NAV 2017](https://support.microsoft.com/en-us/topic/released-cumulative-updates-for-microsoft-dynamics-nav-2017-99f042ca-81ed-9fd5-2645-75fa9590dfd1)
+    2. Unzip the files.
+    3. Open the **DVD\Prerequisite Components\Microsoft SQL Server folder**, then double-click either the sqlncli.msi or sqlncli64.msi, depending on whether the computer has an 86-bit or 64-bit operating system respectively.
+    4. Follow the instructions.
+
+- Report Builder with Dynamics NAV 2018 cumulative update 41 or later
+
+  Starting with Dynamics NAV 2018 cumulative update 41, the Setup installation program installs Report Builder 15.0 for SQL Server 2019, instead of Report Builder for SQL Server 2016. If Report Builder for SQL Server 2016 is already installed on your computer it will be updated to Report Builder 15.0.
+
+  > [!NOTE]
+  > If you install Dynamics NAV 2018 cumulative update 41 or later on a computer that is also running an older Dynamics NAV version, you won't be able to use Report Builder in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] for the older version. In this case, switch the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] use the Visual Studio Report extension. To change to the Visual Studio Report extension, choose **Tools** > **Options** > **Use Report Builder** > **No**.
+
 
 ## See Also  
  [Product and Architecture Overview](Product-and-Architecture-Overview.md)   
