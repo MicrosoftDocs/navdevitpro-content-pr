@@ -54,7 +54,11 @@ The **Install Demo** option is available on the first page after you accept the 
 -   [!INCLUDE[demolong](includes/demolong_md.md)], with a demo license. For information about what you can do with this license, see [Properties of the Demo License](Properties-of-the-Demo-License.md).  
 
 > [!NOTE]  
->  By default, the **Install Demo** option does not install the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server or the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. If you want these options, you can run the installation program again, choose the **Custom** option, and then choose the option that you want.  
+>  By default, the **Install Demo** option does not install the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server or the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. If you want these options, you can run the installation program again, choose the **Custom** option, and then choose the option that you want. 
+
+> [!NOTE]
+> Starting with Dynamics NAV 2018 cumulative update 41 and Dynamics NAV 2017cumulative update 54, the prerequisite SQL Server Native Client is no longer installed by Setup or included on the installation media (DVD). This change doesn't affect the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] installation if you upgrading from an earlier version, because the prerequisite should already have been installed. However, for a clean installation of the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you'll have to manually install the SQL Server Native Client; otherwise, you may experience problems connecting the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to the database. For more information about how to install this prerequisite, see [Installation Notes](deployment.md#installation-notes).
+
 
 ## See Also  
  [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md)   
