@@ -18,7 +18,8 @@ The Developer option is available on the **Choose an installation option** page 
 > [!WARNING]  
 >  The Developer option includes database components and the demo database. Setup cannot install the data file for a database, an .mdf file, if the destination folder or drive is compressed.  
 
-## Installed Components  
+## Installed Components
+
  When you choose the Developer Environment option, Setup installs the following components:  
 
 - [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
@@ -46,6 +47,9 @@ The Developer option is available on the **Choose an installation option** page 
 - [Automated Data Capture System](Automated-Data-Capture-System.md)  
 
 - [Microsoft Office Outlook Add-In](Microsoft-Office-Outlook-Add-In.md)  
+
+> [!NOTE]
+> Starting with Dynamics NAV 2018 cumulative update 41 and Dynamics NAV 2017cumulative update 54, the prerequisite SQL Server Native Client is no longer installed by Setup or included on the installation media (DVD). This change doesn't affect the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] installation if you upgrading from an earlier version, because the prerequisite should already have been installed. However, for a clean installation of the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you'll have to manually install the SQL Server Native Client; otherwise, you may experience problems connecting the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to the database. For more information about how to install this prerequisite, see [Installation Notes](deployment.md#installation-notes).
 
 ## See Also  
  [How to: Choose Components to Install](How-to--Choose-Components-to-Install.md)   
