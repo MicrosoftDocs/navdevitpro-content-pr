@@ -1,7 +1,7 @@
 ---
 title: "Report Metadata Virtual Table"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 06/10/2021
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +12,7 @@ caps.latest.revision: 3
 manager: edupont
 ---
 # Report Metadata Virtual Table
-The **Report Metadata** virtual table \(ID 2000000139\) contains data about the pages in database. The following table describes the fields in the **Report Metadata** virtual table.  
+The **Report Metadata** virtual table \(ID 2000000139\) contains data about the report in the database. The following table describes the fields in the **Report Metadata** virtual table.  
   
 |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
@@ -35,7 +35,7 @@ The **Report Metadata** virtual table \(ID 2000000139\) contains data about the 
 |**WordMergeDataItem**|Specifies the name of the root-level **DataItem** that is used for generating separate reports for multiple records.<br /><br /> Data type: String|  
 |**FirstDataItemTableId**|Specifies the ID of the table that is associated with the first **DataItem** that is defined for the report in Report Designer. If there is not table, then this field is **0**.<br /><br /> Data type: Integer|  
   
- The fields in the virtual table correspond to C/AL properties on the page objects. For more information, see [Report Properties](Report-Properties.md).  
+ The fields in the virtual table correspond to C/AL properties on the report objects. For more information, see [Report Properties](Report-Properties.md).  
   
  To access and view the **Report Metadata** virtual table, you must create a tabular-type page. For more information, see [How to: Create a Page to View a Virtual Table](How-to--Create-a-Page-to-View-a-Virtual-Table.md)  
   
