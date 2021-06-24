@@ -9981,11 +9981,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_customer_create_defaultdimensions.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "dynamics-nav/fin-graph/api/dynamics_customer_delete.md",
       "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
       "redirect_document_id": "false"
@@ -10001,22 +9996,12 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_customer_get_defaultdimensions.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "dynamics-nav/fin-graph/api/dynamics_customer_update.md",
       "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
       "redirect_document_id": "false"
     },
     {
       "source_path": "dynamics-nav/fin-graph/api/dynamics_customer_update_defaultdimensions.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_customerpayment_delete.md",
       "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
       "redirect_document_id": "false"
     },
@@ -10032,11 +10017,6 @@
     },
     {
       "source_path": "dynamics-nav/fin-graph/api/dynamics_customerpaymentsjournal_delete.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_customerpaymentsjournal_get.md",
       "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
       "redirect_document_id": "false"
     },
@@ -10090,79 +10070,6 @@
       "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
       "redirect_document_id": "false"
     },
-    {
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_employee_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },{
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_employee_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },{
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_employee_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },{
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_employee_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },{
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_employee_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },{
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_employee_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },{
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_employee_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },{
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_employee_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },{
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_employee_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },{
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_employee_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },{
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_employee_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },{
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_employee_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },{
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_employee_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },{
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_employee_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },{
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_employee_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_customersales_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_customersales_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },
-  
-    
     {
       "source_path": "dynamics-nav/fin-graph/api/dynamics_customerpaymentsjournal_get.md",
       "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
@@ -10219,16 +10126,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_customerpayment_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_customerpayment_update.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "dynamics-nav/fin-graph/api/dynamics_customersale_get.md",
       "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
       "redirect_document_id": "false"
@@ -10245,21 +10142,6 @@
     },
     {
       "source_path": "dynamics-nav/fin-graph/api/dynamics_customer_delete.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_customer_delete_defaultdimensions.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_customer_get.md",
-      "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "dynamics-nav/fin-graph/api/dynamics_customer_get_defaultdimensions.md",
       "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
       "redirect_document_id": "false"
     },
