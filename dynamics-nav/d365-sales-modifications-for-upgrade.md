@@ -1,7 +1,7 @@
 ---
-title: "Converting a Database - Technical Upgrade"
+title: "Modifying Dynamics 365 Sales Code for Technical Upgrade to Dynamics NAV 2018"
 ms.custom: na
-ms.date: 03/01/2018
+ms.date: 06/30/2021
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
