@@ -27,7 +27,7 @@ This section describes how to install and configure the [!INCLUDE[nav_web_server
 |[Deploying the Microsoft Dynamics NAV Web Server Components in a Three Computer Environment](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-in-a-Three-Computer-Environment.md)|Installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and the SQL Server database components on three separate computers.|  
 
 > [!IMPORTANT]
-> The [!INCLUDE[navnow](includes/navnow_md.md)] doesn't supported Azure Active Directory Application Proxy, because Application Proxy doesn't fully support web wockets.
+> The [!INCLUDE[navnow](includes/navnow_md.md)] doesn't support Azure Active Directory Application Proxy, because Application Proxy doesn't fully support web wockets.
   
 ## See Also  
  [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)
