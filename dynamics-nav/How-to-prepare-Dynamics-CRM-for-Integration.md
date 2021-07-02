@@ -1,7 +1,7 @@
 ---
 title: "How to: Prepare Dynamics 365 for Sales for Integration"
 ms.custom: na
-ms.date: 10/24/2016
+ms.date: 06/15/2021
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -71,11 +71,10 @@ For most versions of Dynamics NAV and Dynamics 365 for Sales, you can view avail
 |**2017**||Not supported - Install from 2016|Supported|Supported|
 |**Dynamics 365 for Financials**||Not supported - Install from 2016|Supported|Supported|
 
-
-> [Note]
+> [!NOTE]
 > You can obtain item availability support for combinations of Dynamics CRM 2015 and Dynamics NAV 2017 or Dynamics 365 for Financials by running the DynamicsNAVIntegrationSolution.zip file on the Dynanmics NAV 2016 product DVD.
 
-For more information, see [System Requirements for Microsoft Dynamics NAV 2017](System-Requirements-for-Microsoft-Dynamics-NAV.md).
+For more information, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).
 
 ## See Also  
 [Setting Up Dynamics 365 for Sales Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md)  
