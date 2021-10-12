@@ -2,7 +2,7 @@
 title: "Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV"
 author: edupont04
 ms.custom: na
-ms.date: 11/08/2018
+ms.date: 10/12/2021
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,6 +10,10 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 ---
 # Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV
+
+> [!IMPORTANT]  
+> [!INCLUDE [nav-bc](includes/nav-bc.md)]
+
 [!INCLUDE[navnowlong](includes/navnowlong_md.md)] is a complete enterprise resource planning (ERP) software solution for mid-sized organizations that is fast to implement, easy to configure, and simple to use. Right from the start, simplicity has guided—and continues to guide—innovations in product design, development, implementation, and usability. In this section, you can find information about deployment and administration, and you can find information about developing for [!INCLUDE[navnow](includes/navnow_md.md)].
 > [!NOTE]  
 > You can use [!INCLUDE[navnowlong](includes/navnowlong_md.md)] to develop for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] up to and including version 14.
@@ -24,11 +28,8 @@ ms.prod: "dynamics-nav-2018"
 |Find reference information, including C/AL functions, triggers, properties, [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] commands, and [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] windows|[Technical Reference](Technical-Reference.md)|  
 |Learn how to develop with the new development environment|[Getting Started](developer/devenv-get-started.md) |
 
-> [!NOTE]  
-> Don't know why you ended up here? Were you trying to find the [!INCLUDE[navnow](includes/navnow_md.md)] developer center on MSDN, perhaps? Or were you trying to find another location that has been deprecated? We apologize for the confusion, but across Microsoft we are deprecating some sites and moving content around. That means that the developer center is no longer available, and neither is the icon library that we published there. Due to redirection, you don't always end up where you expect, but this page will be the landing page for developer and IT-pro content for [!INCLUDE[navnow](includes/navnow_md.md)] going forward.  
-
-## Feedback
-At the bottom of each article, you can submit feedback either for the product or for the documentation. For more information, see the [Microsoft Docs Contributor Guide](https://docs.microsoft.com/contribute/#create-quality-issues).
+<!--## Feedback
+At the bottom of each article, you can submit feedback either for the product or for the documentation. For more information, see the [Microsoft Docs Contributor Guide](https://docs.microsoft.com/contribute/#create-quality-issues).-->
 
 <!--Previously submitted feedback has not been deleted but is no longer visible online. Please read the [Docs.microsoft.com blog](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs) for more information. -->
 
