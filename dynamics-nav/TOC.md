@@ -1,5 +1,5 @@
-# Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV
-## [Welcome to the Developer and IT-Pro Help](index.md)
+# [Welcome to the Developer and IT-Pro Help](index.md)
+# Getting Started
 ## [Getting Started](Getting-Started.md)
 ## [Resources for Help and Support](help-and-support.md)
 ## [Touring the RoleTailored Client for Developers](Touring-the-RoleTailored-Client-for-Developers.md)
