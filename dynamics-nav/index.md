@@ -1,5 +1,6 @@
 ---
 title: "Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV"
+description: "Learn how to extend, manage, and customize Dynamics NAV."
 author: edupont04
 ms.custom: na
 ms.date: 10/13/2021
