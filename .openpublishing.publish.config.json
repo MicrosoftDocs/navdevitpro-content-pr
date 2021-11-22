@@ -1,6 +1,5 @@
 {
   "build_entry_point": "docs",
-  "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
       "docset_name": "dynamics-nav",
@@ -24,6 +23,7 @@
     "edupont@microsoft.com",
     "solsen@microsoft.com"
   ],
+  "sync_notification_subscribers": null,
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
   "contribution_branch_mappings": {},
@@ -31,13 +31,14 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     },
     {
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master"
+      "branch": "main",
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {
@@ -45,11 +46,12 @@
       "Publish",
       "Pdf"
     ],
-    "master": [
+    "main": [
       "Publish",
       "Pdf"
     ]
   },
+  "need_generate_intellisense": false,
   "need_generate_pdf_url_template": true,
   "Targets": {
     "Pdf": {
