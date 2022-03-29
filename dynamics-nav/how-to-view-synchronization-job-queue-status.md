@@ -1,5 +1,6 @@
 ---
-title: "Synchronizing Dynamics NAV and Dynamics 365 for Sales"
+title: "View Synchronization Job Queue Status"
+description: Synchronizing Dynamics NAV and Dynamics 365 for Sales.
 ms.custom: na
 ms.date: 10/24/2016
 ms.reviewer: na
