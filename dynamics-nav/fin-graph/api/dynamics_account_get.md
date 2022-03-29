@@ -22,7 +22,7 @@ Retrieve the properties and relationships of an account object for [!INCLUDE[d36
 > Only accounts with the account type set to **Posting** and the **Direct Posting** flag set to **true** are returned.
 
 ## HTTP request
-Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](../../api-reference/v1.0/endpoints-apis-for-dynamics.md).
+Replace the URL prefix for [!INCLUDE[d365fin_long_md](../../includes/d365fin_long_md.md)] depending on environment following the [guideline](/dynamics-nav/fin-graph/api/dynamics_account_get).
 ```
 GET businesscentralPrefix/companies({id})/accounts({id})
 ```
