@@ -1,5 +1,6 @@
 ---
-title: "Synchronizing Dynamics NAV and Dynamics 365 for Sales"
+title: "View Synchronization Job Queue Status"
+description: Synchronizing Dynamics NAV and Dynamics 365 for Sales.
 ms.custom: na
 ms.date: 10/24/2016
 ms.reviewer: na
@@ -26,7 +27,7 @@ You can set up and run synchronization jobs when integrating [!INCLUDE[navnow_md
 
      If this part is not displayed, do the following:  
 
-    1.  On the **Application** menu ![Dynamics NAV Application menu](/media/ApplicationMenuIcon.png "RTC\_ApplicationMenu"), select **Customize**, and then **Customize this Page**.  
+    1.  On the **Application** menu ![Dynamics NAV Application menu](/dynamics-nav/media/ApplicationMenuIcon.png "RTC\_ApplicationMenu"), select **Customize**, and then **Customize this Page**.  
 
     2.  In the **Customize the Role Center** window, in the **Available parts** field, select **365 for Sales Synch. Job Status**, and then choose **Add**.  
 
