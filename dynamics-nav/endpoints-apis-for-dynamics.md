@@ -26,9 +26,9 @@ Once you have the API access enabled, you can write code that integrates your we
 |**Usage**|Production|Production|Rapid development and testing only|
 |**Endpoint**|`https://`<br>`graph.microsoft.com`<br>`/businesscentral/beta/`| `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/api/beta` <br><br>Sandbox: `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/sandbox/api/beta`|`https://`<br>`api.businesscentral.dynamics.com/`<br>`v1.0/<user domain name>/api/beta`<br>  Example: `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/cronus.com/api/beta` <br><br> Sandbox example: `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/cronus.com/sandbox/api/beta`|
 |**Availability**|Always enabled|Always enabled|Always enabled|
-|**Authentication**|Azure Active Directory<br> (AAD)|Azure Active Directory<br> (AAD)|Basic authentication.<br> Username and [web service<br> access key](/business-central/dev-itpro/developer/devenv-develop-connect-apps#setting-up-basic-authentication) as password.
-|**API/Data access**|Based on user's<br> [permissions](permissions-on-database-objects.md)|Based on user's<br> [permissions](permissions-on-database-objects.md)|Based on user's<br> [permissions](permissions-on-database-objects.md)
-|**API update cycle**|Monthly|Monthly|Monthly|Hotfixes installed by partner|
+|**Authentication**|Azure Active Directory<br> (AAD)|Azure Active Directory<br> (AAD)|Basic authentication.<br> Username and [web service<br> access key](/business-central/dev-itpro/developer/devenv-develop-connect-apps#setting-up-basic-authentication) as password.|
+|**API/Data access**|Based on user's<br> [permissions](permissions-on-database-objects.md)|Based on user's<br> [permissions](permissions-on-database-objects.md)|Based on user's<br> [permissions](permissions-on-database-objects.md)|
+|**API update cycle**|Monthly|Monthly|Monthly|
 |**Development instance**|Sign up for a [tenant](https://go.microsoft.com/fwlink/?linkid=847861)|Sign up for a [tenant](https://go.microsoft.com/fwlink/?linkid=847861)|Sign up for a [tenant](https://go.microsoft.com/fwlink/?linkid=847861)|
 
 ### Dynamics 365 Business Central On-Prem
