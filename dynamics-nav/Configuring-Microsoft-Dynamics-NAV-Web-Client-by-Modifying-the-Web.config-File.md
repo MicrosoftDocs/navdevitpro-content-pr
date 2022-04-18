@@ -71,7 +71,7 @@ Include values in double quotes.
     For example, in IIS Manager, in the **Connections** pane, select website node for [!INCLUDE[nav_server_instance_md](includes/nav_server_instance_md.md)], and then in the **Actions** pane, choose **Restart**. Or, from your desktop, run `iisreset`. 
 
 ## Modify the navsettings.json or web.config file by using the Set-NAVWebServerInstanceConfiguration PowerShell cmdlet
-The PowerShell script module **NAVWebClientManagement.psm1** includes the [Set-NAVWebServerInstanceConfiguration cmdlet](https://docs.microsoft.com/powershell/module/Microsoft.Dynamics.Nav.Management/Set-NAVWebServerInstanceConfiguration) that enables you to configure a web server instance.
+The PowerShell script module **NAVWebClientManagement.psm1** includes the [Set-NAVWebServerInstanceConfiguration cmdlet](/powershell/module/Microsoft.Dynamics.Nav.Management/Set-NAVWebServerInstanceConfiguration) that enables you to configure a web server instance.
 
 1. Depending on your installation, run the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] or Windows PowerShell as an administrator.
 
@@ -122,7 +122,7 @@ The following table describes the settings that are available in the navsettings
 |Privacy Link   |Specifies the URL to the privacy information for the application. This link also appears in the sign-in page.|
 | Legal Link |Specifies the URL to the legal information about application. |
 |Sign In Help Link  |This link appears on the sign-in page. It specifies the URL to a resource that provides information to help the user sign in the Dynamics NAV application.| 
-|PersonalizationEnabled|Specifies whether personalization is enabled in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Set to `true` to enable personalization.<br /><br />For complete instructions about how to enable personalization, see [Enable/Disable Personalization](https://docs.microsoft.com/dynamics-nav-app/ui-personalization-manage?#EnablePersonalization).|
+|PersonalizationEnabled|Specifies whether personalization is enabled in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Set to `true` to enable personalization.<br /><br />For complete instructions about how to enable personalization, see [Enable/Disable Personalization](/dynamics-nav-app/ui-personalization-manage?#EnablePersonalization).|
 
 ## See Also  
 [How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md)   
