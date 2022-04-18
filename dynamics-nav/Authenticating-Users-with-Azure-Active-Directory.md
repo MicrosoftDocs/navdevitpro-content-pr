@@ -166,7 +166,7 @@ The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] must also be configured 
 https://login.microsoftonline.com/<AAD TENANT ID>/wsfed?wa=wsignin1.0%26wtrealm=[APP ID URI]%26wreply=[APP REPLY URL]
 ```
 
-The \<PP REPLY URL\> parameter in the URL must be equal to the sign in page for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], such as  `https://dynamicsnavwinclient/`.  
+The \<APP REPLY URL\> parameter in the URL must be equal to the sign in page for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], such as  `https://dynamicsnavwinclient/`.  
 
 For example:
 
