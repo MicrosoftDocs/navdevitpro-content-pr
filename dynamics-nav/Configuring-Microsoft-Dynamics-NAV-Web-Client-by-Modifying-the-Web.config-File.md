@@ -1,5 +1,6 @@
 ---
 title: "Configuring Microsoft Dynamics NAV Web Client by Modifying the NavSettings.json File"
+description: Describes how to configure a connection for the web client and provides configuration settings.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
 # Configuring a [!INCLUDE[nav_web](includes/nav_web_md.md)] Instance for the Web Client
-You can create a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using the Setup wizard to install the [!INCLUDE[nav_web](includes/nav_web_md.md)] or by running the [New-NAVWebServerInstance cmdlet](https://docs.microsoft.com/powershell/module/Microsoft.Dynamics.Nav.Management/new-navwebserverinstance). When you set up a web server instance, you are configuring the connection from the [!INCLUDE[nav_web](includes/nav_web_md.md)] to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The connection settings, along with several other configuration settings, are saved in a configuration file for the web server instance.
+You can create a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using the Setup wizard to install the [!INCLUDE[nav_web](includes/nav_web_md.md)] or by running the [New-NAVWebServerInstance cmdlet](/powershell/module/Microsoft.Dynamics.Nav.Management/new-navwebserverinstance). When you set up a web server instance, you are configuring the connection from the [!INCLUDE[nav_web](includes/nav_web_md.md)] to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The connection settings, along with several other configuration settings, are saved in a configuration file for the web server instance.
 
 ## <a name="WebClientSettingsFile"></a>About the configuration file
 The name of the configuration file depends on your [!INCLUDE[navnow_md.md](includes/navnow_md.md)].

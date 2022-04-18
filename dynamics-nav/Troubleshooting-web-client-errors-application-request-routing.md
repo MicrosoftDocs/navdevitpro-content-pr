@@ -1,5 +1,6 @@
 ---
 title: "Microsoft.AspNetCore.HttpOverrides.ForwardedHeadersMiddleware, parameter count mismatch error"
+description: Describes the troubleshooting process when experiencing problems accessing the Application Request Routing web client.
 ms.custom: na
 ms.date: 02/13/2018
 ms.reviewer: na
