@@ -19,15 +19,29 @@ ms.author: solsen
 ## Accessing the endpoint
 Once you have the API access enabled, you can write code that integrates your web service or SaaS solution with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Creating your integration through an API provides simple access to the supported functionality in a single endpoint, giving you a simplified experience for creating a single app with integrations across multiple Microsoft products.
 
-||[Dynamics 365 Business Central](includes/d365fin_long_md.md)|||[Dynamics 365 Business Central](includes/d365fin_long_md.md) On-Prem|
-|--|--|--|--|--|
-|**Means of connection**|Microsoft Graph|Common endpoint service|Direct tenant|Direct installation|
-|**Endpoint**|`https://`<br>`graph.microsoft.com`<br>`/businesscentral/beta/`| `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/api/beta` <br><br>Sandbox: `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/sandbox/api/beta`|`https://`<br>`api.businesscentral.dynamics.com/`<br>`v1.0/<user domain name>/api/beta`<br>  Example: `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/cronus.com/api/beta` <br><br> Sandbox example: `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/cronus.com/sandbox/api/beta`|OData base URL in installation: <br> `https://`<br>`<base URL>:<port>/v1.0/api/<API version>/` <br> Example: `https://`<br>`nav.contoso.com:7048/`<br>`v1.0/api/beta/` <br> Must be exposed through a firewall.|
-|**Availability**|Always enabled|Always enabled|Always enabled|Disabled by default.<br> Must be enabled by the administrator.|
-|**Authentication**|Azure Active Directory<br> (AAD)|Azure Active Directory<br> (AAD)|Basic authentication.<br> Username and [web service<br> access key](/business-central/dev-itpro/developer/devenv-develop-connect-apps#setting-up-basic-authentication) as password.|Basic authentication.<br> Username and [web service<br> access key](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps#setting-up-basic-authentication) as password. Your solution must be configured to use **NavUserPassword** or **AccessControlService** authentication in order to configure Dynamics NAV user accounts to include an access key.|
-|**API/Data access**|Based on user's<br> [permissions](permissions-on-database-objects.md)|Based on user's<br> [permissions](permissions-on-database-objects.md)|Based on user's<br> [permissions](permissions-on-database-objects.md)|Based on user's<br> [permissions](permissions-on-database-objects.md)|
+### Dynamics 365 Business Central
+
+|Means of connection|Microsoft Graph|Common endpoint service|Direct tenant|
+|--|--|--|--|
+|**Usage**|Production|Production|Rapid development and testing only|
+|**Endpoint**|`https://`<br>`graph.microsoft.com`<br>`/businesscentral/beta/`| `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/api/beta` <br><br>Sandbox: `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/sandbox/api/beta`|`https://`<br>`api.businesscentral.dynamics.com/`<br>`v1.0/<user domain name>/api/beta`<br>  Example: `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/cronus.com/api/beta` <br><br> Sandbox example: `https://`<br>`api.businesscentral.dynamics.com/`<br> `v1.0/cronus.com/sandbox/api/beta`|
+|**Availability**|Always enabled|Always enabled|Always enabled|
+|**Authentication**|Azure Active Directory<br> (AAD)|Azure Active Directory<br> (AAD)|Basic authentication.<br> Username and [web service<br> access key](/business-central/dev-itpro/developer/devenv-develop-connect-apps#setting-up-basic-authentication) as password.
+|**API/Data access**|Based on user's<br> [permissions](permissions-on-database-objects.md)|Based on user's<br> [permissions](permissions-on-database-objects.md)|Based on user's<br> [permissions](permissions-on-database-objects.md)
 |**API update cycle**|Monthly|Monthly|Monthly|Hotfixes installed by partner|
-|**Development instance**|Sign up for a [tenant](https://go.microsoft.com/fwlink/?linkid=847861)|Sign up for a [tenant](https://go.microsoft.com/fwlink/?linkid=847861)|Sign up for a [tenant](https://go.microsoft.com/fwlink/?linkid=847861)|Get [Docker](https://aka.ms/navdeveloperpreview) instance|
+|**Development instance**|Sign up for a [tenant](https://go.microsoft.com/fwlink/?linkid=847861)|Sign up for a [tenant](https://go.microsoft.com/fwlink/?linkid=847861)|Sign up for a [tenant](https://go.microsoft.com/fwlink/?linkid=847861)|
+
+### Dynamics 365 Business Central On-Prem
+
+|Means of connection|Direct Installation
+|--|--|
+|**Usage**|Production|
+|**Endpoint**|OData base URL in installation: <br> `https://`<br>`<base URL>:<port>/v1.0/api/<API version>/` <br> Example: `https://`<br>`nav.contoso.com:7048/`<br>`v1.0/api/beta/` <br> Must be exposed through a firewall.|
+|**Availability**|Disabled by default. Must be enabled by the administrator.|
+|**Authentication**|Basic authentication.<br> Username and [web service<br> access key](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps#setting-up-basic-authentication) as password. Your solution must be configured to use **NavUserPassword** or **AccessControlService** authentication in order to configure Dynamics NAV user accounts to include an access key.|
+|**API/Data access**|Based on user's<br> [permissions](permissions-on-database-objects.md)|
+|**API update cycle**|Hotfixes installed by partner|
+|**Development instance**|Get [Docker](https://aka.ms/navdeveloperpreview) instance|
 
 ## See Also
 [API Documentation](api-reference/v1.0/index.md)  
