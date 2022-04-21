@@ -1,5 +1,6 @@
 ---
 title: "Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2013 Database"
+description: Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2013 Database
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

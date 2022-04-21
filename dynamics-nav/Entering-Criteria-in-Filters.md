@@ -1,5 +1,6 @@
 ---
 title: "Entering Criteria in Filters"
+description: Entering Criteria in Filters
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
