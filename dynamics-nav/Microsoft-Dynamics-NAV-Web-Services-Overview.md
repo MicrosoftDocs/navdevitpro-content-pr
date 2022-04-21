@@ -33,7 +33,7 @@ Web services are a lightweight, industry-standard way to make application functi
 |Codeunits|Yes|No|  
 |Queries|No|Yes: Read-only|  
 
- For more information about the difference between these protocols, see [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives:-SOAP-and-OData.md).  
+ For more information about the difference between these protocols, see Web Service Alternatives: SOAP and OData<!--(Web-Service-Alternatives:-SOAP-and-OData.md).--> 
 
 ### Page Web Services  
  When you expose a page as an OData web service, you can query that data to return a service metadata \(EDMX\) document, an AtomPub document, or a JavaScript Object Notation \(JSON\) document. You can also write back to the database if the exposed page is writable. For more information, see [OData Web Services](OData-Web-Services.md).  
@@ -75,7 +75,7 @@ https://localhost:7048/DynamicsNAV/OData/Company('CRONUS-International-Ltd.')/Cu
 
 ## See Also  
  [How to: Publish a Web Service](How-to--Publish-a-Web-Service.md)   
- [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives:-SOAP-and-OData.md)   
+ Web Service Alternatives: SOAP and OData<!--Web-Service-Alternatives:-SOAP-and-OData.md-->   
  [SOAP Web Service URIs](SOAP-Web-Service-URIs.md)   
  [How to: Use SystemService to Find Companies](How-to--Use-SystemService-to-Find-Companies.md)   
  [Basic Page Operations](Basic-Page-Operations.md)   
