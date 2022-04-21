@@ -17,7 +17,7 @@ When implementing location from C/AL, there are some options that you can option
 
 ## Location Options List  
 
-||  
+|Location Options List|  
 |-|  
 |`bool EnableHighAccuracy`<br /><br /> A value to provide a hint to the device that this request must have the best possible location accuracy.|  
 |`int Timeout`<br /><br /> The maximum length of time \(milliseconds\) that is allowed to pass to a location request.|  

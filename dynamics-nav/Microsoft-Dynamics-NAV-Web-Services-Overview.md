@@ -27,7 +27,7 @@ Web services are a lightweight, industry-standard way to make application functi
 ## Web Service Protocols  
  The following table shows the types of web service applications that you can create for the web service protocols supported in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
 
-||SOAP web services|OData web services|  
+|Item|SOAP web services|OData web services|  
 |-|-----------------------|------------------------|  
 |Pages|Yes: Create, Read, Update, and Delete operations \(CRUD\)|Yes: Create, Read, Update, and Delete operations \(CRUD\)|  
 |Codeunits|Yes|No|  

@@ -45,7 +45,7 @@ Sets the formats of the source expression for various data types.
   
   The following table shows the syntax.  
   
-|||  
+|Item|Syntax|  
 |-|-|  
 |FormatProperty :=|\[\<Char> &#124; \<Field> &#124; \<Attribute>\]|  
 |||  

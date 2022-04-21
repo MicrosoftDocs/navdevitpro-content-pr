@@ -82,12 +82,12 @@ END;
 ## Before and After Code for Codeunit 40  
  The following tables describe the before and after code that will help you resolve the warnings that you receive when you compile codeunit 40 **LogInManagement**.  
 
-|||  
+|Before/After|Warning|  
 |-|-|  
 |Before|`User@1003 : Record 2000000120;`|  
 |After|`User@1003 : Record 2000000120 SECURITYFILTERING(Filtered);`|  
 
-|||  
+|Before/After|Warning|  
 |-|-|  
 |Before|`Language.SETRANGE("STX File Exist",TRUE);`|  
 |After|`Language.SETRANGE("Localization Exist",TRUE);`|  
@@ -95,7 +95,7 @@ END;
 ## Before and After Code for Codeunit 43  
  The following table describes the before and after code that will help you resolve the warnings that you receive when you compile codeunit 43 **LanguageManagement**.  
 
-|||  
+|Before/After|Warning|  
 |-|-|  
 |Before|`Language.SETRANGE("STX File Exist",TRUE);`|  
 |After|`Language.SETRANGE("Localization Exist",TRUE);`|  
