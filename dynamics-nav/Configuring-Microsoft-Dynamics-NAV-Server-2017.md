@@ -93,6 +93,7 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 > [!NOTE]  
 >  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as a multitenant server instance, then except for the **Database Name**, **Database Instance**, and **Database Server** settings, the settings apply to both the application database and the tenant database. [!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)] 
 
+
 |Setting|Table Description|
 |---|---|  
 |Close Inactive SQL Connections|Specifies when to close inactive SQL Server connections. The value specifies the age at which to close connections. While a connection is inactive, starting from zero, the age is increased by one every 30 seconds. When the age of the inactive connection reaches the specified value, the connection is closed. A value of **0** means that inactive SQL connections will not be closed.Default: 10|  
