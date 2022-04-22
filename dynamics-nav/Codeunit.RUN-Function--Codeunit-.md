@@ -48,7 +48,7 @@ Loads and executes the unit of C/AL code that you specify. See also [RUN Functio
   
  **true** if no errors occurred; otherwise, **false**.  
   
-## Example  
+## Example 1 
  The following example runs codeunit 15, Gen. Jnl.-Show Card by specifying the ID. This codeunit is associated with the Gen. Journal Line table. This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
@@ -59,7 +59,7 @@ Loads and executes the unit of C/AL code that you specify. See also [RUN Functio
 CODEUNIT.RUN(15,GenJournalLine);  
 ```  
   
-## Example  
+## Example 2 
  The following example runs codeunit 15, Gen. Jnl.-Show Card by specifying the name of the codeunit instead of the ID. This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  

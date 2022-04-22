@@ -36,7 +36,7 @@ Position := BigText.TEXTPOS(String)
 ## Remarks  
  The first character in a *BigText* variable is position 1.  
   
-## Example  
+## Example 1 
  The following examples show how to use the TEXTPOS function. These examples require that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
@@ -59,7 +59,7 @@ MESSAGE(Text000, VarPosition);
   
 ```  
   
-## Example  
+## Example 2 
  In the following example, the function returns 0 because the specified string is not found in the MyBigText variable. The return value is stored in the variable VarPosition and displayed in a message box.  
   
 ```  
@@ -68,7 +68,7 @@ VarPosition := MyBigText.TEXTPOS(''); // Returns 0.
 MESSAGE(Text000, VarPosition);  
 ```  
   
-## Example  
+## Example 3 
  In the following example, the function returns 0 because the specified string is not found in the MyBigText variable. The return value is stored in the variable VarPosition and displayed in a message box.  
   
 ```  

@@ -37,7 +37,7 @@ Number := Record.FIELDNO(Field)
   
  The number of the field specified.  
   
-## Example  
+## Example 1  
  This example requires that you create the following variables.  
   
 |Variable name|DataType|Subtype|  
@@ -51,7 +51,7 @@ Num := CustomerRec.FIELDNO("No.");
   
  This statement assigns the number of the No. field in the CustomerRec record to the number variable.  
   
-## Example  
+## Example 2 
  In this example, the **FIELDNO** function is used to determine which field that a variable, which contains a field number, points to in a record. This example requires that you create the following variables.  
   
 |Variable name|DataType|Subtype|  

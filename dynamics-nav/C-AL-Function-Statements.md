@@ -18,7 +18,7 @@ You use function statements to execute either built-in system functions or user-
 
  Triggers are C/AL elements that consist of an event and a function. Triggers execute a function when a certain event occurs. For more information, see [Triggers Overview](Triggers-Overview.md) and [Triggers](Triggers.md).  
 
-## Example  
+## Example 1
  The following example calls the [INIT Function \(Record\)](INIT-Function--Record-.md) on a record variable. This example requires that you create the following variable.  
 
 |Name|DataType|Subtype|  
@@ -29,7 +29,7 @@ You use function statements to execute either built-in system functions or user-
 CustomerRecord.INIT;  
 ```  
 
-## Example  
+## Example 2
  The following example calls the [CALCDATE Function (Date)](CALCDATE-Function--Date-.md) and assigns the return value to a variable. The CALCDATE function has two parameters. This example uses the DateExpression and ReferenceDate variables in the function call. The values of the variables are passed to the CALCDATE function.  
 
  This example requires that you create the following variables.  

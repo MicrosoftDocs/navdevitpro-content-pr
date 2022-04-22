@@ -18,21 +18,21 @@ Assignment statements assign a value to a variable. The value that you assign to
 
  You use the ":=" operator for assignment statements.  
 
-## Example  
+## Example 1 
  The following example assigns a constant integer value to an integer variable that you have defined.  
 
 ```  
 Count := 1;  
 ```  
 
-## Example  
+## Example 2 
  The following example assigns a value that consists of a constant, an operator, and a variable.  
 
 ```  
 Amount := 2 * Price;  
 ```  
 
-## Example  
+## Example 3 
  The following example assigns the return value of the [OPEN Function \(File\)](OPEN-Function--File-.md) to a Boolean variable that you have defined.  
 
 ```  

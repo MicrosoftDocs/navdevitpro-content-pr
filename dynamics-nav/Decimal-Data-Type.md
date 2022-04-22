@@ -14,7 +14,7 @@ author: jswymer
 
 This simple data type denotes decimal numbers ranging from -999,999,999,999,999.99 to +999,999,999,999,999.99.  
 
-## Example
+## Example 1
   
 The following are examples of decimal values.  
 
@@ -23,7 +23,7 @@ The following are examples of decimal values.
 3425.57  
 ```  
 
-## Example
+## Example 2
   
 The following is not a decimal, but rather an [Integer Data Type](Integer-Data-Type.md).  
 

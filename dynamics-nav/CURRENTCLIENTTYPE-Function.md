@@ -36,7 +36,7 @@ Gets the [!INCLUDE[navnow](includes/navnow_md.md)] client type that is running i
 ## Remarks  
  You can use CURRENTCLIENTTYPE as a parameter in [GETURL Function](GETURL-Function.md) to get the URL of the current client.  
   
-## Example  
+## Example 1
  In the following example, CURRENTCLIENTTYPE is used to get the [!INCLUDE[navnow](includes/navnow_md.md)] client type for the session and return a message if the session uses the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 ```  
@@ -44,7 +44,7 @@ IF CURRENTCLIENTTYPE = CLIENTTYPE::Windows THEN
   Message('The session is running the Microsoft Dynamics NAV Windows client');  
 ```  
   
-## Example  
+## Example 2
  In the following example, CURRENTCLIENTTYPE is used as a parameter of the [GETURL Function](GETURL-Function.md) to return the URL of the [!INCLUDE[navnow](includes/navnow_md.md)] client that invokes the code.  
   
 ```  

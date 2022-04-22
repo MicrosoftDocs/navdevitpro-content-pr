@@ -38,7 +38,7 @@ Gets the default [!INCLUDE[navnow](includes/navnow_md.md)] client that is config
   
  You can use DEFAULTCLIENTTYPE in a [GETURL Function](GETURL-Function.md) call to get the URL of the default [!INCLUDE[navnow](includes/navnow_md.md)] client.  
   
-## Example  
+## Example 1 
  In the following example, DEFAULTCLIENTTYPE is used to return the default [!INCLUDE[navnow](includes/navnow_md.md)] client type that is configured for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is used by the current session.  
   
 ```  
@@ -46,7 +46,7 @@ IF DEFAULTCLIENTTYPE = CLIENTTYPE::Windows THEN
   Message('The default client is Microsoft Dynamics NAV Windows client');  
 ```  
   
-## Example  
+## Example 2 
  In the following example, DEFAULTCLIENTTYPE is used as a parameter in the GETURL function to return the URL of the default [!INCLUDE[navnow](includes/navnow_md.md)] client that is configured for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
 ```  

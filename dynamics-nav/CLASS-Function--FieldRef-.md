@@ -39,7 +39,7 @@ Class := FieldRef.CLASS
   
  The CLASS function returns the class as an Option. However, you cannot assign the class to an Option variable directly. Instead, you must use the [EVALUATE Function](EVALUATE-Function.md). The EVALUATE function has a variable parameter to which the value is assigned and a string parameter. You use the FORMAT function to convert the result of the FieldRef.CLASS function to Text, and then use the EVALUATE function to convert the Text to an Option.  
   
-## Example  
+## Example 1 
  In this example, the return value of the CLASS function is converted to Text and then converted to an Option. This example requires that you create the following variables.  
   
 |Name|DataType|  
@@ -53,7 +53,7 @@ Class := FieldRef.CLASS
 EVALUATE(OptionVar,FORMAT(FldRef.CLASS));  
 ```  
   
-## Example  
+## Example 2 
  In this example, the return value of the CLASS function is converted to Text and then converted to an Option. This example uses the Field virtual table instead of an Option variable. The Field virtual table has a Class field, which is an Option and already has the correct OptionString.  
   
  This example requires that you create the following variables.  

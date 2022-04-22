@@ -37,7 +37,7 @@ NewNumber := POWER(Number, Power)
   
  The result of raising *Number* by *Power*.  
   
-## Example  
+## Example 1 
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
@@ -63,7 +63,7 @@ MESSAGE(Text000, Number1, Power1, Result1)
   
  This example shows that raising a number to the power of 0.5 corresponds to the square root of the number.  
   
-## Example  
+## Example 2 
  This example shows a typical use for the POWER function.  
   
  If a principal amount P is deposited at interest rate R and compounded annually, then at the end of N years, the accumulated amount \(A\) is:  
