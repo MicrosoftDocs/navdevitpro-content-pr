@@ -1,5 +1,5 @@
 ---
-title: "How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client"
+title: "How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client using PowerShell"
 description: Describes how to create and manage Dynamics NAV web server instances using PowerShell.
 ms.custom: na
 ms.date: 09/21/2017
