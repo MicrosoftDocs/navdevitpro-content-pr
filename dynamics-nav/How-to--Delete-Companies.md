@@ -1,5 +1,6 @@
 ---
 title: "How to: Delete Companies"
+description: Describes the various ways to delete companies.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
