@@ -1,5 +1,5 @@
 ---
-title: "Developing and Installing a Microsoft Dynamics NAV Apps for SharePoint"
+title: "Developing and Installing a Microsoft Dynamics NAV Apps for SharePoint 2017"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

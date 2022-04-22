@@ -1,5 +1,5 @@
 ---
-title: OCX Data Type
+title: OCX Data Type in Dynamics NAV
 description: References a custom control, such as OCX or ActiveX control. OCX data types are not supported by the Microsoft Dynamics NAV Web client. 
 ms.custom: na
 ms.date: 10/27/2017
