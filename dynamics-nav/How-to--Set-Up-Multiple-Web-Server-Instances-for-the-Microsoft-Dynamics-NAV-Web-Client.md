@@ -1,5 +1,6 @@
 ---
 title: "How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client"
+description: Describes how to create and manage Dynamics NAV web server instances using PowerShell.
 ms.custom: na
 ms.date: 09/21/2017
 ms.reviewer: na
@@ -17,10 +18,10 @@ Although you can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard 
 
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|
 |------------|---------------------------------------|
-|[New-NAVWebServerInstance](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/new-navwebserverinstance)|Creates a new [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance and binds this instance to a Dynamics NAV Server instance. |
-|[Set-NAVWebServerInstanceConfiguration](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/Set-NAVWebServerInstanceConfiguration)|Specifies configuration values for a named [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance.|
-|[Get-NAVWebServerInstance](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/Get-NAVWebServerInstance)|Gets the information about the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances that are registered on a computer.|
-|[Remove-NAVWebServerInstance](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/Remove-NAVWebServerInstance)| Removes an existing [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance.|  
+|[New-NAVWebServerInstance](/powershell/module/microsoft.dynamics.nav.management/new-navwebserverinstance)|Creates a new [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance and binds this instance to a Dynamics NAV Server instance. |
+|[Set-NAVWebServerInstanceConfiguration](/powershell/module/microsoft.dynamics.nav.management/Set-NAVWebServerInstanceConfiguration)|Specifies configuration values for a named [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance.|
+|[Get-NAVWebServerInstance](/powershell/module/microsoft.dynamics.nav.management/Get-NAVWebServerInstance)|Gets the information about the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances that are registered on a computer.|
+|[Remove-NAVWebServerInstance](/powershell/module/microsoft.dynamics.nav.management/Remove-NAVWebServerInstance)| Removes an existing [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance.|  
 
 ## <a name="GetStartedWebServerCmdlets"></a>Get started with the [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] cmdlets 
 
@@ -36,7 +37,7 @@ There are different ways to launch this module and start using the cmdlets:
 
 - If you installed the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)], just start Windows PowerShell as an administrator.
 
-- Otherwise, start Windows PowerShell as an administrator, and use the [Import-Module](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/import-module) cmdlet to import the **NAVWebClientManagement.psm1** file:
+- Otherwise, start Windows PowerShell as an administrator, and use the [Import-Module](/powershell/module/microsoft.powershell.core/import-module) cmdlet to import the **NAVWebClientManagement.psm1** file:
 
   ```
   Import-Module -Name [filepath]
@@ -46,7 +47,7 @@ There are different ways to launch this module and start using the cmdlets:
   Import-Module -Name "C:\Program Files\Microsoft Dynamics NAV\110\Service\NAVWebClientManagement.psm1"
   ```
 
-    For more information about starting Windows PowerShell, see [Starting Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/starting-windows-powershell).
+    For more information about starting Windows PowerShell, see [Starting Windows PowerShell](/powershell/scripting/setup/starting-windows-powershell).
 
 ## Creating [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances
 
@@ -134,7 +135,7 @@ New-NAVWebServerInstance -WebServerInstance MyWebApp -Server NAVServer -ServerIn
 -  Substitute *C:\WebClient\WebPublish* with the path to your WebPublish folder. By default, the cmdlet looks in the'[!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]\Web Client' folder. So if you are working on a computer where the [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)] are installed, you do not have to set this parameter.
 
 > [!NOTE]  
->  This command only sets the required parameters of the NAVWebServerInstance cmdlet. The cmdlet has several other parameters that can use to configure the web server instance. For more information about the syntax and parameters, see [New-NAVWebServerInstance](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.management/New-NAVWebServerInstance).  
+>  This command only sets the required parameters of the NAVWebServerInstance cmdlet. The cmdlet has several other parameters that can use to configure the web server instance. For more information about the syntax and parameters, see [New-NAVWebServerInstance](/powershell/module/microsoft.dynamics.nav.management/New-NAVWebServerInstance).  
 
 ## Modifying a [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instance  
 After you create the web server intance, if you want to change its configuration, you can use the Set-NAVWebServerInstanceConfiguration cmdlet. Or, you can modify the configuration file (navsettings.json) of the instance directly. For more information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md).  
