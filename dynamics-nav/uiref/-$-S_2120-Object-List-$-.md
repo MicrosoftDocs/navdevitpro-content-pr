@@ -11,7 +11,7 @@ ms.assetid: 50dbac13-1814-4d02-9171-680257c984c7
 caps.latest.revision: 8
 manager: edupont
 ---
-# Object List
+# About Object List
 Lists the objects that can be selected. This list can contain any kind of object. For example, when you create an item in a MenuSuite, you can create the item from a list of available objects.  
 
  To open this window, in Navigation Pane Designer, right-click a folder, and then choose **Create Item**. In the **Object Type** field, select an object, and then choose the **Up Arrow** button in the **Object ID** field.  

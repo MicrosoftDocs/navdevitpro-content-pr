@@ -9,7 +9,7 @@ ms.topic: article
 ms.author: jswymer
 ms.prod: "dynamics-nav-2018"
 ---
-# OnBeforeTestRun Trigger
+# OnBeforeTestRun - Trigger
 Executed before a test function of a test codeunit is run.  
 
 ## Syntax  

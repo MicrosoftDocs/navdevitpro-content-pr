@@ -10,7 +10,7 @@ ms.author: jswymer
 manager: edupont
 ms.prod: "dynamics-nav-2018"
 ---
-# OnAfterTestRun Trigger
+# OnAfterTestRun - Trigger
 Executed after a test function of a test codeunit has been run.  
   
 ## Syntax  

@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
-# Converting a Database - Technical Upgrade
+# Converting a Database - Technical Upgrade - 2017
 
 **Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [See [!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Converting-a-Database.md).
 

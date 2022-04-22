@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
-# OnDrillDown Trigger
+# OnDrillDown - Trigger
 Overrides the default drill-down behavior defined in the table definition for the FlowField.  
   
 ## Applies To  

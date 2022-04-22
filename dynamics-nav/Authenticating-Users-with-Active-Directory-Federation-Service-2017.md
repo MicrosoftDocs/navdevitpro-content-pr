@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
-# Authenticating Users with Active Directory Federation Services
+# Authenticating Users with Active Directory Federation Services 2017
 
 **Applies to:** [!INCLUDE[navcrete_md](includes/navcrete_md.md)] (Cummulative Update 14 and later), [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] (Cummulative Update 2 and later), [!INCLUDE[nav2017](includes/nav2017.md)]
 
