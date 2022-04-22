@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Worksheet Page"
+description: Walkthrough - Creating a Worksheet Page
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
