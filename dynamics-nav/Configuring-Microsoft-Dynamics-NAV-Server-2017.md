@@ -91,9 +91,9 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
  The following table describes fields on the **Database** tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
 
 > [!NOTE]  
->  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as a multitenant server instance, then except for the **Database Name**, **Database Instance**, and **Database Server** settings, the settings apply to both the application database and the tenant database.  
+>  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as a multitenant server instance, then except for the **Database Name**, **Database Instance**, and **Database Server** settings, the settings apply to both the application database and the tenant database. [!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)] 
 
-|Setting| Table Description [!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
+|Setting|Table Description|  
 |-------------|---------------------------------------|  
 |Close Inactive SQL Connections|Specifies when to close inactive SQL Server connections. The value specifies the age at which to close connections. While a connection is inactive, starting from zero, the age is increased by one every 30 seconds. When the age of the inactive connection reaches the specified value, the connection is closed. A value of **0** means that inactive SQL connections will not be closed.<br /><br /> Default: 10|  
 |Database Instance|The name of the SQL Server database instance to connect to. If the value is a null string \(""\), [!INCLUDE[nav_server](includes/nav_server_md.md)] instance connects to the default database instance of SQL Server.<br /><br /> If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as a multitenant server instance, then this setting specifies the SQL Server database instance that hosts the application database.<br /><br /> Default: NAVDEMO|  
