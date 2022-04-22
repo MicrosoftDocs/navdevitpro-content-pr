@@ -55,7 +55,7 @@ Dialog.OPEN(String [, Variable1],...)
   
 -   Align the \# and @ fields to the left with at least one space character between the text and the variable.  
   
-## Example  
+## Example 1 
  This example shows how to use the dialog.OPEN function.  
   
  This code example requires that you create the following variables and text constants.  
@@ -88,7 +88,7 @@ MyDialog.CLOSE()
   
  Every one second, the dialog window updates with the new value of *MyNext* until it reaches 4, then the dialog window closes.  
   
-## Example  
+## Example 2  
  This example shows how to use the dialog.OPEN function to display a progress indicator.  
   
  This code example requires that you create the following variables and text constants.  

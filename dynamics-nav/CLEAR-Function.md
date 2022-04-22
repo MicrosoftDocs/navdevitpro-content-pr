@@ -54,7 +54,7 @@ CLEAR(Variable)
   
  If you have an array of automation servers, you may clear the whole array at once, or clear each element individually.  
   
-## Example  
+## Example 1 
  This example shows how to use the **CLEAR** function.  
   
  This example requires that you create the following text constants in the **C/AL Globals** window  
@@ -80,7 +80,7 @@ MESSAGE(Text002, Name);
   
  **After using CLEAR, the variable "Name" contains: >\<**  
   
-## Example  
+## Example 2 
  In the following example you will declare two variables:  
   
 ```  

@@ -51,7 +51,7 @@ WITH GLAcc DO BEGIN
 END;  
 ```  
   
-## Example  
+## Example 1  
  In this example, you have a filter that defines a single range.  
   
  This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
@@ -75,7 +75,7 @@ MESSAGE(Text000, Val);
   
  **The minimum value is: 100.**  
   
-## Example  
+## Example 2 
  In this example, you have a filter that is a single value.  
   
  This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
@@ -99,7 +99,7 @@ MESSAGE(Text000, Val);
   
  **The minimum value is: 100.**  
   
-## Example  
+## Example 3  
  In this example, you have a filter which is not a single range.  
   
  This example requires that you create the following variables and text constant in the **C/AL Globals** window.  

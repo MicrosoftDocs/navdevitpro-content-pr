@@ -63,7 +63,7 @@ Deletes a record in a [!INCLUDE[navnow](includes/navnow_md.md)] table.
   
  You must design your application so that you use the most up-to-date version of the record for modifications to the database. You use the [GET Function \(Record\)](GET-Function--Record-.md) to refresh the record with the latest version. The second example illustrates this situation.  
   
-## Example  
+## Example 1 
  The first two lines of code in this example do not use the return value from the **DELETE** function. This means that a run-time error occurs if the record to be deleted cannot be found.  
   
  The next lines of code show how you can handle errors using the return value.  
@@ -91,7 +91,7 @@ ELSE
   ERROR(Text001);  
 ```  
   
-## Example  
+## Example 2 
  This example shows that you get an error if you attempt to delete a record after a newer version of the record has been written and committed to the database. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
