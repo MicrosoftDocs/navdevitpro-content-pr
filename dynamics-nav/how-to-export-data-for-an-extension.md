@@ -1,5 +1,6 @@
 ---
 title: "How to: Export data for an Extension"
+description: How to Export data for an Extension
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 01/22/2018

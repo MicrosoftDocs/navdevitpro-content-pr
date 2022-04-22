@@ -1,5 +1,6 @@
 ---
 title: "How to: Implement Security Certificates in a Production Environment"
+description: How to Implement Security Certificates in a Production Environment
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

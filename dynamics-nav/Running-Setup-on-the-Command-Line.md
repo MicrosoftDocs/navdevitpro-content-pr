@@ -1,5 +1,6 @@
 ---
 title: "Running Setup on the Command Line"
+description: Running Setup on the Command Line
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
