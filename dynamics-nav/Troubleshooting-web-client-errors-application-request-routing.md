@@ -9,6 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 author: jswymer
 ms.search.keywords: Microsoft.AspNetCore.HttpOverrides.ForwardedHeadersMiddleware, Parameter count mismatch between X-Forwarded-For and X-Forwarded-Proto
+description: Microsoft.AspNetCore.HttpOverrides.ForwardedHeadersMiddleware, parameter count mismatch error
 ---
 # Troubleshooting: Microsoft.AspNetCore.HttpOverrides.ForwardedHeadersMiddleware and Parameter count between X-Forwarded-For and X-Forwarded-Proto errors 
 
@@ -27,7 +28,7 @@ To resolve this issue, on the server farm in IIS, add or edit a routing rule to 
 |--------|---------|-----------|
 |`HTTP_X_FORWARED_PROTO`|`http` ot `https`|`true`|
 
-For more information, see [Using URL Rewrite ](https://docs.microsoft.com/iis/extensions/url-rewrite-module/using-url-rewrite-module-20).
+For more information, see [Using URL Rewrite ](iis/extensions/url-rewrite-module/using-url-rewrite-module-20).
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
