@@ -1,5 +1,6 @@
 ---
 title: "OnDrillDown - Trigger"
+description: OnDrillDown - Trigger
 ms.custom: na
 ms.date: 05/10/2017
 ms.reviewer: na

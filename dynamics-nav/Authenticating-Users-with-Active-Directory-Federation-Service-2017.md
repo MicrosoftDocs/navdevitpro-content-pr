@@ -1,5 +1,6 @@
 ---
-title: "Authenticating Users with Active Directory Federation Services"
+title: "Authenticating Users with Active Directory Federation Services 2017"
+description: Authenticating Users with Active Directory Federation Services 2017 
 ms.custom: na
 ms.date: 01/25/2019
 ms.reviewer: na

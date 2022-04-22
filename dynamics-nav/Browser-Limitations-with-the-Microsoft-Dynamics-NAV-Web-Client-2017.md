@@ -1,5 +1,6 @@
 ---
 title: "Browser Limitations with the Microsoft Dynamics NAV Web Client 2017"
+description: Browser Limitations with the Microsoft Dynamics NAV Web Client 2017
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

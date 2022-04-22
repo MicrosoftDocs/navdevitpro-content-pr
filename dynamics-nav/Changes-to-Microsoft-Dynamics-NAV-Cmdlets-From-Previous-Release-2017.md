@@ -1,5 +1,6 @@
 ---
 title: "Changes to Microsoft Dynamics NAV Cmdlets From Previous Release"
+description: Changes to Microsoft Dynamics NAV Cmdlets From Previous Release
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

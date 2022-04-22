@@ -1,5 +1,6 @@
 ---
 title: "How to: Modify Table Mappings for Synchronization"
+description: How to Modify Table Mappings for Synchronization
 ms.custom: na
 ms.date: 10/24/2016
 ms.reviewer: na

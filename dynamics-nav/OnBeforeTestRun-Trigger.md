@@ -1,5 +1,6 @@
 ---
 title: "OnBeforeTestRun - Trigger"
+description: OnBeforeTestRun - Trigger
 ms.custom: na
 ms.date: 01/19/2017
 ms.reviewer: na
