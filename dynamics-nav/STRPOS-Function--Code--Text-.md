@@ -1,5 +1,6 @@
 ---
 title: "STRPOS Function (Code, Text)"
+description: STRPOS Function (Code, Text)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

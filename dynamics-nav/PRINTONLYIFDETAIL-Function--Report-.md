@@ -1,6 +1,6 @@
 ---
 title: "PRINTONLYIFDETAIL Function (Report)"
-description: POWER Function (Decimal, Integer, BigInteger)
+description: Learn about PRINTONLYIFDETAIL Function (Report)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

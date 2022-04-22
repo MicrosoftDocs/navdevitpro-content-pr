@@ -1,5 +1,6 @@
 ---
 title: "TESTFIELD Function (Record)"
+description: TESTFIELD Function (Record)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

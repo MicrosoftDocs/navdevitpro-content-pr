@@ -1,5 +1,6 @@
 ---
 title: "TESTFIELD Function (FieldRef)"
+description: TESTFIELD Function (FieldRef)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
