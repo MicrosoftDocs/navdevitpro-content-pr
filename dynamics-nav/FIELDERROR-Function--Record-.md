@@ -1,5 +1,6 @@
 ---
 title: "FIELDERROR Function (Record)"
+description: FIELDERROR Function (Record)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

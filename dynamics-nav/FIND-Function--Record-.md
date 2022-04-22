@@ -1,5 +1,6 @@
 ---
 title: "FIND Function (Record)"
+description: FIND Function (Record)
 ms.custom: na
 ms.date: 08/22/2017
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "CALCDATE Function (Date)"
+description: CALCDATE Function (Date)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
