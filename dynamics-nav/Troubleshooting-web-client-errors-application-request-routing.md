@@ -31,5 +31,5 @@ For more information, see [Using URL Rewrite ](https://docs.microsoft.com/iis/ex
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-M|icrosoft-Dynamics-NAV-Web-Client-Installation.md)   
+ [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md)   
  [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)
