@@ -1,6 +1,6 @@
 ---
 title: "How to: Develop an Extension"
-descriiption: How to Develop an Extension
+description: How to Develop an Extension
 ms.custom: na
 ms.date: 01/22/2018
 ms.reviewer: na
