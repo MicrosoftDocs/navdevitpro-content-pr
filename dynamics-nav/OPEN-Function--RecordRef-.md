@@ -1,5 +1,6 @@
 ---
 title: "OPEN Function (RecordRef)"
+description: OPEN Function (RecordRef)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

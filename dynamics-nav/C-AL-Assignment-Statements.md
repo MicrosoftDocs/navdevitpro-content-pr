@@ -1,6 +1,6 @@
 ---
 title: "C/AL Assignment Statements"
-description: "Describing the C/AL compound statements."
+description: "C/AL Assignment Statements - Describing the C/AL compound statements."
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 09/06/2016

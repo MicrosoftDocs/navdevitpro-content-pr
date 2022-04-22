@@ -1,5 +1,6 @@
 ---
 title: "POWER Function (Decimal, Integer, BigInteger)"
+description: POWER Function (Decimal, Integer, BigInteger)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

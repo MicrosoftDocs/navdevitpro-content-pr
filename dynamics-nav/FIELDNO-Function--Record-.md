@@ -1,5 +1,6 @@
 ---
 title: "FIELDNO Function (Record)"
+description: FIELDNO Function (Record)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

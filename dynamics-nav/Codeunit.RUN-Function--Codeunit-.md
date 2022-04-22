@@ -1,5 +1,6 @@
 ---
 title: "Codeunit.RUN Function (Codeunit)"
+description: Codeunit.RUN Function (Codeunit)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
