@@ -20,7 +20,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use a worksheet page type 
 
    The following illustration shows an Item Journal page.  
 
-   ![](media/NAV_ItemJournalPageNew.jpg "NAV\_ItemJournalPageNew")  
+   ![Item Journal page](media/NAV_ItemJournalPageNew.jpg "NAV\_ItemJournalPageNew")  
 
   Worksheet pages always open in edit mode and can display lists of data in a grid control and in lines. Lines can be filled in by a user or by running a batch job. You can add other controls such as a filter or FactBox to a worksheet page but you cannot add a chart pane. As part of user personalization options, these controls can be added or removed by the user. Actions can be added to the navigation of a worksheet page, and may be promoted by the user to the ribbon.  
 
@@ -211,7 +211,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use a worksheet page type 
 
 18. The following illustration shows the indentation of elements on the worksheet page after adding FactBoxes.  
 
-     ![](media/NAV_FixedLayoutElementsNew.png "NAV\_FixedLayoutElementsNew")  
+     ![the indentation of elements on the worksheet page after adding FactBoxes](media/NAV_FixedLayoutElementsNew.png "NAV\_FixedLayoutElementsNew")  
 
 ## Running the Page  
  You will now test your new worksheet page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  

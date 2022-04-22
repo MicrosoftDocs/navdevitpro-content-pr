@@ -180,7 +180,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], a document page consists o
   
      The illustration shows a Page Designer.  
   
-     ![](media/NAV_DocumentPageElements.png "NAV\_DocumentPageElements")  
+     ![Page designer](media/NAV_DocumentPageElements.png "NAV\_DocumentPageElements")  
   
 11. Close Page Designer, and then choose **Yes** to save your page.  
   
