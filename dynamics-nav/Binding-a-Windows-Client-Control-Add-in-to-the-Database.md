@@ -44,7 +44,7 @@ public class MyControlAddIn : IValueControlAddInDefinition<DateTime>
 |BigInteger|[Int64](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=System.Int64)|  
 |BigText|[String](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=System.String)|  
 |BLOB|[Object](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=System.Object)|  
-|Boolean|[Boolean](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=System.Boolean)|  
+|Boolean|[Boolean]<!--(https://docs.microsoft.com/search/index?dataSource=previousVersions&search=System.Boolean)-->|  
 |Byte|[Byte](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=System.Byte)|  
 |Char|[Char](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=System.Char)|  
 |Code|[System.String](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=System.String)|  

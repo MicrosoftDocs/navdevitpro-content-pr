@@ -31,7 +31,7 @@ Query Store keeps a history of compilation and runtime metrics throughout query 
 ## Do you want to read more?
 Please visit the SQL Server documentation for more information on setup, configuration and usage of Query Store:
 
-[Monitoring Performance By Using the Query Store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store)
+[Monitoring Performance By Using the Query Store](/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store)
 
 [Operating the Query Store in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-operate-query-store)
 
