@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating and Using a Codeunit Web Service (SOAP)"
+description: A walkthrough creating and using a Codeunit Web Service (SOAP).
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
