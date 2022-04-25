@@ -1,5 +1,6 @@
 ---
 title: "How To: Set a Table Filter"
+description: Describes how to access the Table Filter.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

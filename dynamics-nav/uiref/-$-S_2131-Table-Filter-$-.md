@@ -1,5 +1,6 @@
 ---
 title: "Set Table Filter on a DataItem"
+description: Describes how to enable a filter on a DataItem.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

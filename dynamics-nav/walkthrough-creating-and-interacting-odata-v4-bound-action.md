@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating and Interacting With an OData V4 Bound Action"
+description: A walkthrough in creating and interacting with an OData V4 Bound Action.
 ms.author: solsen
 ms.custom: na
 ms.date: 07/01/2019
