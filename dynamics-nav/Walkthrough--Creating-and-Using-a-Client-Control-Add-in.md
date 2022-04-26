@@ -1,6 +1,7 @@
 ---
 title: "Walkthrough: Creating and Using a Client Control Add-in"
 author: jswymer
+description: Learn how to create and use a client control add-in.
 ms.custom: na
 ms.date: 12/12/2017
 ms.reviewer: na

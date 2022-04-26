@@ -1,5 +1,6 @@
 ---
 title: "How to: Register a Windows Client Control Add-in"
+description: Learn how to register a Windows client control add-in.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Enable query optimizer features in a Dynamics NAV Database by setting the compatibility level"
+description: Learn how to enable query optimizer features in a Dynamics NAV Database by setting the compatibility level.
 ms.custom: na
 ms.date: 05/07/2018
 ms.reviewer: na

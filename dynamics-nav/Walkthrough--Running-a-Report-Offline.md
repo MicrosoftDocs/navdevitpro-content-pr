@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Running a Report Offline"
+description: Learn how to run a report offline.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

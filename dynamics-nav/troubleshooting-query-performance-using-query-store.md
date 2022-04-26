@@ -1,6 +1,7 @@
 ---
 title: "How to use SQL Server Query Store to troubleshoot query performance in Dynamics NAV"
 author: KennieNP
+description: Learn how to use SQL Server Query Store to troubleshoot query performance in Dynamics NAV.
 ms.custom: na
 ms.date: 02/20/2017
 ms.reviewer: na
@@ -33,7 +34,7 @@ Please visit the SQL Server documentation for more information on setup, configu
 
 [Monitoring Performance By Using the Query Store](/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store)
 
-[Operating the Query Store in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-operate-query-store)
+[Operating the Query Store in Azure SQL Database](/azure/sql-database/sql-database-operate-query-store)
 
 ## See Also
 [Configuring Microsoft SQL Server](configuring-microsoft-sql-server.md)  

@@ -1,5 +1,6 @@
 ---
 title: "Configuring Query Hints for Optimizing SQL Server Performance with Dynamics NAV"
+description: learn about configuring query hints for optimizing SQL server performance with Dynamics NAV.
 ms.custom: na
 ms.date: 01/18/2019
 ms.reviewer: na

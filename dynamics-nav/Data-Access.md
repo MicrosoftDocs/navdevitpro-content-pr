@@ -1,5 +1,6 @@
 ---
 title: "Data Access"
+description: Learn about data access from the nav server to the SQL Server database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

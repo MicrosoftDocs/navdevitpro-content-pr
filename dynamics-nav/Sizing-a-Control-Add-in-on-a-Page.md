@@ -1,5 +1,6 @@
 ---
 title: "Sizing a Control Add-in on a Page"
+description: Learn how to size a control add-in on a page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Modifying, Uninstalling, or Repairing Microsoft Dynamics NAV"
+description: Learn how to modify, uninstall, or repair Microsoft Dynamics NAV.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

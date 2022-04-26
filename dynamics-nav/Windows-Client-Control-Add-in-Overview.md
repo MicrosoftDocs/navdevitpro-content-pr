@@ -1,5 +1,6 @@
 ---
 title: "Windows Client Control Add-in Overview"
+description: Learn about the Windows client control add-in.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

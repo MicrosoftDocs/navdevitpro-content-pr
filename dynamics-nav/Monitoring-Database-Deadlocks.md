@@ -1,5 +1,6 @@
 ---
 title: "Monitoring SQL Database Deadlocks"
+description: Learn how to monitor SQL database deadlocks.
 ms.custom: na
 ms.date: 09/19/2016
 ms.reviewer: na
