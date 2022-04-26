@@ -44,7 +44,7 @@ In a typical business scenario, developers create control add-ins using Microsof
 
     |PushpinBlue.png|PushpinGreen.png|PushpinRed.png|
     |:------:|:------:|:----:|
-    |![Pushpin Blue](media/PushpinBlue.png "Pushpin Blue")  |![Pushpin Green](media/PushpinGreen.png "Pushpin Green")|![Pushpin Blue](media/PushpinRed.png "Pushpin Red")|
+    |![Pushpin Blue](media/PushpinBlue.png "Pushpin Blue")  |![Pushpin Green](media/PushpinGreen.png "Pushpin Green")|![Pushpin Red](media/PushpinRed.png "Pushpin Red")|
 
 -   (Optional) Create a style sheet, for example Style.css, that can be used for styling the map in the client.
 

@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating and Using a Windows Client Control Add-in"
+description: Learn how to create a Windows client control add-in.
 ms.custom: na
 ms.date: 04/01/2019
 ms.reviewer: na
