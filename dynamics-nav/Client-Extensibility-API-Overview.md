@@ -1,5 +1,6 @@
 ---
 title: "Client Extensibility API Overview"
+description: Learn about the client extensibility API.
 ms.custom: na
 ms.date: 04/01/2019
 ms.reviewer: na
