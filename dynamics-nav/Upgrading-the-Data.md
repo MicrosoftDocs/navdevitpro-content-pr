@@ -438,7 +438,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
     ```
 8. Recompile published V1 extensions.
 
-    Use the [Repair-NAVApp cmdlet](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.apps.management/repair-navappSynchronize) of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform and application.
+    Use the [Repair-NAVApp cmdlet](/powershell/module/microsoft.dynamics.nav.apps.management/repair-navappSynchronize) of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform and application.
 
     For example, you can run the following command to recompile all extensions:
 

@@ -1,5 +1,6 @@
 ---
 title: "CLOSINGDATE Function (Date)"
+description: CLOSINGDATE Function (Date)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -40,7 +41,7 @@ ClosingDate := CLOSINGDATE(Date)
   
  The compiler cannot convert the expression xxxxxxC to a Date data type. Therefore, you must use the CLOSINGDATE function to create a closing date.  
   
-## Example  
+## Example 1
  The first example shows how to use the CLOSINGDATE function. A regular date is given as input. This code example requires that you create the following variables and text constants in the C/AL Globals window.  
   
 |Name|DataType|  
@@ -62,7 +63,7 @@ MESSAGE(Text000, Date1, CloDate);
   
  **The closing date for 04/04/14 is C04/04/14.**  
   
-## Example  
+## Example 2  
  The second example shows some statements that do not work and explains why they do not work. This example requires that you create the following variables and text constants in the C/AL Globals window.  
   
 |Name|DataType|  

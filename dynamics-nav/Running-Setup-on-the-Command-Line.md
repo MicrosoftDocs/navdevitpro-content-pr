@@ -1,5 +1,6 @@
 ---
 title: "Running Setup on the Command Line"
+description: Running Setup on the Command Line
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -18,7 +19,7 @@ You can run [!INCLUDE[navnow](includes/navnow_md.md)] Setup at a command prompt.
 ```  
 C:\Program Files (x86)\Common Files\Microsoft Dynamics NAV\<Version number>\Setup  
 ```  
-where <Version number> is 90 for [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] and 100 for [!INCLUDE[nav2017](includes/nav2017.md)].
+where \<Version number\> is 90 for [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] and 100 for [!INCLUDE[nav2017](includes/nav2017.md)].
  
  You can use the following options with Setup.exe.  
   

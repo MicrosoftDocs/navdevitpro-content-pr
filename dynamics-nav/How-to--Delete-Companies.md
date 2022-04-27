@@ -1,5 +1,6 @@
 ---
 title: "How to: Delete Companies"
+description: Describes the various ways to delete companies.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -33,10 +34,10 @@ You can delete companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.m
   
 ### To delete a company in [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
+
 1. In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], open a different company than the company that you want to delete. 
 <!-- For more information, see [How to: Select a Company](\($-S_COMPANY-How-to--Select-a-Company-$\).md). 
--->  
-  
+-->    
 2. In the **Search** box, enter **Companies**, and then choose the related link.  
   
 3. In the **Companies** window, choose the company that you want to delete, and then, on the **Home** tab, in the **Manage** group, choose **Delete**.  

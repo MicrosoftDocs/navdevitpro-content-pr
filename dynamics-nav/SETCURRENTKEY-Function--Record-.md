@@ -73,7 +73,7 @@ Sorts the contents of the table on the provided fields and selects the key that 
   
     -   If the expected result set is large, then call **SetCurrentKey** with a field set that matches subsequent calls to **SETRANGE** and **SETFILTER** functions. This way, there is less risk that extra sorting of the large result must be done.  
   
-## Example  
+## Example 1 
  This example shows how to use the **SetCurrentKey** function without using a return value. This example requires that you create the following variable. This statement applies sorting on the Name field and selects the Name key for the **Customer** table if possible. If sorting cannot be applied, a runtime error occurs. 
   
 |Name|DataType|Subtype|  
@@ -84,7 +84,7 @@ Sorts the contents of the table on the provided fields and selects the key that 
 MyCustomer.SetCurrentKey(Name);  
 ```  
   
-## Example  
+## Example 2 
  This example shows how to use the **SetCurrentKey** function with a return value.  
   
  This example requires that you create the following variable.  

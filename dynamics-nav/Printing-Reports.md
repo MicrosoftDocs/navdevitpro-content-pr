@@ -58,7 +58,7 @@ You can specify page settings and page orientation for a printed report from the
 > [!NOTE]  
 >  In [!INCLUDE[nav2017](includes/nav2017.md)] and subsequent versions, the printed report settings are determined by default to match the **Report Properties** to the current available paper. Therefore, it does no longer refer to the **Printer Properties** if the layout of the report specifies a custom paper size, as it did in earlier versions.
 > 
->  To disable this setting and use the [previous](https://docs.microsoft.com/previous-versions/dynamicsnav-2016/ff477105%28v=nav.90%29) settings, add the following line to the CustomSettings.config file and restart the server to reload configuration:  `<add key="CalculateBestPaperSizeForReportPrinting" value="false" />`.
+>  To disable this setting and use the [previous](/previous-versions/dynamicsnav-2016/ff477105%28v=nav.90%29) settings, add the following line to the CustomSettings.config file and restart the server to reload configuration:  `<add key="CalculateBestPaperSizeForReportPrinting" value="false" />`.
 
 ## See Also  
  [How to: Specify Printer Selection for Reports](How-to--Specify-Printer-Selection-for-Reports.md)   

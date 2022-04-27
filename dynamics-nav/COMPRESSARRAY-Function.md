@@ -1,5 +1,6 @@
 ---
 title: "COMPRESSARRAY Function"
+description: COMPRESSARRAY Function
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -46,7 +47,7 @@ Moves all non-empty strings \(text\) in an array to the beginning of the array. 
 ## Example  
  This example shows how to use the **COMPRESSARRAY** function. The input array has the following values.  
   
-||  
+|Table|  
 |-|  
 |Joe Raybon|  
 ||  
@@ -57,7 +58,7 @@ Moves all non-empty strings \(text\) in an array to the beginning of the array. 
   
  The output StringArray has the following values.  
   
-||  
+|Table|  
 |-|  
 |Joe Raybon|  
 |One Meca Way|  

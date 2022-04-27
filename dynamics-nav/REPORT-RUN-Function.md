@@ -1,5 +1,6 @@
 ---
 title: "REPORT.RUN Function"
+description: REPORT.RUN Function
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -58,28 +59,28 @@ REPORT.RUN(Number [, ReqWindow] [, SystemPrinter] [, Record])
 
 [!INCLUDE[multi_file_download_web_client](includes/multi_file_download_web_client.md)]
   
-## Example  
+## Example 1 
  This example shows how to run a report. This example displays the request window and sends the report to the printer that is selected in the Printer Selection table.  
   
 ```  
 REPORT.RUN(1001);  
 ```  
   
-## Example  
+## Example 2 
  This example shows how to run a report. This example skips the request window, starts the report immediately, and sends the report to the printer that is selected in the Printer Selection table.  
   
 ```  
 REPORT.RUN(1001, FALSE);  
 ```  
   
-## Example  
+## Example 3 
  This example shows how to run a report. This example skips the request window and starts the report immediately. It sends the report to the system printer instead of the printer that is selected in the Printer Selection table.  
   
 ```  
 REPORT.RUN(1001, FALSE, TRUE);  
 ```  
   
-## Example  
+## Example 4 
  This example shows how to run a report for which you specify a record. This example displays the request window and sends the report to the system printer. This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  

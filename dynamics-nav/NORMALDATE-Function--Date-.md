@@ -1,5 +1,6 @@
 ---
 title: "NORMALDATE Function (Date)"
+description: NORMALDATE Function (Date)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -39,7 +40,7 @@ NormalDate := NORMALDATE(Date)
   
  xxxxxxC: closing date  
   
-## Example  
+## Example 1 
  The input date is a regular date. This code example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
@@ -61,7 +62,7 @@ MESSAGE(Text000, InputDate, OutputDate);
   
  **The normal date for 04/04/14 is 04/04/14.**  
   
-## Example  
+## Example 2 
  The input date is a closing date. This code example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  

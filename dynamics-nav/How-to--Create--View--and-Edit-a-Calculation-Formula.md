@@ -25,7 +25,7 @@ The following procedure describes the steps to take to create and revise a calcu
   
 4. Find the **CalcFormula** property.  
   
-    ![](media/NAV_ADG_6_Table_15.png "NAV\_ADG\_6\_Table\_15")  
+    ![Find the CalcFormula property](media/NAV_ADG_6_Table_15.png "NAV\_ADG\_6\_Table\_15")  
   
 5. Enter the calculation formula directly or choose the **AssistEdit** button. When you choose the **AssistEdit** button, the following dialog box is displayed.  
   
@@ -39,13 +39,13 @@ The following procedure describes the steps to take to create and revise a calcu
   
 9. If necessary, you can add a table filter to specify a limited set of records. Choose the **AssistEdit** button to the right of the **Table Filter** field and the **Table Filter** window opens.  
   
-     ![](media/NAV_ADG_6_Table_52.png "NAV\_ADG\_6\_Table\_52")  
+     ![If necessary, you can add a table filter to specify a limited set of records](media/NAV_ADG_6_Table_52.png "NAV\_ADG\_6\_Table\_52")  
   
 10. On each line in this window, you can define a field filter. For each field filter, specify a field, a type, and a value. You can also set the **OnlyMaxLimit** and the **ValueIsFilter** options.  
   
     The following example illustrates where the information in the **Table Filter** window comes from. The **Balance at Date** field in the **G/L Account** table is a decimal type **FlowField**. This field is calculated from values in the **Amount Column** in the **G/L Entry** table.  
   
-    ![](media/NAV_ADG_6_Diag_4.png "NAV\_ADG\_6\_Diag\_4")  
+    ![The following example illustrates where the information in the Table Filter window comes from](media/NAV_ADG_6_Diag_4.png "NAV\_ADG\_6\_Diag\_4")  
   
     Some of the fields in the **G/L Account** table are **FlowFilter** fields. By entering filter expressions into these fields, the user can affect the calculation of **FlowFields** field, such as **Balance at Date**, at run time. The user can enter filter values on a **FlowFilter** page.  
   
