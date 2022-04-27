@@ -41,8 +41,7 @@ public class MyControlAddIn : IValueControlAddInDefinition<DateTime>
  A control add-in can bind with several data types from the database. Each data type in C/AL maps to a corresponding .NET Framework data type in the control add-in as listed in the following table.  
 
 |C/AL data type|Control add-in data type|  
-|---------------------|-------------------------------|  
-
+|---------------------|-------------------------------|
 |BigInteger|[Int64]<!--(https://docs.microsoft.com/search/index?dataSource=previousVersions&search=System.Int64)-->|  
 |BigText|[String]<!--(https://docs.microsoft.com/search/index?dataSource=previousVersions&search=System.String)-->|  
 |BLOB|[Object]<!--(https://docs.microsoft.com/search/index?dataSource=previousVersions&search=System.Object)-->|  
