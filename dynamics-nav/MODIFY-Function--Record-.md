@@ -1,5 +1,6 @@
 ---
 title: "MODIFY Function (Record)"
+description: MODIFY Function (Record)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -57,7 +58,7 @@ Modifies a record in a table.
   
  You must design your application so that you use the most up-to-date version of the record for modifications to the database. You use the [GET Function \(Record\)](GET-Function--Record-.md) to refresh the record with the latest version. The second example that is shown here illustrates this situation.  
   
-## Example  
+## Example 1 
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
@@ -93,7 +94,7 @@ MESSAGE(Text001 + '%2', CustomerRec."No.", CustomerRec.Name);
   
  **Progressive Home Furnishings**  
   
-## Example  
+## Example 2
  This example shows that you get an error if you attempt to modify a record after a newer version of the record has been written and committed to the database. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  

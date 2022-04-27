@@ -1,5 +1,6 @@
 ---
 title: "FORMAT Function (Code, Text)"
+description: FORMAT Function (Code, Text)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -81,7 +82,7 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
   
  Format 9 is designed to be used when importing data with an XMLport and converts data from XML format to the corresponding C/SIDE formats.  
   
-## Example  
+## Example 1  
  This example requires that you create the following text constant in the **C/AL Globals** window.  
   
 |Text constant|ENU value|  
@@ -111,7 +112,7 @@ MESSAGE(Text000, FORMAT(-123456.78, 12, '<Integer Thousand><Decimals><Sign,1>'))
   
  **The formatted value: > 123.456,78-\<**  
   
-## Example  
+## Example 2 
  This example shows how to use a string to build a format.  
   
  This example requires that you create the following text constant in the **C/AL Globals** window.  

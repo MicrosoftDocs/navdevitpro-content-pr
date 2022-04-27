@@ -1,5 +1,6 @@
 ---
 title: "CALCDATE Function (Date)"
+description: CALCDATE Function (Date)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -76,7 +77,7 @@ NewDate := CALCDATE(DateExpression [, Date])
   
  For more information about how to calculate the duration between two DateTimes, see [Duration Data Type](Duration-Data-Type.md).  
   
-## Example  
+## Example 1 
  This code example shows how to use the production rules that were previously described.  
   
 ```  
@@ -92,7 +93,7 @@ NewDate := CALCDATE(DateExpression [, Date])
 > [!NOTE]  
 >  The angle brackets \(\< >\) specify that the expression is not translated, regardless of the application language. For more information about multilanguage capabilities with date formulas, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
   
-## Example  
+## Example 2 
  This example shows how to use the CALCDATE function.  
   
  This code example requires that you create the following variables and text constants in the C/AL Globals window.  

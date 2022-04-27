@@ -1,5 +1,6 @@
 ---
 title: "SETAUTOCALCFIELDS Function (Record)"
+description: SETAUTOCALCFIELDS Function (Record)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -55,7 +56,7 @@ Sets the FlowFields that you specify to be automatically calculated when the rec
   
  The Rec and xRec system variables are set to always automatically calculate FlowFields. If you call the **NEXT** function on Rec or xRec, then FlowFields in the record are automatically calculated.  
   
-## Example  
+## Example 1  
  The first six lines of this example show how to use the CALCFIELDS function. The last lines of this example show how you can use the **SETAUTOCALCFIELDS** function instead of the **CALCFIELDS** function to improve performance.  
   
  This example requires that you create the following variable.  
@@ -83,7 +84,7 @@ IF (Customer.FIND(’-’)=true) THEN
   
 ```  
   
-## Example  
+## Example 2 
  The following example shows how to add fields to the list of automatically calculated FlowFields and how to clear the list of automatically calculated FlowFields  
   
  This example requires that you create the following variable.  
