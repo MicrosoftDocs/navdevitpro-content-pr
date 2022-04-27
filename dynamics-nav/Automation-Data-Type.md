@@ -1,5 +1,5 @@
 ---
-title: Automation Data Type
+title: Automation Data Type in Microsoft Dynamics NAV
 description: This article explains how to use the automation data type to reference an automation server in Microsoft Dynamics NAV and learn the limitations of this type.
 ms.custom: na
 ms.date: 10/26/2017
