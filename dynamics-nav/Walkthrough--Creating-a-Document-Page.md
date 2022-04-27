@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Document Page"
+description: Walkthrough - Creating a Document Page
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -180,7 +181,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], a document page consists o
   
      The illustration shows a Page Designer.  
   
-     ![](media/NAV_DocumentPageElements.png "NAV\_DocumentPageElements")  
+     ![Page designer](media/NAV_DocumentPageElements.png "NAV\_DocumentPageElements")  
   
 11. Close Page Designer, and then choose **Yes** to save your page.  
   

@@ -1,5 +1,6 @@
 ---
 title: "SETRANGE Function (Record)"
+description: SETRANGE Function (Record)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -51,7 +52,7 @@ Record.SETRANGE(Field [,FromValue] [,ToValue])
   
  If you set only the *FromValue*, then the *ToValue* is set to the same value as the *FromValue*.  
   
-## Example  
+## Example 1 
  This example shows how to use the **SETRANGE** function to specify that you want to see only customers 100 through 200. This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
@@ -64,7 +65,7 @@ CustomerRec.SETRANGE("No.", '100', '200');
 CustomerRec.SETFILTER("No.", '>=100&<=200');   
 ```  
   
-## Example  
+## Example 2 
  This example shows how to find the first record that has a blank for the requested delivery date. It requires that you create the following variable.  
   
 |Name|Data type|Subtype|  

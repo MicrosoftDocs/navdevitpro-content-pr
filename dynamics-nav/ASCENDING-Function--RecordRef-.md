@@ -1,5 +1,6 @@
 ---
 title: "ASCENDING Function (RecordRef)"
+description: ASCENDING Function (RecordRef)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -40,7 +41,7 @@ Changes or checks the order in which a search through the table that is referred
 ## Remarks  
  This function works just like the [ASCENDING Function \(Record\)](ASCENDING-Function--Record-.md).  
   
-## Example  
+## Example 1 
  The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The [SETVIEW Function \(RecordRef\)](SETVIEW-Function--RecordRef-.md) sets a filter that includes sorting the data in ascending order. The ASCENDING function then checks whether the sort order is ascending, stores the return value in the IsAscending variable and displays **Yes** in a message box. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
@@ -59,7 +60,7 @@ IsAscending := CustomerRecref.ASCENDING;
 MESSAGE(Text000, IsAscending);  
 ```  
   
-## Example  
+## Example 2 
  The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The [SETVIEW Function \(RecordRef\)](SETVIEW-Function--RecordRef-.md) sets a filter that includes sorting the data in descending order. The ASCENDING function then checks whether the sort order is ascending, stores the return value in the IsAscending variable and displays **No** in a message box because the sort order is descending. The ASCENDING function changes the sort order to ascending by setting the *SetAscending* parameter to **true**. The ASCENDING function checks the sort order again. This time **Yes** is displayed.  
   
 ```  

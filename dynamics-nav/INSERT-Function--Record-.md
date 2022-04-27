@@ -1,5 +1,6 @@
 ---
 title: "INSERT Function (Record)"
+description: INSERT Function (Record)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -49,7 +50,7 @@ Inserts a record into a table.
   
  If the auto-increment field contains a non-zero value, that value is inserted into the table and the auto-increment feature is not used. If the value in the auto-increment field is greater than the last auto-increment value in the table, then the next auto-increment value that is entered into the table will be greater than the value in the field that you just inserted. If the value in the auto-increment field already occurs in the table, then a run-time error occurs.  
   
-## Example  
+## Example 1 
  This example shows how to use the **INSERT** function without a return value.  
   
 ```  
@@ -60,7 +61,7 @@ Customer.INSERT;
   
  If customer 1120 already exists, then a run-time error occurs.  
   
-## Example  
+## Example 2 
  This example requires that you create the following variable and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  

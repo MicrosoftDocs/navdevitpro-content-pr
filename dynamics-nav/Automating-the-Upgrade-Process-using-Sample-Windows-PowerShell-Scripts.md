@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2018"
 author: jswymer
 ---
-# Automating the Upgrade Process using Sample Windows PowerShell Scripts
+# Automating the Upgrade Process using Sample Windows PowerShell Scripts 2017
 
 **Applies to:** [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. [See [!INCLUDE[nav2017](includes/nav2017.md)] version](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts-2017.md).
 

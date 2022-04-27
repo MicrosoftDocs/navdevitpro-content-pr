@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating and Interacting With an OData V4 Bound Action"
+description: A walkthrough in creating and interacting with an OData V4 Bound Action.
 ms.author: solsen
 ms.custom: na
 ms.date: 07/01/2019
@@ -195,4 +196,4 @@ You have now published a [!INCLUDE[navnow](includes/navnow_md.md)] function as a
  [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)  
  [How to: Publish a Web Service](How-to--Publish-a-Web-Service.md)  
  [Walkthrough: Configuring Web Services to Use SSL (SOAP and OData)](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md)  
- [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives:-SOAP-and-OData.md)
+ [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives--SOAP-and-OData.md)

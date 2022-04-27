@@ -1,5 +1,6 @@
 ---
 title: "MARK Function (Record)"
+description: MARK Function (Record)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -41,7 +42,7 @@ Marks a record. You can also use this function to determine whether a record is 
   
  The mark is effective until the application stops running.  
   
-## Example  
+## Example 1
  This example shows how to use the MARK function. Assume that at first no records are marked.  
   
  This example requires that you create the following text constant in the **C/AL Globals** window.  
@@ -81,7 +82,7 @@ UNTIL Customer.NEXT = 0;
   
  **Customer No.: SOP 7500, Marked?: No**  
   
-## Example  
+## Example 2 
  This example shows how to use the MARK function together with the MARKEDONLY function. Assume that at first no records are marked.  
   
  This example requires that you create the following text constants in the **C/AL Globals** window.  

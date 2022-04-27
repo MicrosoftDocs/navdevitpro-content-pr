@@ -52,7 +52,7 @@ To convert the old database to a [!INCLUDE[nav2018_md](includes/nav2018_md.md)] 
 
 2. Uninstall all extensions from the tenant.
     
-    You can do this from **Extension Management** page in the [!INCLUDE[navnow](includes/navnow_md.md)] client or by using the [Uninstall-NAVApp](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.apps.management/uninstall-navapp) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. 
+    You can do this from **Extension Management** page in the [!INCLUDE[navnow](includes/navnow_md.md)] client or by using the [Uninstall-NAVApp](/powershell/module/microsoft.dynamics.nav.apps.management/uninstall-navapp) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. 
 
     To get a list of the extensions that are installed, run this command:
 
@@ -191,7 +191,7 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
 
 11. Recompile published extensions.
 
-    Use the [Repair-NAVApp cmdlet](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.apps.management/repair-navappSynchronize) of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform.
+    Use the [Repair-NAVApp cmdlet](/powershell/module/microsoft.dynamics.nav.apps.management/repair-navappSynchronize) of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform.
 
     For example, you can run the following command to recompile all extensions:
 

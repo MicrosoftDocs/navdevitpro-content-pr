@@ -1,5 +1,6 @@
 ---
 title: "How to: Implement Security Certificates in a Production Environment"
+description: How to Implement Security Certificates in a Production Environment
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -97,7 +98,7 @@ After you have installed the root CA on the computer running the [!INCLUDE[nav_w
 
 1. Open the ClientUserSettings.config configuration file.  
 
-    The location of this file is <em>Users\\\<</em>username<em>>\\AppData\\RoamingLocal\\Microsoft\\[!INCLUDE[navnow](includes/navnow_md.md)]\\<version></em>.   
+    The location of this file is <em>Users\\\<</em>username<em>>\\AppData\\RoamingLocal\\Microsoft\\[!INCLUDE[navnow](includes/navnow_md.md)]\\ \<version\></em>.   
 
     By default, this file is hidden. Therefore, you may have to change your folder options in Windows Explorer to view hidden files.  
 

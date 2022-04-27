@@ -1,5 +1,6 @@
 ---
 title: "FINDSET Function (Record)"
+description: FINDSET Function (Record)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -59,7 +60,7 @@ Finds a set of records in a table based on the current key and filter.
 ## Remarks  
  You should use this function only when you explicitly want to loop through a recordset. You should only use this function in combination with **REPEAT**.. **UNTIL**.  
   
-## Example  
+## Example 1 
  This example shows how to use the **FINDSET** function to loop through a set without updating it. This example requires that have a **CopyLine** function and that you create the following variable.  
   
 |Variable name|DataType|Subtype|  
@@ -75,7 +76,7 @@ IF SalesLine.FINDSET THEN BEGIN
 END;  
 ```  
   
-## Example  
+## Example 2 
  This example shows how to use the **FINDSET** function to loop through a set and update a field that is not within the current key. This example requires that you create the following variables.  
   
 |Variable name|DataType|Subtype|  
@@ -97,7 +98,7 @@ IF SalesLine.FINDSET(TRUE, FALSE) THEN BEGIN
 END;  
 ```  
   
-## Example  
+## Example 3 
  This example shows how to use the **FINDSET** function to loop through a set and update a field that is within the current key. This example requires that you create the following variables.  
   
 |Variable name|DataType|Subtype|  

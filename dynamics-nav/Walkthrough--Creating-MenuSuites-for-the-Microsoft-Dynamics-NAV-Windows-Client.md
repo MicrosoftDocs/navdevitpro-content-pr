@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client"
+description: Walkthrough, Creating MenuSuites for the Microsoft Dynamics NAV Windows Client
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -142,7 +143,7 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
   
 14. Repeat steps 8 through 12 and set the following values in the **Create Item** window to add the **Customer List \(22\)** Page.  
   
-    |||  
+    |Item|Type|  
     |-|-|  
     |**Object Type**|Page.|  
     |**Object ID**|Customer List.|  
@@ -156,7 +157,7 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
   
 17. Repeat steps 8 through 12 and set the following values in the **Create Item** window to add the **Vendor Card \(26\)** page.  
   
-    |||  
+    |Item|Type|  
     |-|-|  
     |**Object Type**|Page.|  
     |**Object ID**|Vendor Card.|  
@@ -168,7 +169,7 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
   
 19. Repeat steps 8 through 12 and set the following values in the **Create Item** window to add the **Vendor List \(27\)** pages.  
   
-    |||  
+    |Item|Type|  
     |-|-|  
     |**Object Type**|Page.|  
     |**Object ID**|Vendor List.|  
@@ -180,7 +181,7 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
   
 21. Repeat steps 8 through 12 and set the following values in the **Create Item** window to add the **Customer-Order Summary** \(107\) report.  
   
-    |||  
+    |Item|Type|  
     |-|-|  
     |**Object Type**|Report.|  
     |**Object ID**|Customer-Order Summary.|  
