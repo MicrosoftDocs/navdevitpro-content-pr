@@ -1,5 +1,6 @@
 ---
-title: "Authenticating Users with Active Directory Federation Services"
+title: "Authenticating Users with Active Directory Federation Services 2017"
+description: Authenticating Users with Active Directory Federation Services 2017 
 ms.custom: na
 ms.date: 01/25/2019
 ms.reviewer: na
@@ -9,7 +10,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 author: jswymer
 ---
-# Authenticating Users with Active Directory Federation Services
+# Authenticating Users with Active Directory Federation Services 2017
 
 **Applies to:** [!INCLUDE[navcrete_md](includes/navcrete_md.md)] (Cummulative Update 14 and later), [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] (Cummulative Update 2 and later), [!INCLUDE[nav2017](includes/nav2017.md)]
 
@@ -240,6 +241,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
 4.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
     >[!TIP]
+
     >You can use the [Set-NAVServerInstance cmdlet](/powershell/module/microsoft.dynamics.nav.management/Set-NAVServerInstance) to restart the service instance.
 
 ### Dynamics NAV Web Client setup

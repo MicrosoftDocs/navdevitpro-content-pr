@@ -56,7 +56,7 @@ To upgrade the application code , complete these tasks:
 
 To complete the tasks in this article, you will use various tools and components of the old [!INCLUDE[navnow](includes/navnow_md.md)] version and [!INCLUDE[nav2018_md](includes/nav2018_md.md)]. Ensure that you have the following installed:
 
-|    |  Tool/Component  |
+|  Version  |  Tool/Component  |
 |----|------------------|
 | Old [!INCLUDE[navnow](includes/navnow_md.md)] version  |<ul><li>[!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]<br />or</li><li>[!INCLUDE[navnow](includes/navnow_md.md)] Development Shell<br />This is not available in [!INCLUDE[nav7long](includes/nav7long_md.md)] and [!INCLUDE[navsicily](includes/navsicily_md.md)]</li></ul>|
 |[!INCLUDE[nav2018_md](includes/nav2018_md.md)] |<ul><li>[!INCLUDE[nav_server_md](includes/nav_server_md.md)]</li><li>[!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)]</li><li>[!INCLUDE[nav_shell_md](includes/nav_shell_md.md)]</li>[!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]</li> </ul>|

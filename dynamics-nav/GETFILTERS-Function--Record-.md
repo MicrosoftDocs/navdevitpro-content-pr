@@ -1,5 +1,6 @@
 ---
 title: "GETFILTERS Function (Record)"
+description: GETFILTERS Function (Record)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -32,7 +33,7 @@ String := Record.GETFILTERS
   
  This string contains a list of the filters for all fields in *Record*.  
   
-## Example  
+## Example 1
  This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
@@ -57,7 +58,7 @@ MESSAGE(Text000 + '%1', Str);
   
  **Posting Date: 01/01/08..12/31/08, Amount: -100..100**  
   
-## Example  
+## Example 2
  This example requires that you create the following variable in the C/AL Globals window.  
   
 |Variable name|DataType|Subtype|  

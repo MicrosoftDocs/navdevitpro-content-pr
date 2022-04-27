@@ -1,5 +1,6 @@
 ---
 title: "Changes to Microsoft Dynamics NAV Cmdlets From Previous Release"
+description: Changes to Microsoft Dynamics NAV Cmdlets From Previous Release
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -10,7 +11,7 @@ author: jswymer
 manager: edupont
 ms.prod: "dynamics-nav-2017"
 ---
-# Changes to Microsoft Dynamics NAV Cmdlets From Previous Release
+# Changes to Microsoft Dynamics NAV Cmdlets From Previous Release 2017
 
 **Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [See [!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Changes-to-Microsoft-Dynamics-NAV-Cmdlets-From-Previous-Release.md).
 

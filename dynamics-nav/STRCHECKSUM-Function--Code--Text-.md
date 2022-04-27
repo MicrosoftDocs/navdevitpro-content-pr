@@ -1,5 +1,6 @@
 ---
 title: "STRCHECKSUM Function (Code, Text)"
+description: STRCHECKSUM Function (Code, Text)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -48,7 +49,7 @@ CheckNumber :=STRCHECKSUM(String[, WeightString][, Modulus])
 
  ![STRCHECKSUM formula](media/NAV_STRCHECKSUM_Formula.png "NAV\_STRCHECKSUM\_Formula")  
 
-## Example  
+## Example 1 
  This example shows how to use the STRCHECKSUM function to calculate a checksum.  
 
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
@@ -82,7 +83,7 @@ MESSAGE(Text000 + Text001, StrNumber, CheckSum);
 
  **has the checksum: 0**  
 
-## Example  
+## Example 2 
  This example shows how to use the STRCHECKSUM function to calculate a modulus 10 checksum for a bar code.  
 
  The STRCHECKSUM function can be used to calculate checksums for 13- and 8-digit European Article Number \(EAN\) and EAN-compatible bar codes such as a Universal Product Code \(UPC\) or Japanese Article Number \(JAN\).  

@@ -1,5 +1,6 @@
 ---
 title: "FILTERGROUP Function (Record)"
+description: FILTERGROUP Function (Record)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -78,7 +79,7 @@ Rec.FILTERGROUP(1);
 Rec.SETFILTER(<field>,’’);  
 ```  
   
-## Example  
+## Example 1 
  The following example uses the [SETFILTER Function \(Record\)](SETFILTER-Function--Record-.md) to set a filter that selects records with No. field between 10000 and 20000. Then the **FILTERGROUP** function returns the number for the filter group. No filter group was selected explicitly so the filter is set in filter group 0. This value is stored in the varOrigGroup variable and displayed in a message box. Next, the **FILTERGROUP** function changes the filter group to 1. The new value is stored in the varCurrGroup variable and displayed in a message box.  
   
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
@@ -102,7 +103,7 @@ varCurrGroup := MyRecord.FILTERGROUP(1);
 MESSAGE(Text001, varCurrGroup);  
 ```  
   
-## Example  
+## Example 2 
  The following example finds all customers where the Customer Name or Contact Name contains the string **John**.  
   
  This example requires that you create the following variable in the **C/AL Globals** window.  
