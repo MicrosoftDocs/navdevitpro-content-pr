@@ -11,7 +11,7 @@ author: jswymer
 ms.author: jswymer
 ms.prod: "dynamics-nav-2018"
 ---
-# Synchronizing Dynamics NAV and Dynamics 365 for Sales
+# Synchronization and Data Integration: Synchronizing Dynamics NAV and Dynamics 365 for Sales
 With [!INCLUDE[crm_md](includes/crm_md.md)] integration, you can decide whether to synchronize data between [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)]. Synchronization is the process that makes the data in selected fields of [!INCLUDE[navnow_md](includes/navnow_md.md)] records \(such as customers, contacts, and sales people\) and the equivalent [!INCLUDE[crm_md](includes/crm_md.md)] records \(such as accounts, contacts, and users\) the same. Conceptually, synchronization copies data between [!INCLUDE[crm_md](includes/crm_md.md)] entities and [!INCLUDE[navnow_md](includes/navnow_md.md)] record types \(tables\). Depending on the record type, data can be synchronized from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[navnow_md](includes/navnow_md.md)] and from [!INCLUDE[navnow_md](includes/navnow_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. As users work with data in [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)], synchronization keeps the data in both systems up\-to\-date.  
 
 Synchronization is accomplished using three main elements: integration table mappings, integration field mappings, and record couplings. For a description of these elements, see [Integration Concepts and Terminology](Dynamics-CRM-Integration-Concepts-and-Terminology.md).  
@@ -45,7 +45,7 @@ The [!INCLUDE[crm_md](includes/crm_md.md)] entities and [!INCLUDE[navnow_md](inc
 ##  <a name="SynchRules"></a> Synchronization Rules  
  The following table describes rules that control the synchronization between [!INCLUDE[crm_md](includes/crm_md.md)] entities and [!INCLUDE[navnow_md](includes/navnow_md.md)] tables.  
 
-|  |  |  
+| Item | Description |  
 |--|--|  
 |General|Modifications to data in [!INCLUDE[crm_md](includes/crm_md.md)] that are performed by the [!INCLUDE[crm_md](includes/crm_md.md)] connection account are ignored. The changes will not be synchronized. Therefore, it is a recommended that you do not modify data by using the [!INCLUDE[crm_md](includes/crm_md.md)] connection account.<br />Deleting a coupled record on either end will create error messages that the product is unable to update the deleted records. In order to avoid such situations, make sure that you decouple coupled records before deleting them in either [!INCLUDE[crm_md](includes/crm_md.md)] or  [!INCLUDE[navnow_md](includes/navnow_md.md)] . |  
 |Customers|-   Before a customer can be synchronized to an account, the salesperson that is assigned to customer must be coupled to a user in [!INCLUDE[crm_md](includes/crm_md.md)]. Therefore, when you are running the CUSTOMERS \- Dynamics 365 for Sales synchronization job and you set it up to create new records, make sure that you synchronize salespeople with [!INCLUDE[crm_md](includes/crm_md.md)] users before you synchronize customers with [!INCLUDE[crm_md](includes/crm_md.md)] accounts.<br />-   The CUSTOMERS \- Dynamics 365 for Sales synchronization job only synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] accounts that have the relationship type **Customer**.|  

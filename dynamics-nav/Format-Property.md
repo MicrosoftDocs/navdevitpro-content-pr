@@ -1,5 +1,6 @@
 ---
 title: "Format Property"
+description: Sets the formats of the source expression for various data types.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -45,7 +46,7 @@ Sets the formats of the source expression for various data types.
   
   The following table shows the syntax.  
   
-|||  
+|Item|Syntax|  
 |-|-|  
 |FormatProperty :=|\[\<Char> &#124; \<Field> &#124; \<Attribute>\]|  
 |||  
