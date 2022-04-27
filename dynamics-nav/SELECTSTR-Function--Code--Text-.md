@@ -1,5 +1,6 @@
 ---
 title: "SELECTSTR Function"
+description: SELECTSTR Function
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -49,7 +50,7 @@ NewString := SELECTSTR(Number, CommaString)
   
  Quotes are not supported. For example, a,b,"c,d",e is treated as a five-element substring where substring 4 is d".  
   
-## Example  
+## Example 1 
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
@@ -89,7 +90,7 @@ MESSAGE(Text001 + '>%1<\' + '>%2<\' + '>%3<\' + '>%4<\', SubStr1, SubStr2, SubSt
   
  **>33\<**  
   
-## Example  
+## Example 2
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  

@@ -1,5 +1,6 @@
 ---
-title: "Browser Limitations with the Microsoft Dynamics NAV Web Client"
+title: "Browser Limitations with the Microsoft Dynamics NAV Web Client 2017"
+description: Browser Limitations with the Microsoft Dynamics NAV Web Client 2017
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: c87f0ac3-97d8-4afc-bcf6-a331cf45dd21
 caps.latest.revision: 18
 ---
-# Browser Limitations with the Microsoft Dynamics NAV Web Client
+# Browser Limitations with the Microsoft Dynamics NAV Web Client 2017
 
 **Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [See [!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Browser-Limitations-with-the-Microsoft-Dynamics-NAV-Web-Client.md).
 

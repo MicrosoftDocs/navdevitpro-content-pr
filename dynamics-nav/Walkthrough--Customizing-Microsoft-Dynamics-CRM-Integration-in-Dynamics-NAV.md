@@ -170,10 +170,10 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 7. Open codeunit 5334 **CRM Setup Defaults**.
 8. In the **GetCRMTableNo** function, add the following code as a case after the *CRM Opportunity* case:  
 
-       ```
-       DATABASE::Campaign:  
-         EXIT(DATABASE::"CRM Campaign");  
-       ```
+```
+DATABASE::Campaign:  
+EXIT(DATABASE::"CRM Campaign");  
+```
 
    The coupling page is now available from the Campaign page.  
    <!--section deleted by CRM team -->  

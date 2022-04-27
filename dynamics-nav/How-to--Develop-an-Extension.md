@@ -1,5 +1,6 @@
 ---
 title: "How to: Develop an Extension"
+description: How to Develop an Extension
 ms.custom: na
 ms.date: 01/22/2018
 ms.reviewer: na
@@ -108,7 +109,7 @@ As part of developing your extension, you create a new table that will contain t
     ```
 
 4.	Export the table data to file.
-    Use the `Export-NAVAppTableData` cmdlet to export the data from the table to file. When exporting you will provide the path to a folder where you want the .navxdata file created. A data file in the format of *TAB<TABLEID>.navxdata* will be created, such as *TAB10000.navxdata*.
+    Use the `Export-NAVAppTableData` cmdlet to export the data from the table to file. When exporting you will provide the path to a folder where you want the .navxdata file created. A data file in the format of *TAB \<TABLEID\>.navxdata* will be created, such as *TAB10000.navxdata*.
 
     ```
     Export-NAVAppTableData -ServerInstance DynamicsNAVServer -Path ‘C:\NAVAppTableData’ -TableId 10000

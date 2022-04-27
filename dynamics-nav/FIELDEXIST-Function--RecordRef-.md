@@ -1,5 +1,6 @@
 ---
 title: "FIELDEXIST Function (RecordRef)"
+description: FIELDEXIST Function (RecordRef)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -38,10 +39,10 @@ Exist := RecordRef.FIELDEXIST(FieldNo)
   
 ## Example  
  The following example opens table 18 \(Customer\) as a RecordRef variable that is named MyRecordRef. The code loops through fields 1 through 12 and uses the FIELDEXIST function to determine whether the specified field exists. If the field exists, the name of the field and a message that indicates that the field exists is displayed. Otherwise, a message that indicates that the field does not exist is displayed. This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
-  
-|||  
-|-|-|  
-|Name|DataType|  
+    
+ 
+|Name|DataType|
+|-|-|   
 |MyRecordRef|RecordRef|  
 |i|Integer|  
 |VarFieldName|FieldRef|  

@@ -22,7 +22,6 @@ author: jswymer
 | Administration Cmdlets for Dynamics NAV|[Microsoft.Dynamics.Nav.Management](/powershell/module/microsoft.dynamics.nav.management)|
 | Administration Cmdlets for Dynamics NAV Extensions |[Microsoft.Dynamics.Nav.Apps.Management](/powershell/module/microsoft.dynamics.nav.apps.management)  |
 
-
 ## [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)]
 
 |  Description  |  See module  |

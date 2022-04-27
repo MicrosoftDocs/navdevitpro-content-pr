@@ -1,5 +1,6 @@
 ---
 title: "DELCHR Function (Code, Text)"
+description: DELCHR Function (Code, Text)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -82,7 +83,7 @@ NewString := DELCHR(String[, Where][, Which])
   
   The *Which* parameter contains an array of the characters that you want to delete. The order of the characters is of no significance. If *String* contains a character that is specified in *Which*, it is deleted from *String*.  
   
-## Example  
+## Example 1 
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
@@ -111,7 +112,7 @@ MESSAGE(Text001, String,NewString);
   
  The function deletes every W and s that is either the first or last character in *String*.  
   
-## Example  
+## Example 2 
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
@@ -140,7 +141,7 @@ MESSAGE(Text001, String,NewString);
   
  The function deletes every s and x from *String*.  
   
-## Example  
+## Example 3 
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
@@ -169,7 +170,7 @@ MESSAGE(Text001, String,NewString);
   
  If T, e, l, or y is the last character in *String*, the function deletes them.  
   
-## Example  
+## Example 4 
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
@@ -198,7 +199,7 @@ MESSAGE(Text001, String,NewString);
   
  If T, h, s, i, or space is the first character in *String*, the function deletes them.  
   
-## Example  
+## Example 5 
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
