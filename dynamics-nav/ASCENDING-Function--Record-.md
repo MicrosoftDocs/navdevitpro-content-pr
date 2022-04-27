@@ -1,5 +1,6 @@
 ---
 title: "ASCENDING Function (Record)"
+description: ASCENDING Function (Record)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -42,7 +43,7 @@ If you do not use this parameter, the function returns the current search order.
   
  **true** if the search will be done in ascending order; otherwise, **false**.  
   
-## Example  
+## Example 1
  The following example returns a value that indicates the current search order of the Customer table, to which MyRecord record belongs. The return value is stored in the *IsAscending* variable and displayed in a message box. In this example, the value **Yes** is displayed in the message box, which mean the search order is ascending. This is because the *SetAscending* parameter is not used. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
@@ -60,7 +61,7 @@ IsAscending := MyRecord.ASCENDING;
 MESSAGE(Text000, IsAscending);  
 ```  
   
-## Example  
+## Example 2 
  The following example sets the current sort order to descending by setting the *SetAscending* parameter to **false**. The value displayed in the message box is **No**.  
   
 ```  

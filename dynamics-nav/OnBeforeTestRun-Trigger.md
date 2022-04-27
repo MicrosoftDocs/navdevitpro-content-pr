@@ -1,5 +1,6 @@
 ---
-title: "OnBeforeTestRun Trigger"
+title: "OnBeforeTestRun - Trigger"
+description: OnBeforeTestRun - Trigger
 ms.custom: na
 ms.date: 01/19/2017
 ms.reviewer: na
@@ -9,7 +10,7 @@ ms.topic: article
 ms.author: jswymer
 ms.prod: "dynamics-nav-2018"
 ---
-# OnBeforeTestRun Trigger
+# OnBeforeTestRun - Trigger
 Executed before a test function of a test codeunit is run.  
 
 ## Syntax  

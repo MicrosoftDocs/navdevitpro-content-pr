@@ -13,7 +13,7 @@ ms.assetid: d1a3d947-ab5a-4c56-b5bf-36f0a13eda66
 caps.latest.revision: 65
 manager: edupont
 ---
-# Feature Limitations of the Microsoft Dynamics NAV Web Client
+# Feature Limitations of the Microsoft Dynamics NAV Web Client 2017
 
 **Applies to:** [!INCLUDE[nav2017](includes/nav2017.md)]. [See [!INCLUDE[nav2018_md](includes/nav2018_md.md)] version](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md).
 

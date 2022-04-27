@@ -2,8 +2,7 @@
 title: Working with Webhooks | Microsoft Docs
 description: Overview of how to manage subscriptions to Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-
-ms.service: dynamics365-businesscentral
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

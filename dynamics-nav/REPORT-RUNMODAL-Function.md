@@ -1,5 +1,6 @@
 ---
 title: "REPORT.RUNMODAL Function"
+description: REPORT.RUNMODAL Function
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -59,21 +60,21 @@ REPORT.RUNMODAL(Number [, ReqWindow] [, SystemPrinter] [, Record])
  The request page is run modally when you use this function.  
  
 [!INCLUDE[multi_file_download_web_client](includes/multi_file_download_web_client.md)]
-## Example  
+## Example 1 
  This example shows how to run a report. This example displays the request window and sends the report to the printer selected through the Printer Selection table.  
   
 ```  
 REPORT.RUNMODAL(1001);  
 ```  
   
-## Example  
+## Example 2 
  This example shows how to run a report. This example skips the request window, starts the report immediately, and sends the report to the printer that is selected in the Printer Selection table.  
   
 ```  
 REPORT.RUNMODAL(1001, FALSE);  
 ```  
   
-## Example  
+## Example 3 
  This example shows how to run a report. This example skips the request window and starts the report immediately. It sends the report to the system printer instead of the printer that is selected in the Printer Selection table.  
   
 ```  

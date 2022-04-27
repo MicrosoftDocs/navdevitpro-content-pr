@@ -20,7 +20,7 @@ This simple data type denotes an option value.
   
  For more information about option variables in multilanguage-enabled applications, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
   
-## Example  
+## Example 1 
  In the Purchase Header table, the Status field is an Option data type. In the following example, the option value is converted into an integer. This example requires that you create the following variables.  
   
 |Name|Data type|Subtype|  
@@ -32,7 +32,7 @@ This simple data type denotes an option value.
 Number := PurchHeaderRec."Document Type";  
 ```  
   
-## Example  
+## Example 2
  This example shows how you can use the value of an option field as a constant in your C/AL code.  
   
 ```  

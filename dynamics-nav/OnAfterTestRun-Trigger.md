@@ -1,5 +1,6 @@
 ---
-title: "OnAfterTestRun Trigger"
+title: "OnAfterTestRun - Trigger"
+description: OnAfterTestRun - Trigger
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -10,7 +11,7 @@ ms.author: jswymer
 manager: edupont
 ms.prod: "dynamics-nav-2018"
 ---
-# OnAfterTestRun Trigger
+# OnAfterTestRun - Trigger
 Executed after a test function of a test codeunit has been run.  
   
 ## Syntax  

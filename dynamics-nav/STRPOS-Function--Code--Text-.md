@@ -1,5 +1,6 @@
 ---
 title: "STRPOS Function (Code, Text)"
+description: STRPOS Function (Code, Text)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -46,7 +47,7 @@ Position := STRPOS(String, SubString)
   
  If *String* or *SubString* is empty, then the function returns zero.  
   
-## Example  
+## Example 1 
  This example shows how to use the STRPOS function.  
   
  This example requires that you create the following text constants in the **C/AL Globals** window.  
@@ -76,7 +77,7 @@ MESSAGE(Text002 + Text003 + Text004, SubStr, String, Pos);
   
  **returns the position: 5**  
   
-## Example  
+## Example 2
   
 ```  
 Pos1 := StrPos("abc",""); // Returns 0.  

@@ -25,7 +25,7 @@ The following sections list the minimum hardware and software requirements to in
 
  The following table shows the minimum system requirements for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
-|||  
+|Item|Requirements|  
 |-|-|  
 |Supported operating systems|<ul><li>Windows 11 Pro, Enterprise, or Education \(32-bit and 64-bit editions\)</li><li>Windows 10 Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />**Important:** Windows 10 S is not supported.</li><li>Windows 8.1 Professional or Enterprise \(32-bit and 64-bit editions\).</li><li>Windows Server 2022</li><li>Windows Server 2019</li><li>Windows Server, version 1809 or later</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).</li><li>Windows Server 2012 Standard or Essentials \(64-bit edition\).</li></ul>|  
 |Hardware resources|<ul><li>Hard disk space: 200 MB.</li><li>Memory: 1 GB.</li></ul>|  
@@ -42,7 +42,7 @@ The following sections list the minimum hardware and software requirements to in
 ###  <a name="DevEnv"></a> Dynamics NAV Development Environment Requirements  
  The following table shows the minimum system requirements for the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
 
-|||  
+|Item|Requirements|  
 |-|-|  
 |Supported operating systems|<ul><li> Windows 11 Pro, Enterprise, or Education \(32-bit and 64-bit editions\)</li><li> Windows 10 Pro, Enterprise, or Education \(32-bit and 64-bit editions\).</li><li>Windows 8.1 Professional or Enterprise \(32-bit and 64-bit editions\).</li><li> Windows Server 2022</li><li>Windows Server 2019</li><li>Windows Server, version 1809 or later</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).</li><li>Windows Server 2012 Standard or Essentials \(64-bit edition\).</li></ul>|  
 |Hardware resources|<ul><li>Hard disk space: 200 MB.</li><li> Memory: 1 GB.</li></ul>|  
@@ -55,7 +55,7 @@ The following sections list the minimum hardware and software requirements to in
 ###  <a name="WebClient"></a> Dynamics NAV Web Client Requirements  
  The following table shows the minimum system requirements for the [!INCLUDE[navnow](includes/navnow_md.md)] Web client.  
 
-|||  
+|Item|Requirements|  
 |-|-|  
 |Supported browsers|<ul><li>Microsoft Edge</li><li>Internet Explorer 11</li><li>Google Chrome for Windows (61.0 or later)</li><li>Mozilla Firefox 55.0 for Windows (55.0 or later)</li><li>Safari for macOS (10.0 or later)</li></ul>For a list of browser limitations, see [Browser Limitations with the Microsoft Dynamics NAV Web Client](Browser-Limitations-with-the-Microsoft-Dynamics-NAV-Web-Client.md).|  
 |Business inbox in Outlook|<ul><li>Microsoft Microsoft 365.</li></ul>|  
@@ -68,7 +68,7 @@ The following sections list the minimum hardware and software requirements to in
 ###  <a name="NavApps"></a> Dynamics NAV Tablet Client and Phone Client \(in a Browser\) Requirements  
  The following table shows the minimum system requirements for the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] running in a browser when used for development and testing purposes.  
 
-|||  
+|Item|Requirements|  
 |-|-|  
 |Server component|Identical to the [!INCLUDE[navnow](includes/navnow_md.md)] Web client.|  
 |Supported browsers|The following desktop browsers are supported:<ul><li> Microsoft Edge</li><li>Internet Explorer 11 \(build 11.0.9600.17239 or later\) for Windows 10 and for Windows 8.1 \(32-bit and 64-bit versions\)</li><li>Google Chrome for Windows (61.0 or later)</li><li>Mozilla Firefox 55.0 for Windows (55.0 or later)</li><li>Safari 10.0 for macOS</li></ul>|  
@@ -76,7 +76,7 @@ The following sections list the minimum hardware and software requirements to in
 ###  <a name="DynNAVApp"></a> Dynamics NAV Universal App Requirements  
  The following table shows the minimum system requirements for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)]. For the latest information, see [Dynamics NAV for Windows](https://go.microsoft.com/fwlink/?LinkId=509974), [Dynamics NAV for iPad and iPhone](https://go.microsoft.com/fwlink/?LinkId=509975), and [Dynamics NAV for Android tablet and Android phone](https://go.microsoft.com/fwlink/?LinkId=509976).  
 
-|||  
+|Item|Requirements|  
 |-|-|  
 |Supported operating systems|<ul><li>Windows 10 S, Home, Pro, Enterprise, or Education \(32-bit and 64-bit editions\).</li><li>Android 5.0 or higher (tablet and phone).</li><li> iOS 10.0 or higher (iPad and iPhone).</li></ul>|  
 |Additional hardware|<ul><li>1 GB RAM for Android and Windows.</li></ul>|  
@@ -87,7 +87,7 @@ The following sections list the minimum hardware and software requirements to in
 ###  <a name="NavServerReqs"></a> Dynamics NAV Server Requirements  
  The following table shows the minimum system requirements for [!INCLUDE[nav_server](includes/nav_server_md.md)].  
 
-|||  
+|Item|Requirements|  
 |-|-|  
 |Supported operating systems|<ul><li>Windows 11 Pro, Enterprise, or Education \(64-bit edition\)</li><li>Windows 10 Pro, Enterprise, or Education \(64-bit edition\).</li><li> Windows Server 2022 Standard or Datacenter.</li><li>Windows Server 2019 Standard, Essentials, or Datacenter.</li><li>Windows 8.1 Professional or Enterprise \(64-bit edition\).</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).</li><li>Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Hardware resources|<ul><li>Hard disk space: 500 MB.</li><li>Memory: 2 GB.|  
@@ -99,7 +99,7 @@ The following sections list the minimum hardware and software requirements to in
 
 ###  <a name="WebServer"></a> Dynamics NAV Web Server Components Requirements  
 
-|||  
+|Item|Requirements|  
 |-|-|  
 |Supported operating systems|<ul><li>Windows 11 Pro, Enterprise, or Education \(64-bit edition\)</li><li>Windows 10 Pro, Enterprise, or Education \(64-bit edition\).</li><li> Windows Server 2022 Standard or Datacenter.</li><li>Windows Server 2019 Standard, Essentials, or Datacenter.</li><li>Windows 8.1 Professional or Enterprise \(64-bit edition\).</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).</li><li>Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Web server|<ul><li>Internet Information Server 10, Internet Information Server 8.5, or Internet Information Server 8.0.|   
@@ -109,7 +109,7 @@ The following sections list the minimum hardware and software requirements to in
 ###  <a name="SQLReq"></a>Dynamics NAV Database Components for SQL Server Requirements  
  The following table shows the minimum system requirements for [!INCLUDE[navnow](includes/navnow_md.md)] database components for SQL Server.  
 
-|||  
+|Item|Requirements|  
 |-|-|  
 |Supported operating systems|<ul><li>Windows 11 Pro, Enterprise, or Education \(64-bit edition\)</li><li>Windows 10 Pro, Enterprise, or Education \(64-bit edition\).</li><li> Windows Server 2022 Standard or Datacenter.</li><li>Windows Server 2019 Standard, Essentials, or Datacenter.</li><li>Windows 8.1 Professional or Enterprise \(64-bit edition\).</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).</li><li>Windows Server 2012 Standard or Essentials \(64-bit edition\). |  
 |Hardware resources|For more information, see [Hardware and Software Requirements for Installing SQL Server 2016](https://go.microsoft.com/fwlink/?LinkId=622999). From this page, you can also access requirements for other versions of SQL Server.|  
@@ -120,7 +120,7 @@ The following sections list the minimum hardware and software requirements to in
 ###  <a name="HelpServer"></a> Dynamics NAV Help Server Requirements  
  The following table shows the minimum system requirements for the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server.  
 
-|||  
+|Item|Requirements|  
 |-|-|  
 |Supported operating systems|<ul><li>Windows 11 Pro, Enterprise, or Education \(64-bit edition\)</li><li>Windows 10 Pro, Enterprise, or Education \(64-bit editions\).</li><li>Windows 8.1 Professional or Enterprise \(64-bit edition\).</li><li> Windows Server 2022 Standard or Datacenter.</li><li>Windows Server 2019</li><li>Windows Server, version 1809 or later</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012.</li><li>Windows Server 2012 Essentials.</li></ul>|  
 |Hardware resource|<ul><li>Hard disk space: 500 MB.</li><li>Memory: 2 GB.</li></ul>|  
@@ -132,7 +132,7 @@ The following sections list the minimum hardware and software requirements to in
 ###  <a name="ADCS"></a> Automated Data Capture System Requirements  
  The following table shows the minimum system requirements for Automated Data Capture System \(ADCS\) for [!INCLUDE[navnow](includes/navnow_md.md)].  
 
-|||  
+|Item|Requirements|  
 |-|-|  
 |Additional software|<ul><li>MSXML version 6.0.</li><li>Telnet or Microsoft Windows HyperTerminal.</li><li>VT100 Plug-in for each computer on which you install ADCS.</li><li>Microsoft Loopback Adapter.</li></ul>|  
 |Additional information|<ul><li>HyperTerminal is no longer included with Windows. For more information, see [What happened to HyperTerminal?](https://go.microsoft.com/fwlink/?LinkId=222571) in the Windows Help.</li><li>VT100 Plug-in acts as a virtual Telnet server.</li></ul>|  
@@ -140,7 +140,7 @@ The following sections list the minimum hardware and software requirements to in
 ###  <a name="BusInboxOutlook"></a> Business Inbox in Microsoft Outlook Requirements  
 The following table shows the minimum system requirements for using [!INCLUDE[navnow_md](includes/navnow_md.md)] as your business inbox in Outlook.
 
-|||  
+|Item|Requirements|  
 |-|-|  
 |Supported Outlook Applications |<ul><li>Outlook 2013 or later</li><li>Outlook Web App</li><li>OWA for iPad</li><li>OWA for iPhone</li><li> OWA for Android.</li></ul>|
 |Supported Exchange Servers|<ul><li>Exchange Online</li><li>Exchange Server 2019</li><li>Exchange Server 2016</li><li>Exchange Server 2013.<br />In deployments that use Exchange Server, the Exchange PowerShell endpoint must be accessible by [!INCLUDE[nav_server](includes/nav_server_md.md)].</li></ul>|
@@ -151,7 +151,7 @@ The following table shows the minimum system requirements for using [!INCLUDE[na
 ###  <a name="Outlook"></a> Microsoft Outlook Add-In Requirements  
 The following table shows the minimum system requirements for the [!INCLUDE[navnow_md](includes/navnow_md.md)] Add-In for Outlook for synchronization with Outlook.
 
-|||  
+|Item|Requirements|  
 |-|-|  
 |Supported Outlook Applications |<ul><li>Outlook 2019</li><li>Outlook 2016</li><li>Outlook 2013 SP1</li><li> Outlook 2010 SP2 \(32-bit edition\).</li></ul>|
 |Supported Exchange Servers|<ul><li>Exchange Server 2019</li><li>Exchange Server 2016</li><li>Exchange Server 2013</li><li>Exchange Online.</li></ul>|  
@@ -160,7 +160,7 @@ The following table shows the minimum system requirements for the [!INCLUDE[navn
 ##  <a name="CRM"></a> Microsoft Dynamics 365 for Sales Integration Requirements  
  The following table shows the system requirements for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with [!INCLUDE[crm](includes/crm_md.md)].  
 
-|||  
+|Item|Requirements|  
 |-|-|  
 |Microsoft Dynamics CRM versions|<ul><li>Microsoft Dynamics CRM 2015 or Microsoft Dynamics CRM 2016<BR />Note: AD, IFD and Claims authentication types are supported for above editions.</li><li>Microsoft Dynamics CRM Online 2015, Microsoft Dynamics CRM Online 2015 Update 1, or Microsoft Dynamics CRM Online 2016 Update 1 or Microsoft Dynamics 365<BR />Note: Oauth and Office365 authentication types are supported for these editions.</li></ul>For more details on authentication types, see [Connection strings in XRM tooling to connect to Dynamics 365](https://msdn.microsoft.com/library/mt608573.aspx).|
 |[!INCLUDE[navnow_md](includes/navnow_md.md)] Integration Solution (.zip)|For Dynamics CRM 2015, Dynamics CRM Online 2015, and Dynamics CRM Online 2015 Update 1:<ul><li>Use the DynamicsNAVIntegrationSolution.zip file that is found on the Dynamics NAV 2016 installation media (DVD) to install the solution.</li><li>Item Availability is not supported on Dynamics CRM 2015, versions Update 1 and Online.</li></ul>For more information, see [How to: Prepare Dynamics 365 for Sales for Integration](How-to-prepare-Dynamics-CRM-for-Integration.md).      |  
@@ -168,7 +168,7 @@ The following table shows the minimum system requirements for the [!INCLUDE[navn
 ###  <a name="SharePointApp"></a>Dynamics NAV as an App for SharePoint Requirements  
  The following table shows the minimum system requirements for [!INCLUDE[navnow](includes/navnow_md.md)] as an App for SharePoint.  
 
-|||  
+|Item|Requirements|  
 |-|-|  
 |Supported operating systems|<ul><li>Windows 8.1 Professional or Enterprise \(32-bit and 64-bit editions\).</li><li>Windows Server 2019</li><li>Windows Server, version 1809 or later</li><li>Windows Server 2016 Standard, Essentials, or Datacenter.</li><li>Windows Server 2012 R2 Standard or Datacenter \(64-bit edition\).</li><li>Windows Server 2012 Standard or Datacenter \(64-bit edition\).</li></ul>|  
 |Additional software|<ul><li>SharePoint 2013 Service Pack 1.</li><li>SharePoint Online.</li></ul>|  

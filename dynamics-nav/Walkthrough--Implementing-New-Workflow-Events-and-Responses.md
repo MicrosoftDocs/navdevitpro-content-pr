@@ -486,7 +486,7 @@ If a business scenario requires a workflow event or a workflow response that is 
    ShowWorkflowStatus := CurrPage.WorkflowStatus.PAGE.SetFilterOnWorkflowRecord(RECORDID);  
    ```  
 
-   You have now enabled a new workflow scenario by implementing the required workflow event and response in the application code. The workflow administrator can now select the workflow event and workflow response from the **Workflow** page to define new or edit existing workflows. For more information, see [How to: Create Workflows](https://docs.microsoft.com/dynamics-nav-app/across-how-to-create-workflows) in the application help.
+   You have now enabled a new workflow scenario by implementing the required workflow event and response in the application code. The workflow administrator can now select the workflow event and workflow response from the **Workflow** page to define new or edit existing workflows. For more information, see [How to: Create Workflows](/dynamics-nav-app/across-how-to-create-workflows) in the application help.
 
 ## See Also  
  [Workflow](/dynamics-nav-app/across-workflow)   

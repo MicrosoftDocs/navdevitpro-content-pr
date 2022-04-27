@@ -46,7 +46,7 @@ Your deployment must meet the following prerequisites:
 ## Register and configure an Azure AD Application for the Excel Add-in in Microsoft Azure
 When Azure AD authentication was set up for your [!INCLUDE[navnow](includes/navnow_md.md)] deployment, an Azure AD tenant was created in Microsoft Azure, and an application for [!INCLUDE[navnow](includes/navnow_md.md)] was registered in the tenant. The Excel add-in requires that you add (or register) a separate Azure AD application in the tenant.
 
-You can add the Azure AD application by using the [Azure portal](https://go.microsoft.com/fwlink/?LinkID=317944). The following procedure outlines the steps you must perform to add and configure the Excel add-in application in your Azure AD tenant. For more specific guidelines about how to use the Azure portal, see [Register your application with your Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/active-directory-app-registration).
+You can add the Azure AD application by using the [Azure portal](https://go.microsoft.com/fwlink/?LinkID=317944). The following procedure outlines the steps you must perform to add and configure the Excel add-in application in your Azure AD tenant. For more specific guidelines about how to use the Azure portal, see [Register your application with your Azure Active Directory tenant](/azure/active-directory/active-directory-app-registration).
 
 1. Add an Azure AD application for the Excel add-in.
 

@@ -1,5 +1,6 @@
 ---
 title: "PRINTONLYIFDETAIL Function (Report)"
+description: Learn about PRINTONLYIFDETAIL Function (Report)
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -32,7 +33,7 @@ Gets or sets the current settings of the [PrintOnlyIfDetail Property](PrintOnlyI
   
  **true** if the [PrintOnlyIfDetail Property](PrintOnlyIfDetail-Property.md) is set to true; otherwise, **false**.  
   
-## Example  
+## Example 1 
  The following example is from the OnAfterGetRecord trigger of a report. If the PrintOnlyIfDetail property is true and if a GLEntryPage record exists, given the current filters, then the PageGroupNo is incremented. This example requires that you create the following variables.  
   
 |Variable name|DataType|Subtype|  
@@ -45,7 +46,7 @@ IF CurrReport.PRINTONLYIFDETAIL AND GLEntryPage.FIND('-') THEN
   PageGroupNo := PageGroupNo + 1;  
 ```  
   
-## Example  
+## Example 2 
  The following example sets the value of the [PrintOnlyIfDetail Property](PrintOnlyIfDetail-Property.md) to true. It requires that you create a Report variable named Report111. The Subtype of the variable is report 111, Customer - Top 10 List.  
   
 ```  
