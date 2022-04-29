@@ -3,7 +3,7 @@ title: Get customer defaultDimensions | Microsoft Docs
 description: Gets a customer default dimensions in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.prod: dynamics-nav-2018
 ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na
