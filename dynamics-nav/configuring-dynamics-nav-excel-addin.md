@@ -71,7 +71,7 @@ You can add the Azure AD application by using the [Azure portal](https://go.micr
    </tr>
    <tr>
    <td>App ID URI</td>
-   <td>The URI to a domain in your Azure AD tenant, such as <em><a href="https://solutions.onmicrosoft.com/ExcelAddinforDynamicsNAV" data-raw-source="https://solutions.onmicrosoft.com/ExcelAddinforDynamicsNAV">https://solutions.onmicrosoft.com/ExcelAddinforDynamicsNAV</a></em>. <strong>Important:</strong>  The App ID URI must be unique within the Azure AD tenant and not the same as you specified for your Dynamics NAV solution.</td>
+   <td>The URI to a domain in your Azure AD tenant, such as `https://solutions.onmicrosoft.com/ExcelAddinforDynamicsNAV`. <strong>Important:</strong>  The App ID URI must be unique within the Azure AD tenant and not the same as you specified for your Dynamics NAV solution.</td>
    </tr>
    <tr>
    <td>Directory Access</td>
