@@ -20,10 +20,10 @@ This page outlines the resources available to you.
 The functionality in the default version of [!INCLUDE [navnow_md](includes/navnow_md.md)] is described on the Docs.microsoft.com site as described in the following table.  
 
 > [!div class="mx-tdCol2BreakAll"]
-> |Name  |Location  |Description|
-> |---------|---------|---------|
-> |Business functionality docs|[https://docs.microsoft.com/en-us/dynamics-nav-app/](/dynamics-nav-app/) |Use this library to learn about business functionality. |
-> |Development and administration docs|[https://docs.microsoft.com/en-us/dynamics-nav/](/dynamics-nav/)|Use this content to learn how to extend, customize, and administrate [!INCLUDE [navnow_md](includes/navnow_md.md)].|
+> | Name | Description |
+> |------|-------------|
+> | [Business functionality docs](/dynamics-nav-app/) | Use this library to learn about business functionality. |
+> | [Development and administration docs](/dynamics-nav/) | Use this content to learn how to extend, customize, and administrate [!INCLUDE [navnow_md](includes/navnow_md.md)]. |
 
 ### Customize and extend the user assistance
 

@@ -27,7 +27,7 @@ Reach out to [offerspilot@microsoft.com](mailto:offerspilot@microsoft.com) o
 ### You can provide customization services with Dynamics 365 for Financials  
 Respond to the individual needs of your customer by building customizations for Dynamics 365 for Financials. Customizations can be developed in the Financials Designer and by code developed in Visual Studio Code. See how you can easily get started here [aka.ms/GetStartedWithApps](http://aka.ms/getstartedwithapps). 
 
-And learn all about building customizations in [sandbox environments](https://docs.microsoft.com/en-us/dynamics365/financials/across-how-create-sandbox-environment).  
+And learn all about building customizations in [sandbox environments](/dynamics365/financials/across-how-create-sandbox-environment).  
  
 Reach out to [dyn365bep@microsoft.com](mailto:dyn365bep@microsoft.com) on questions.  
 

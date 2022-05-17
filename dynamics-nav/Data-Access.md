@@ -86,7 +86,7 @@ When SQL Server performs data sorting for I/O operations, it sorts the data firs
 -   You can use partitioning to distribute parts of tables to different IO sub systems. For example, you could archive data for old transactions on slow and inexpensive disks and keep current data on solid-state drives (SSD).
 You can improve performance by enabling lock escalation at the partition level instead of a whole table. This can reduce lock contention on the table.
 
-For more general information about partitioned tables and indexes in SQL Server, see [Partitioned Tables and Indexes](https://docs.microsoft.com/sql/relational-databases/partitions/partitioned-tables-and-indexes).
+For more general information about partitioned tables and indexes in SQL Server, see [Partitioned Tables and Indexes](/sql/relational-databases/partitions/partitioned-tables-and-indexes).
 
 ### How Dynamics NAV supports partitioning
 
@@ -140,7 +140,7 @@ This example uses Transact-SQL to change table **G_L Entry** to be partitioned o
     ```
 
 > [!TIP]
-> SQL Server Management Studio includes the **Create Partition Wizard** to help you create partitioning functions, partitioning schemes, as well as changing a table to be partitioned. For more information, see [Create Partitioned Tables and Indexes](https://docs.microsoft.com/sql/relational-databases/partitions/create-partitioned-tables-and-indexes).
+> SQL Server Management Studio includes the **Create Partition Wizard** to help you create partitioning functions, partitioning schemes, as well as changing a table to be partitioned. For more information, see [Create Partitioned Tables and Indexes](/sql/relational-databases/partitions/create-partitioned-tables-and-indexes).
 
 ## See Also  
  [Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md)   

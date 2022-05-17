@@ -98,7 +98,7 @@ FOREACH <Element> IN <List> DO
  The ```<List>``` variable must be a **DotNet** data type that is set to .NET Framework collection or array type.  
 
 > [!NOTE]  
->  The FOREACH statement is not limited to collections and arrays. You can use it with any .NET Framework object that implements the [M:System.Collection.IEnumerable.GetEnumerator](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=System.Collection.IEnumerable.GetEnumerator) method, the [M:System.Collection.IEnumerator.MoveNext](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=System.Collection.IEnumerator.MoveNext) method, and the [P:System.Collection.IEnumerator.Current](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=System.Collection.IEnumerator.Current) property.  
+>  The FOREACH statement is not limited to collections and arrays. You can use it with any .NET Framework object that implements the [M:System.Collection.IEnumerable.GetEnumerator](/search/?search=System.Collection.IEnumerable.GetEnumerator&dataSource=previousVersions) method, the [M:System.Collection.IEnumerator.MoveNext](/search/?search=System.Collection.IEnumerator.MoveNext&dataSource=previousVersions) method, and the [P:System.Collection.IEnumerator.Current](/search/?search=System.Collection.IEnumerator.Current&dataSource=previousVersions) property.  
 
  The <*Element*> variable must be a data type that is compatible with elements in the .NET Framework collection or array that is specified by the <*List*>.  
 

@@ -91,8 +91,8 @@ As you can see, poor performance might not be caused by the SmartSQL optimizatio
 
 ## See Also
 [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)  
-[SQL Server Profiler](https://docs.microsoft.com/sql/tools/sql-server-profiler/sql-server-profiler)  
+[SQL Server Profiler](/sql/tools/sql-server-profiler/sql-server-profiler)  
 [Monitoring Long Running SQL Queries to the Event Log](monitoring-long-running-sql-queries-event-log.md)  
 [Troubleshooting: Using the Event Log to Monitor Long Running SQL Queries in Dynamics NAV](troubleshooting-long-running-queries-using-event-log.md)  
 [Troubleshooting: Using Query Store to Monitor Query Performance in Dynamics NAV](troubleshooting-query-performance-using-query-store.md)  
-[SQL Trace](https://docs.microsoft.com/sql/relational-databases/sql-trace/sql-trace)
+[SQL Trace](/sql/relational-databases/sql-trace/sql-trace)
