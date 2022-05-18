@@ -43,7 +43,7 @@ For example, with the deployment scenario that is discussed in this guide, you w
    |                     **App Secret**                      |                       A base-64 encoded string, such as *xvVpG0AgVIJfch6ldu4dLUlcZyysmGqBRbpFDu6AfJw=*. This is also referred to as the client secret.<br /><br /> This is generated when you choose the **Generate** button.                       |
    |                        **Title**                        |                                                                       The name of the app, which will be shown to users of your site, such as **Financial App by Solutions**.                                                                       |
    |                     **App Domain**                      | The host name for your [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as <em>www.solutions.com</em>. If you have deployed the [!INCLUDE[nav_web](includes/nav_web_md.md)] on a local machine, you can also enter the machine name. |
-   |                    **Redirect URI**                     |                               The URI for signing in to your [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as **<https://www.solutions.com/DynamicsNAV>** or **<https://MyComputer/DynamicsNAV>**.                                |
+   |                    **Redirect URI**                     |                               The URI for signing in to your [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as **`https://www.solutions.com/DynamicsNAV`** or **`https://MyComputer/DynamicsNAV`**.                                |
 
 
 3. Choose the **Create** button to register the app.  
