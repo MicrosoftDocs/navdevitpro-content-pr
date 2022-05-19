@@ -244,7 +244,7 @@ The following walkthrough demonstrates how to use the Example-1VM.ps1 script of 
       password=[password]  
     ```  
 
-     A new virtual machine is added on Azure. To see the new virtual machine, sign in to the [Microsoft Azure Management Portal](https://manage.windowsazure.com/), and then choose **VIRTUAL MACHINES**.  
+     A new virtual machine is added on Azure. To see the new virtual machine, sign in to the [Microsoft Azure Management Portal](https://ms.portal.azure.com/), and then choose **VIRTUAL MACHINES**.  
 
 ##  <a name="OpenRTCs"></a> Opening the Microsoft Dynamics NAV Clients  
  When the script has completed without errors, you can then access the [!INCLUDE[rtc](includes/rtc_md.md)]s.  
@@ -255,7 +255,7 @@ The following walkthrough demonstrates how to use the Example-1VM.ps1 script of 
 
 2.  In the address, type the following address:  
 
-     **https://MyNavVm.cloudapp.net:9004**  
+     **`https://MyNavVm.cloudapp.net:9004`**  
 
 3.  Follow the instructions on the webpage to install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
