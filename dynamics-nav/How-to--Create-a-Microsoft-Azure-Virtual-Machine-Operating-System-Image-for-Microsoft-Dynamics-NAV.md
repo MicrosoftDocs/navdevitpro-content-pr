@@ -34,7 +34,7 @@ This topic describes how to create custom images in Microsoft Azure Gallery that
 
 1.  Sign in to Azure at [https://azure.microsoft.com](https://go.microsoft.com/fwlink/?LinkID=285197).  
 
-2.  Complete the instructions for creating a new virtual machine at [https://azure.microsoft.com/documentation/articles/virtual-machines-windows-tutorial](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-tutorial).  
+2.  Complete the instructions for creating a new virtual machine at [https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-manage-vm](/azure/virtual-machines/windows/tutorial-manage-vm).  
 
 3.  When the virtual machine has been created, establish a Remote Desktop connection to the virtual machine, and then run Windows Update and apply all recommended updates.  
 
