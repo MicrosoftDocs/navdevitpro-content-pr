@@ -15,7 +15,7 @@ Before you start using the Microsoft Azure cmdlets to automate deployments, you 
   
 ### To download and import publish settings and subscription information  
   
-1.  Sign in to the [Azure Management Portal](https://manage.windowsazure.com/).  
+1.  Sign in to the [Azure Management Portal](https://ms.portal.azure.com/).  
   
 2.  Open the Azure PowerShell console as an administrator as follows:  
   

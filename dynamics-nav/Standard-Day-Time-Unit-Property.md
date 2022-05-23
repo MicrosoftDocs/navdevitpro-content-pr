@@ -15,4 +15,4 @@ This property has been deprecated. If you set it on a field, it will have no imp
 
 ## See Also  
 [Properties](Properties.md)  
-[How to: Enter Dates and Time](/dynamics-nav-app/ui-how-enter-date-time)  
+[How to: Enter Dates and Time](/dynamics-nav/ui-how-enter-date-time)  

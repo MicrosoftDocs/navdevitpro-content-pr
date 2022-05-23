@@ -31,7 +31,7 @@ Deprecated fields fall into one of the following groups:
 A number of fields have been moved from the base application to an extension.
 
 ### Denmark
-The functionality for payments and reconciliation in the Danish version (FIK) has been moved to the Payments and Reconciliations (DK) extension. For more information, see [The Payments and Reconciliations (DK) Extension](/dynamics365/financials/ui-extensions-payments-reconciliation-formats-dk) in the [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] documentation.
+The functionality for payments and reconciliation in the Danish version (FIK) has been moved to the Payments and Reconciliations (DK) extension. For more information, see [The Payments and Reconciliations (DK) Extension](/dynamics-nav-app/localfunctionality/denmark/ui-extensions-payments-reconciliation-formats-dk) in the [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] documentation.
 
 |Table ID|Table Name|Old Field ID|New Field ID|Old Field Name|New Field Name|
 |--------|--------|--------|--------|--------|--------|

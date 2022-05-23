@@ -34,7 +34,7 @@ To gain access to the Microsoft Azure management portal, you must have an Azure 
 
 3. On the **Add a Subscription** page, choose a subscription offer from the available list to create the subscription.  
 
-   You can now use the [Azure management portal](https://manage.windowsazure.com) to manage Azure accounts, subscriptions, hosted services, virtual machines, storage accounts, databases, and more.  
+   You can now use the [Azure management portal](https://ms.portal.azure.com/) to manage Azure accounts, subscriptions, hosted services, virtual machines, storage accounts, databases, and more.  
 
 ## See Also  
 [How to: Sign Up for a Microsoft Account](How-to--Sign-Up-for-a-Microsoft-Account.md)   
