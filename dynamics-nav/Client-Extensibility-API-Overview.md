@@ -1,5 +1,6 @@
 ---
 title: "Client Extensibility API Overview"
+description: Details the syntax for the Client Extensibility API, which defines the model for creating Microsoft Dynamics NAV Windows client control add-ins. 
 ms.custom: na
 ms.date: 04/01/2019
 ms.reviewer: na

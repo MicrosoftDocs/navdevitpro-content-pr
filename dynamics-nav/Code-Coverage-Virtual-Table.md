@@ -1,5 +1,6 @@
 ---
 title: "Code Coverage Virtual Table"
+description: The Code Coverage virtual table (ID 2000000049) contains data about automated test execution and which application code is covered by test.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
