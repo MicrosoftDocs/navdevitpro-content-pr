@@ -1,5 +1,6 @@
 ---
 title: "CHECKLICENSEFILE Function (Database)"
+description: Details the syntax for the CHECKLICENSEFILE Function (Database). Checks a key in the license file of the system.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

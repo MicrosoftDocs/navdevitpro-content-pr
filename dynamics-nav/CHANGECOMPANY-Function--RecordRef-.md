@@ -1,5 +1,6 @@
 ---
 title: "CHANGECOMPANY Function (RecordRef)"
+description: Details the syntax for the CHANGECOMPANY function (RecordRef). Redirects references to table data from one company to another.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
