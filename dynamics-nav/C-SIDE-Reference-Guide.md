@@ -1,5 +1,6 @@
 ---
 title: "C/SIDE Reference Guide"
+description: Describes all functions, data types, properties, and triggers in Dynamics NAV.
 author: edupont04
 manager: edupont04
 ms.custom: na

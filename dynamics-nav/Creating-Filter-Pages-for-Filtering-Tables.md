@@ -1,5 +1,6 @@
 ---
 title: "Creating Filter Pages for Filtering Tables"
+description: Describes creating filter pages for filtering tables using FILTERPAGEBUILDER.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

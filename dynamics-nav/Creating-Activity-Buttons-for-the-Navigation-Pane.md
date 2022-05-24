@@ -1,5 +1,6 @@
 ---
 title: "Creating Activity Buttons for the Navigation Pane"
+description: This article describes creating and setting up activity buttons for the navigation pane .
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

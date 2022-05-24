@@ -1,5 +1,6 @@
 ---
 title: "Creating Tenants from Companies"
+description: Describes creating tenants from companies, companies in multitenancy deployments, and running a Windows PowerShell script to create tenants from companies.
 author: edupont04
 ms.custom: na
 ms.date: 10/14/2016

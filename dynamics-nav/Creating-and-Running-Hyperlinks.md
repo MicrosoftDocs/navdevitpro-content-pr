@@ -1,5 +1,6 @@
 ---
 title: "Creating and Running Hyperlinks"
+description: This article describes creating and running hyperlinks, building a URL, and specifying additional parameters. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

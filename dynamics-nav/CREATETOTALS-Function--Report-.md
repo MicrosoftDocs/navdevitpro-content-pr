@@ -1,5 +1,6 @@
 ---
 title: "CREATETOTALS Function (Report)"
+description: Describes the CREATETOTALS function (report) and provides syntax, parameters, and an example.
 ms.custom: na
 ms.date: 11/05/2018
 ms.reviewer: na

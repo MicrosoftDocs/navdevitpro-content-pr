@@ -1,5 +1,6 @@
 ---
 title: "CREATE Function (File)"
+description: Describes the CREATE function (file) and provides syntax, parameters, return value, and example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

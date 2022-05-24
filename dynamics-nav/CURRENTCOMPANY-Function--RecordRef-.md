@@ -1,5 +1,6 @@
 ---
 title: "CURRENTCOMPANY Function (RecordRef)"
+description: Describes the CURRENTCOMPANY function (RecordRef) and provides syntax, parameters, and return value.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
