@@ -1,6 +1,6 @@
 ---
 title: "CONTINUE Function (Debugger)"
-description: "Executes code until the next breakpoint or until execution ends."
+description: "Describes the CONTINUE function (Debugger), which executes code until the next breakpoint or until execution ends."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

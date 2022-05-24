@@ -1,6 +1,6 @@
 ---
 title: "COUNT Function (Record)"
-description: "Counts the number of records in a table."
+description: "Describes the COUNT function (record), which returns the number of records that meet the conditions of any filters associated with the records."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

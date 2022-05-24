@@ -1,6 +1,6 @@
 ---
 title: "COPYSTR Function (Code, Text)"
-description: "Copies a substring of any length from a specific position in a string (text or code) to a new string."
+description: "Describes how to copy a substring of any length from a specific position in a string (text or code) to a new string."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
