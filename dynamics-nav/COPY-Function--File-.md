@@ -1,5 +1,6 @@
 ---
 title: "COPY Function (File)"
+description: "Use this function to copy a file."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "COPYFILTER Function (Record)"
+description: "Copies the filter that has been set for one field and applies it to another field."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "ContainerType Property"
+description: "Sets the container type in Page Designer when you want to add a Container, Group, Field, or Part control to a page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

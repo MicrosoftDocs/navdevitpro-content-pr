@@ -1,5 +1,6 @@
 ---
 title: "COPY Function (Record)"
+description: "Copies a specified record's filters, views, automatically calculated FlowFields, marks, fields and keys that are associated with the record from a table or creates a reference to a record."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

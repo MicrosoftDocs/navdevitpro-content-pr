@@ -1,5 +1,6 @@
 ---
 title: "COUNT Function (FilterPageBuilder)"
+description: "Gets the number of filter controls that are specified in the FilterPageBuilder object instance."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

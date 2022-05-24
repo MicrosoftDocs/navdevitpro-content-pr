@@ -1,5 +1,6 @@
 ---
 title: "Copyright and Trademarks"
+description: "Information on notices and trademarks."
 author: edupont04
 ms.custom: na
 ms.date: 06/04/2016

@@ -1,5 +1,6 @@
 ---
 title: "COUNT Function (MediaSet)"
+description: "Counts the number of media objects that are included in the MediaSet of a record."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

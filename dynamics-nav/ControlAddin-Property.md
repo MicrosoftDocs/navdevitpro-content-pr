@@ -1,5 +1,6 @@
 ---
 title: "ControlAddin Property"
+description: "Sets the Microsoft Dynamics NAV Windows client control add-in to use on the field control."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "CONVERTSTR Function (Code, Text)"
+description: "Converts some characters in a string."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

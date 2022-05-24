@@ -1,5 +1,6 @@
 ---
 title: "ConstValueML Property"
+description: "Sets the values of a C/AL text constant for the different languages that are available in Dynamics NAV."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

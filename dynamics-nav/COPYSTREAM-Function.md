@@ -1,5 +1,6 @@
 ---
 title: "COPYSTREAM Function"
+description: "Copies the information that is contained in an InStream to an OutStream."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
