@@ -1,5 +1,6 @@
 ---
 title: "CAPTION Function (TestPage)"
+description: Details the syntax for the CAPTION function (TestPage). This property gets the caption of the test page.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
