@@ -1,5 +1,6 @@
 ---
 title: "ARRAYLEN Function"
+description: "The ARRAYLEN function returns the total number of elements in an array or the number of elements in a specific dimension."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

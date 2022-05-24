@@ -1,5 +1,6 @@
 ---
 title: "Altering Databases - Collation Tab"
+description: "The Altering Databases Collation Tab changes the collation that is used by the database. This article describes how to change the collation of a Dynamics NAV database."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

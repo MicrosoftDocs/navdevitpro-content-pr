@@ -1,5 +1,6 @@
 ---
 title: "Arranging Fields in Rows and Columns"
+description: "This topic outlines the differences between GridLayout control and FixedLayout control to help determine which one to use."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

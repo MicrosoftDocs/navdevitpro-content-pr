@@ -1,5 +1,6 @@
 ---
 title: "Application Design Overview"
+description: "This section contains guidelines for creating applications by using the methods of analysis, design, and implementation."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Array Functions"
+description: "This article references the ARRAYLEN, COMPRESSARRAY, and COPYARRAY functions."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

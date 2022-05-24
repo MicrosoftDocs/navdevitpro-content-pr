@@ -1,5 +1,6 @@
 ---
 title: "Altering Databases - General Tab"
+description: "The Altering Databases General Tab shows the name of the currently opened database and name of the SQL Server instance where the currently opened database is stored."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "AssistEdit Property"
+description: "The AssistEdit property sets assist-edit capabilities for a text box. This article describes its applications, property value, and remarks."
 ms.custom: na
 ms.date: 05/10/2017
 ms.reviewer: na
