@@ -1,6 +1,6 @@
 ---
 title: "CAPTION Function (RecordRef)"
-description: Details the syntax for the CAPTION function (RecordRef) and gets the caption of the table that is currently selected.
+description: Details the syntax for the CAPTION function (RecordRef) and provides the caption of the table that is currently selected.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
