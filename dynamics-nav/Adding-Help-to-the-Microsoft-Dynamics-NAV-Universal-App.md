@@ -1,5 +1,6 @@
 ---
 title: "Adding Help to the Microsoft Dynamics NAV Universal App"
+description: "This article explains how to add Help to the Microsoft Dynamics NAV Universal App by adding/modifying new or existing HTML files on your Help Server."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

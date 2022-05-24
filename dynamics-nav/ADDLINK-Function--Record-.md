@@ -1,5 +1,6 @@
 ---
 title: "ADDLINK Function (Record)"
+description: "The ADDLINK function (Record) adds a link to a record. This article describes its syntax, property/return value, remarks, and example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

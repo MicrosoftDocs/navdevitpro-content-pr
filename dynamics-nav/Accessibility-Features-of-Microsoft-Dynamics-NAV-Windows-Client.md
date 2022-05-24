@@ -1,5 +1,6 @@
 ---
 title: "Accessibility Features of Microsoft Dynamics NAV Windows Client"
+description: "This article provides information about features of the Dynamics NAV that makes the product more accessible for people with disabilities."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "ADCS Overview"
+description: "The Automated Data Capture System (ADCS) solution provides a way for Dynamics NAV to communicate with handheld devices through web services."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

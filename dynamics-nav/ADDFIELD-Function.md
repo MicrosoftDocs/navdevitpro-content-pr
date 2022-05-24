@@ -1,5 +1,6 @@
 ---
 title: "ADDFIELD Function"
+description: "The ADDFIELD function adds a table field to the filter control for a table on filter page. This article describes its syntax, return value, remarks, and example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

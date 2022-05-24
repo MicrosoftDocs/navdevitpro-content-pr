@@ -1,5 +1,6 @@
 ---
 title: "Actions Overview"
+description: "Describes different types of actions, and how you can enable users to quickly locate the actions they want to use."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

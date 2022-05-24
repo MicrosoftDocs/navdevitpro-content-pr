@@ -1,5 +1,6 @@
 ---
 title: "ACTIVATE Function (Debugger)"
+description: "The ACTIVATE function (Debugger) activates the debugger and attaches the debugger to the next session that is started."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
