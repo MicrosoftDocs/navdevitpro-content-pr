@@ -1,5 +1,6 @@
 ---
 title: "BINDSUBSCRIPTION Function"
+description: "The BINDSUBSCRIPTION Function binds the event subscriber functions in the codeunit to the current codeunit instance for handling the events that they subscribe to."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

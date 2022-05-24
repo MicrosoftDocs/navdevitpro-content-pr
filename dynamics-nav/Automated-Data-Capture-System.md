@@ -1,5 +1,6 @@
 ---
 title: "Automated Data Capture System"
+description: "The Automated Data Capture System (ADCS) is a Dynamics NAV tool that lets you accurately capture data for inbound, outbound, and internal documents, primarily for warehouse activities."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

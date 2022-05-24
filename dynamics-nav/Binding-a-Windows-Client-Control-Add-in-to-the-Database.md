@@ -1,5 +1,6 @@
 ---
 title: "Binding a Windows Client Control Add-in to the Database"
+description: "This article explains how to bind a Windows client control add-in to the Dynamics NAV database and provides a list of supported data types."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

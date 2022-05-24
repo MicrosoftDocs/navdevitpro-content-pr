@@ -1,5 +1,6 @@
 ---
 title: "AutoSave Property"
+description: "The AutoSave Property sets whether imported records are automatically written to the table. This article describes its application, property value, and remarks."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "BitmapList Property"
+description: "The BitmapList Property sets a list of bitmaps from which the correct bitmap to display is selected."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

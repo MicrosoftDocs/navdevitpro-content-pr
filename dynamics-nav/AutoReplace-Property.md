@@ -1,5 +1,6 @@
 ---
 title: "AutoReplace Property"
+description: "The AutoReplace property sets whether imported records automatically replace existing records with the same primary key."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

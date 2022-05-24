@@ -1,5 +1,6 @@
 ---
 title: "Best Practices for Using Automation with the Microsoft Dynamics NAV Windows Client"
+description: "This topic provides best practices and recommendations to follow when implementing Automation in the RoleTailored client to help limit potential performance and security issues."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

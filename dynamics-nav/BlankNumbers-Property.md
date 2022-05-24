@@ -1,5 +1,6 @@
 ---
 title: "BlankNumbers Property"
+description: "The BlankNumbers Property indicates whether the system will clear a range of numbers as it formats them."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

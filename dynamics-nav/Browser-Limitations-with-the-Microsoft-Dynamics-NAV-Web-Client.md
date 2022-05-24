@@ -1,5 +1,6 @@
 ---
 title: "Browser Limitations with the Microsoft Dynamics NAV Web Client"
+description: "This article describes the feature limitations and known issues with the browsers supported by the Microsoft Dynamics NAC Web client."
 ms.custom: na
 ms.date: 10/17/2017
 ms.reviewer: na

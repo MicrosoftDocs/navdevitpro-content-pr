@@ -1,5 +1,6 @@
 ---
 title: "BREAKONRECORDCHANGES Function (Debugger)"
+description: "The BREAKONRECORDCHANGES Function (Debugger) breaks execution before a change to a record occurs."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Boolean (Logical) Operators"
+description: "Logical operators can only be used with arguments that can be evaluated to Boolean. This article provides a list of Boolean operators."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
