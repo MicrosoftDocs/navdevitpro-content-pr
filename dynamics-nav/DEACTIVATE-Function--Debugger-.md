@@ -1,5 +1,6 @@
 ---
 title: "DEACTIVATE Function (Debugger)"
+description: "The DEACTIVATE Function (Debugger) deactivates the debugger. This article describes its syntax and property/return value."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

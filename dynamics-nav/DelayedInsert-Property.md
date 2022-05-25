@@ -1,5 +1,6 @@
 ---
 title: "DelayedInsert Property"
+description: "The DelayedInsert Property sets a value that specifies whether a user must leave a record before it is inserted into the database."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "DATE2DMY Function (Date)"
+description: "The DATE2DMY Function (Date) gets the day, month, or year of a Date Data Type."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

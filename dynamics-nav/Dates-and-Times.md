@@ -1,5 +1,6 @@
 ---
 title: "Dates and Times"
+description: "This article references the date and time types and functions in Microsoft Dynamics NAV."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

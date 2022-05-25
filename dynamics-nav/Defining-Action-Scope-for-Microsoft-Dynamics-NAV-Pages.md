@@ -1,5 +1,6 @@
 ---
 title: "Defining Action Scope for Microsoft Dynamics NAV Pages"
+description: "In Dynamics NAV, it's useful to define whether the actions available on a page apply to the whole page or are related to the repeater control on the page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

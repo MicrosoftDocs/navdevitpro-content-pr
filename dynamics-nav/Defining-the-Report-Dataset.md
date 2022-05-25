@@ -1,5 +1,6 @@
 ---
 title: "Defining the Report Dataset"
+description: "The Report Dataset Designer is used in the Microsoft Dynamics NAV Development Environment to define the data model, or dataset, of a report."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Debugging"
+description: "This article describes the process of finding and correcting errors, which is called debugging. Microsoft Dynamics NAV 2018 provides an integrated debugger to inspect code."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

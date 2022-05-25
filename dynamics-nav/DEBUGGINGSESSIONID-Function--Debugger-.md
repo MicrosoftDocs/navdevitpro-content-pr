@@ -1,5 +1,6 @@
 ---
 title: "DEBUGGINGSESSIONID Function (Debugger)"
+description: "The DEBUGGINGSESSIONID Function (Debugger) gets the ID of the session that the debugger is currently attached to."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

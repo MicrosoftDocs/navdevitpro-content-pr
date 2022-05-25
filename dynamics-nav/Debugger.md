@@ -1,5 +1,6 @@
 ---
 title: "Debugger"
+description: "The Microsoft Dynamics NAV 2018 Debugger is an example of a debugger application that is built using tables, pages, codeunits, and the C/AL debugger functions."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

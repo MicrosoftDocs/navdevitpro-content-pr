@@ -1,5 +1,6 @@
 ---
 title: "Delete_&lt;part&gt; Operation"
+description: "The Delete_part Operation deletes records on a subpage of the current page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
