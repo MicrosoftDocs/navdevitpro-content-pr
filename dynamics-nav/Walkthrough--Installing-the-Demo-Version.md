@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Installing the Demo Version"
+description: Learn how to install the Demo version of Microsoft Dynamics NAV 2018 to evaluate or learn how to use the product.
 author: edupont04
 ms.custom: na
 ms.date: 10/22/2016

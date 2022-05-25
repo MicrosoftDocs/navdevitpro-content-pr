@@ -1,5 +1,6 @@
 ---
 title: "WORDXMLPART Function"
+description: Learn how the WORDXMLPART function returns the report data structure as structured XML that is compatible with Microsoft Word custom XML parts. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

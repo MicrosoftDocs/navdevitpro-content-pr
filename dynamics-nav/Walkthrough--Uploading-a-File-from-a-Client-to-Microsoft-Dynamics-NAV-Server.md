@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Uploading a File from a Client to Microsoft Dynamics NAV Server"
+description: Learn how to use file functions to send a file from a client to the server, use stream functions to read the file, and use an XMLport to load values to the database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

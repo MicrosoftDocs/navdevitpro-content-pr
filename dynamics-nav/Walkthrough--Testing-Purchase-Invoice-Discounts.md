@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Testing Purchase Invoice Discounts"
+description: Learn how to use the test codeunits and test libraries to test an application. You can also create a test codeunit.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

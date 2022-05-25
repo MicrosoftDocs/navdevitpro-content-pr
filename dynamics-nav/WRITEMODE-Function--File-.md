@@ -1,5 +1,6 @@
 ---
 title: "WRITEMODE Function (File)"
+description: Learn that you should use the WRITEMODE function before you use the OPEN function (File) to set or test whether you can write to a file in later calls. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

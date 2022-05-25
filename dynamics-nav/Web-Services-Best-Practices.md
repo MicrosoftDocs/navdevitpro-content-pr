@@ -1,5 +1,6 @@
 ---
 title: "Web Services Best Practices"
+description: Learn about practices that you can use to make your web services applications easier to understand and maintain. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

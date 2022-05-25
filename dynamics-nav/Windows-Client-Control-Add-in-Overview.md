@@ -1,5 +1,6 @@
 ---
 title: "Windows Client Control Add-in Overview"
+description: Learn how you can use Dynamics NAV control add-ins to extend the Dynamics NAV with custom functionality.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Designing a Report from Multiple Tables"
+description: Learn how to design the dataset for reports in Microsoft Dynamics NAV Report Dataset Designer and design the layout in Visual Studio Report Designer.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

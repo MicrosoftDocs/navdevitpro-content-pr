@@ -1,5 +1,6 @@
 ---
 title: "WRITE Function (File)"
+description: Learn how the WRITE function (File) writes to an MS-DOS encoded file or binary file, as well as details about its syntax and property value. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Running a Report Offline"
+description: Learn how to view a report and view the dataset and layout on a computer that does not have Dynamics NAV installed.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

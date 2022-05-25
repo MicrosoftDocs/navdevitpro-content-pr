@@ -1,5 +1,6 @@
 ---
 title: "Web Services Authentication"
+description: Learn that, when users send a request for a web service, they are authenticated according to the credential type that is configured for Microsoft Dynamics NAV Server. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

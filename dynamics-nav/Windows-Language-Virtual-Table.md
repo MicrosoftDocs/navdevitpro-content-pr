@@ -1,5 +1,6 @@
 ---
 title: "Windows Language Virtual Table"
+description: Learn how the virtual, read-only Windows Language table (ID 2000000045) displays the languages that Windows supports.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

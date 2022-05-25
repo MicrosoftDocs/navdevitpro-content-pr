@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Installing the Three Tiers On Two Computers"
+description: Install three tiers in a production environment with SQL Server and Microsoft Dynamics NAV Server together on one computer and the Microsoft Dynamics NAV Windows client on a second computer.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

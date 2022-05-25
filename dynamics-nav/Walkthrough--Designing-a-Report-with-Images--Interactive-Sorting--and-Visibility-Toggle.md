@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle"
+description: Learn how to create a report that displays images, allows interactive sorting, and provides visibility toggling.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
