@@ -1,5 +1,6 @@
 ---
 title: "DELETEENCRYPTIONKEY"
+description: "The DELETEENCRYPTIONKEY deletes the encryption key for the current Dynamics NAV tenant."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

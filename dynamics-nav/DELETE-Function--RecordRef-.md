@@ -1,5 +1,6 @@
 ---
 title: "DELETE Function (RecordRef)"
+description: "The DELETE Function (RecordRef) deletes a record in a table. This article describes its syntax, property/return value, remarks, and example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

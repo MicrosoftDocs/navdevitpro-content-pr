@@ -1,5 +1,6 @@
 ---
 title: "Designing RDLC Report Layouts"
+description: "Describes how to design RDLC report layouts using Report Designer for Visual Studio or Report Builder for SQL Server. "
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

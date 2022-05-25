@@ -1,5 +1,6 @@
 ---
 title: "Deployment"
+description: "The topics in the Deployment node are intended to help an administrator install and configure Microsoft Dynamics NAV 2018 software."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
