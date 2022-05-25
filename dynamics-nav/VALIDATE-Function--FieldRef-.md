@@ -1,5 +1,6 @@
 ---
 title: "VALIDATE Function (FieldRef)"
+description: Learn how the VALIDATE function allows you to enter a new value into a field and have the new value validated by the properties and code that have been defined for that field.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

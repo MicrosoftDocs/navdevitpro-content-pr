@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating and Using a Windows Client Control Add-in"
+description: Learn how to develop a Microsoft Dynamics NAV Windows client add-in and use it on a Microsoft Dynamics NAV Windows client page.
 ms.custom: na
 ms.date: 04/01/2019
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Role Center"
+description: Learn how to create a new Role Center for the Microsoft Dynamics NAV Windows client or Microsoft Dynamics NAV 2018. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

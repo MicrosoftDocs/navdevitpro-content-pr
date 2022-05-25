@@ -1,5 +1,6 @@
 ---
 title: "VALIDATE Function (Record)"
+description: Learn how the VALIDATE function (Record) calls the OnValidate trigger for the field that you specify.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

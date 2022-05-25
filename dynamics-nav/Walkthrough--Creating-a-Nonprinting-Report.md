@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Nonprinting Report"
+description: Learn how to create a non-printing report. A non-printing report is a report that only does processing without actually outputting or printing a report.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

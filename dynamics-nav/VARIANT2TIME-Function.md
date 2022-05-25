@@ -1,5 +1,6 @@
 ---
 title: "VARIANT2TIME Function"
+description: Learn how the VARIANT2TIME function gets a time from a variant, as well as details about its syntax and property value.   
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

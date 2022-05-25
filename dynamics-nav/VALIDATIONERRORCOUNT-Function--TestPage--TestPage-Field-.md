@@ -1,5 +1,6 @@
 ---
 title: "VALIDATIONERRORCOUNT Function (TestPage, TestPage Field)"
+description: Learn how the VALIDATIONERRORCOUNT function (TestPage, TestPage Field) gets the number of validation errors that occurred on the test page.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

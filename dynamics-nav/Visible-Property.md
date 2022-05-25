@@ -1,6 +1,6 @@
 ---
 title: "Visible Property"
-author: edupont04
+description: Learn how the Visible property sets whether to display the page or control.
 ms.custom: na
 ms.date: 12/08/2016
 ms.reviewer: na

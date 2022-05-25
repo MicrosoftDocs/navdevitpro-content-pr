@@ -1,5 +1,6 @@
 ---
 title: "Using the Development Environment from the Command Prompt"
+description: Learn how you can start the Microsoft Dynamics NAV Development Environment by running finsql.exe at the command prompt. 
 author: edupont04
 ms.custom: na
 ms.date: 12/01/2016

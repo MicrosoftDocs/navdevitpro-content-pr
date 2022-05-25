@@ -1,5 +1,6 @@
 ---
 title: "VariableName Properties"
+description: Learn how the VariableName properties sets a variable name for the table that you have specified in the SourceTable property. 
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Query to Link Three Tables"
+description: Learn how to create a query that links three tables. It also includes the SQL query that this query object represents. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -147,7 +148,7 @@ GROUP BY SP.Name
   
      The following figure shows the **SH Properties** window and Query Designer.  
   
-     ![Query that joins three tables](media/Query_WalkthroughThreeTables_SH.png "Query\_WalkthroughThreeTables\_SH")  
+     ![Screenshot that shows the S H Properties window and Query Designer.](media/Query_WalkthroughThreeTables_SH.png "Query\_WalkthroughThreeTables\_SH")  
   
 12. Close the **SH Properties** window, and then link the **Sales Line** table and the **Sales Header** table.  
   
