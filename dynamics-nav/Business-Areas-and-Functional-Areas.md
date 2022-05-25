@@ -1,5 +1,6 @@
 ---
 title: "Business Areas and Functional Areas"
+description: "This article shows all of the business and functional areas that Microsoft Dynamics NAV is divided into."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

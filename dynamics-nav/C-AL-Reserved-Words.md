@@ -1,5 +1,6 @@
 ---
 title: "C/AL Reserved Words"
+description: "This article provides the C/AL reserved words that cannot be used as variable, constant, or function names in applications."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

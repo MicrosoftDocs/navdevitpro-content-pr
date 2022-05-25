@@ -1,5 +1,6 @@
 ---
 title: "Business Areas and Granules"
+description: "This article describes the Microsoft Dynamics NAV business areas, and how the license file controls ones access to the business areas and their functionality."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "CANLOADTYPE Function"
+description: "The CANLOADTYPE Function tests if the specified .NET Framework type can be loaded by Dynamics NAV."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

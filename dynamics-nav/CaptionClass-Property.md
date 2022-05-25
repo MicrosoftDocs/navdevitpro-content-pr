@@ -1,5 +1,6 @@
 ---
 title: "CaptionClass Property"
+description: "The CaptionClass Property controls the caption that is used in the label of a field in a database table or in the label of a control on a page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

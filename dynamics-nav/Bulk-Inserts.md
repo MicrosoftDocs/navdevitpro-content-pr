@@ -1,5 +1,6 @@
 ---
 title: "Bulk Inserts"
+description: "This article describes how to use bulk inserts, which reduces the number of server calls and improves performance."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
