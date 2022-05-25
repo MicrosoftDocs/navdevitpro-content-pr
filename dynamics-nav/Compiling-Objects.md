@@ -1,5 +1,6 @@
 ---
 title: "Compiling Objects"
+description: Details the syntax for Compiling Objects and includes syntax errors, obsolete construct errors, and multilanguage captions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
