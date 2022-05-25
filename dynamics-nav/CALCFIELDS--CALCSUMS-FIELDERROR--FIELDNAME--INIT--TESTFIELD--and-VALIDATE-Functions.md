@@ -1,6 +1,6 @@
 ---
-title: "CALCFIELDS, CALCSUMS,FIELDERROR, FIELDNAME, INIT, TESTFIELD, and VALIDATE Functions"
-description: "This article describes the CALCFIELDS, CALCSUMS,FIELDERROR, FIELDNAME, INIT, TESTFIELD, and VALIDATE Functions."
+title: "CALCFIELDS, CALCSUMS, FIELDERROR, FIELDNAME, INIT, TESTFIELD, and VALIDATE Functions"
+description: "This article describes the CALCFIELDS, CALCSUMS, FIELDERROR, FIELDNAME, INIT, TESTFIELD, and VALIDATE Functions."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
