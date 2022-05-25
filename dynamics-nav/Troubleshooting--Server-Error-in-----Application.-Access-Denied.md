@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Server Error in &#39;-&#39; Application. Access Denied"
+description: This topic contains information on how to troubleshoot Server Error in '/' Application.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

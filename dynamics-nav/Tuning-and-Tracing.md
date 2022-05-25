@@ -1,5 +1,6 @@
 ---
 title: "Tuning and Tracing"
+description: Describes Tuning and Tracing tools. As a result of using indexed views, SIFT keys are exposed to SQL Server tracing and tuning tools.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

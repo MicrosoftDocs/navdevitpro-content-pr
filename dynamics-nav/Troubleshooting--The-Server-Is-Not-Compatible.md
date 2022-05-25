@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: The Server Is Not Compatible"
+description: This topic describes how to resolve the problem of The Server Is Not Compatible if the versions of the nav_server and the nav_uni_app.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
