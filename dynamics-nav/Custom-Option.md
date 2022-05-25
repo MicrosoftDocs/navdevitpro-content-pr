@@ -1,5 +1,6 @@
 ---
 title: "Custom Option"
+description: This article provides details on the Custom option and a full list of Dynamics NAV components. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

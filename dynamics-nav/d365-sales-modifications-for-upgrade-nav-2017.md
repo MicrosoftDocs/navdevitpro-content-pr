@@ -1,5 +1,6 @@
 ---
 title: "Modifying Dynamics 365 Sales Code for Technical Upgrade to Dynamics NAV 2017"
+description: This article describes how to modify Dynamics 365 Sales code for technical upgrade to Dynamics NAV 2017.
 ms.custom: na
 ms.date: 06/30/2021
 ms.reviewer: na

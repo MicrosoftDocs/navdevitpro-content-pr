@@ -1,5 +1,6 @@
 ---
 title: "DataCaptionFields Property"
+description: Describes the DataCaptionFields property and provides and example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

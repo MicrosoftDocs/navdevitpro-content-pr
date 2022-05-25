@@ -1,5 +1,6 @@
 ---
 title: "DataItemLinkType Property"
+description: Describes the DataItemLinkType property and provides property value with additional remarks.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

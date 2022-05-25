@@ -1,5 +1,6 @@
 ---
 title: "Data Access"
+description: This article provides information on data access and Dynamics NAV Server data caching.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
