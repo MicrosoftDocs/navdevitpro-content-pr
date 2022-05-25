@@ -1,5 +1,6 @@
 ---
 title: "COLUMNCAPTION Function"
+description: Details the syntax for the COLUMNCAPTION function and returns the current caption of a query column as a text string.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

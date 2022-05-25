@@ -1,5 +1,6 @@
 ---
 title: "Codeunit Metadata Virtual Table"
+description: Details the syntax for the Codeunit Metadata virtual table and contains information about codeunits in the database. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

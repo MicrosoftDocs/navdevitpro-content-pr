@@ -1,5 +1,6 @@
 ---
 title: "Communicating with Microsoft Dynamics NAV Clients in Different Time Zones"
+description: An overview of how Microsoft Dynamics NAV Clients Communicate with RoleTailored in Different Time Zones.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
