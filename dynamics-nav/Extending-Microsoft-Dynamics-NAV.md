@@ -1,5 +1,6 @@
 ---
 title: "Extending Microsoft Dynamics NAV"
+description: Details how you can extend the functionality of Microsoft Dynamics NAV 2018 by using the following features.
 ms.author: solsen
 ms.custom: na
 ms.date: 11/29/2017

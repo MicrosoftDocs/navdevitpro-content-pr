@@ -1,5 +1,6 @@
 ---
 title: "ExportToNewSyntax"
+description: Details the syntax for ExportToNewSyntax and allows you to export objects to a .txt file that is supported by the Txt2Al conversion tool.
 ms.custom: na
 ms.date: 05/10/2017
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Exposing Methods and Properties in a Windows Client Control Add-in"
+description: Details the syntax for exposing methods and properties in a Windows client control add-ins to add custom user interface controls.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

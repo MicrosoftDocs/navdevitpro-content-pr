@@ -1,5 +1,6 @@
 ---
 title: "Exposing Events and Calling Respective C/AL Triggers from a Windows Client Control Add-in"
+description: Details the syntax for exposing events and calling respective C/AL triggers from a Windows Client Control Add-in. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
