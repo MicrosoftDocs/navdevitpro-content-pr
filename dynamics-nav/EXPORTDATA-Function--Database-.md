@@ -1,5 +1,6 @@
 ---
 title: "EXPORTDATA Function (Database)"
+description: Details the EXPORTDATA function to export data from the Dynamics NAV database to a file. The data is not deleted from the database.
 author: edupont04
 manager: edupont04
 ms.custom: na
