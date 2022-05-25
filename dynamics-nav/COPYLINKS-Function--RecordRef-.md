@@ -1,6 +1,6 @@
 ---
 title: "COPYLINKS Function (RecordRef)"
-description: "Describes the COPYLINKS function (RecordRef), which copies all the links from a particular record."
+description: "Describes the COPYLINKS function (RecordRef). Use this function to copy all the links from a specified record and paste the links to the current record."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

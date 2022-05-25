@@ -1,6 +1,6 @@
 ---
 title: "Converting a Database - Technical Upgrade"
-description: "This article describes how to convert a Dynamics NAV database to Microsoft Dynamics NAV 2018."
+description: "This article describes how to convert a Dynamics NAV database (2013, 2013 R2, 2015, 2016, or 2017) to Microsoft Dynamics NAV 2018."
 ms.custom: na
 ms.date: 03/01/2018
 ms.reviewer: na
