@@ -1,5 +1,6 @@
 ---
 title: "Events in Microsoft Dynamics NAV"
+description: Describes how you can use events in Dynamics NAV. This is a proven and established programming concept.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

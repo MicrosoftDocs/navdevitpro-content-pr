@@ -1,5 +1,6 @@
 ---
 title: "Event Subscriptions Virtual Table"
+description: The Event Subscriptions virtual table contains data about the event subscriber functions that subscribe to published event functions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

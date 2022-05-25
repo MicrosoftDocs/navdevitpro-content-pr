@@ -1,5 +1,6 @@
 ---
 title: "Event Types"
+description: Dynamics NAV supports different types of events for different purposes including but not limited to Business Events, Integration Events.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

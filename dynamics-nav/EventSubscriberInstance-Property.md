@@ -1,5 +1,6 @@
 ---
 title: "EventSubscriberInstance Property"
+description: EventSubscriberInstance property, specifies how event subscriber functions in a codeunit are bound to the codeunit instance.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

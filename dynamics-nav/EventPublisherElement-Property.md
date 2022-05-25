@@ -1,5 +1,6 @@
 ---
 title: "EventPublisherElement Property"
+description: The EventPublisherElement property specifies the table field that the trigger event pertains to and applies to C/AL functions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
