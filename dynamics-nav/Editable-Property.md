@@ -1,5 +1,6 @@
 ---
 title: "Editable Property"
+description: Describes the editable property and provides property value and an example.
 ms.custom: na
 ms.date: 12/08/2016
 ms.reviewer: na

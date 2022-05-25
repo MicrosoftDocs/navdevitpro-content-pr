@@ -1,5 +1,6 @@
 ---
 title: "EnableExternalImages Property"
+description: Describes the EnableExternalImages property and provides property value, remarks, and security considerations.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

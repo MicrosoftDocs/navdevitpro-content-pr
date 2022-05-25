@@ -1,5 +1,6 @@
 ---
 title: "ERROR Function (Dialog)"
+description: Describes the ERROR function (dialog) and provides syntax, parameters, guidelines, and an example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

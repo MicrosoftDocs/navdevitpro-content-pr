@@ -1,5 +1,6 @@
 ---
 title: "Essential C/AL Functions"
+description: This article provides links to essential C/AL functions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
