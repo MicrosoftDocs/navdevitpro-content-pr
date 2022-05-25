@@ -1,6 +1,6 @@
 ---
 title: "ConstValue Property"
-description: "Sets the value of the C/AL text constant for the current application language of the development environment."
+description: "Describes the ConstValue property, which sets the value of the C/AL text constant for the current application language of the development environment."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

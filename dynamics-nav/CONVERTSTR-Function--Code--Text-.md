@@ -1,6 +1,6 @@
 ---
 title: "CONVERTSTR Function (Code, Text)"
-description: "Describes the CONVERTSTR function (Code, Text), which converts some characters in a string."
+description: "This document describes the CONVERTSTR function (Code, Text), which converts some characters in a string."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
