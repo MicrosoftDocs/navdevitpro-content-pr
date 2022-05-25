@@ -1,5 +1,6 @@
 ---
 title: "Setting up the Excel Add-In for Editing Data"
+description: Article describes the process for setting up the Excel add-in for editing Dynamics NAV data to get fresh data based on work in Excel.
 author: jswymer
 manager: edupont
 ms.author: jswymer

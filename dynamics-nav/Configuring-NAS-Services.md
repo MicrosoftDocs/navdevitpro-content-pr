@@ -1,5 +1,6 @@
 ---
 title: "Configuring NAS Services"
+description: NAS services are a middle-tier server component. NAS services in Microsoft Dynamics NAV Server support applications such as Microsoft Office Outlook.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
