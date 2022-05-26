@@ -1,5 +1,6 @@
 ---
 title: "How to: View Names and Captions"
+description: "Describes how to view names and captions in the development environment."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

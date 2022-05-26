@@ -1,5 +1,6 @@
 ---
 title: "IMPORTENCRYPTIONKEY"
+description: "IMPORTENCRYPTIONKEY points to a password protected file that contains the key on the current server."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "How to: View All Table Fields for a Record"
+description: "Describes how to use the About This Page feature to view all fields for the current record that are in the table on which the page is based."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

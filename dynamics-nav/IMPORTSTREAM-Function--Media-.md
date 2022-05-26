@@ -1,5 +1,6 @@
 ---
 title: "IMPORTSTREAM Function (Media)"
+description: "The IMPORTSTREAM Function (Media) adds a media type (MIME), such as jpeg image, from an InStream object to a Media data type field of a record for displaying the media in the client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
