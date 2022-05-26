@@ -1,13 +1,13 @@
 ---
-title: "Page Preview"
-description; Page Preview previews a page directly from Page Designer to see how the page will look in the nav_windows.
+title: Page Preview
+description: Page Preview previews a page directly from Page Designer to see how the page will look in the nav_windows.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2018"
+ms.prod: dynamics-nav-2018
 ms.assetid: d8268d9f-e440-4d27-be4f-7b84b9fbe308
 caps.latest.revision: 10
 manager: edupont
