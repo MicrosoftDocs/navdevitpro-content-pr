@@ -1,5 +1,6 @@
 ---
 title: "How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets"
+description: "Describes how to try out or demonstrate the effect of the feature to remove UI elements according to user permissions, and can quickly prepare a test UI based on two permission sets."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

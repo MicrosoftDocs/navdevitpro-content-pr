@@ -1,5 +1,6 @@
 ---
 title: "How to: Use an Access Key for SOAP and OData Web Service Authentication"
+description: "Describes how to configure Dynamics NAV user accounts to include an access key that can be used instead of a password to authenticate SOAP and OData web service requests."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

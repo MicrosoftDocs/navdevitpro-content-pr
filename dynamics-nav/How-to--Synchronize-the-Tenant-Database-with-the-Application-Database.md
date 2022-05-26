@@ -1,5 +1,6 @@
 ---
 title: "How to: Synchronize the Tenant Database with the Application Database"
+description: "This topic describes how to synchronize the business data (tenant) database schema with the application database in either a single tenant (non-multitenant) or multitenant deployment environment."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

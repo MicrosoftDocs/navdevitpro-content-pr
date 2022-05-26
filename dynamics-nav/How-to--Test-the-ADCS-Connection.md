@@ -1,5 +1,6 @@
 ---
 title: "How to: Test the ADCS Connection"
+description: "Describes how to use Windows Services and Telnet to test your Automated Data Capture System connection."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

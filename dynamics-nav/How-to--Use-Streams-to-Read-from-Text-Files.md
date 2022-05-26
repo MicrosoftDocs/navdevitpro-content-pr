@@ -1,5 +1,6 @@
 ---
 title: "How to: Use Streams to Read from Text Files"
+description: "This topic shows you how to use InStream to read from a text file."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
