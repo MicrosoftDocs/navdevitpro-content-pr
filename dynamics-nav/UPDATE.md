@@ -1,5 +1,6 @@
 ---
 title: "UPDATE"
+description: In this article, learn how you can use UPDATE to save the current record and then updates the controls in the page.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

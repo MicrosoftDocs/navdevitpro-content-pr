@@ -1,5 +1,6 @@
 ---
 title: "UseDefaultNamespace Property"
+description: Learn how the UseDefaultNamespace property specifies whether the value in default namespace should be used for both output and input XML documents. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

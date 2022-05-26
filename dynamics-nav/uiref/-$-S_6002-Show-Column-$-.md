@@ -1,5 +1,6 @@
 ---
 title: "Show Column"
+description: Learn how the Show Column property specifies which columns in the active window to show or hide. 
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

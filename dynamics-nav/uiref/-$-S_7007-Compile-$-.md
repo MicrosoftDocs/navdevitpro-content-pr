@@ -1,5 +1,6 @@
 ---
 title: "Compile"
+description: In this article, learn how the Compile option compiles the Dynamics NAV table object. Also learn that you must set the Synchronize Schema field.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

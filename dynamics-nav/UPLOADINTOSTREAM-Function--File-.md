@@ -1,5 +1,6 @@
 ---
 title: "UPLOADINTOSTREAM Function (File)"
+description: Learn how the UPLOADINTOSTREAM function (File) sends a file from the client computer to the corresponding Microsoft Dynamics NAV Server.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

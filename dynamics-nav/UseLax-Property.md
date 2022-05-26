@@ -1,5 +1,6 @@
 ---
 title: "UseLax Property"
+description: Learn how the UseLax property specifies whether an XMLport uses LAX (Lazy API for XML) to process an XML file.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

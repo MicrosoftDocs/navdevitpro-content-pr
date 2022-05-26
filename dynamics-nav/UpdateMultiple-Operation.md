@@ -1,5 +1,6 @@
 ---
 title: "UpdateMultiple Operation"
+description: Learn how the UpdateMultiple operation updates a set of records. The updated array of records is passed as a reference and is updated with the latest version.    
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Save As"
+description: In this article, learn how the Save As option creates a new Dynamics NAV object by copying the selected object.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Unbound Property"
+description: Learn how the Unbound property sets whether the element can be repeated an unknown number of times at runtime before the import or export moves on to the next element.  
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

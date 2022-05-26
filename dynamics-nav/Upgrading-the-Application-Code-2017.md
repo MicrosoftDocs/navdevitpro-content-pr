@@ -1,5 +1,6 @@
 ---
 title: "Upgrading the Application Code"
+description: Learn that to upgrade the application code, you must merge code from different versions of the application.
 ms.custom: na
 ms.date: 03/04/2017
 ms.reviewer: na

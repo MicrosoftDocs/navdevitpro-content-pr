@@ -1,5 +1,6 @@
 ---
 title: "UPPERCASE Function (Code, Text)"
+description: Learn how the UPPERCASE function (Code, Text) converts all letters in a string to uppercase, as well as details about its syntax and parameters.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
