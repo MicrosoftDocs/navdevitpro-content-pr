@@ -58,7 +58,7 @@ By default, SQL Server uses an in-memory data structure called a *ring_buffer ta
             SET filename=N'C:\logging\mydeadlocks.xel',max_file_size=(10240)
           )
       ```
-    For more information see [Alter an Extended Events Session](/sql/relational-databases/extended-events/alter-an-extended-events-session?view=sql-server-2017&preserve-view=true) and [Targets for Extended Events in SQL Server](/sql/relational-databases/extended-events/targets-for-extended-events-in-sql-server?view=sql-server-2017).
+    For more information see [Alter an Extended Events Session](/sql/relational-databases/extended-events/alter-an-extended-events-session?view=sql-server-2017&preserve-view=true) and [Targets for Extended Events in SQL Server](/sql/relational-databases/extended-events/targets-for-extended-events-in-sql-server?view=sql-server-2017&preserve-view=true).
     
 2. Create a view in the [!INCLUDE[navnow](includes/navnow_md.md)] database that uses the new event_file target. 
 
