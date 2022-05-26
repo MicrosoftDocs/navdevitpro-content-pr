@@ -1,5 +1,6 @@
 ---
 title: "How to: Open the Microsoft Dynamics NAV Web Client"
+description: "This topic describes how to open the Microsoft Dynamics NAV Web client using a web browser from a device with a network connection."
 ms.custom: na
 ms.date: 02/10/2017
 ms.reviewer: na
