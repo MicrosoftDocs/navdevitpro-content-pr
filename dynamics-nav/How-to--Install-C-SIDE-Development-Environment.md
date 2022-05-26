@@ -1,5 +1,6 @@
 ---
 title: "How to: Install C/SIDE Development Environment"
+description: "Describes the demo, client, and developer options for installing the C/SIDE Development Environment."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

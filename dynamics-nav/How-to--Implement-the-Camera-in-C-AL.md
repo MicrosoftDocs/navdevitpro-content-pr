@@ -1,5 +1,6 @@
 ---
 title: "How to: Implement the Camera in C/AL"
+description: "Describes how you can add access to camera to a specific page from the development environment in C/AL."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

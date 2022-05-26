@@ -1,5 +1,6 @@
 ---
 title: "How to: Insert Items in a MenuSuite"
+description: "Describes how to modify a MenuSuite by inserting existing items."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

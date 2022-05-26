@@ -1,5 +1,6 @@
 ---
 title: "How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client"
+description: "This topic describes how to install and configure Internet Information Service (IIS) for the Microsoft Dynamics NAV Web client."
 ms.custom: na
 ms.date: 02/08/2017
 ms.reviewer: na
