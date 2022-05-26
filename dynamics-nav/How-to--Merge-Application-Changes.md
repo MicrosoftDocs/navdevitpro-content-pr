@@ -1,5 +1,6 @@
 ---
 title: "How to: Merge Application Changes"
+description: "Describes how to merge application changes with Windows PowerShell by comparing and merging application objects from different versions."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
