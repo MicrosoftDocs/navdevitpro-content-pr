@@ -1,5 +1,6 @@
 ---
 title: "GetImageResource Method"
+description: Describes the GetImageResource method and provides the method signature, return value, and an example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

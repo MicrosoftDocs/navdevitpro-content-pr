@@ -1,5 +1,6 @@
 ---
 title: "GETARCHIVEVERSION Function"
+description: Describes the GETARCHIVEVERSION and provides syntax.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "GETRANGEMAX Function (FieldRef)"
+description: Describes the GETRANGEMAX function (FieldRef) and provides syntax, parameters, retrun value, and an example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
