@@ -1,5 +1,6 @@
 ---
 title: "Monitoring Microsoft Dynamics NAV Server Using Performance Counters"
+description: Describes monitoring Microsoft Dynamics NAV Server using performance counters to check information about how the server is operating.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

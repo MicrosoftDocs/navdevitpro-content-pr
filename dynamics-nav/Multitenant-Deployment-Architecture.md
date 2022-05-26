@@ -1,5 +1,6 @@
 ---
 title: "Multitenant Deployment Architecture"
+description: The multitenant deployment architecture supports deployments where several different companies access a centrally maintained Dynamics NAV application.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

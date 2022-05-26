@@ -1,5 +1,6 @@
 ---
 title: "MultiLine Property"
+description: Discusses how the MultiLine property sets the value that indicates whether a field can display multiple lines of text.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
