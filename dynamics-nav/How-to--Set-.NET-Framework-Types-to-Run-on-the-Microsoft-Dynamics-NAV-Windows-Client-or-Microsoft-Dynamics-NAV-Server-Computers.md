@@ -1,5 +1,6 @@
 ---
 title: "How to: Set .NET Framework Types to Run on the Microsoft Dynamics NAV Windows Client or Microsoft Dynamics NAV Server Computers"
+description: Describes how to set .NET Framework types to run on the Microsoft Dynamics NAV Windows client or Microsoft Dynamics NAV server computers. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

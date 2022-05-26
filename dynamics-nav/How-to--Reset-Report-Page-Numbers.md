@@ -1,5 +1,6 @@
 ---
 title: "How to: Reset Report Page Numbers"
+description: This article provides a detailed overview of how to reset report page numbers with syntax.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
