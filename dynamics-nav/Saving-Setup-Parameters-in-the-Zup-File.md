@@ -1,5 +1,6 @@
 ---
 title: "Saving Setup Parameters in the Zup File"
+description: This article describes saving setup parameters in a zup file.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

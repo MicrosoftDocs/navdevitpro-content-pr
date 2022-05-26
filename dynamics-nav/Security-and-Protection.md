@@ -1,5 +1,6 @@
 ---
 title: "Security and Protection"
+description: this article provides a general overview of security and protection.
 author: edupont04
 ms.custom: na
 ms.date: 10/21/2016

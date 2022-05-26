@@ -1,5 +1,6 @@
 ---
 title: "Security and Protection for Microsoft Dynamics NAV on Microsoft Azure"
+description: This topic contains information and recommendations about the security and protection of Dynamics NAV on Microsoft Azure.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

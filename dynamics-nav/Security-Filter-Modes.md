@@ -1,5 +1,6 @@
 ---
 title: "Security Filter Modes"
+description: This article describes the different security filter modes and provides an example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
