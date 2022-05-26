@@ -1,5 +1,6 @@
 ---
 title: "Application Languages"
+description: Application Languages lists the languages that are included in your license and installed on your computer.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

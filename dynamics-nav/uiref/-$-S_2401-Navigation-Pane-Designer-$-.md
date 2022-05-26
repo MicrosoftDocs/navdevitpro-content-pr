@@ -1,5 +1,6 @@
 ---
 title: "Navigation Pane Designer"
+description: Navigation Pane Designer creates and customizes MenuSuite objects.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
