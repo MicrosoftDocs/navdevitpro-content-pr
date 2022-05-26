@@ -48,7 +48,7 @@ By default, SQL Server uses an in-memory data structure called a *ring_buffer ta
 
     The event_file target writes event session output from a buffer to a disk file that you specify. There are two ways to do this:
     - From Object Explorer, open the session's **Properties**, and then on the **Data Storage** page, add an **event_file** type target.  
-    - Using a query, run the [ALTER EVENT SESSION](https://docs.microsoft.com/sql/t-sql/statements/alter-event-session-transact-sql?view=sql-server-2017) transact-sql statement. For example:
+    - Using a query, run the [ALTER EVENT SESSION](https://docs.microsoft.com/sql/t-sql/statements/alter-event-session-transact-sql?view=sql-server-2017&preserve-view=true) transact-sql statement. For example:
       ```
       ALTER EVENT SESSION [Demo Database NAV_deadlock_monitor]
           ON SERVER
@@ -57,7 +57,7 @@ By default, SQL Server uses an in-memory data structure called a *ring_buffer ta
             SET filename=N'C:\logging\mydeadlocks.xel',max_file_size=(10240)
           )
       ```
-    For more information see [Alter an Extended Events Session](https://docs.microsoft.com/sql/relational-databases/extended-events/alter-an-extended-events-session?view=sql-server-2017) and [Targets for Extended Events in SQL Server](https://docs.microsoft.com/sql/relational-databases/extended-events/targets-for-extended-events-in-sql-server?view=sql-server-2017#eventfile-target).
+    For more information see [Alter an Extended Events Session](https://docs.microsoft.com/sql/relational-databases/extended-events/alter-an-extended-events-session?view=sql-server-2017&preserve-view=true) and [Targets for Extended Events in SQL Server](https://docs.microsoft.com/sql/relational-databases/extended-events/targets-for-extended-events-in-sql-server?view=sql-server-2017#eventfile-target&preserve-view=true).
     
 2. Create a view in the [!INCLUDE[navnow](includes/navnow_md.md)] database that uses the new event_file target. 
 
