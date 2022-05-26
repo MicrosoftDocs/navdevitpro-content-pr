@@ -1,5 +1,6 @@
 ---
 title: "System-Defined Variables"
+description: Learn that Dynamics NAV automatically declares and initializes several variables that you can use when you develop applications. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

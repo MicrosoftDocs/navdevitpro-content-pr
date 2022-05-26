@@ -1,5 +1,6 @@
 ---
 title: "SumIndexFields Property"
+description: Learn how the SumIndexFields property sets the SumIndexField Technology (SIFT) for the key, if applicable.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "SubType Property (BLOB)"
+description: Learn how the SubType property (BLOB) sets additional information about what will be contained in the field.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

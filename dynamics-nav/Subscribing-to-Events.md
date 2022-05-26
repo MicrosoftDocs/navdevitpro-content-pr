@@ -1,5 +1,6 @@
 ---
 title: "Subscribing to Events"
+description: Learn that an event subscriber is a C/AL function that subscribes to, or listens for, a specific event that is declared by an event publisher function.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
