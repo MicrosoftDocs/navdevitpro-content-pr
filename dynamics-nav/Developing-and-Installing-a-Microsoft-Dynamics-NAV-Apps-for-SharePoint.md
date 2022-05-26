@@ -1,5 +1,6 @@
 ---
 title: "Developing and Installing a Microsoft Dynamics NAV Apps for SharePoint"
+description: "This topic describes the overall configuration of an app for SharePoint that uses Dynamics NAV data, with examples provided."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

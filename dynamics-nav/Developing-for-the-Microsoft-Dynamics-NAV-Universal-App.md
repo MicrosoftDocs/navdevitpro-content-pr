@@ -1,5 +1,6 @@
 ---
 title: "Developing for the Microsoft Dynamics NAV Universal App"
+description: "Provides an overview of developing for the Microsoft Dynamics NAV Universal App."
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 10/21/2016

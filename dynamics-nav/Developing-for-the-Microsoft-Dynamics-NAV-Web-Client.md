@@ -1,5 +1,6 @@
 ---
 title: "Developing for the Microsoft Dynamics NAV Web Client"
+description: "Describes how to develop for the Microsoft Dynamics NAV Web client, which lets users interact with Dynamics NAV data over the network from a web browser."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Developing Multilanguage-Enabled Applications"
+description: "Describes how to develop multilanguage-enabled applications using the CaptionML property."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

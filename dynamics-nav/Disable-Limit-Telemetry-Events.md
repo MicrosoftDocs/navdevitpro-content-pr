@@ -1,5 +1,6 @@
 ---
 title: "Turn Off or Limit Telemetry Trace Events"
+description: "Describes how to turn off or limit telemetry trace events, which can be collected using various event trace tools."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Your Next Steps"
+description: "Describes the next steps to take in Dynamics 365 Business Central as a reseller, developer, accountant, and financial service outsourcer."
 ms.custom: na
 ms.date: 09/07/2017
 ms.reviewer: na
