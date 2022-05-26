@@ -1,5 +1,6 @@
 ---
 title: "IncludeSender Property"
+description: "This topic describes the IncludeSender property, which is only available when the Event Property is set to Publisher."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
