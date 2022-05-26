@@ -1,5 +1,6 @@
 ---
 title: "Field Arrangement on FastTabs"
+description: Describes how fields are arranged on a FastTab of a page, grouping fields on a FastTab, and manually arranging fields in multiple rows and columns.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

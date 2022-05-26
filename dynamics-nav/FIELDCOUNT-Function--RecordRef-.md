@@ -1,5 +1,6 @@
 ---
 title: "FIELDCOUNT Function (RecordRef)"
+description: FIELDCOUNT function provides the number of fields in the table that are selected or returns the number of fields that are been defined in a key.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

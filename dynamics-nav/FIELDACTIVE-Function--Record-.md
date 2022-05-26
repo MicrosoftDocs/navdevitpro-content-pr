@@ -1,5 +1,6 @@
 ---
 title: "FIELDACTIVE Function (Record)"
+description: Details the syntax and code samples for the FIELDACTIVE function which checks if a field is enabled.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

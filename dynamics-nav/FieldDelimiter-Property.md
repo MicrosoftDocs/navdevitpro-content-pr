@@ -1,5 +1,6 @@
 ---
 title: "FieldDelimiter Property"
+description: Describes the FieldDelimiter property which specifies the text delimiter for a field and applies to XMLports.
 author: edupont04
 ms.custom: na
 ms.date: 06/21/2017
