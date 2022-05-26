@@ -1,5 +1,6 @@
 ---
 title: "TENANTID Function (Database)"
+description: Learn how the TENANTID function (Database) gets the ID of the tenant that has started the current session.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

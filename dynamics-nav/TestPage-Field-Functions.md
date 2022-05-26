@@ -1,5 +1,6 @@
 ---
 title: "TestPage Field Functions"
+description: Learn how the field functions enable you to view or change the value of a field on a test page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

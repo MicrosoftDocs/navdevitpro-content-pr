@@ -1,5 +1,6 @@
 ---
 title: "TABLENO Function (RecordID)"
+description: Learn how the TABLENO function (RecordID) gets the table number of the table that is identified by RecordID.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "TestPage Action Functions"
+description: Learn how the access page actions by using the dot notation and the INVOKE function (TestPage Action).
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

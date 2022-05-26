@@ -1,5 +1,6 @@
 ---
 title: "Testing the Application"
+description: Learn about features in Microsoft Dynamics NAV 2018 that help you test business logic in your application and best practices for testing a Dynamics NAV application. 
 ms.custom: na
 ms.date: 01/19/2017
 ms.reviewer: na

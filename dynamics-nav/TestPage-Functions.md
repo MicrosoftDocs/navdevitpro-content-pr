@@ -1,5 +1,6 @@
 ---
 title: "TestPage Functions"
+description: Learn how you can use the TestPage functions for various purposes, like opening and closing test pages.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

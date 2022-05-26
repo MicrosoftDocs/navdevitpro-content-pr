@@ -1,5 +1,6 @@
 ---
 title: "TableSeparator Property"
+description: Learn how the TableSeparator property specifies the table separator for a table, as well as other details about the property. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

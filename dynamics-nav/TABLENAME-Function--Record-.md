@@ -1,5 +1,6 @@
 ---
 title: "TABLENAME Function (Record)"
+description: Learn how the TABLENAME function (Record) gets the name of a table, as well as other details about its syntax and parameters.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

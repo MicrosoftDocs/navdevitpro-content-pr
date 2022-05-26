@@ -1,5 +1,6 @@
 ---
 title: "Table Relations Virtual Table"
+description: Learn how the Table Relations virtual table (ID 2000000141) contains information about table relations for all fields in Dynamics NAV non-system tables. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

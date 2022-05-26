@@ -1,5 +1,6 @@
 ---
 title: "Technical Reference"
+description: This article describes technical reference information for Dynamics NAV and points to additional articles for more details.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
