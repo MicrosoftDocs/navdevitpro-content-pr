@@ -1,5 +1,6 @@
 ---
 title: "TestTableRelation Property"
+description: Learn how the TestTableRelation property sets whether to include this field when evaluating field relations between primary and secondary indexes.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
