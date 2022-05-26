@@ -1,5 +1,6 @@
 ---
 title: "HasCustomLayout Function"
+description: "The HasCustomLayout Function determines whether a report is currently set up to use a custom Word layout or RDLC layout at run time."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

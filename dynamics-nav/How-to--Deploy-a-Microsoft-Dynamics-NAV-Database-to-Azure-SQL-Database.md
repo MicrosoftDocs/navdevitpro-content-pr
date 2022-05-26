@@ -1,5 +1,6 @@
 ---
 title: "How to: Deploy a Microsoft Dynamics NAV Database to Azure SQL Database"
+description: "This topic describes how you can deploy a Dynamics NAV database to Microsoft Azure SQL Database."
 author: edupont04
 manager: edupont04
 ms.custom: na

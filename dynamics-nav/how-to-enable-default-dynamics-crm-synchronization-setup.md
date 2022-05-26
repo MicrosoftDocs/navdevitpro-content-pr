@@ -1,5 +1,6 @@
 ---
 title: "How to: Enable Default Configuration Setup"
+description: "This topic describes how to enable the default synchronization setup between Dynamics NAV and Microsoft Dynamics 365 for Sales."
 ms.custom: na
 ms.date: 10/24/2016
 ms.reviewer: na

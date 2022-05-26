@@ -1,5 +1,6 @@
 ---
 title: "How to: Disable Debugging"
+description: "Describes how to disable debugging for an instance of Microsoft Dynamics NAV Server."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

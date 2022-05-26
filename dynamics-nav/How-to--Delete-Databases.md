@@ -1,5 +1,6 @@
 ---
 title: "How to: Delete Databases"
+description: "Describes how to delete databases, which is only used in very special circumstances."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

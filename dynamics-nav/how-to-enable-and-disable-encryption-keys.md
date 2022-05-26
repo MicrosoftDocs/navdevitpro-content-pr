@@ -1,5 +1,6 @@
 ---
 title: "How to: Enable and Disable Encryption Keys"
+description: "Describes how you can encrypt data on the Microsoft Dynamics NAV Server by generating new or importing existing encryption keys that you enable on the server."
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 10/25/2016
