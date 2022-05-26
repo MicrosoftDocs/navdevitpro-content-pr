@@ -1,5 +1,6 @@
 ---
 title: "Modifying, Uninstalling, or Repairing Microsoft Dynamics NAV"
+description: Describes the process to modify, uninstall, or repair Microsoft Dynamics NAV 2018 components and resolve various issues.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

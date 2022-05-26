@@ -1,5 +1,6 @@
 ---
 title: "Monitoring SQL Database Deadlocks"
+description: Describes how to handle monitoring SQL database deadlocks through setting up deadlock logging and the Windows Event Log.
 ms.custom: na
 ms.date: 09/19/2016
 ms.reviewer: na
