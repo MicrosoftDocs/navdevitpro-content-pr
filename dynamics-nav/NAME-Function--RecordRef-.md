@@ -1,5 +1,6 @@
 ---
 title: "NAME Function (RecordRef)"
+description: Describes the syntax and code for the NAME function which provides the name of the table that is currently selected.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

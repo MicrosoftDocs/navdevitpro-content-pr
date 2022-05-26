@@ -1,5 +1,6 @@
 ---
 title: "Namespaces Property"
+description: Discusses the Namespaces property which specifies namespaces on the XMLport. This applies to XMLports that have the Format Property set to Xml.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
