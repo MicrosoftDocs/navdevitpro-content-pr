@@ -1,5 +1,6 @@
 ---
 title: "FieldSeparator Property"
+description: Describes the property value for the FieldSeparator property which sets the string that is to be used to separate fields.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

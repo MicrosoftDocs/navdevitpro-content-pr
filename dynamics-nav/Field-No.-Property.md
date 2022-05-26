@@ -1,5 +1,6 @@
 ---
 title: "Field No. Property"
+description: Describes the Field No. property which is used for reference purposes and you can use the Name Property in code.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "File Virtual Table"
+description: Provides information on the File virtual table gives you an overview of the files in a directory on your disk.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
