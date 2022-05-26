@@ -1,5 +1,6 @@
 ---
 title: "Handling Errors by Using Try Functions"
+description: "Describes how to use Try functions in C/AL, which enable you to handle errors that occur in the application during code execution."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

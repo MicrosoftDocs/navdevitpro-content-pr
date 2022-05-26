@@ -1,5 +1,6 @@
 ---
 title: "Granules Available in the General Ledger"
+description: "This article contains a list of granules that are available in the General Ledger."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

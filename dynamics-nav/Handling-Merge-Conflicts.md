@@ -1,5 +1,6 @@
 ---
 title: "Handling Merge Conflicts"
+description: "Describes how to handle merge conflicts by identifying the conflict and automatically merging all other changes."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

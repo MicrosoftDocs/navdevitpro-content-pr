@@ -1,5 +1,6 @@
 ---
 title: "GroupType Property"
+description: "The GroupType Property sets the subtype for a group control on a page, which determines how fields in a group layout on a page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

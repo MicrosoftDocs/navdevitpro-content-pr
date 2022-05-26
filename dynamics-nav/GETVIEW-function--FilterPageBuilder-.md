@@ -1,5 +1,6 @@
 ---
 title: "GETVIEW function (FilterPageBuilder)"
+description: "The GETVIEW function (FilterPageBuilder) gets the filter view (which defines the sort order, key, and filters) for the record in the specified filter control of a filter page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

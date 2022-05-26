@@ -1,5 +1,6 @@
 ---
 title: "GETVALIDATIONERROR Function (TestPage, TestPage Field)"
+description: "The GETVALIDATIONERROR Function (TestPage, TestPage Field) gets the validation error that occurred on a test page."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "HandlerFunctions Property"
+description: "The HandlerFunctions Property specifies the handler functions that are used by the test function."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
