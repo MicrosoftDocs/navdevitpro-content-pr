@@ -1,5 +1,6 @@
 ---
 title: "ID Function (Notification)"
+description: Describes the ID function (notification) and provides the return value and an example.
 ms.custom: na
 ms.date: 09/20/2016
 ms.reviewer: na

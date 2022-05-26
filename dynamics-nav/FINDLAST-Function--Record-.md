@@ -1,5 +1,6 @@
 ---
 title: "FINDLAST Function (Record)"
+description: Describes the FINDLAST function (record) and provides syntax, parameters, return value, and an example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
