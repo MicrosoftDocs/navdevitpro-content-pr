@@ -1,5 +1,6 @@
 ---
 title: "Permissions"
+description: Permissions manages object permissions for the selected codeunit.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Table Relation"
+description: Table Relation sets up a lookup into another table.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Object List"
+description: Object List lists the available objects to which you can assign permissions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

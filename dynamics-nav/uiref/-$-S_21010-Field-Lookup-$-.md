@@ -1,5 +1,6 @@
 ---
 title: "Field Lookup"
+description: Field Lookup creates a lookup for a field in an XMLport.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

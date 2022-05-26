@@ -1,5 +1,6 @@
 ---
 title: "Column List - Table"
+description: Column List - Table, selects the columns by which to sort the rows in a dataset in a query.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: Page Designer Wizard, Available Fields
+description: Page Designer Wizard, Available Fields creates a List page and adds fields with the page wizard. List pages display multiple records on a page.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

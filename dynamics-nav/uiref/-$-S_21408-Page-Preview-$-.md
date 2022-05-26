@@ -1,5 +1,6 @@
 ---
 title: "Page Preview"
+description; Page Preview previews a page directly from Page Designer to see how the page will look in the nav_windows.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
