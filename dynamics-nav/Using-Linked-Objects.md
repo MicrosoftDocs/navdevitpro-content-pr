@@ -1,5 +1,6 @@
 ---
 title: "Using Linked Objects"
+description: This article describes how you can use linked objects as well as how to redesign a linked table definition.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

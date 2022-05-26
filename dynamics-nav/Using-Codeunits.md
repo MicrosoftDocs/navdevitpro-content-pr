@@ -1,5 +1,6 @@
 ---
 title: "Using Codeunits"
+description: Learn how you can use codeunits to eliminate the need to duplicate code and you make the code easier to maintain. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
