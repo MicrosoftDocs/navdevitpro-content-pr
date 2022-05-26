@@ -1,5 +1,6 @@
 ---
 title: "InStream.EOS Function"
+description: "This topic describes the InStream.EOS function, which indicates whether an input stream has reached End of Stream (EOS)."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
