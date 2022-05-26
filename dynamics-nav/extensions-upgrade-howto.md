@@ -1,6 +1,7 @@
 ---
-author: SusanneWindfeldPedersen
 title: "How to: Write Extension Upgrade Code"
+description: Details the syntax and code surrounding how to write extension upgrade code for various extension types.
+author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 01/22/2018
 ms.reviewer: na

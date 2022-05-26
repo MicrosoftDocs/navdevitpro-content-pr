@@ -1,5 +1,6 @@
 ---
 title: "Extending Microsoft Dynamics NAV Using Control Add-ins"
+description: Details using the new framework in Microsoft Dynamics NAV 2013 R2, you can write add-ins that can be run from any client.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
