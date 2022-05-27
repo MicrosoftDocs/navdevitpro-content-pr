@@ -1,5 +1,6 @@
 ---
 title: "ISBINARY Function (Variant)"
+description: "The ISBINARY Function (Variant) indicates whether a C/AL variant contains a Binary variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

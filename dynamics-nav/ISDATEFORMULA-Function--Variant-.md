@@ -1,5 +1,6 @@
 ---
 title: "ISDATEFORMULA Function (Variant)"
+description: "The ISDATEFORMULA Function (Variant) indicates whether a C/AL variant contains a DateFormula variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

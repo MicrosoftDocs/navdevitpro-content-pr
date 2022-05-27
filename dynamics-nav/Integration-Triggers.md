@@ -1,5 +1,6 @@
 ---
 title: "Integration Triggers"
+description: "Describes the triggers (OnDatabaseCreate, OnDatabaseModify, OnDatabaseRename, and OnDatabaseDelete) that support integration with Microsoft Dynamics 365 for Sales."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

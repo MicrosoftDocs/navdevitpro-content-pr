@@ -1,5 +1,6 @@
 ---
 title: "ISATTACHED Function (Debugger)"
+description: "The ISATTACHED Function (Debugger) specifies if the debugger is attached to a session."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

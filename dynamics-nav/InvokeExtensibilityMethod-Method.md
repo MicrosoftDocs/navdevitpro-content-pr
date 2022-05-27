@@ -1,5 +1,6 @@
 ---
 title: "InvokeExtensibilityMethod Method"
+description: "InvokeExtensibilityMethod invokes a C/AL trigger on the Microsoft Dynamics NAV Server on the page that contains the control add-in."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

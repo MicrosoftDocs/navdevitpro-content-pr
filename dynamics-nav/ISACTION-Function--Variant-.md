@@ -1,5 +1,6 @@
 ---
 title: "ISACTION Function (Variant)"
+description: "The ISACTION Function (Variant) indicates whether a C/AL variant contains an Action variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
