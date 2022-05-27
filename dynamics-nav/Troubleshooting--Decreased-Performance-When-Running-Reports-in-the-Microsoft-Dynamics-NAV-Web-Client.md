@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Decreased Performance When Running Reports in the Microsoft Dynamics NAV Web Client"
+description: "This article describes how to resolve this error: Decreased Performance When Running Reports in the Microsoft Dynamics NAV Web Client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

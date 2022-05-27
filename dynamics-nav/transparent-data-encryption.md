@@ -1,5 +1,6 @@
 ---
 title: "Transparent Data Encryption (TDE)"
+description: Learn how the can use Transparent Data Encryption (TDE) to encrypt SQL Server and Azure SQL Database data files at rest.
 ms.custom: na
 ms.date: 04/26/2018
 ms.reviewer: na

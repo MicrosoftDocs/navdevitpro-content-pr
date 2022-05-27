@@ -1,5 +1,6 @@
 ---
 title: "TIMEZONE Function (SessionSettings)"
+description: Learn how the TIMEZONE function gets or sets the time zone property in a SessionSettings object.
 ms.custom: na
 ms.date: 01/06/2017
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "TopNumberOfRows Property"
+description: Learn how the TopNumberOfRows property specifies the maximum number of rows to include in the resulting dataset of a query. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

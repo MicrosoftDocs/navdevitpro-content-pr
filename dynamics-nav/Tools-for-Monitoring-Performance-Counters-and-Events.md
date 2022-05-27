@@ -1,5 +1,6 @@
 ---
 title: "Tools for Monitoring Performance Counters and Events"
+description: This article provides details about some of the tools that you can use to monitor Microsoft Dynamics NAV Server. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Touring the RoleTailored Client for Developers"
+description: This section provides a visual overview of the generic RoleTailored client design, the Microsoft Dynamics NAV Development Environment.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
