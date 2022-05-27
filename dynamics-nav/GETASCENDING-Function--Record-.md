@@ -1,5 +1,6 @@
 ---
 title: "GETASCENDING Function (Record)"
+description: Describes the GETASCENDING function (record) and provides syntax, parameters, and a return value.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

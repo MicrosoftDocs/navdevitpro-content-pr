@@ -1,5 +1,6 @@
 ---
 title: "GETACTION Function (TestPage)"
+description: Describes the GETACTION function (TestPage) and provides syntax, parameters, and return value.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
