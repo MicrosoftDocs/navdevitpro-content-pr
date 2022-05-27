@@ -1,6 +1,6 @@
 ---
 title: "Numeric Functions"
-description: Discusses Numeric functions including ABS, POWER, RANDOM, RANDOMIZE, and ROUND for Decimal, Integer, BigInteger.
+description: Discusses Numeric functions including ABS, POWER, RANDOM, RANDOMIZE, and ROUND for decimal, integer, big integer.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

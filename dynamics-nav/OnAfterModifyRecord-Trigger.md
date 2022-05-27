@@ -1,6 +1,6 @@
 ---
 title: "OnAfterModifyRecord Trigger"
-description: Discusses the OnAfterModifyRecord trigger which is executed after a record has been modified and applies to XMLports.
+description: Discusses the OnAfterModifyRecord trigger which is executed after a record is modified and applies to XMLports.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

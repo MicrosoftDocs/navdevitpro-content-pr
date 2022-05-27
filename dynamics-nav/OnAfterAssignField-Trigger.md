@@ -1,6 +1,6 @@
 ---
 title: "OnAfterAssignField Trigger"
-description: Discusses the OnAfterAssignField trigger which is executed after a field has been assigned a value and before it is validated and imported.
+description: Discusses the OnAfterAssignField trigger which is executed after a field is been assigned a value and before it is validated and imported.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

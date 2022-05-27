@@ -1,6 +1,6 @@
 ---
 title: "Object-Level Security"
-description: Discusses Object-level security is the set of permissions on Dynamics NAV objects that constitute a permission set. 
+description: Discusses Object-level security which sets the permissions on Dynamics NAV objects that constitute a permission set. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

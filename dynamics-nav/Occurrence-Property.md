@@ -1,6 +1,6 @@
 ---
 title: "Occurrence Property"
-description: Discusses the occurrence property which sets a value that specifies whether an attribute must occur in the data that is being imported or exported.
+description: Discusses the Occurrence property which sets a value that specifies whether an attribute must occur in the data that is being imported or exported.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
