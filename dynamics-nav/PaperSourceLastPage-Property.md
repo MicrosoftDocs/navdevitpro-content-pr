@@ -1,5 +1,6 @@
 ---
 title: "PaperSourceLastPage Property"
+description: "This article describes the PaperSourceLastPage Property, which specifies which paper source to use when printing the last page of the report." 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

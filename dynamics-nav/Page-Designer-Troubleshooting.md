@@ -1,5 +1,6 @@
 ---
 title: "Page Designer Troubleshooting"
+description: "This article contains information about known troubleshooting issues in Page Designer."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

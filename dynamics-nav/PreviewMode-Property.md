@@ -1,5 +1,6 @@
 ---
 title: "PreviewMode Property"
+description: "This article describes the PreviewMode Property and provides its property value."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
