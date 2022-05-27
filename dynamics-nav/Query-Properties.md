@@ -1,5 +1,6 @@
 ---
 title: "Query Properties"
+description: This topic lists properties that apply to the query object, like Caption Property, Name Property, and OrderBy Property.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
