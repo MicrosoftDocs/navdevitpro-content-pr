@@ -1,5 +1,6 @@
 ---
 title: "SAVEASHTML Function (Report)"
+description: Describes the SAVEASHTML function (report) and provides syntax, parameters, and return value.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

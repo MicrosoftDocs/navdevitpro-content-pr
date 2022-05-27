@@ -1,5 +1,6 @@
 ---
 title: "Security Considerations"
+description: This article provides security considerations when setting up Microsoft Dynamics NAV.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
