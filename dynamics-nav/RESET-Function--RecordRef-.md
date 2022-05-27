@@ -1,5 +1,6 @@
 ---
 title: "RESET Function (RecordRef)"
+description: Learn how the RESET function (RecordRef) removes all filters, including any special filters set by the MARKEDONLY Function (Record).
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
