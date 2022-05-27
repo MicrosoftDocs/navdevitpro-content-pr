@@ -1,5 +1,6 @@
 ---
 title: "OnNextRecord Trigger"
+description: "This article provides the syntax, parameters, and return value of the OnNextRecord Trigger, which determines the next record to be displayed." 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

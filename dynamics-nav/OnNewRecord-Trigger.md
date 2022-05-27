@@ -1,5 +1,6 @@
 ---
 title: "OnNewRecord Trigger"
+description: "This article provides the syntax and return value of the OnNewRecord Trigger, which is executed after a new record is initialized, but before users can make entries."  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
