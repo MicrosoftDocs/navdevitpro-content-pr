@@ -1,5 +1,5 @@
 ---
-title: "Preserving Data and Avoiding Data Loss"
+title: "Preserving Data When Working with a Statically Generated Proxy"
 description: "This article describes an approach to preserving data when working with a statically generated proxy and avoiding data loss by building the proxy with your client application."
 ms.custom: na
 ms.date: 06/05/2016
