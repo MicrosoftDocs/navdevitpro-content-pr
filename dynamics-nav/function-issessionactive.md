@@ -1,5 +1,6 @@
 ---
 title: "ISSESSIONACTIVE Function (Debugger)"
+description: Describes the ISSESSIONACTIVE function (debugger) and provides syntax, parameters, and return value.
 author: edupont04
 manager: edupont04
 ms.custom: na

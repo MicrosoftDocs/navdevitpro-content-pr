@@ -1,5 +1,6 @@
 ---
 title: "Formatting the Data in a Field"
+description: This article provides a high level overview of formatting data in a field.
 ms.custom: na
 ms.date: 12/20/2017
 ms.reviewer: na

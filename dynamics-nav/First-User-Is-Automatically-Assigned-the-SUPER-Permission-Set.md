@@ -1,5 +1,6 @@
 ---
 title: "First User Is Automatically Assigned the SUPER Permission Set"
+description: This article provides details on the first user is automatically assigned the SUPER permission set.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

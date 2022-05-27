@@ -1,5 +1,6 @@
 ---
 title: "FINDFIRSTFIELD Function (TestPage)"
+description: Describes the FINDFIRSTFIELD function (TestPage) and provides syntax, parameters, and property value.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
