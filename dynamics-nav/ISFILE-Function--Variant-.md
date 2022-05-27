@@ -1,5 +1,6 @@
 ---
 title: "ISFILE Function (Variant)"
+description: "The ISFILE Function (Variant) indicates whether a C/AL variant contains a File variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

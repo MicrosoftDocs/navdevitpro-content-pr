@@ -1,5 +1,6 @@
 ---
 title: "ITEM Function (MediaSet)"
+description: "The ITEM Function (MediaSet) gets the unique identifier (GUID) of a media object that is assigned to a MediaSet on a record."
 ms.custom: na
 ms.date: 11/17/2016
 ms.reviewer: na

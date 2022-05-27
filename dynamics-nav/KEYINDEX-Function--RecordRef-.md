@@ -1,5 +1,6 @@
 ---
 title: "KEYINDEX Function (RecordRef)"
+description: "KEYINDEX Function (RecordRef) gets the KeyRef of the key that has the index specified in the table that is currently selected."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
