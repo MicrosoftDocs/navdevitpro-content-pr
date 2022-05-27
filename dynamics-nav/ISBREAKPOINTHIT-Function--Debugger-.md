@@ -1,5 +1,6 @@
 ---
 title: "ISBREAKPOINTHIT Function (Debugger)"
+description: "The ISBREAKPOINTHIT Function (Debugger) specifies if a breakpoint is hit in a debugging session."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

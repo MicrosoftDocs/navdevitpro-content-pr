@@ -1,5 +1,6 @@
 ---
 title: "Introduction to Dynamics 365 for Sales Integration Customization in Dynamics NAV"
+description: "This topic provides an overview about customizing Microsoft Dynamics 365 for Sales integration in Dynamics NAV."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "InStream.READTEXT Function"
+description: "The InStream.READTEXT Function reads text from an InStream object. This article describes its syntax, property/return value, remarks, and example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
