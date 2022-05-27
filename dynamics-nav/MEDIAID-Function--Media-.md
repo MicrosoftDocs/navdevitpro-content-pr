@@ -1,5 +1,6 @@
 ---
 title: "MEDIAID Function (Media)"
+description: "The MEDIAID Function (Media) gets the unique identifier of a media object on a record."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

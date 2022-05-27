@@ -1,5 +1,6 @@
 ---
 title: "Manifest Overview"
+description: "An overview of the manifest, which contains a declarative description of the control add-in and is written in XML."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
