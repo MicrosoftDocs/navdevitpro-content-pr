@@ -1,5 +1,5 @@
 ---
-title: 401-Unauthorized-Access is denied due to invalid credentials
+title: Troubleshooting - 401-Unauthorized-Access is denied due to invalid credentials
 description: Learn how the client is disconnected from the server instance and event log includes a warning event. 
 ms.custom: na
 ms.date: 03/14/2018
