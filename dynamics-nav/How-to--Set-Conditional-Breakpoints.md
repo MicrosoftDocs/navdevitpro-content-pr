@@ -1,5 +1,6 @@
 ---
 title: "How to: Set Conditional Breakpoints"
+description: This article describes how to set conditional breakpoints with an example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

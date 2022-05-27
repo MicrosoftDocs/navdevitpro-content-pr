@@ -1,5 +1,6 @@
 ---
 title: "How to: Sign Up for a Microsoft Account"
+description: This article describes how to sign up for a Microsoft account.
 author: jswymer
 ms.custom: na
 ms.date: 06/05/2016

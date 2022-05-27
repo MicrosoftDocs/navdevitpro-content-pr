@@ -1,5 +1,6 @@
 ---
 title: "How to: Set Up Filter Rows in Query Designer"
+description: This article describes how to set up filter rows in Query Designer.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "How to: Run a Page"
+description: Describes how to run a page from Object Designer, command prompt, Run window, or from a browser.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
