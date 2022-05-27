@@ -1,5 +1,6 @@
 ---
 title: "PromotedActionCategoriesML Property"
+description: Learn how the PromotedActionCategoriesML property sets the caption of the group that you are promoting the action to.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

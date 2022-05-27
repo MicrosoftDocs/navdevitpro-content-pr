@@ -1,5 +1,6 @@
 ---
 title: "Progress Windows, MESSAGE, ERROR, and CONFIRM Functions"
+description: Use several specialized functions to display messages and gather input. You can also use pages to ensure that your application has a consistent user interface. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

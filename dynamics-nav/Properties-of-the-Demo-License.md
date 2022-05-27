@@ -1,5 +1,6 @@
 ---
 title: "Properties of the Demo License"
+description: In this article, learn how the demo license is automatically installed when you install the Demo Option.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
