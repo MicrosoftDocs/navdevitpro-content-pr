@@ -1,5 +1,6 @@
 ---
 title: "Numeric Property"
+description: Discusses the Numeric property. It sets a value that requires that users enter only numbers in the field.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

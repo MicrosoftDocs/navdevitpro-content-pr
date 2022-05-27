@@ -1,5 +1,6 @@
 ---
 title: "OData Web Services"
+description: Discusses the Open Data Protocol which is a web protocol that is designed for querying tabular data.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
