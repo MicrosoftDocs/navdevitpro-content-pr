@@ -1,5 +1,6 @@
 ---
 title: "DataItemLink Property (Query)"
+description: Describes the DataItemLink property (query) and provides property value with additional remarks.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

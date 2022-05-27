@@ -1,5 +1,6 @@
 ---
 title: "How to: Open a Card Page from an Item in a List"
+description: "Describes how to associate items in the list page with a related card page so that a user can open a card page by double-clicking on the associated list item."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

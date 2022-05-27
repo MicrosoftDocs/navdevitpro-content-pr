@@ -1,5 +1,6 @@
 ---
 title: "How to: Preconfigure Components"
+description: "This topic describes how to associate configuration settings with a component before installing, so that you do not have to configure them after."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

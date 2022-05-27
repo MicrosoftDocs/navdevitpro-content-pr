@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -70,5 +70,5 @@ The error codes in the table below can be divided into the following categories 
 |Any|Any|Unknown|
 
 ## See also
-[Dynamics 365 Business Central in Graph](/graph/api/resources/dynamics-graph-reference?view=graph-rest-beta) 
+[Dynamics 365 Business Central in Graph](/graph/api/resources/dynamics-graph-reference) 
 

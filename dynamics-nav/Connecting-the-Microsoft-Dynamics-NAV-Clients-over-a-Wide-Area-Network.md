@@ -1,5 +1,6 @@
 ---
 title: "Connecting the Microsoft Dynamics NAV Clients over a Wide Area Network"
+description: "This topic tells you how to implement a secure Microsoft Dynamics NAV Windows client connection to Microsoft Dynamics NAV Server over a wide area network."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "INIT Function (RecordRef)"
+description: "This topic describes the INIT function (RecordRef), which initializes a record in a table by assigning default values to each field in the record."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

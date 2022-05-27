@@ -1,5 +1,6 @@
 ---
 title: "SAVEASWORD Function (TestRequestPage)"
+description: Describes the SAVEASWORD function (TestRequestPage) and provides syntax, parameters, and an example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "How to: Open Microsoft Dynamics NAV Clients that Connect to Microsoft Dynamics NAV on Microsoft Azure"
+description: "This topic describes how to open the Microsoft Dynamics NAV Windows client and Microsoft Dynamics NAV Web client for a Dynamics NAV deployment on Microsoft Azure."
 author: jswymer
 ms.custom: na
 ms.date: 06/05/2016
@@ -34,7 +35,7 @@ A user has been added to the database with the following credentials:
 
 2.  In the address, type the following address:  
 
-     **https://virtualmachine.cloudapp.net: port**  
+     **`https://virtualmachine.cloudapp.net: port`**  
 
      Substitute *virtualmachine* with the name of the virtual machine that in running the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
 

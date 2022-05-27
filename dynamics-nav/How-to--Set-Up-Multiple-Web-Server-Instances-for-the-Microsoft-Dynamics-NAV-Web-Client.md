@@ -47,7 +47,7 @@ There are different ways to launch this module and start using the cmdlets:
   Import-Module -Name "C:\Program Files\Microsoft Dynamics NAV\110\Service\NAVWebClientManagement.psm1"
   ```
 
-    For more information about starting Windows PowerShell, see [Starting Windows PowerShell](/powershell/scripting/setup/starting-windows-powershell).
+    For more information about starting Windows PowerShell, see [Starting Windows PowerShell](/powershell/scripting/windows-powershell/starting-windows-powershell).
 
 ## Creating [!INCLUDE[nav_web_server_instance_md](includes/nav_web_server_instance_md.md)] instances
 

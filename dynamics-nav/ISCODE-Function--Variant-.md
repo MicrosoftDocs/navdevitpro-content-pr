@@ -1,5 +1,6 @@
 ---
 title: "ISCODE Function (Variant)"
+description: "The ISCODE Function (Variant) indicates whether a C/AL variant contains a Code variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

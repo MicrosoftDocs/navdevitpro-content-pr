@@ -51,7 +51,7 @@ The following sections provide an overview of the new, changed, and removed cmdl
 |[Get-NAVTenant](/powershell/module/microsoft.dynamics.nav.management/Mount-NAVTenant)|*ExchangeAuthenticationMetadataLocation* is returned.|
 |[Start-NAVDataUpgrade](/powershell/module/microsoft.dynamics.nav.management/Start-NAVDataUpgrade)|*Language* parameter added.|
 |[Sync-NAVTenant](/powershell/module/microsoft.dynamics.nav.management/Sync-NAVTenant)|*CommitPerTable* parameter added.|
-|[New-NAVWebServerInstance](/powershell/module/microsoft.dynamics.nav.management/New-NAVWebServerInstance)|The parameters *ACSUri*, *Language*, *RegionFormat*, and *Company* are deprecated. <BR /><BR />The *Language*, *RegionFormat*, and *Company* settings are now stored in system tables for users. Users can change the value of these settings from the **My Settings** page in the client. Administrators can globally change these settings by using User Personalization in the clients.<BR /><BR />The *ACSUri* has been replaced by the **WSFederationLoginEndpoint** key in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration file, which you can set by using the [Set-NAVServerConfiguration cmdlet](/powershell/module/microsoft.dynamics.nav.management/Set-NAVServerConfiguration.md).|
+|[New-NAVWebServerInstance](/powershell/module/microsoft.dynamics.nav.management/New-NAVWebServerInstance)|The parameters *ACSUri*, *Language*, *RegionFormat*, and *Company* are deprecated. <BR /><BR />The *Language*, *RegionFormat*, and *Company* settings are now stored in system tables for users. Users can change the value of these settings from the **My Settings** page in the client. Administrators can globally change these settings by using User Personalization in the clients.<BR /><BR />The *ACSUri* has been replaced by the **WSFederationLoginEndpoint** key in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration file, which you can set by using the [Set-NAVServerConfiguration cmdlet](/powershell/module/microsoft.dynamics.nav.management/Set-NAVServerConfiguration).|
 
 ## Changes to [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] Cmdlets  
 
@@ -61,7 +61,7 @@ The following sections provide an overview of the new, changed, and removed cmdl
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
 |[Export-NAVAppReportLayout](/powershell/module/microsoft.dynamics.nav.apps.tools/Export-NAVAppReportLayout)|Exports the specified custom report layout from the database to a file.|
-|[Export-NAVAppTableData](/powershell/module/microsoft.dynamics.nav.apps.tools/Export-NAVAppTableData.md) | Exports data from a Microsoft Dynamics NAV database table to file.|
+|[Export-NAVAppTableData](/powershell/module/microsoft.dynamics.nav.apps.tools/Export-NAVAppTableData) | Exports data from a Microsoft Dynamics NAV database table to file.|
 |[Export-NAVAppTenantWebService](/powershell/module/microsoft.dynamics.nav.apps.tools/Export-NAVAppTenantWebService)| Exports the specified web service from the database to a file.|
 
 <!-- >  A number of other new cmdlets are available in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] but are not yet listed here. For a full list, see [Development Cmdlets for Microsoft Dynamics NAV Extensions](https://go.microsoft.com/fwlink/?LinkId=626875). -->
@@ -73,8 +73,8 @@ The following sections provide an overview of the new, changed, and removed cmdl
 |[New-NAVCrmTable](/powershell/module/microsoft.dynamics.nav.model.tools/New-NAVCrmTable)|*AuthenticationType* parameter added.|
 
 ## See Also  
-[Administration Cmdlets for Microsoft Dynamics NAV](/powershell/module/microsoft.dynamics.nav.management/Microsoft.Dynamics.Nav.Management.md)  
-[Development Cmdlets for Microsoft Dynamics NAV](/powershell/module/microsoft.dynamics.nav.model.tools/Microsoft.Dynamics.Nav.Model.Tools.md)  
-[Administration Cmdlets for Microsoft Dynamics NAV Extensions](/powershell/module/microsoft.dynamics.nav.apps.tools/Microsoft.Dynamics.Nav.Apps.Tools.md)  
-[Development Cmdlets for Microsoft Dynamics NAV Extensions](/powershell/module/microsoft.dynamics.nav.apps.tools/Microsoft.Dynamics.Nav.Apps.Tools.md)  
+[Administration Cmdlets for Microsoft Dynamics NAV](/powershell/module/microsoft.dynamics.nav.management/)  
+[Development Cmdlets for Microsoft Dynamics NAV](/powershell/module/microsoft.dynamics.nav.model.tools/)  
+[Administration Cmdlets for Microsoft Dynamics NAV Extensions](/powershell/module/microsoft.dynamics.nav.apps.tools/)  
+[Development Cmdlets for Microsoft Dynamics NAV Extensions](/powershell/module/microsoft.dynamics.nav.apps.tools/)  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)

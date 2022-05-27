@@ -1,5 +1,6 @@
 ---
 title: "Enabled Property"
+description: Describes the Enabled property and provides property value, remarks, and an example.
 author: edupont04
 ms.custom: na
 ms.date: 12/08/2016

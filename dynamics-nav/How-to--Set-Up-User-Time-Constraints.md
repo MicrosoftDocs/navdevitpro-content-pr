@@ -1,5 +1,6 @@
 ---
 title: "How to: Set Up User Time Constraints"
+description: This article describes how to set up user time constraints.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

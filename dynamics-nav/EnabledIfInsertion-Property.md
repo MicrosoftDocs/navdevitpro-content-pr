@@ -1,5 +1,6 @@
 ---
 title: "EnabledIfInsertion Property"
+description: Describes the EnabledIfInsertion property and provides its property value.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

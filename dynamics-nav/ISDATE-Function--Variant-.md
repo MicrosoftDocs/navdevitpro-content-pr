@@ -1,5 +1,6 @@
 ---
 title: "ISDATE Function (Variant)"
+description: "The ISDATE Function (Variant) indicates whether a C/AL variant contains a Date variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

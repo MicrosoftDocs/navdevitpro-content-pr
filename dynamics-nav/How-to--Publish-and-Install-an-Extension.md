@@ -1,5 +1,6 @@
 ---
 title: "How to: Publish and Install an Extension"
+description: "This topic describes how to publish and install an extension. Note that the text in the article applies to extensions v1.0, which are no longer supported."
 author: edupont04
 ms.date: 07/27/2017
 ms.reviewer: na

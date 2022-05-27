@@ -1,12 +1,13 @@
 ---
 title: "INIT Function (SessionSettings)"
+description: "This topic describes the INIT function which populates SessionsSettings with the current client user's personalization properties stored in the database."
 ms.custom: na
 ms.date: 01/06/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.service: dynamics365-financials
+ms.prod: dynamics-nav-2018
 author: jswymer
 ---
 # INIT Function

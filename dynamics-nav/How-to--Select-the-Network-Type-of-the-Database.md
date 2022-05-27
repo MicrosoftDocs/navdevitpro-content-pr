@@ -1,5 +1,6 @@
 ---
 title: "How to: Select the Network Type of the Database"
+description: This article describes how to select the network type of the database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

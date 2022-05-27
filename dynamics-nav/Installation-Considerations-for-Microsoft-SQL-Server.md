@@ -1,5 +1,6 @@
 ---
 title: "Installation Considerations for Microsoft SQL Server and Microsoft Dynamics NAV"
+description: "This topic describes installation considerations for Microsoft SQL Server and Microsoft Dynamics NAV."
 ms.custom: na
 ms.date: 02/20/2017
 ms.reviewer: na

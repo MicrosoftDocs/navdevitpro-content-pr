@@ -1,5 +1,6 @@
 ---
 title: "How to: Modify an Existing Codeunit"
+description: "This procedure describes using the C/AL Editor to change an existing codeunit's functions or add new functions."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

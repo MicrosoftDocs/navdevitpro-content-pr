@@ -1,5 +1,6 @@
 ---
 title: "Integrating Dynamics 365 for Sales in Dynamics NAV"
+description: "Describes the capabilities of Dynamics NAV for customers who use Microsoft Dynamics 365 for Sales for customer engagement and Dynamics NAV for order processing and financials."
 ms.custom: na
 ms.date: 12/05/2017
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Converting a Database - Technical Upgrade"
+description: "This article describes how to convert a Dynamics NAV database (2013, 2013 R2, 2015, 2016, or 2017) to Microsoft Dynamics NAV 2018."
 ms.custom: na
 ms.date: 03/01/2018
 ms.reviewer: na
@@ -191,7 +192,7 @@ Next, you will convert the old database so that it can be used with [!INCLUDE[na
 
 11. Recompile published extensions.
 
-    Use the [Repair-NAVApp cmdlet](/powershell/module/microsoft.dynamics.nav.apps.management/repair-navappSynchronize) of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform.
+    Use the [Repair-NAVApp cmdlet](/powershell/module/microsoft.dynamics.nav.apps.management/repair-navapp) of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform.
 
     For example, you can run the following command to recompile all extensions:
 

@@ -1,5 +1,6 @@
 ---
 title: "COPYCOMPANY Function (Database)"
+description: "Describes the COPYCOMPANY function (Database), which creates a new company and copies all data from an existing company in the same database."
 author: edupont04
 manager: edupont04
 ms.custom: na

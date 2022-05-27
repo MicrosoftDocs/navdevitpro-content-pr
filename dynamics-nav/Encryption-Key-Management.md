@@ -1,5 +1,6 @@
 ---
 title: "Encryption Key Management"
+description: This article provides an overview of encryption key management, best practices, and ENCRYPTIONKEYEXISTS versus ENCRYPTIONENABLED.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

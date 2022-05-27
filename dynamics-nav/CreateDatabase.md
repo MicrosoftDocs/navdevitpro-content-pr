@@ -1,5 +1,6 @@
 ---
 title: "CreateDatabase"
+description: Describes how to create a new database for Dynamics NAV on a SQL server and provides syntax, parameters, and an example. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

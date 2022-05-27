@@ -1,5 +1,6 @@
 ---
 title: "How to: Lock an Object"
+description: "Describes how to lock objects so that other developers cannot modify them. Lock objects individually, or set an option to lock all objects you open for design."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "DataLength Property"
+description: Describes the DataLength property and additional remarks.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

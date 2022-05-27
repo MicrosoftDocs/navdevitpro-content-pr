@@ -1,5 +1,6 @@
 ---
 title: "ENCRYPTIONKEYEXISTS"
+description: Describes the ENCRYPTIONKEYEXISTS property and provides syntax, return value, and an example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

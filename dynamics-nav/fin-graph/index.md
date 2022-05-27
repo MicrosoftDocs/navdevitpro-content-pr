@@ -3,7 +3,7 @@ title: "API(Beta) for Dynamics 365 Business Central | Microsoft Docs"
 description: "Reference content for the API(Beta) endpoint for integration with Dynamics 365 Business Central."
 documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-financials
+ms.prod: dynamics-nav-2018
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

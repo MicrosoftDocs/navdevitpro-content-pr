@@ -1,5 +1,6 @@
 ---
 title: "How to: Set Up a Dynamics 365 for Sales Connection"
+description: This article describes how to set up a Dynamics 365 for Sales Connection.
 ms.custom: na
 ms.date: 04/21/2017
 ms.reviewer: na

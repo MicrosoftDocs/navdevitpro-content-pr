@@ -1,5 +1,6 @@
 ---
 title: "InStream"
+description: "This page links to topics about the COPYSTREAM function, the InStream.EOS function, the InStream.READ function, and the InStream.READTEXT function."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
