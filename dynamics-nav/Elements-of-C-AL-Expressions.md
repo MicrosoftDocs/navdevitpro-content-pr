@@ -1,5 +1,6 @@
 ---
 title: "Elements of C/AL Expressions"
+description: This article provides elements of C/AL expressions and links to their descriptions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

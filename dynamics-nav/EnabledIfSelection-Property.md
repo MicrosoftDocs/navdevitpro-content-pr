@@ -1,5 +1,6 @@
 ---
 title: "EnabledIfSelection Property"
+description: Describes the EnabledIfSelection property and provides its property value.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

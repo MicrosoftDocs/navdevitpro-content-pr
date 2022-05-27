@@ -1,5 +1,6 @@
 ---
 title: "Drive Virtual Table"
+description: This article provides the fields contained within the Drive virtual table.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
