@@ -1,6 +1,6 @@
 ---
 title: "How to: View or Modify Properties on a Table or Field"
-description: " Describes how to view or modify properties for a table or a field."
+description: "Describes how to view or modify properties for a table or a field."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
