@@ -1,5 +1,6 @@
 ---
 title: "CURRENTDATETIME Function (DateTime)"
+description: Describes the CURRENTDATETIME function (DateTime) and provides syntax, property value, and an example.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

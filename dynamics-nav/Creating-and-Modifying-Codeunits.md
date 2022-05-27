@@ -1,5 +1,6 @@
 ---
 title: "Creating and Modifying Codeunits"
+description: Describes creating and modifying codeunits within Object Designer and C/AL Editor.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

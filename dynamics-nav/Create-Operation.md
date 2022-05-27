@@ -1,5 +1,6 @@
 ---
 title: "Create Operation"
+description: Describes the Create operation and provides its method signature, parameters, results, faults, and a usage example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
