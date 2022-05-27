@@ -1,5 +1,6 @@
 ---
 title: "LOCALEID Function (SessionSettings)"
+description: "The LOCALEID Function (SessionSettings) gets or sets the locale ID property in a SessionSettings object."
 ms.custom: na
 ms.date: 01/06/2017
 ms.reviewer: na

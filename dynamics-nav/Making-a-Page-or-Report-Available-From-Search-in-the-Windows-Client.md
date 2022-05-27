@@ -1,5 +1,6 @@
 ---
 title: "Making a Page or Report Available From Search in the Windows Client"
+description: "Describes how to make a page or report available in the Microsoft Dynamics NAV Windows Client, so users find them based on the objects name."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

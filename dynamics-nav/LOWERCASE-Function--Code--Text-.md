@@ -1,5 +1,6 @@
 ---
 title: "LOWERCASE Function (Code, Text)"
+description: "The LOWERCASE Function (Code, Text) converts all letters in a string to lowercase. This article describes its syntax, property/return value, and example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

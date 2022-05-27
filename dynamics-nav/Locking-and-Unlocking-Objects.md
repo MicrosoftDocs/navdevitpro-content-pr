@@ -1,5 +1,6 @@
 ---
 title: "Locking and Unlocking Objects"
+description: "Describes how to lock an object in Object Designer so that other developers cannot save design changes to the object."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
