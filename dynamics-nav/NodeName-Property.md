@@ -1,5 +1,6 @@
 ---
 title: "NodeName Property"
+description: Discusses the NodeName property which sets the name of a node in an XML document. This applies to XMLports.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

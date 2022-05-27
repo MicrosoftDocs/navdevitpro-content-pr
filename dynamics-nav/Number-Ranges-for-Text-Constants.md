@@ -1,5 +1,6 @@
 ---
 title: "Number Ranges for Text Constants"
+description: Discusses the number ranges for text constants which is assigned unique IDs to text constants according to number ranges.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
