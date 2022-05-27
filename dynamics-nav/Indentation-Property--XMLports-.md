@@ -1,5 +1,6 @@
 ---
 title: "Indentation Property (XMLports)"
+description: "This topic describes the Indentation property (XMLports), which sets the indentation level of an element or an attribute in XMLport Designer."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Installation Options"
+description: "This topic describes installation options for Microsoft Dynamics Nav 2018. You can select from a list of predefined installation options."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

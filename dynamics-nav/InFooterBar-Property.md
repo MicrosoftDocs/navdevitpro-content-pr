@@ -1,5 +1,6 @@
 ---
 title: "InFooterBar Property"
+description: "This topic describes the InFooterBar property, which sets whether an action should be viewed as an exit action in the lower part of the page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

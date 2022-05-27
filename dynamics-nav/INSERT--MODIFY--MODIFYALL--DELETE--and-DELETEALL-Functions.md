@@ -1,5 +1,6 @@
 ---
 title: "INSERT, MODIFY, MODIFYALL, DELETE, and DELETEALL Functions"
+description: "This topic describes the INSERT, MODIFY, MODIFYALL, DELETE, and DELETEALL functions which maintain the database by adding, modifying, and removing records."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

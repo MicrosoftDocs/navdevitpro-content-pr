@@ -1,5 +1,6 @@
 ---
 title: "INIT Function (SessionSettings)"
+description: "This topic describes the INIT function which populates SessionsSettings with the current client user's personalization properties stored in the database."
 ms.custom: na
 ms.date: 01/06/2017
 ms.reviewer: na

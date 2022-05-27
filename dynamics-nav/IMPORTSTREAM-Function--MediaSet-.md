@@ -1,5 +1,6 @@
 ---
 title: "IMPORTSTREAM Function (MediaSet)"
+description: "This topic describes the IMPORTSTREAM function (MediaSet), which adds a media file from an InStream object to the MediaSet of record."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

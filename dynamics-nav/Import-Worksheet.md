@@ -1,5 +1,6 @@
 ---
 title: "Import Worksheet"
+description: "This topic describes the Import Worksheet, which you use when you import objects by using the UI in the development environment."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

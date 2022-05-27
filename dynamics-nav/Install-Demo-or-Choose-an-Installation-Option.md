@@ -1,5 +1,6 @@
 ---
 title: "Install Demo or Choose an Installation Option"
+description: "This topic describes installing the demo or choosing another installation option in Dynamics Nav 2018."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "IndentationControls Property"
+description: "This topic describes the IndentationControls property, which sets which columns (controls) are indented in a list."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
