@@ -1,5 +1,6 @@
 ---
 title: "OpenWindow Method"
+description: "This article describes the OpenWindow Method and provides its method signature and parameters."
 ms.custom: na
 ms.date: 09/22/2016
 ms.reviewer: na

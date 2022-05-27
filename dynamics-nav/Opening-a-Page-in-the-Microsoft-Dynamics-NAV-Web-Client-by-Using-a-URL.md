@@ -1,5 +1,6 @@
 ---
 title: "Opening a Page in the Microsoft Dynamics NAV Web Client by Using a URL"
+description: "This article describes how to open a page in the Microsoft Dynamics NAV Web Client by using a URL."
 ms.custom: na
 ms.date: 05/29/2017
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "OPTIONSTRING Function (FieldRef)"
+description: "This article provides syntax, parameters, property/return value, and a code example for the OPTIONSTRING Function (FieldRef), which gets the list of options that are available in the field that is currently selected."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

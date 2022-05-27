@@ -1,5 +1,6 @@
 ---
-title: "Enable query optimizer features in a Dynamics NAV Database by setting the compatibility level"
+title: "Setting SQL Compatibility Level to Optimize Database Performance"
+description: "This article provides guidelines on setting SQL compatibility level to optimize database performance in a Dynamics NAV Database."
 ms.custom: na
 ms.date: 05/07/2018
 ms.reviewer: na
