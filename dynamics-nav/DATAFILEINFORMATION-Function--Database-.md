@@ -1,5 +1,6 @@
 ---
 title: "DATAFILEINFORMATION Function (Database)"
+description: Describes the DATAFILEINFORMATION function (database) and provides syntax and parameters. 
 author: edupont04
 manager: edupont04
 ms.custom: na

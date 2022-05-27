@@ -1,5 +1,6 @@
 ---
 title: "Database-Level Security"
+description: This article provides information about database-level security.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
