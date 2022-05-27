@@ -1,5 +1,6 @@
 ---
 title: "RUN Function (XMLport)"
+description: This article describes how the RUN function (XMLport) loads and executes the XMLport that you specify.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
