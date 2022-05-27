@@ -1,6 +1,6 @@
 ---
 title: "NUMBER Function (FieldRef)"
-description: Discusses the code and syntax for the NUMBER function (FieldRef) which works like the  FIELDNO Function (Record) function.
+description: Discusses the code and syntax for the NUMBER function (FieldRef) which works like the FIELDNO Function (Record) function.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
