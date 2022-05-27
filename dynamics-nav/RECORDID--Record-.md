@@ -1,5 +1,6 @@
 ---
 title: "RECORDID (Record)"
+description: Learn how RECORDID (Record) gets the RecordID of the record that is currently selected in the table. If no table is selected, an error is generated.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
