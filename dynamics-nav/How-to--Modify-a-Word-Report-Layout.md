@@ -1,5 +1,6 @@
 ---
 title: "How to: Modify a Word Report Layout"
+description: "This procedure describes how to modify a Word report layout on report from the Microsoft Dynamics NAV Development Environment."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "How to: Install the Microsoft Dynamics NAV Provisioning Tools for Microsoft Azure"
+description: "This topic describes how to install the Microsoft Dynamics NAV Provisioning Tools for Microsoft Azure."
 author: jswymer
 ms.custom: na
 ms.date: 06/05/2016

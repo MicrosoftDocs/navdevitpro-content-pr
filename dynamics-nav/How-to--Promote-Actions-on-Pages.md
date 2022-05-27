@@ -1,5 +1,6 @@
 ---
 title: "How to: Promote Actions on Pages"
+description: "This topic describes how to promote actions on pages so that these actions appear in the Home tab of the ribbon, giving users quick access to these actions."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

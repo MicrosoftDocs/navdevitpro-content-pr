@@ -1,5 +1,6 @@
 ---
 title: "How to: Print Report Header Information on Multiple Pages"
+description: "This topic describes how to print report header information on multiple pages using the SetData and GetData functions."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

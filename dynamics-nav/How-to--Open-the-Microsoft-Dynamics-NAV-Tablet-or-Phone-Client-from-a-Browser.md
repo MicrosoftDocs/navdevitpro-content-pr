@@ -1,5 +1,6 @@
 ---
 title: "How to: Open the Microsoft Dynamics NAV Tablet or Phone Client from a Browser"
+description: "This topic describes how to open the Microsoft Dynamics NAV Tablet client or Microsoft Dynamics NAV Phone client using a browser."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
