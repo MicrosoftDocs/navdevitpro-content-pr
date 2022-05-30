@@ -1,6 +1,6 @@
 ---
 title: "StyleExpr Property"
-description: Describes the StyleExpr Property and provides the function's syntax, parameters, remarks, an example, and additional references.
+description: Describes the StyleExpr Property and provides the function's applications, remarks, and additional references.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
