@@ -1,5 +1,6 @@
 ---
 title: "SourceTable Property"
+description: SourceTable Property Sets the ID of the table from which this page will display records.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

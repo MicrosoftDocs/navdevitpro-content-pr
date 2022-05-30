@@ -1,5 +1,6 @@
 ---
 title: "SQLIndex Property"
+description: SQLIndex Property Sets the actual fields that are used in the corresponding index on SQL Server.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

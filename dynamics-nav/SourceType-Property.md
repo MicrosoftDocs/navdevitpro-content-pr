@@ -1,5 +1,6 @@
 ---
 title: "SourceType Property"
+description: SourceType Property Sets what a particular tag in the XMLport Designer corresponds to in the navnow database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "SourceField Property"
+description: SourceField Property Sets the field that you want to map XML data to.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

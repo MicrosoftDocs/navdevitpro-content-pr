@@ -1,5 +1,6 @@
 ---
 title: "STARTSESSION Function (Sessions)"
+description: STARTSESSION Function (Sessions) starts a navnow session without a UI and runs the specified codeunit.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "SourceTableView Property"
+description: SourceTableView Property sets the key, sort order, and filter you want to use to determine the view of the source table presented to the user.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

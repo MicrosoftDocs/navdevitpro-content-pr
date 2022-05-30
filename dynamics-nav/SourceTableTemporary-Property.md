@@ -1,5 +1,6 @@
 ---
 title: "SourceTableTemporary Property"
+description: SourceTableTemporary Property Sets whether the source table is a temporary table.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

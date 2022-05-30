@@ -1,5 +1,6 @@
 ---
 title: "Standard and User-Defined Functions"
+description: Describes the Standard and User-Defined Functions used to create an application in navnow, in which you must make database objects work together.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

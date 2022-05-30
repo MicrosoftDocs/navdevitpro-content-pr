@@ -1,5 +1,6 @@
 ---
 title: "SQL Timestamp Property"
+description: SQL Timestamp Property Specifies a field to be a timestamp field.
 ms.custom: na
 ms.date: 07/20/2016
 ms.reviewer: na
