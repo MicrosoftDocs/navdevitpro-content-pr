@@ -1,6 +1,6 @@
 ---
 title: "SOAP Web Service URIs"
-description: Describes SOAP web service URIs and contains examples.
+description: Describes SOAP web service URIs and contains examples. Web service users can discover published web services by pointing a browser or a tool such as the Web Services Discovery Tool at the computer running nav_server and getting a list of available services.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

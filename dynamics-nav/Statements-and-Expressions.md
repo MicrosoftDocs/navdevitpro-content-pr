@@ -1,6 +1,6 @@
 ---
 title: "Statements and Expressions"
-description: Describes Statements and Expressions, examples and typical expressions.
+description: Describes Statements and Expressions, examples and typical expressions. A C/AL statement is a code instruction that when it is executed, causes operations to occur, which can change one or more variables or initiate read and write transactions to the database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
