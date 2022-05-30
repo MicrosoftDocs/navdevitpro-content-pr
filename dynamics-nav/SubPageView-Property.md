@@ -1,6 +1,6 @@
 ---
 title: "SubPageView Property"
-description: SubPageView Property sets the table view for a subpage.
+description: Describes the SubPageView Property and provides the function's syntax, parameters, remarks, an example, and additional references.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
