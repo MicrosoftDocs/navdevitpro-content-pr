@@ -1,6 +1,6 @@
 ---
 title: "SourceType Property"
-description: SourceType Property Sets what a particular tag in the XMLport Designer corresponds to in the navnow database.
+description: Describes SourceType Property and contains applications, remarks, and additional information.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,6 +1,6 @@
 ---
 title: "SQL Server Database Components"
-description: SQL Server database components configure Microsoft SQL Server to work with navnowlong.
+description: Describes SQL Server database components. SQL Server database components configure Microsoft SQL Server to work with navnowlong.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

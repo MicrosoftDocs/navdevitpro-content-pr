@@ -1,6 +1,6 @@
 ---
 title: "SQL Advanced Options for Data Item Link Types"
-description: This topic discusses SQL Advanced Options for Data Item Link Types, in which you can link data items together to combine records from two or more tables into a single dataset.
+description: This topic discusses SQL Advanced Options and contains sample tables and and query and dataset examples.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

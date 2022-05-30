@@ -1,6 +1,6 @@
 ---
 title: "SourceExpr Property"
-description: SourceExpr Property Sets the source expression for this control.
+description: Describes SourceExpr Property and contains applications, remarks, and additional information.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

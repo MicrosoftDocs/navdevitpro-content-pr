@@ -1,6 +1,6 @@
 ---
 title: "SourceTableView Property (XMLports)"
-description: SourceTableView Property (XMLports)sets the key used to sort data in the source table for the XML item.
+description: Describes SourceTableView Property (XMLports) and contains applications, remarks, and additional information.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

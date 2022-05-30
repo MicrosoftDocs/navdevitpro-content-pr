@@ -1,6 +1,6 @@
 ---
 title: "Sorting Numeric Values"
-description: This topic explains how items, such as documents, are numbered in navnow.
+description: Describes Sorting Numeric Values. This topic explains how items, such as documents, are numbered in navnow.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

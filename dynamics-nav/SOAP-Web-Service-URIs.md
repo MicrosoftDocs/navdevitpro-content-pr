@@ -1,6 +1,6 @@
 ---
 title: "SOAP Web Service URIs"
-description: For SOAP web services, you typically enter a URI in a browser to view a list of available navnow web services or to view a schema for a particular web service.
+description: Describes SOAP web service URIs and contains examples.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

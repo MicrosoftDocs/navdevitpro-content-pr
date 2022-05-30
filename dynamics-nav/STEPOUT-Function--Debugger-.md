@@ -1,6 +1,6 @@
 ---
 title: "STEPOUT Function (Debugger)"
-description: STEPOUT Function (Debugger) Enables debugging to return to the calling function after it steps into a function call.
+description: Describes the STEPOUT Function (Debugger) and includes syntax, property value/return value, and additional information.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

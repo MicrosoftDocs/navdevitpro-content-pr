@@ -1,6 +1,6 @@
 ---
 title: "Special Tables"
-description: navnow has three types of special tables that serve special purposes. The types of tables are Temporary, System and Virtual.
+description: Describes Special Tables. The types of tables are Temporary, System and Virtual.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

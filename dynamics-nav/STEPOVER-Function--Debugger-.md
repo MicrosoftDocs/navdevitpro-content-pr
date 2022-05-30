@@ -1,6 +1,6 @@
 ---
 title: "STEPOVER Function (Debugger)"
-description: STEPOVER Function (Debugger) Executes a function call and then stops at the first line outside the function call.
+description: Describes the STEPOVER Function (Debugger) and includes syntax, property value/return value, and additional information.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

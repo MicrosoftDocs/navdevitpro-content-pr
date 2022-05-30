@@ -1,6 +1,6 @@
 ---
 title: "Special Permission Sets"
-description: Special Permission Sets have special definitions that you should be aware of as you implement permissions and security for navnow users.
+description: Describes Special Permission Sets and contains applications, remarks, and additional information.
 author: edupont04
 manager: edupont04
 ms.custom: na

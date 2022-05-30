@@ -1,6 +1,6 @@
 ---
 title: "SQLJoinType Property"
-description: SQLJoinType Property Sets the data item link type between data items in a query to determine the records that are included in the resulting dataset.
+description: Describes SQLJoinType Property and includes applications, property values, and remarks.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

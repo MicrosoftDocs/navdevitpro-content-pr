@@ -1,6 +1,6 @@
 ---
 title: "SourceTable Property (XMLports)"
-description: SourceTable Property (XMLports) Sets the table to which you want to map XML data or the table that you want to export data from.
+description: Describes SourceTable Property and contains applications, remarks, and additional information.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

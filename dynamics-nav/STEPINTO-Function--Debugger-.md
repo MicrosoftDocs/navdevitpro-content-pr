@@ -1,6 +1,6 @@
 ---
 title: "STEPINTO Function (Debugger)"
-description: STEPINTO Function (Debugger) Executes a function call and then stops at the first line of code inside the function.
+description: Describes the STEPINTO Function (Debugger) and includes syntax, property value/return value, and additional information.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
