@@ -1,5 +1,6 @@
 ---
 title: "ShowCaption Property"
+description: ShowCaption Property Sets whether the text that is specified by the Caption Property is displayed for the control.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

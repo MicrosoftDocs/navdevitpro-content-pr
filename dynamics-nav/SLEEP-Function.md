@@ -1,5 +1,6 @@
 ---
 title: "SLEEP Function"
+description: SLEEP Function Returns control to the operating system for a specified time.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

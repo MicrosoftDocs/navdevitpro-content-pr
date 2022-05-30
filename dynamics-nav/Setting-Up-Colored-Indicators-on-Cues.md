@@ -1,5 +1,6 @@
 ---
 title: "Setting Up Colored Indicators on Cues"
+description: Describes steps for Setting Up Colored Indicators on Cues.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

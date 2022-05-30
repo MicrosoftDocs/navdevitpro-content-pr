@@ -1,5 +1,6 @@
 ---
 title: "SignDisplacement Property"
+description: SignDisplacement Property Sets a value to shift negative values to the right for display purposes only.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

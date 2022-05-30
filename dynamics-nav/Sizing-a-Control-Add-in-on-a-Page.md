@@ -1,5 +1,6 @@
 ---
 title: "Sizing a Control Add-in on a Page"
+description: The size of a control add-in on a page is determined by the System.Drawing.Size class of the control.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

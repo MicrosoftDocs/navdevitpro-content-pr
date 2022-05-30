@@ -1,5 +1,6 @@
 ---
 title: "Setting Up the Home Button and Home Items"
+description: Describes the process of setting Up the Home Button and Home Items.
 ms.custom: na
 ms.date: 04/01/2018
 ms.reviewer: na
