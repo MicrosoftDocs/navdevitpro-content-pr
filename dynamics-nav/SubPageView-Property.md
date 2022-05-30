@@ -1,5 +1,6 @@
 ---
 title: "SubPageView Property"
+description: SubPageView Property sets the table view for a subpage.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

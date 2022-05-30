@@ -1,5 +1,6 @@
 ---
 title: "SubPageLink Property"
+description: SubPageLink Property Sets a link to a Factbox from a page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

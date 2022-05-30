@@ -1,5 +1,6 @@
 ---
 title: "STRLEN Function (Code, Text)"
+description: STRLEN Function (Code, Text) Gets the length of a string you define.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "STOPSESSION Function (Sessions)"
+description: STOPSESSION Function (Sessions) Stops a navnow session.
 ms.custom: na
 ms.date: 02/08/2017
 ms.reviewer: na

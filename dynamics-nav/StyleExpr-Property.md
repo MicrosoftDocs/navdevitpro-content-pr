@@ -1,5 +1,6 @@
 ---
 title: "StyleExpr Property"
+description: StyleExpr Property sets whether the format that is specified in the Style Property is applied to text in a field.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

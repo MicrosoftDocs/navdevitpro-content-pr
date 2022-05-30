@@ -1,5 +1,6 @@
 ---
 title: "STRMENU Function (Dialog)"
+description: STRMENU Function (Dialog) creates a menu window that displays a series of options.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Strings"
+description: This section contains information about Strings including BigText Data Type, Code Data Type, Text Data Type, BigText Functions, String Functions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

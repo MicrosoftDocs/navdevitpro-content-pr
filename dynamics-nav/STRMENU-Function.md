@@ -1,5 +1,6 @@
 ---
 title: "STRMENU Function"
+description: STRMENU Function creates and displays a dialog box with an option group and returns the selection that the user makes.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

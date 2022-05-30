@@ -1,5 +1,6 @@
 ---
 title: "STRSUBSTNO Function (Code, Text)"
+description: STRSUBSTNO Function (Code, Text) replaces %1, %2, %3... fields in a string with the values you provide as optional parameters.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

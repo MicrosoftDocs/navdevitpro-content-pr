@@ -1,5 +1,6 @@
 ---
 title: "String Functions"
+description: This section contains links to different string functions. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
