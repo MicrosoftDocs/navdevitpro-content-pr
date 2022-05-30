@@ -1,5 +1,6 @@
 ---
 title: "SETRANGE Function (Query)"
+description: SETRANGE Function (Query)Sets a filter on a range of values on a column of a query dataset.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

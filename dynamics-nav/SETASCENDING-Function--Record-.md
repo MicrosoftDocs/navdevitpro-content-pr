@@ -1,5 +1,6 @@
 ---
 title: "SETASCENDING Function (Record)"
+description: SETASCENDING Function (Record) sets the sort order for the records returned.
 ms.custom: na
 ms.date: 03/13/2019
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Sessions"
+description: Use the session functions to manage navnow sessions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

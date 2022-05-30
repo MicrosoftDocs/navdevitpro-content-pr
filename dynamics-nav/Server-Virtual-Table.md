@@ -1,5 +1,6 @@
 ---
 title: "Server Virtual Table"
+description: The Server table contains the following fields, Server Name and My Server.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

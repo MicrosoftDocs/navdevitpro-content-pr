@@ -1,5 +1,6 @@
 ---
 title: "SETRECORD Function (Page)"
+description: SETRECORD Function (Page) Sets the current record for the page.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

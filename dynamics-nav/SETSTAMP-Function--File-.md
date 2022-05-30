@@ -1,5 +1,6 @@
 ---
 title: "SETSTAMP Function (File)"
+description: SETSTAMP Function (File) Sets a timestamp for a file.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "SETFILTER Function (TestPage Filter)"
+description: SETFILTER Function (TestPage Filter) Applies a filter to the specified field on a test page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

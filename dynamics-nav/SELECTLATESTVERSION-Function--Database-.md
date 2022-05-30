@@ -1,5 +1,6 @@
 ---
 title: "SELECTLATESTVERSION Function (Database)"
+description: SELECTLATESTVERSION Function (Database) Forces the latest version of the database to be used.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

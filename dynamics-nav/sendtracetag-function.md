@@ -1,5 +1,6 @@
 ---
 title: "SENDTRACETAG Function"
+description: SENDTRACETAG Function Sends a telemetry trace event to the event log.
 ms.custom: na
 ms.date: 11/27/2017
 ms.reviewer: na

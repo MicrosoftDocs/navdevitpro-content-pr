@@ -1,5 +1,6 @@
 ---
 title: "Separating Application Data from Business Data"
+description: Separating Application Data from Business Data separates tables that describe the application from the tables that contain business data.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
