@@ -1,6 +1,6 @@
 ---
 title: "SETSELECTIONFILTER Function"
-description: SETSELECTIONFILTER Function Notes the records that the user has selected on the page, marks those records in the table specified, and sets the filter to marked only.
+description: This topic contains information on the SETSELECTIONFILTER Function syntax, parameters, remarks, and examples. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,6 +1,6 @@
 ---
 title: "Sessions"
-description: Use the session functions to manage navnow sessions.
+description: Use the session functions to manage navnow sessions. This topic contains additional links to other functions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

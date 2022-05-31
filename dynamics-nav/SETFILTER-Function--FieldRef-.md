@@ -1,6 +1,6 @@
 ---
 title: "SETFILTER Function (FieldRef)"
-description: SETFILTER Function (FieldRef) Assigns a filter to a field that you specify.
+description: SETFILTER Function (FieldRef) Assigns a filter to a field that you specify. This topic contains information on the SETFILTER Function (FieldRef) syntax, parameters, remarks, and examples.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
