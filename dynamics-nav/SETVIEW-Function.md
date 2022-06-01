@@ -1,6 +1,6 @@
 ---
 title: "SETVIEW Function"
-description: SETVIEW Function Sets the current filter view, which defines the sort order, key, and filters, for a record in a filter control on a filter page.
+description: SETVIEW Function sets the current filter view, which defines the sort order, key, and filters, for a record in a filter control on a filter page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

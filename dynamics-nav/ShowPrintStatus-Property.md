@@ -1,6 +1,6 @@
 ---
 title: "ShowPrintStatus Property"
-description: ShowPrintStatus Property Sets whether a window that shows the printing status of a report when it is run is displayed.
+description: ShowPrintStatus Property sets whether a window that shows the printing status of a report when it is run is displayed.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

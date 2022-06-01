@@ -1,6 +1,6 @@
 ---
 title: "SETVIEW Function (Record)"
-description: SETVIEW Function (Record) Sets the current sort order, key, and filters on a table.
+description: SETVIEW Function (Record) sets the current sort order, key, and filters on a table.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

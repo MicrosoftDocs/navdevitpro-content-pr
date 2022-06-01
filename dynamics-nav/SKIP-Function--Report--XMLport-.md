@@ -1,6 +1,6 @@
 ---
 title: "SKIP Function (Report, XMLport)"
-description: SKIP Function (Report, XMLport) Skips the current iteration of the current report or XMLport.
+description: SKIP Function (Report, XMLport) skips the current iteration of the current report or XMLport.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
