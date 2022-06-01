@@ -1,6 +1,6 @@
 ---
 title: "SETFILTER Function (TestPage Filter)"
-description: SETFILTER Function (TestPage Filter) Applies a filter to the specified field on a test page. This topic contains information on the SETFILTER Function (TestPage Filter) syntax and parameters.
+description: This topic contains information on the SETFILTER Function (TestPage Filter) syntax and parameters.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

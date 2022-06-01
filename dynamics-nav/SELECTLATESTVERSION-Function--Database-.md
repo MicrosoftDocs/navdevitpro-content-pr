@@ -1,6 +1,6 @@
 ---
 title: "SELECTLATESTVERSION Function (Database)"
-description: SELECTLATESTVERSION Function (Database) Forces the latest version of the database to be used. This topic contains information on the SELECTLATESTVERSION Function (Database) syntax, remarks, and additional information.
+description: This topic contains information on the SELECTLATESTVERSION Function (Database) syntax, remarks, and additional information.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

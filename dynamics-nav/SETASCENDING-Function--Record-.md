@@ -1,6 +1,6 @@
 ---
 title: "SETASCENDING Function (Record)"
-description: SETASCENDING Function (Record) sets the sort order for the records returned. This topic contains information on the SETASCENDING function syntax, parameters, and examples.
+description: This topic contains information on the SETASCENDING function syntax, parameters, and examples.
 ms.custom: na
 ms.date: 03/13/2019
 ms.reviewer: na

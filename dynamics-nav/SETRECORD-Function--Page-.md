@@ -1,6 +1,6 @@
 ---
 title: "SETRECORD Function (Page)"
-description: SETRECORD Function (Page) Sets the current record for the page. This topic contains information on the SETRECORD Function (Page) syntax, parameters, remarks, and examples.
+description: This topic contains information on the SETRECORD Function (Page) syntax, parameters, remarks, and examples.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

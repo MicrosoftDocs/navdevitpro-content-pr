@@ -1,6 +1,6 @@
 ---
 title: "SEEK Function (File)"
-description: SEEK Function (File) Sets a file pointer to a new position in an ASCII or binary file. This topic contains information on the SEEK Function syntax, remarks, and examples.
+description: This topic contains information on the SEEK Function syntax, remarks, and examples.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

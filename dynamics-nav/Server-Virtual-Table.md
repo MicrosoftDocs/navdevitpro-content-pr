@@ -1,6 +1,6 @@
 ---
 title: "Server Virtual Table"
-description: The Server table contains the following fields, Server Name and My Server. This topic contains a link to additional information on how to create a page to view a virtual table.
+description: The Server table contains the Server Name and My Server. This topic contains a link to additional information on how to create a page to view a virtual table.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
