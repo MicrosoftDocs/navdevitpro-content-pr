@@ -1,5 +1,6 @@
 ---
 title: "EnabledIfError Property"
+description: Describes the EnabledIfError property and provides its property value.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

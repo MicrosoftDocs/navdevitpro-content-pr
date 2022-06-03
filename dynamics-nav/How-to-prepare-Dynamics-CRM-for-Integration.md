@@ -1,5 +1,6 @@
 ---
 title: "How to: Prepare Dynamics 365 for Sales for Integration"
+description: "This topic describes how to set up and configure Microsoft Dynamics 365 for Sales for integrating with Dynamics NAV."
 ms.custom: na
 ms.date: 06/15/2021
 ms.reviewer: na

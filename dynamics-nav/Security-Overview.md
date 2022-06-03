@@ -1,5 +1,6 @@
 ---
 title: "Security Overview"
+description: This article provides a general security overview and provides additional resource links.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

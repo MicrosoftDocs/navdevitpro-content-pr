@@ -1,5 +1,6 @@
 ---
 title: "Modifying Dynamics 365 Sales Code for Technical Upgrade to Dynamics NAV 2017"
+description: This article describes how to modify Dynamics 365 Sales code for technical upgrade to Dynamics NAV 2017.
 ms.custom: na
 ms.date: 06/30/2021
 ms.reviewer: na
@@ -20,7 +21,7 @@ If your solution integrates with [!INCLUDE[crm](includes/crm_md.md)], and you're
 
 Dynamics NAV cumulative update 55 introduced the following changes will affect the integration:
 
-- Microsoft .NET Framework 4.6.2 is now required to be installed on the machine where [!INCLUDE[nav2017](includes/nav2017.md)] Server runs. It should install automatically by the [!INCLUDE[nav2017](includes/nav2017.md)] installer (setup.exe). Otherwsie, it can be found on the [!INCLUDE[nav2017](includes/nav2017.md)] installation media (DVD) in the **Prerequisites** folder. You can also downloaded it from [Download .NET Framework 4.6.2](https://dotnet.microsoft.com/download/dotnet-framework/net462osoft.com).
+- Microsoft .NET Framework 4.6.2 is now required to be installed on the machine where [!INCLUDE[nav2017](includes/nav2017.md)] Server runs. It should install automatically by the [!INCLUDE[nav2017](includes/nav2017.md)] installer (setup.exe). Otherwsie, it can be found on the [!INCLUDE[nav2017](includes/nav2017.md)] installation media (DVD) in the **Prerequisites** folder. You can also downloaded it from [Download .NET Framework 4.6.2](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net462).
 
 - Support for CRM version 8.x has been removed and replaced with CRM SDK version 9.1. The CRM SDK version 9.1 is now part of Dynamics NAV Integration Solution (.zip) found on the installation media (DVD).
 

@@ -1,5 +1,6 @@
 ---
 title: "How to: Set Up an Image on a Cue"
+description: This article describes how to set up an image on a cue.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

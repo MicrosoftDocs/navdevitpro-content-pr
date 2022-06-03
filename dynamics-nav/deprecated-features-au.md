@@ -24,7 +24,7 @@ Companies can report their taxes manually using a form or electronically using E
 
 |Moved, Removed, or Replaced?|Why?|
 |----|----|
-|Replaced|Electronic Commerce Interface (ECI) software is no longer being supported by the Australian Tax Office (ATO). Preparation of BAS using a template from ECI and export to an XML file for ECI software is no longer supported. You can use the GST Return report in the standard version to prepare information required to submit BAS to ATO. For more information, see [Report GST to the Tax Authorities](/business-central/finance-how-report-vat).|
+|Replaced|Electronic Commerce Interface (ECI) software is no longer being supported by the Australian Tax Office (ATO). Preparation of BAS using a template from ECI and export to an XML file for ECI software is no longer supported. You can use the GST Return report in the standard version to prepare information required to submit BAS to ATO. For more information, see [Report GST to the Tax Authorities](/dynamics365/business-central/finance-how-report-vat).|
 
 ## GST Sales and GST Purchase Reports
 You can use the GST sales report and GST purchase report to reconcile the sales and purchase amounts recorded in business activity statements (BAS).

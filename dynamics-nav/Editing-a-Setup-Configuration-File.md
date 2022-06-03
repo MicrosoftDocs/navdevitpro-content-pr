@@ -1,5 +1,6 @@
 ---
 title: "Editing a Setup Configuration File"
+description: This article provides an overview of editing a setup configuration file.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

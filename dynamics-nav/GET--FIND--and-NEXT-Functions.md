@@ -1,5 +1,6 @@
 ---
 title: "GET, FIND, and NEXT Functions"
+description: This article provides an overview of the GET, FIND, and NEXT functions with syntax.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

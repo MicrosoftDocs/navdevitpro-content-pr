@@ -1,5 +1,6 @@
 ---
 title: "InStream.READ Function"
+description: "The InStream.READ Function reads a specified number of bytes from an InStream object. Data is read in binary format."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

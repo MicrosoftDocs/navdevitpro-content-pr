@@ -1,5 +1,6 @@
 ---
 title: "Synchronizing Dynamics NAV and Dynamics 365 for Sales"
+description: This article provides a detailed overview of synchronizing Dynamics NAV and Dynamics 365 for Sales.
 ms.custom: na
 ms.date: 10/24/2016
 ms.reviewer: na

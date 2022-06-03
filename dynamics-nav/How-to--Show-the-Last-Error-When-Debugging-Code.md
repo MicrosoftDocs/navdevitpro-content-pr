@@ -1,5 +1,6 @@
 ---
 title: "How to: Show the Last Error When Debugging Code"
+description: This article describes how to show the last error when debugging code.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

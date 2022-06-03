@@ -1,5 +1,6 @@
 ---
 title: "How to: Remove UI Elements Using the AccessByPermission Property"
+description: This article describes how to remove UI elements by using the AccessByPermission property.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

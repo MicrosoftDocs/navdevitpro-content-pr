@@ -1,5 +1,6 @@
 ---
 title: "How to: Install the Web Server Components"
+description: "Describes how to deploy the Microsoft Dynamics NAV Web client and Tablet client by installing the Microsoft Dynamics NAV Web Server components."
 ms.custom: na
 ms.date: 09/21/2017
 ms.reviewer: na

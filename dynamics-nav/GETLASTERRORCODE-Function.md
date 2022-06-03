@@ -1,5 +1,6 @@
 ---
 title: "GETLASTERRORCODE Function"
+description: Describes the GETLASTERRORCODE function and provides syntax, return value, and an example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

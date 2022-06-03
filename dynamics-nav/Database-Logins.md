@@ -1,5 +1,6 @@
 ---
 title: "Database Logins"
+description: This article provides information about database logins and how database logins work.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "EnableHyperlinks Property"
+description: Describes the EnableHyperlinks property and provides property value, remarks and security considerations.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

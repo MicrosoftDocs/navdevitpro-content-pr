@@ -1,5 +1,6 @@
 ---
 title: "ISAUTOMATION Function (Variant)"
+description: "ISAUTOMATION Function (Variant) indicates whether a C/AL variant contains an Automation variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

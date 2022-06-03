@@ -240,7 +240,7 @@ When you delete a table object, in the **Delete** confirmation dialog box that a
 
 <!-- 
 ##  <a name="RunSync1"></a> Task 12: Recompile published extensions  
-Use the [Repair-NAVApp cmdlet](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.apps.management/repair-navappSynchronize) of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform and application.
+Use the [Repair-NAVApp cmdlet](https://docs.microsoft.com/powershell/module/microsoft.dynamics.nav.apps.management/repair-navapp) of the [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)] Administration Shell to compile the published extensions to make sure they are work with the new platform and application.
 
 For example, you can run the following command to recompile all extensions:
 

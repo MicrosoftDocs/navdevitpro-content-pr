@@ -1,5 +1,6 @@
 ---
 title: "INCSTR Function (Code, Text)"
+description: "This topic describes the INCSTR function (Code, Text), which increases a positive number or decreases a negative number inside a string by one."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

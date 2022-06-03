@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.service: dynamics365-financials
+ms.prod: dynamics-nav-2018
 ms.assetid: f7a4a790-11a9-4dc3-a258-d0bd5dc3b5f1
 caps.latest.revision: 9
 ---
@@ -45,7 +45,7 @@ Creates an XML data stream \(XML document\) and sends it to a chosen destination
  This parameter is optional. If this parameter is omitted, all records in the table are exported.  
   
 ## Example  
- The following example exports data from a table to an XML document. The code uses the [CREATE Method \(File\)](devenv-CREATE-Method-File.md) to create an XML file named CustXmlFile.xml in a folder named xmlData on the C drive. The [CREATEOUTSTREAM Method \(File\)](devenv-CREATEOUTSTREAM-Method-File.md) opens a data stream to output the data from the table to the XML file. The [EXPORT Method \(XMLPORT\)](devenv-EXPORT-Method-XMLport.md) then exports the data and saves it at the specified location. The [CLOSE Method \(File\)](devenv-CLOSE-Method-File.md) closes the data stream. This example assumes that you have created a folder named xmlData on the C drive. This example requires that you create the following global variables.  
+ The following example exports data from a table to an XML document. The code uses the CREATE Method \(File\) to create an XML file named CustXmlFile.xml in a folder named xmlData on the C drive. The [CREATEOUTSTREAM Method \(File\)](devenv-CREATEOUTSTREAM-Method-File.md) opens a data stream to output the data from the table to the XML file. The [EXPORT Method \(XMLPORT\)](devenv-EXPORT-Method-XMLport.md) then exports the data and saves it at the specified location. The [CLOSE Method \(File\)](devenv-CLOSE-Method-File.md) closes the data stream. This example assumes that you have created a folder named xmlData on the C drive. This example requires that you create the following global variables.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

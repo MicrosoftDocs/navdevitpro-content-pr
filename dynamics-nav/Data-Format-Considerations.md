@@ -1,5 +1,6 @@
 ---
 title: "Data Format Considerations"
+description: This article provides information about data formatting considerations and how to set code field properties.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -56,7 +56,7 @@ New-NAVWebServerInstance -WebServerInstance MyNavApp –Server MyNavServer –Se
 
  To open the [!INCLUDE[nav_web](includes/nav_web_md.md)] for this example, open the following URL in a web browser:  
 
- **https://mymachine.cloudapp.net/MyNavApp**  
+ **`https://mymachine.cloudapp.net/MyNavApp`**  
 
 ## See Also  
  [Scaling the Microsoft Dynamics NAV Network Topology](Scaling-the-Microsoft-Dynamics-NAV-Network-Topology.md)   

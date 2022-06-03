@@ -1,5 +1,6 @@
 ---
 title: "INVOKE Function (TestPage Action)"
+description: "The INVOKE Function (TestPage Action) invokes an action on a test page. This article describes its syntax, parameters, and remarks."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

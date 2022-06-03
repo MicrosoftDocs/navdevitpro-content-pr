@@ -1,5 +1,6 @@
 ---
 title: "How to: Run Setup"
+description: This article provides a detailed overview of how to run Setup to install software or to capture a set of custom settings.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

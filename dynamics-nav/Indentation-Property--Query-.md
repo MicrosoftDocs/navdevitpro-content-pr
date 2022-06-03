@@ -1,5 +1,6 @@
 ---
 title: "Indentation Property (Query)"
+description: "This topic describes the Indentation property (Query), which sets the indentation level of a data item, column, or filter row in a query in Query Designer."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

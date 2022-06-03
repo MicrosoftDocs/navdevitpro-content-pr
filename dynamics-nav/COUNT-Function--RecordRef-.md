@@ -1,5 +1,6 @@
 ---
 title: "COUNT Function (RecordRef)"
+description: "Counts the number of records that are in the filters that are currently applied to the table referred to by the RecordRef."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Indentation Property (Reports)"
+description: "This topic describes the Indentation property (Reports), which sets the indentation level of a data item or column on a report."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

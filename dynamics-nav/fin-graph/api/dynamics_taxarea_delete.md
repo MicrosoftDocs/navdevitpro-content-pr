@@ -5,7 +5,7 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.prod: dynamics-nav-2018
 ms.topic: reference
 ms.devlang: na
 ms.tgt_pltfrm: na

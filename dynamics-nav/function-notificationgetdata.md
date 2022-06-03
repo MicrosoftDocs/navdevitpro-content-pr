@@ -1,5 +1,6 @@
 ---
 title: "GETDATA Function (Notification)"
+description: Describes the GETDATA function (notification) and provides parameters, remarks, and an example.
 ms.custom: na
 ms.date: 09/20/2016
 ms.reviewer: na

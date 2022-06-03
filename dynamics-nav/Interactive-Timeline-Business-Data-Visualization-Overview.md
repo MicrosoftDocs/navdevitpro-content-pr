@@ -1,5 +1,6 @@
 ---
 title: "Interactive Timeline Business Data Visualization Overview"
+description: "This topic provides an overview of the various features in the timeline business data visualization add-in."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

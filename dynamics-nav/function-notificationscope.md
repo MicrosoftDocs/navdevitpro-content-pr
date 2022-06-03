@@ -1,5 +1,6 @@
 ---
 title: "SCOPE Function (Notification)"
+description: Describes the SCOPE function (notification) and provides parameters, return value, and an example.
 ms.custom: na
 ms.date: 09/20/2016
 ms.reviewer: na

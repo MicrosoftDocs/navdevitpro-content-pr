@@ -1,5 +1,6 @@
 ---
 title: "How to: Mount a Tenant"
+description: "This topic describes how to mount a tenant database on a Microsoft Dynamics NAV Server instance in a multitenant Dynamics NAV deployment."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

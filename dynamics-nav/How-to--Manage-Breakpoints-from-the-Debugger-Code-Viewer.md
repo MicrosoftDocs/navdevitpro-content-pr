@@ -1,5 +1,6 @@
 ---
 title: "How to: Manage Breakpoints from the Debugger Code Viewer"
+description: "Describes how to view, set, enable, disable, or delete breakpoints directly in the Code portion of the Debugger window."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

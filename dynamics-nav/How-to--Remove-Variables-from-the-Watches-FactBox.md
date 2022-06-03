@@ -1,5 +1,6 @@
 ---
 title: "How to: Remove Variables from the Watches FactBox"
+description: This article describes how to remove variables from the Watches FactBox.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
