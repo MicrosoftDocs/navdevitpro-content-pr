@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Customer Card Page in Page Designer"
+description: In this article, learn how to create a card page to display customer details and link a list page to a card page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

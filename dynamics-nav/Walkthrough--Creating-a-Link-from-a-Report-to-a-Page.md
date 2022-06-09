@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Link from a Report to a Page"
+description: Learn how to create reports that provide dynamic data with Visual Studio Report Designer and Microsoft Dynamics NAV 2018.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

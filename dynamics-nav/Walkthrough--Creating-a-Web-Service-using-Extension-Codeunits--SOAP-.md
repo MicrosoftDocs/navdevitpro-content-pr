@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Web Service using Extension Codeunits (SOAP)"
+description: Learn how to publish and consume a Dynamics NAV page as a web service and how you can extend the Basic Page Operations. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

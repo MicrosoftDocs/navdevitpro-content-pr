@@ -1,5 +1,6 @@
 ---
 title: "Virtual Tables"
+description: Learn how you can use the same methods to access information in virtual tables as you use when you are working with ordinary tables. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

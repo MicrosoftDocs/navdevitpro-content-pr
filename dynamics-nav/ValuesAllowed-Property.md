@@ -1,5 +1,6 @@
 ---
 title: "ValuesAllowed Property"
+description: Learn how the ValuesAllowed property sets the values that are allowed in the field.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

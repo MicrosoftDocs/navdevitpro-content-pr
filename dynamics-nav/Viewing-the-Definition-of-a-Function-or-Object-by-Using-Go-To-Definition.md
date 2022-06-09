@@ -39,29 +39,29 @@ You can view the definition of a function or object by selecting the item in the
 ###  <a name="BKMK_UserdefinedFunctionFromTheCALGlobalsWindow"></a> User-Defined Function from the C/AL Globals Window  
  From the **C/AL Globals** window, right-click a user-defined function, and then choose **Go To Definition**.  
   
- ![Go To Definition of a user&#45;defined function](media/GoToDef_.jpg "GoToDef\_")  
+ ![Screenshot that highlights Go To Definition.](media/GoToDef_.jpg "GoToDef\_")  
   
  The result is that the C/AL Editor jumps to the C/AL code that defines the selected function.  
   
- ![Go To Definition of a user&#45;defined function](media/GoToDef_FromCALGlobals_CALEditor.jpg "GoToDef\_FromCALGlobals\_CALEditor")  
+ ![Screenshot that highlights the selected function.](media/GoToDef_FromCALGlobals_CALEditor.jpg "GoToDef\_FromCALGlobals\_CALEditor")  
   
 ###  <a name="BKMK_UserdefinedFunctionFromTheCALEditor"></a> User-Defined Function from the C/AL Editor  
  From the C/AL Editor, right-click a user-defined function, and then choose **Go To Definition**.  
   
- ![Go To Definition from user function in C&#47;AL Editor](media/GotoDef_FromCALEditor_UserFunc.jpg "GotoDef\_FromCALEditor\_UserFunc")  
+ ![Screenshot that shows how to select Go To Function.](media/GotoDef_FromCALEditor_UserFunc.jpg "GotoDef\_FromCALEditor\_UserFunc")  
   
  The result is that the C/AL Editor jumps to the C/AL code that defines the selected function.  
   
- ![Go To Definition from user function in C&#47;AL Editor](media/GoToDef_FromCALEditor_UserFunc_Result.jpg "GoToDef\_FromCALEditor\_UserFunc\_Result")  
+ ![Screenshot that shows the selected function.](media/GoToDef_FromCALEditor_UserFunc_Result.jpg "GoToDef\_FromCALEditor\_UserFunc\_Result")  
   
 ###  <a name="BKMK_UserdefinedFunctionFromTheCALEditorForAnObjectVariable"></a> User-Defined Function from the C/AL Editor for an Object Variable  
  From the C/AL Editor, right-click a user-defined function that is called on an object variable, and then choose **Go To Definition**.  
   
- ![Go To Definition from user function in C&#47;AL Editor](media/GotoDef_FromCALEditor_UserFunc_Object.jpg "GotoDef\_FromCALEditor\_UserFunc\_Object")  
+ ![Screenshot that shows where to select Go To Definition from the CAL Editor.](media/GotoDef_FromCALEditor_UserFunc_Object.jpg "GotoDef\_FromCALEditor\_UserFunc\_Object")  
   
  The result is that the object on which the function is called is opened in the corresponding designer and a new C/AL Editor window opens to the C/AL code that defines the selected function.  
   
- ![Go To Definition from user function in C&#47;AL Editor](media/GotoDef_FromCALEditor_UserFunc_Object_Result.jpg "GotoDef\_FromCALEditor\_UserFunc\_Object\_Result")  
+ ![Screenshot that shows the object opened in the corresponding designer.](media/GotoDef_FromCALEditor_UserFunc_Object_Result.jpg "GotoDef\_FromCALEditor\_UserFunc\_Object\_Result")  
   
 ###  <a name="BKMK_SystemFunctionFromTheCALEditor"></a> System Function from the C/AL Editor  
  From the C/AL Editor, right-click a system function that is called on an object variable, and then choose **Go To Definition**.  
@@ -93,7 +93,7 @@ You can view the definition of a function or object by selecting the item in the
   
 - Query  
   
-  ![Go To Definition from Record variable](media/GoToDef_FromCALEditor_Var.jpg "GoToDef\_FromCALEditor\_Var")  
+  ![Screenshot that shows the object in the designer.](media/GoToDef_FromCALEditor_Var.jpg "GoToDef\_FromCALEditor\_Var")  
   
   The object is opened in the corresponding designer:  
   

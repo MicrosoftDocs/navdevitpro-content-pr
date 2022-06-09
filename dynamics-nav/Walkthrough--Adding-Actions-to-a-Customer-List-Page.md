@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Adding Actions to a Customer List Page"
+description: Learn how to add a new item to an Action tab and then display that item as an icon on the ribbon.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

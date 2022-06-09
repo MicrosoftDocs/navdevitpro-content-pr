@@ -1,5 +1,6 @@
 ---
 title: "Variable Functions"
+description: Learn about variable functions, specifically the CANLOADTYPE, CLEAR, CLEARALL, and EVALUATE functions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

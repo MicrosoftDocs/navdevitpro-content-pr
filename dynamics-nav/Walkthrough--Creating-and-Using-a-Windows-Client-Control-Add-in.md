@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating and Using a Windows Client Control Add-in"
+description: Learn how to develop a Microsoft Dynamics NAV Windows client add-in and use it on a Microsoft Dynamics NAV Windows client page.
 ms.custom: na
 ms.date: 04/01/2019
 ms.reviewer: na
@@ -110,14 +111,14 @@ This walkthrough demonstrates tasks performed by the following user roles:
     }  
     ```  
 
-     The class uses the [ControlAddInExportAttribute](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute and derives from the [Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase) class and [Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition) interface. The [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute declares the class in the assembly to be a control add-in that is identified by its [ControlAddInExportAttribute.Name](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute.Name) property, which is `MyCompany.MyProduct.FieldPopupAddin`. Because an assembly can contain more than one control add-in, the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] uses the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute to differentiate each control add-in that is found in an assembly.  
+     The class uses the [ControlAddInExportAttribute](/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute and derives from the [Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase](/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase) class and [Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition](/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition) interface. The [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute declares the class in the assembly to be a control add-in that is identified by its [ControlAddInExportAttribute.Name](/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute.Name) property, which is `MyCompany.MyProduct.FieldPopupAddin`. Because an assembly can contain more than one control add-in, the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] uses the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute to differentiate each control add-in that is found in an assembly.  
 
     > [!NOTE]  
     >  You will use the name `MyCompany.MyProduct.FieldPopupAddin` later in the walkthrough when you register the add-in in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. When naming the control add-in, it is good practice to follow the .NET Framework naming convention for classes, which is *CompanyName.ProductName.ControlName*.  
 
-     The [Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition) interface determines how data transfers to and from the add-in and how events are raised to call triggers on the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+     The [Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition](/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IStringControlAddInDefinition) interface determines how data transfers to and from the add-in and how events are raised to call triggers on the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
 
-11. In the `MyFieldPopupAddin` class, add the following code to implement the abstract [WinFormsControlAddInBase.CreateControl](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.CreateControl) method and define the add-in functionality.  
+11. In the `MyFieldPopupAddin` class, add the following code to implement the abstract [WinFormsControlAddInBase.CreateControl](/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.CreateControl) method and define the add-in functionality.  
 
     ```c#  
     /// Defines the text box control.  
@@ -147,7 +148,7 @@ This walkthrough demonstrates tasks performed by the following user roles:
     ```  
 
     > [!NOTE]  
-    >  If you want to create an add-in that spans both the caption column and the data column of the page, override the [IWinFormsControlAddIn.AllowCaptionControl](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.IWinFormsControlAddIn.AllowCaptionControl) property and return `false` \(default value is `true`\).  
+    >  If you want to create an add-in that spans both the caption column and the data column of the page, override the [IWinFormsControlAddIn.AllowCaptionControl](/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.IWinFormsControlAddIn.AllowCaptionControl) property and return `false` \(default value is `true`\).  
 
     An assembly must be signed that can be used in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You will now sign the assembly.  
 
@@ -187,7 +188,7 @@ This walkthrough demonstrates tasks performed by the following user roles:
 
 -   Control Add-in name.  
 
-     The control add-in name is determined by the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute value of add-in class definition that you specified when you created the control add-in. The name in this walkthrough is `MyCompany.MyProduct.FieldPopupAddin`, as shown in the following code snippet from interface definition.  
+     The control add-in name is determined by the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute value of add-in class definition that you specified when you created the control add-in. The name in this walkthrough is `MyCompany.MyProduct.FieldPopupAddin`, as shown in the following code snippet from interface definition.  
 
     ```c#  
     [ControlAddInExport("MyCompany.MyProduct.FieldPopupAddin")]  

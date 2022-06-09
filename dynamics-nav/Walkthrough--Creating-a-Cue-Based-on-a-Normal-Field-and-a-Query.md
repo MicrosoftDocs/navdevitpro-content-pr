@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Cue Based on a Normal Field and a Query"
+description: Learn how to create a Cue that is based on a normal field that derives data from a Dynamics NAV query object.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
