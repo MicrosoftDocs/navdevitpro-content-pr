@@ -1,5 +1,6 @@
 ---
 title: "TIME Function (Time)"
+description: This article describes how the TIME function (Time) gets the current time from the operating system.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "TextType Property"
+description: This article describes how the TextType property gets the type of text this element or attribute contains.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

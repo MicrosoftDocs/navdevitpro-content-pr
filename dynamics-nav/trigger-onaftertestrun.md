@@ -1,5 +1,6 @@
 ---
 title: "OnAfterTestRun Trigger"
+description: Learn how the OnAfterTestRun trigger executes after a test function of a test codeunit has been run.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
