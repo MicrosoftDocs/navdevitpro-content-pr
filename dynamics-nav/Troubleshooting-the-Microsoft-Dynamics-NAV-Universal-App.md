@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting the Microsoft Dynamics NAV Universal App"
+description: This section contains information to help you resolve problems using the nav_web, the nav_tablet, and the nav_phone.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

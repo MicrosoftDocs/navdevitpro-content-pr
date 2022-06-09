@@ -1,5 +1,6 @@
 ---
 title: "C/AL Editor"
+description: C/AL Editor adds C/AL code in triggers and user-defined functions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

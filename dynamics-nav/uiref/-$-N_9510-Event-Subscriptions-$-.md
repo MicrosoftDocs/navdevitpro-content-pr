@@ -1,5 +1,6 @@
 ---
 title: "Event Subscriptions"
+description: Event Subscriptions specifies the current subscriptions to published events.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

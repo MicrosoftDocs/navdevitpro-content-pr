@@ -1,5 +1,6 @@
 ---
 title: "TRUNC Function (File)"
+description: The TRUNC Function (File) truncates an ASCII or binary file to the current position of the file pointer.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

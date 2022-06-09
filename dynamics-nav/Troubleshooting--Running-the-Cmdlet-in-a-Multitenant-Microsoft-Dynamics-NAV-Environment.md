@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Running the Cmdlet in a Multitenant Microsoft Dynamics NAV Environment"
+description: This topic contains information on how to troubleshoot running the Cmdlet in a Multitenant Microsoft Dynamics NAV Environment.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

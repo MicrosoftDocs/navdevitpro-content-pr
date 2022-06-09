@@ -1,5 +1,6 @@
 ---
 title: "TryFunction Property"
+description: The TryFunction Property specifies the function to be try function, which can be used to catch and handle errors and exceptions that occur when code is run.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

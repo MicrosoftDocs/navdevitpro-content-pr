@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Visual Studio Report Designer provided metadata is not valid"
+description: This topic describes how to resolve the error message Visual Studio Report Designer provided metadata is not valid.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

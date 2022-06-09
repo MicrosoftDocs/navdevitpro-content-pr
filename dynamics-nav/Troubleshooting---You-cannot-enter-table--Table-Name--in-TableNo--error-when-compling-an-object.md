@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: &quot;You cannot enter table &#39;Table Name&#39; in TableNo&quot; error when compling an object"
+description: This topic describes how to resolve the error message saying You cannot enter table '\[Number\]\[ \]\[Text\]' in TableNo.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
