@@ -1,5 +1,6 @@
 ---
 title: "MAXSTRLEN Function (Code, Text)"
+description: "The MAXSTRLEN Function (Code, Text) gets the maximum defined length of a string variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

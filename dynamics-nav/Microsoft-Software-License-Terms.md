@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Software License Terms"
+description: "The Microsoft Software License Terms page in Microsoft Dynamics NAV 2018 Setup defines the legal conditions under which you can use the Microsoft Dynamics NAV 2018 software."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
