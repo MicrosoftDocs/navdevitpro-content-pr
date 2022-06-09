@@ -1,5 +1,6 @@
 ---
 title: "Setting Up Dynamics 365 for Sales Integration"
+description: This article provides an overview of how to set up crm_md integration in navnow_md.
 ms.custom: na
 ms.date: 10/24/2016
 ms.reviewer: na

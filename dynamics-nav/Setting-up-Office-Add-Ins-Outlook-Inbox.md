@@ -1,5 +1,6 @@
 ---
 title: "Setting Up the Office Add-Ins for Outlook Inbox Integration"
+description: Describes how to set Up the Office Add-Ins for Outlook Integration with navnow.
 ms.custom: na
 ms.date: 02/01/2017
 ms.reviewer: na

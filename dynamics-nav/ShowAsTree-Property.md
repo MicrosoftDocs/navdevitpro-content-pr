@@ -1,5 +1,6 @@
 ---
 title: "ShowAsTree Property"
+description: ShowAsTree Property sets the indentation of rows on a List Page to Tree View.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

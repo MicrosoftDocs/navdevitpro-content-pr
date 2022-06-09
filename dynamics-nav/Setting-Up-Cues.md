@@ -1,5 +1,6 @@
 ---
 title: "Setting Up Cues"
+description: Describes steps to help you start creating and modifying Cues. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
