@@ -1,5 +1,6 @@
 ---
 title: "Help Table of Contents"
+description: "Describes the attributes of a node element, which is contained in the ToC.xml file."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts"
+description: "This topic describes how to deploy Dynamics NAV by using the Example-1VM.ps1 and Example-2VM.ps1 scripts, available with the Microsoft Dynamics NAV Provisioning Tools for Microsoft Azure. "
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

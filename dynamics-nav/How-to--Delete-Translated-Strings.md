@@ -1,5 +1,6 @@
 ---
 title: "How to: Delete Translated Strings"
+description: "Describes the two ways to delete translated strings after they are added into a database."
 ms.custom: na
 ms.date: 03/05/2018
 ms.reviewer: na
