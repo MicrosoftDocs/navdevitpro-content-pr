@@ -1,5 +1,6 @@
 ---
 title: "Working with Data Collector Sets"
+description: Learn how you can create your own Data Collection Set or you can use the Data Collection Set template. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

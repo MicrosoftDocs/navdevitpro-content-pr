@@ -1,5 +1,6 @@
 ---
 title: "Web Service Walkthroughs"
+description: In this article, learn how to create simple applications that interact with Microsoft Dynamics NAV 2018.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

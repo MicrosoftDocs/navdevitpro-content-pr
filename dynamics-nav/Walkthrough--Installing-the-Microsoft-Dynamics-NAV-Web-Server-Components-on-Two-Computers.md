@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Two Computers"
+description: Learn how to install the tiers of the Microsoft Dynamics NAV Web client and Microsoft Dynamics NAV Tablet client in a production environment.
 ms.custom: na
 ms.date: 09/21/2017
 ms.reviewer: na

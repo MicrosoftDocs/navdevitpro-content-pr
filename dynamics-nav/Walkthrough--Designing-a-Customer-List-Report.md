@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Designing a Customer List Report"
+description: Learn how to create a report that is based on one table with Dynamics NAV and design this report using Visual Studio Report Designer.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

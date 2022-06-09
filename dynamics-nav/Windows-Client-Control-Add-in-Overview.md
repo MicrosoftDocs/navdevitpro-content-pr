@@ -1,5 +1,6 @@
 ---
 title: "Windows Client Control Add-in Overview"
+description: Learn how you can use Dynamics NAV control add-ins to extend the Dynamics NAV with custom functionality.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -47,7 +48,7 @@ With [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you use [!INCLUDE[navnow
 |Data Binding interface|Displays data from the [!INCLUDE[navnow](includes/navnow_md.md)] database.|[Binding a Windows Client Control Add-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md)|  
 |Event Interface|Selected public events in a control add-in that convert into C/AL triggers on a page that sends data back to the [!INCLUDE[nav_server](includes/nav_server_md.md)].|[Exposing Events and Calling Respective C/AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)|  
 |Methods and Properties|Selected public methods and properties in a control add-in that can be called from C/AL triggers on a page.|[Exposing Methods and Properties in a Windows Client Control Add-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md)|  
-|Site Interface|Provides information about a control add-in and allows the control add-in to call functionality inside the [!INCLUDE[navnow](includes/navnow_md.md)] framework, such as retrieving metadata \(visible, caption, and so on\). This interface is implemented by the default definition interfaces and base classes of the client extensibility API.|[Client Extensibility API Overview](Client-Extensibility-API-Overview.md)<br /><br /> [IControlAddInSite](https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IControlAddInSite)|  
+|Site Interface|Provides information about a control add-in and allows the control add-in to call functionality inside the [!INCLUDE[navnow](includes/navnow_md.md)] framework, such as retrieving metadata \(visible, caption, and so on\). This interface is implemented by the default definition interfaces and base classes of the client extensibility API.|[Client Extensibility API Overview](Client-Extensibility-API-Overview.md)<br /><br /> [IControlAddInSite](/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.IControlAddInSite)|  
 
 ## Control Add-ins That Are Not Supported  
  Control add-ins are not supported in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. If the page is displayed in the [!INCLUDE[nav_web](includes/nav_web_md.md)], the control add-in is ignored.  

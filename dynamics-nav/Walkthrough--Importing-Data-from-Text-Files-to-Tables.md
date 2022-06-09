@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Importing Data from Text Files to Tables"
+description: Learn how to import data from a fixed width text file to a Dynamics NAV database. The text file contains data used to update specific fields in an existing record.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

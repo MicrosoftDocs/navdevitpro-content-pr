@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Using Automation to Create a Graph in Microsoft Excel"
+description: In this article, learn how to transfer data from the G/L Entry table to Microsoft Excel and create a graph.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

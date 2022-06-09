@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Exporting Data from Tables to XML Documents"
+description: Learn how to call the XMLport from a codeunit. You define the output stream that will export the data and location where the XML document should be saved in the codeunit.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

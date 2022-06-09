@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV"
+description: In this article, learn you can learn how to publish, raise, and subscribe to an event in Microsoft Dynamics NAV.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

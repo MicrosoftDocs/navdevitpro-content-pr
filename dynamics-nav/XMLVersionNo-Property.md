@@ -1,5 +1,6 @@
 ---
 title: "XMLVersionNo Property"
+description: Learn how to configure the SMLVersionNo property to set which version of XML the XML document conforms to. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

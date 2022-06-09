@@ -1,5 +1,6 @@
 ---
 title: "WithEvents Property"
+description: Learn how the WithEvents property is not supported and must be set to No. If not set to No, an error occurs.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Installing the Three Tiers on Three Computers"
+description: Learn how to install Microsoft Dynamics NAV 2018 in a production environment, with each of the three Dynamics NAV tiers on a separate computer.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "WRITEPERMISSION Function (Record)"
+description: Learn how the WRITEPERMISSION function (Record) can test for both full write permission and partial write permission that has been granted with a security filter. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

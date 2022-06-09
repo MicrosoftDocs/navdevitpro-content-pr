@@ -1,5 +1,6 @@
 ---
 title: "XMLport Triggers"
+description: Learn about the various triggers that you can apply to XMLports, for example the OnAfterAssignField and OnAfterAssignVariable triggers. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
