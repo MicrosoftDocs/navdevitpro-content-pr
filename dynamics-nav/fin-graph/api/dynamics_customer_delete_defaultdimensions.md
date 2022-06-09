@@ -4,7 +4,6 @@ description: Deletes the default dimensions of the customer in Dynamics 365 Busi
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
-
 ms.prod: dynamics-nav-2018
 ms.topic: reference
 ms.devlang: na
