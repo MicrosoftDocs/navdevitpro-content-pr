@@ -1,5 +1,6 @@
 ---
 title: "How to: Upload the License File"
+description: "Describes how to upload the license file after installing Dynamics NAV."
 author: edupont04
 ms.custom: na
 ms.date: 10/22/2020

@@ -1,5 +1,6 @@
 ---
 title: "Code Changes While Debugging"
+description: When debugging, you may want to edit code, compile, and save objects. This article explains in more detail about code changes while debugging.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

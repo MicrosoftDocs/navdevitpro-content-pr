@@ -1,5 +1,6 @@
 ---
 title: "PAGE.RUN Function"
+description: "This article provides syntax, parameters, and a code example of the PAGE.RUN Function, which creates and launches a page object."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

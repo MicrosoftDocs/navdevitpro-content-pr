@@ -1,5 +1,6 @@
 ---
 title: "Using the PingPong Add-in"
+description: Learn how the Dynamics Nav PingPong add-in can be invoked to request a callback after a specified timeout.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

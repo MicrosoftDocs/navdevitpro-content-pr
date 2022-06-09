@@ -1,5 +1,6 @@
 ---
 title: "BREAKUNBOUND Function (XMLport)"
+description: "The BREAKUNBOUND Function (XMLport) exits from a loop on records in an XMLport trigger. This article describes its syntax and remarks."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Permissions Property"
+description: "This article describes the Permissions Property, which sets whether an object has additional permission required to perform some operations on one or more tables."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

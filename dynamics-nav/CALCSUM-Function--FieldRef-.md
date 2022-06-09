@@ -1,5 +1,6 @@
 ---
 title: "CALCSUM Function (FieldRef)"
+description: "The CALCSUM Function (FieldRef) calculates the total of all values of a SumIndexField in a table."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

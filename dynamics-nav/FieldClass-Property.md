@@ -1,5 +1,6 @@
 ---
 title: "FieldClass Property"
+description: Describes the FieldClass property and the three classes of fields Normal, FlowFields, and FlowFilters. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

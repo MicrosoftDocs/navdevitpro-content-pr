@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Developing a Sales Rep Role Center for the Microsoft Dynamics NAV Tablet Client"
+description: Learn how to build a Role Center for a sales representative, which links to already existing page objects, but combined in a way so that it works well on the tablet.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

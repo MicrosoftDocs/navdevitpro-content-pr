@@ -1,5 +1,6 @@
 ---
 title: "ClosingDates Property"
+description: Details the syntax for the ClosingDates property. Sets a value that determines whether users can enter a closing date in this field.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

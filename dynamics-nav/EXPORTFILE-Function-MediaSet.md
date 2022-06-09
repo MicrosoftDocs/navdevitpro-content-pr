@@ -1,5 +1,6 @@
 ---
 title: "EXPORTFILE Function (MediaSet)"
+description: Details the EXPORTFILE function to export the media objects in the current media set of a record to individual files on your computer or network.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "How to: View Performance Counter Data for a Data Collector Set"
+description: "Describes how to view log files to see a visual representation of performance counter data."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

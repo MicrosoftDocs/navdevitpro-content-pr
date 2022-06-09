@@ -1,5 +1,6 @@
 ---
 title: "Touring the RoleTailored Client Pages"
+description: Learn how you can create pages to offer users a visual experience that is closely aligned to Microsoft Office and Windows.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -72,7 +73,7 @@ You can choose from the following page types:
 ##  <a name="CardPage"></a> Card Page Type  
  A Card page is used to view and edit one record or entity from a table. The Card page displays selected fields from the table. An example of using a Card page is for editing a customer. The following illustration shows the Customer Card page.  
   
- ![RoleTailored client Card page example](media/NAV_CardPage_CustomerCard.jpg "NAV\_CardPage\_CustomerCard")  
+ ![Screenshot that shows the Customer Card page.](media/NAV_CardPage_CustomerCard.jpg "NAV\_CardPage\_CustomerCard")  
   
  You can group one or more fields in FastTabs. You can also include a FactBox that displays additional information about the record in the page.  
   
@@ -88,7 +89,7 @@ You can choose from the following page types:
 ##  <a name="CardPartPage"></a> Card Part Page Type  
  A Card Part page is used in a FactBox on another page to view or edit additional fields associated with a selected entity in the page. The following illustration shows an example of using a Card Part page on a List page that displays sales orders. In the FactBox on the right, a Card Part page displays details about the customer that placed the selected sales order. The following illustration shows a FactBox.  
   
- ![RoleTailored client Card page example](media/NAV_CardPartPage_SalesOrderList.jpg "NAV\_CardPartPage\_SalesOrderList")  
+ ![Illustration that shows a FactBox.](media/NAV_CardPartPage_SalesOrderList.jpg "NAV\_CardPartPage\_SalesOrderList")  
   
  For more information, see the following.  
   

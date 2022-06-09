@@ -1,5 +1,6 @@
 ---
 title: "ISTEXTCONSTANT Function (Variant)"
+description: "The ISTEXTCONSTANT Function (Variant) indicates whether a C/AL variant contains a text constant."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "BREAK Function (Debugger)"
+description: "The BREAK Function (Debugger) breaks code execution of a debugging session. This article describes its syntax and property/return value."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

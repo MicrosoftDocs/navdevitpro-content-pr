@@ -1,5 +1,6 @@
 ---
 title: "Raising Events"
+description: Learn how after an event has been published by an event publisher function, you can modify the application to raise the event where it is needed.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

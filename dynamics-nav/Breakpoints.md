@@ -1,5 +1,6 @@
 ---
 title: "Breakpoints"
+description: "This article describes how to set breaks or breakpoints in a session that is being debugged, including information on how breakpoints are enabled, disabled, and stored."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "WINDOWSLANGUAGE Function"
+description: Learn how the WINDOWSLANGUAGE function gets the current Windows language setting, as well as details about its syntax and property value.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

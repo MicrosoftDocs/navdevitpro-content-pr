@@ -1,5 +1,6 @@
 ---
 title: "UNREGISTERTABLECONNECTION Function (Database)"
+description: Learn how the UNREGISTERTABLECONNECTION function (Database) unregisters a table connection between Dynamics NAV and an external database.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "ProviderID Property"
+description: Learn how the ProviderID property sets the ProviderID for a FactBox, as well as other details about the property.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

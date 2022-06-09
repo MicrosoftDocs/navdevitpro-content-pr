@@ -1,5 +1,6 @@
 ---
 title: "Classifying Data in Dynamics NAV"
+description: Details the syntax for the Classifying Data in Dynamics NAV it includes development features for tagging business data with specific classifications.
 ms.author: jswymer
 ms.custom: na
 ms.date: 03/13/2018

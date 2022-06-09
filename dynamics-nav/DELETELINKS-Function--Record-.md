@@ -1,5 +1,6 @@
 ---
 title: "DELETELINKS Function (Record)"
+description: "The DELETELINKS Function (Record) deletes all of the links that have been added to a record."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

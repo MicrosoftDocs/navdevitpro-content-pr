@@ -1,5 +1,6 @@
 ---
 title: "ISTEMPORARY Function (Record)"
+description: "The ISTEMPORARY Function (Record) determines whether a record refers to a temporary table."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

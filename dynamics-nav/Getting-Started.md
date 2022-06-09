@@ -1,5 +1,6 @@
 ---
 title: "Getting Started"
+description: "Provides references to get started in Microsoft Dynamics NAV 2018 and Dynamics 365 Business Central."
 ms.custom: na
 ms.date: 11/23/2017
 ms.reviewer: na

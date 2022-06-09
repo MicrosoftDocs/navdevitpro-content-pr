@@ -1,5 +1,6 @@
 ---
 title: "How to: Style Field Text on a Page"
+description: "Describes how to Style field text on a page. Provides a list of the Style property values."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

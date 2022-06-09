@@ -1,5 +1,6 @@
 ---
 title: "MEDIAID Function (MediaSet)"
+description: "MEDIAID Function (MediaSet) gets the unique identifier that is assigned to a MediaSet of a record." 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Additional Components"
+description: "The components listed in this section extend the capabilities Microsoft Dynamics NAV 2018 in various ways."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

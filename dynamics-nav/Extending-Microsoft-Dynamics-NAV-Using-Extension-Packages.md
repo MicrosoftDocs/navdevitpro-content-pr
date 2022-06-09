@@ -1,5 +1,6 @@
 ---
 title: "Extending Microsoft Dynamics NAV Using Extension Packages"
+description: Details the topics of how extensions work, lifecycle of an extension, system tables and virtual tables, and Windows PowerShell Cmdlets.
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 01/22/2018

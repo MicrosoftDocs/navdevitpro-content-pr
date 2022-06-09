@@ -1,5 +1,6 @@
 ---
 title: "How to: Define Promoted Action Categories Captions for the Ribbon"
+description: "Describes how to define promoted action categories captions, which are displayed in the ribbon of the RoleTailored client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

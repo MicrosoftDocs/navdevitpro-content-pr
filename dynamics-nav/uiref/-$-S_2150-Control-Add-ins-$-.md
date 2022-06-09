@@ -1,5 +1,6 @@
 ---
 title: "Control Add-ins"
+description: Control Add-ins contains control add-ins that have been registered.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Altering Databases - Database Files Tab"
+description: "The Altering Databases Database Files Tab increases the size of the database by either increasing the size of the database files or adding new data files to the database."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

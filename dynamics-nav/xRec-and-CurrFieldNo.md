@@ -1,5 +1,6 @@
 ---
 title: "xRec and CurrFieldNo"
+description: Learn what happens to xRec and CurrFieldNo when a user-defined function on a table object is called from either external or internal C/AL code. 
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

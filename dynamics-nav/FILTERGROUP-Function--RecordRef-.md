@@ -1,5 +1,6 @@
 ---
 title: "FILTERGROUP Function (RecordRef)"
+description: Details the syntax for the FILTERGROUP Function (RecordRef) which changes the filter group that is being applied to the table.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

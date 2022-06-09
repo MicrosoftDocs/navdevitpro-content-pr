@@ -1,5 +1,6 @@
 ---
 title: "TYPE Function (FieldRef)"
+description: The TYPE Function (FieldRef) gets the data type of the field that is currently selected.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

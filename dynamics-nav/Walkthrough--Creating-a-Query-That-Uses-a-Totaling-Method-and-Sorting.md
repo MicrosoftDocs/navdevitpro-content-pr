@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Query That Uses a Totaling Method and Sorting"
+description: Learn how to modify an existing query, which links two tables, so that the query includes a totaling method on a field in one of the tables.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

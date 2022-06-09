@@ -1,5 +1,6 @@
 ---
 title: "Control Number"
+description: Learn how the Control Number selects columns that should remain in view on a page when you scroll to the right. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

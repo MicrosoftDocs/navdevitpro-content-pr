@@ -1,5 +1,6 @@
 ---
 title: "How to: Specify Rounding Precision"
+description: "Describes how to use the ROUND function to round a double-precision floating point value to the nearest integer in Visual Studio Report Designer."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

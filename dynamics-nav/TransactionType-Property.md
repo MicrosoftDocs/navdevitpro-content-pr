@@ -1,5 +1,6 @@
 ---
 title: "TransactionType Property"
+description: Learn how the TransactionType property sets the transaction type, as well as additional details about the property.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Mapping Between .NET Framework and C/AL Types"
+description: "Describes how to map between .NET Framework and C/AL types by using data type conversions."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

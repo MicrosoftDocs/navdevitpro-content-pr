@@ -1,5 +1,6 @@
 ---
 title: "DOWNLOAD Function (File)"
+description: "The DOWNLOAD Function (File) sends a file from a Microsoft Dynamics NAV Server computer to the client computer."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

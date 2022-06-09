@@ -1,6 +1,7 @@
 ---
 author: edupont04
 title: "RESTOREARCHIVEDATA Function"
+description: Learn how the RESTOREARCHIVEDATA function restores archived data for a specified table of an extension during installation. 
 ms.custom: na
 ms.date: 11/02/2016
 ms.reviewer: na

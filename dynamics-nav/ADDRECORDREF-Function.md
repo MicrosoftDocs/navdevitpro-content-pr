@@ -1,5 +1,6 @@
 ---
 title: "ADDRECORDREF Function"
+description: "The ADDRECORDREF function adds filter control for a table to a filter page. The table is specified by a recordref variable that is passed to the function."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -12,7 +13,7 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # ADDRECORDREF Function
-Adds filter control for a table to a filter page. The table is specified by a recordref variable that is passed to the function .  
+Adds filter control for a table to a filter page. The table is specified by a recordref variable that is passed to the function.  
   
  This creates a filter control on the filter page, where users can set filter table data.  
   

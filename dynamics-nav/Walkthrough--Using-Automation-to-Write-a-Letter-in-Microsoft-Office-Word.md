@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Using Automation to Write a Letter in Microsoft Office Word"
+description: Learn how to  implement Word Automation from a customer card in the Microsoft Dynamics NAV Windows client. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

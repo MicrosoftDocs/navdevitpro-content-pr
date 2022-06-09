@@ -1,5 +1,6 @@
 ---
 title: "BackupKey Property"
+description: "The BackupKey Property is used by the backup/restore system. This article describes its application, property value, and remarks."
 author: edupont04
 ms.custom: na
 ms.date: 12/08/2016

@@ -1,5 +1,6 @@
 ---
 title: "ImportLangModule"
+description: "The ImportLangModule imports a language module from a file to the specified Dynamics NAV database."
 author: edupont04
 ms.custom: na
 ms.date: 10/14/2016

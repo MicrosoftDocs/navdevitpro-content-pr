@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Could not load type &#39;System.ServiceModel.Activation.HttpModule&#39; from assembly &#39;System.ServiceModel...&#39;"
+description: "Learn how to resolve this error: Could not load type 'System.ServiceModel.Activation.HttpModule' from assembly 'System.ServiceModel...'"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Using Arrays"
+description: Learn how an array is a data structure that contains several variables of the same type and that the variables are treated as a single collection.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

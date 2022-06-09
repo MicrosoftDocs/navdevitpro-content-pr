@@ -1,5 +1,6 @@
 ---
 title: "FIELDNAME Function (Record)"
+description: Describes the syntax and parameters of the FIELDNAME function which provides the name of a field as a string.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

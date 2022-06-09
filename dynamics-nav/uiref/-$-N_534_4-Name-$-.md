@@ -1,5 +1,6 @@
 ---
 title: "Name"
+description: The Name field Contains the names of the available languages that are included in your license and that are installed on your computer.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

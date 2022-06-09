@@ -1,5 +1,6 @@
 ---
 title: "Demo Option"
+description: "Describes the Demo option, which is intended for users who want to try the features of Dynamics NAV."
 author: edupont04
 ms.custom: na
 ms.date: 10/14/2016

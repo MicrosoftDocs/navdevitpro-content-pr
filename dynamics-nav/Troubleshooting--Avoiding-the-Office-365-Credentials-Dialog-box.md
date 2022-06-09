@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Avoiding the Microsoft 365 Credentials Dialog box"
+description: "This article describes how to resolve this error: Avoiding the Microsoft 365 Credentials Dialog box."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

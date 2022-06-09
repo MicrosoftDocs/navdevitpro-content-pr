@@ -1,5 +1,6 @@
 ---
 title: "Manage Data Encryption"
+description: "Describes how to encrypt data on the Microsoft Dynamics NAV Server by generating new or importing existing encryption keys."
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 10/25/2016

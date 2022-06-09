@@ -1,5 +1,6 @@
 ---
 title: "ACTIVE Function (KeyRef)"
+description: "The ACTIVE Function (KeyRef) indicates whether the key is enabled. This article describes its syntax, property/return value, and example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

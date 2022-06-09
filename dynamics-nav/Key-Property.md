@@ -1,5 +1,6 @@
 ---
 title: "Key Property"
+description: "The Key Property is used to identify the field or fields that make up the key."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

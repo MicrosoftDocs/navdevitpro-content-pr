@@ -1,5 +1,6 @@
 ---
 title: "HASTABLECONNECTION Function (Database)"
+description: "The HASTABLECONNECTION Function (Database) verifies if a connection to an external database exists based on the specified name."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

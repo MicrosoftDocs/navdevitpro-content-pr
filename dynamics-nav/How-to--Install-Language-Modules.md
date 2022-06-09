@@ -1,6 +1,6 @@
 ---
 title: "How to: Install Language Modules"
-
+description: "Describes how to install language modules in Microsoft Dynamics NAV 2018."
 ms.custom: na
 ms.date: 09/27/2018
 ms.suite: na

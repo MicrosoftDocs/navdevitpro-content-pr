@@ -1,5 +1,6 @@
 ---
 title: "UseSystemPrinter Property"
+description: Learn how the UseSystemPrinter property sets which printer is suggested when the report is run, as well as details about its property value.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

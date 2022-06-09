@@ -1,5 +1,6 @@
 ---
 title: "SETFILTER Function (Query)"
+description: SETFILTER Function (Query) Sets a filter on a column of a query to limit the records in the resulting dataset of a query.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

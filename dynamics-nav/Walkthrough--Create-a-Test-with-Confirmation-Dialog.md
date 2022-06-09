@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Create a Test with Confirmation Dialog"
+description: Learn how to use test handler functions in a test that includes a confirmation dialog.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

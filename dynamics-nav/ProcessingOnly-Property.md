@@ -1,5 +1,6 @@
 ---
 title: "ProcessingOnly Property"
+description: Learn how the ProcessingOnly property sets the value that indicates whether a report produces printed output or only processes data.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

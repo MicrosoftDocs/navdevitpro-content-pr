@@ -1,5 +1,6 @@
 ---
 title: "Adding Actions to Pages"
+description: "This article provides information about creating and modifying actions on pages, including actions references intended for Microsoft Dynamics NAV developers."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

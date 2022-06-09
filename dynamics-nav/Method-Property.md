@@ -1,5 +1,6 @@
 ---
 title: "Method Property"
+description: "The Method Property sets either a date method for retrieving the year, month, or day from a date field or a totals method for performing calculations on field values."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

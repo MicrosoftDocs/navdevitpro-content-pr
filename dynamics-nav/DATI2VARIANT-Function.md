@@ -1,5 +1,6 @@
 ---
 title: "DATI2VARIANT Function"
+description: "The DATI2VARIANT Function creates a variant that contains an encapsulation of a COM VT_DATE."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

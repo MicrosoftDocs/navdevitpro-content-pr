@@ -1,5 +1,6 @@
 ---
 title: "How to: Enter Dates and Time"
+description: Describes how you can enter dates and times in all the fields that are specifically assigned to dates (date fields, time fields and datetime fields).
 author: jswymer
 manager: edupont04
 ms.custom: na

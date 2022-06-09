@@ -1,5 +1,6 @@
 ---
 title: "Field Virtual Table"
+description: Describes the properties for the Field virtual table contains information about fields in database tables.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

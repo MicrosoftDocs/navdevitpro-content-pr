@@ -1,5 +1,6 @@
 ---
 title: "CLEARALL Function"
+description: Details the syntax for the CLEARALL function, clears all internal variables (except REC variables), keys, and filters in the object.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

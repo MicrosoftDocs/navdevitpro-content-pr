@@ -1,5 +1,6 @@
 ---
 title: "ColumnFilter Property"
+description: Details the syntax for the ColumnFilter property and sets a filter on the column filter row of a query.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

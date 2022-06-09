@@ -1,5 +1,6 @@
 ---
 title: "Object Designer"
+description: Object Designer lists objects in the navnow application and gives you access to designers that you use to create and modify objects.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

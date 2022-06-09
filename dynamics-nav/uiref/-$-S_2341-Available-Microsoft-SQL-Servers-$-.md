@@ -1,5 +1,6 @@
 ---
 title: "Available Microsoft SQL Servers"
+description: Available Microsoft SQL Servers shows a list of the SQL Server instances that are currently available in the domain.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

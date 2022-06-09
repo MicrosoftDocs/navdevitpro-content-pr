@@ -1,5 +1,6 @@
 ---
 title: "APPLICATIONAREA Function"
+description: "The APPLICATIONAREA function gets or sets the application areas for the current session. This article describes its syntax, property/return value, and remarks."
 ms.custom: na
 ms.date: 09/12/2017
 ms.reviewer: na

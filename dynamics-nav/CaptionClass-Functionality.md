@@ -1,5 +1,6 @@
 ---
 title: "CaptionClass Functionality"
+description: "This section describes the CaptionClass functionality and explains how the CaptionClassTranslate function trigger with ID 15 in Codeunit 1 handles this functionality."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

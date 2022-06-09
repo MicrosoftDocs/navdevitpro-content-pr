@@ -1,5 +1,6 @@
 ---
 title: "QUIT Function (Report, XMLport)"
+description: This article describes how the QUIT function (Report, XMLport) aborts the processing of a report or XMLport.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

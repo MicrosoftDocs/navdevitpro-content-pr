@@ -1,5 +1,6 @@
 ---
 title: "Task Scheduler"
+description: Learn how the task scheduler enables you to control when certain operations or processes (in other words "tasks") are run.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

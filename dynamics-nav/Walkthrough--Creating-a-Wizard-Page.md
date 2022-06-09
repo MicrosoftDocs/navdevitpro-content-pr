@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Wizard Page"
+description: Learn how to use the NavigatePage page type to create a wizard page. A wizard page consists of a number of user input screens or steps linked together.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

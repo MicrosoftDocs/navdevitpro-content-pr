@@ -1,5 +1,6 @@
 ---
 title: "DataPerCompany Property"
+description: "The DataPerCompany Property sets a value that indicates whether the table data applies to all companies in the database or only the current company."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "MultipleNewLines Property"
+description: Describes how the MultipleNewLines property sets a value that determines whether users can add multiple new lines between records.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

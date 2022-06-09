@@ -1,5 +1,6 @@
 ---
 title: "Query Designer"
+description: Query Designer retrieves records from one or more tables and combines the records into rows and columns in a single dataset.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

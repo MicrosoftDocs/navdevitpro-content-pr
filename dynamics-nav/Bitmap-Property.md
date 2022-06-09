@@ -1,5 +1,6 @@
 ---
 title: "Bitmap Property"
+description: "The Bitmap Property sets a bitmap icon to be shown with a department on the Department page of the RoleTailored client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

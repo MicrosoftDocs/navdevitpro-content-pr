@@ -1,5 +1,6 @@
 ---
 title: "Preparing a Microsoft Azure Virtual Machine Image for Microsoft Dynamics NAV"
+description: "This article provides step-by-step guidelines on how to prepare a Microsoft Azure virtual image machine for Microsoft Dynamics NAV."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

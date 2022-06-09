@@ -1,5 +1,6 @@
 ---
 title: "Designing Application Objects"
+description: "Describes the application objects in which all Dynamics NAV applications are based on."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

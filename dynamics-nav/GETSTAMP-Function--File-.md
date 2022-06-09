@@ -1,5 +1,6 @@
 ---
 title: "GETSTAMP Function (File)"
+description: "The GETSTAMP Function (File) gets the exact time that a file was last written to. This article describes its syntax, property/return value, and example."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

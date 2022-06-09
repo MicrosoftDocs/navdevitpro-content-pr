@@ -1,5 +1,6 @@
 ---
 title: "Planning and Preparing"
+description: "This article contains information and instructions to address before you start to use the provisioning tools to deploy Dynamics NAV on Microsoft Azure or other cloud services and virtual machines."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

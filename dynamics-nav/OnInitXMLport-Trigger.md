@@ -1,5 +1,6 @@
 ---
 title: "OnInitXMLport Trigger"
+description: "This article describes the OnInitXMLport Trigger, which is executed when the XMLport is loaded and before any table views and filters are set."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

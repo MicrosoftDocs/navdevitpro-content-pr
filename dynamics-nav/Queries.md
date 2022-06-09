@@ -1,5 +1,6 @@
 ---
 title: "Queries"
+description: Learn how a query object enables you to specify a set of data from the Dynamics NAV database.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

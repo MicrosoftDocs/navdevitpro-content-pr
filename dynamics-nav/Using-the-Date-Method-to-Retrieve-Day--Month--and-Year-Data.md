@@ -1,5 +1,6 @@
 ---
 title: "Using the Date Method to Retrieve Day, Month, and Year Data"
+description: Learn that you can use the Date method to retrieve only the year, month, or day instead of including the date in the resulting dataset of a query.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

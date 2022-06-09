@@ -1,5 +1,6 @@
 ---
 title: "OnBeforePassVariable Trigger"
+description: "This article describes the OnBeforePassVariable Trigger, which is executed after the source expression has been formatted into a text variable and before the text variable is passed to the XML document."  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

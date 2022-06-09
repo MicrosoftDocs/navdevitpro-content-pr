@@ -1,5 +1,6 @@
 ---
 title: "Data Security"
+description: "This article describes how to control which objects or tables a user can access within each database using the Microsoft Dynamics NAV security system."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

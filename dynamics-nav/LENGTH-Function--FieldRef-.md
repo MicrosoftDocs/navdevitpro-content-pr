@@ -1,5 +1,6 @@
 ---
 title: "LENGTH Function (FieldRef)"
+description: "The LENGTH Function (FieldRef) gets the maximum size of the field (the size specified in the DataLength property of the field)."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

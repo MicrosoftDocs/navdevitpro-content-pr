@@ -1,5 +1,6 @@
 ---
 title: "LinkTableForceInsert Property"
+description: "The LinkTableForceInsert Property sets whether data from the linked table is forcibly modified or inserted into a table to prevent an error from being generated."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

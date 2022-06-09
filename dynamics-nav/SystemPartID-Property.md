@@ -1,5 +1,6 @@
 ---
 title: "SystemPartID Property"
+description: This article describes how the SystemPartID property sets pre-defined system parts as well as what the property can be applied to.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

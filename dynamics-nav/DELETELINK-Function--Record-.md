@@ -1,5 +1,6 @@
 ---
 title: "DELETELINK Function (Record)"
+description: "The DELETELINK Function (Record) deletes a specified link from a record in a table."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

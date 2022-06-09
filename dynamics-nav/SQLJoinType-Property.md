@@ -1,5 +1,6 @@
 ---
 title: "SQLJoinType Property"
+description: Describes SQLJoinType Property and includes applications, property values, and remarks.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

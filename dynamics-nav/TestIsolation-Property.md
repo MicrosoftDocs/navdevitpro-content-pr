@@ -1,5 +1,6 @@
 ---
 title: "TestIsolation Property"
+description: Learn how the TestIsolation property specifies which changes to the database to roll back after the tests in the test runner codeunit execute.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

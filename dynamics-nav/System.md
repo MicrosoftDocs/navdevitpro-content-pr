@@ -1,5 +1,6 @@
 ---
 title: "System"
+description: This article lists System topics like Array Functions, Language Functions, Operating System Functions, and Encryption Functions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

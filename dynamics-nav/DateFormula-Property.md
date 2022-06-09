@@ -1,5 +1,6 @@
 ---
 title: "DateFormula Property"
+description: "The DateFormula Property sets a date formula used to verify that the date the user enters is correct."
 author: edupont04
 manager: edupont04
 ms.custom: na

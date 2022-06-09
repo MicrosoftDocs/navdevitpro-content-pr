@@ -1,5 +1,6 @@
 ---
 title: "Type Conversion"
+description: This section describes all possible type conversions in C/AL expressions. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Using About This Page and About This Report"
+description: Learn how you can use the About This Page feature to view all the fields that make up the current page. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

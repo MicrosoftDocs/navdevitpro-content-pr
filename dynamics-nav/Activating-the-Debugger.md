@@ -1,5 +1,6 @@
 ---
 title: "Activating the Debugger"
+description: "This article describes the states that the Dynamics NAV Debugger can be in when activated. Additional references are provided."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

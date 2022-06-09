@@ -1,5 +1,6 @@
 ---
 title: "UpgradeDatabase"
+description: Learn how the UpgradeDatabase property upgrades an existing Dynamics NAV database, as well as details about its syntax and parameters. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "COLUMNNO Function"
+description: Details the syntax for the COLUMNNO function and returns the ID that is assigned to a query column in the query definition.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

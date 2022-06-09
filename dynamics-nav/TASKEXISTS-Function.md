@@ -1,5 +1,6 @@
 ---
 title: "TASKEXISTS Function"
+description: Learn how the TASKEXISTS function checks whether a specific task exists and is waiting to be run by task scheduler. 
 ms.custom: na
 ms.date: 11/22/2017
 ms.reviewer: na

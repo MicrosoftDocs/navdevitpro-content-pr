@@ -1,5 +1,6 @@
 ---
 title: "GETRECORD Function (RecordID)"
+description: "The GETRECORD Function (RecordID) gets a RecordRef that refers to the record identified by the RecordID."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

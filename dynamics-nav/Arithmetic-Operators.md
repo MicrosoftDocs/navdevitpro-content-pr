@@ -1,5 +1,6 @@
 ---
 title: "Arithmetic Operators"
+description: "This article contains examples of how to use the type conversion rules for arithmetic operators."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

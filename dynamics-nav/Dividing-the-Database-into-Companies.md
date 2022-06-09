@@ -1,5 +1,6 @@
 ---
 title: "Dividing the Database into Companies"
+description: "Dynamics NAV can only access one logical database at a time, but this database can be divided into one or more companies."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

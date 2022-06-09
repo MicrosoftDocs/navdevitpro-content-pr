@@ -1,5 +1,6 @@
 ---
 title: "Width Property"
+description: Learn how the Width property sets the width of the control. Width is set as a number of characters and must be a fixed number when specified.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

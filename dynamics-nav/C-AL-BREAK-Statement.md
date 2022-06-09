@@ -1,5 +1,6 @@
 ---
 title: "C/AL BREAK Statement"
+description: "The BREAK statement is used to terminate the iteration statement in which it appears. It's used in the repeating statements to stop an iteration or loop."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

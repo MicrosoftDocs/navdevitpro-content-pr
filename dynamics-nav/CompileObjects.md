@@ -1,5 +1,6 @@
 ---
 title: "CompileObjects"
+description: Details the syntax for the CompileObjects and compiles objects from the specified database including server name, log file, and filters.
 author: jswymer
 ms.custom: na
 ms.date: 10/14/2016

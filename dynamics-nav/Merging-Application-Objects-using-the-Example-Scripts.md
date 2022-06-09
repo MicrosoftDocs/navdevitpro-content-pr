@@ -1,5 +1,6 @@
 ---
 title: "Merging Application Objects using the Example Scripts"
+description: "Describes how to merge application objects using sample scripts in the Windows PowerShell ISE."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

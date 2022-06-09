@@ -1,5 +1,6 @@
 ---
 title: "Getting Started Developing for the Microsoft Dynamics NAV Universal App"
+description: "Describes how to get started developing for the Microsoft Dynamics NAV Universal App Tablet and Phone clients."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

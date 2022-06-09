@@ -1,5 +1,6 @@
 ---
 title: "ISOPTION Function (Variant)"
+description: "The ISOPTION Function (Variant) indicates whether a C/AL variant contains an Option variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

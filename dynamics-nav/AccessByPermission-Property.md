@@ -1,5 +1,6 @@
 ---
 title: "AccessByPermission Property"
+description: "The AccessByPermission property sets a value that determines the permission mask for an object that a user must have to see and access the related page fields or UI element in the client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

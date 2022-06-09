@@ -1,5 +1,6 @@
 ---
 title: "How to: Install Control Add-Ins and Support Files for Your Solution"
+description: "Describes how to install control add-ins and support files for your solution when deploying the Dynamics NAV application on Microsoft Azure."
 author: jswymer
 ms.custom: na
 ms.date: 06/05/2016

@@ -1,5 +1,6 @@
 ---
 title: "LOOKUP Function (TestPage Field)"
+description: "The LOOKUP Function (TestPage Field) provides a lookup window for a text box on a test page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

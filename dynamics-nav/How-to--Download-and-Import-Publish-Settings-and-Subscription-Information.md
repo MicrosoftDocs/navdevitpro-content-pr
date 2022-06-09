@@ -1,5 +1,6 @@
 ---
 title: "How to: Download and Import Publish Settings and Subscription Information"
+description: "Describes how to download and import publish settings and subscription information by using the Azure Powershell console."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

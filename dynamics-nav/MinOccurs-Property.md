@@ -1,5 +1,6 @@
 ---
 title: "MinOccurs Property"
+description: The MinOccurs property sets the minimum number of times that an element can occur. This applies to XMLports.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

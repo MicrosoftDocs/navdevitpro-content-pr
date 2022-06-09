@@ -1,5 +1,6 @@
 ---
 title: "Object Specifications and Limitations"
+description: Discusses object specifications and l limitations for the database, tables, pages and reports, and Codeunits.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

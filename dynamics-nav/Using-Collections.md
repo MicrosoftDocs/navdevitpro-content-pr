@@ -1,5 +1,6 @@
 ---
 title: "Using Collections"
+description: Learn how to use collections to loop through a set of records and perform an operation on each record in the set.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

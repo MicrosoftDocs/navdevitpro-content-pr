@@ -1,5 +1,6 @@
 ---
 title: "ToolTip Property"
+description: Learn how the ToolTip property sets whether tooltips are provided for the given control, such as a field or action.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

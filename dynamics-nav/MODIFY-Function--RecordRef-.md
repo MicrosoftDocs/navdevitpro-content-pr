@@ -1,5 +1,6 @@
 ---
 title: "MODIFY Function (RecordRef)"
+description: Describes the code and syntax for the MODIFY function which modifies a record in a table, selected by the primary key of the table.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

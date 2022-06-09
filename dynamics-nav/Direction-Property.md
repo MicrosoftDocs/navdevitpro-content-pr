@@ -1,5 +1,6 @@
 ---
 title: "Direction Property"
+description: "The Direction Property sets the XMLport to import, export, or import and export data in XML format."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

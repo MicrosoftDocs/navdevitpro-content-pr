@@ -1,5 +1,6 @@
 ---
 title: "Owner Property"
+description: "This article describes the Owner Property, which sets the Microsoft Dynamics NAV Server user who owns the object in the BLOB field of a table object."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

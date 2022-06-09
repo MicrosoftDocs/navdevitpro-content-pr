@@ -1,5 +1,6 @@
 ---
 title: "Options"
+description: Options specifies the system setup options for the current database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

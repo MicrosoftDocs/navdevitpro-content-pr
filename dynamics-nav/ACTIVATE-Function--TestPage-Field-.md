@@ -1,5 +1,6 @@
 ---
 title: "ACTIVATE Function (TestPage Field)"
+description: "The ACTIVATE function (TestPage Field) activates a field on a test page. This article describes its syntax and parameters."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

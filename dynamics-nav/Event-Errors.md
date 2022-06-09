@@ -1,5 +1,6 @@
 ---
 title: "Event Errors"
+description: Event errors detected at runtime events  try to identify subscribers for the events. If subscribers are not correctly configured, errors will occur. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

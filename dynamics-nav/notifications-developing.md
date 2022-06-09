@@ -1,5 +1,6 @@
 ---
 title: "Notifications"
+description: Discusses how notifications provide a programmatic way to send non-intrusive information to the user interface (UI) in the Dynamics NAV Web client.
 ms.custom: na
 ms.date: 09/20/2016
 ms.reviewer: na

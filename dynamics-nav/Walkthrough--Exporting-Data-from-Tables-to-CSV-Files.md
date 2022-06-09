@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Exporting Data from Tables to CSV Files"
+description: Learn how to export data from a Dynamics NAV database to a CSV file. You can also learn how to run the XMLport in Object Designer.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

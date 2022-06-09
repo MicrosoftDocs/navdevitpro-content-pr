@@ -1,5 +1,6 @@
 ---
 title: "Deploying the Microsoft Dynamics NAV Web Server Components in a Three Computer Environment"
+description: "Describes how to install the Microsoft Dynamics NAV Web Server components, Microsoft Dynamics NAV Server, and the SQL Server database components on separate computers."
 ms.custom: na
 ms.date: 09/21/2017
 ms.reviewer: na

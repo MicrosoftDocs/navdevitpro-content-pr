@@ -1,5 +1,6 @@
 ---
 title: "Page Designer Wizard, FactBox"
+description: Page Designer Wizard, FactBox, adds a FactBox to a List page or Card page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

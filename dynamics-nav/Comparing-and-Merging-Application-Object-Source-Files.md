@@ -1,5 +1,6 @@
 ---
 title: "Comparing and Merging Application Object Source Files"
+description: Details the process for Comparing and Merging Application Object Source Files this includes properties used and triggers for documentation.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

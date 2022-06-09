@@ -1,5 +1,6 @@
 ---
 title: "Configuring User Permissions to Queries"
+description: Similar to other Dynamics NAV objects, query permissions are granted to users based on the Windows account settings.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

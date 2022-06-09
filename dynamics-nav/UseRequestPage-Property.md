@@ -1,5 +1,6 @@
 ---
 title: "UseRequestPage Property"
+description: Learn how the UseRequestPage property sets whether a request page is presented to the user, as well as details about its property value.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

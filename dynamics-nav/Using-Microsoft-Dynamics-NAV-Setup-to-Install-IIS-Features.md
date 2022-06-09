@@ -1,5 +1,6 @@
 ---
 title: "Using Microsoft Dynamics NAV Setup to Install IIS Features"
+description: Learn that when you install the Microsoft Dynamics NAV Web Server components, you can use the Dynamics NAV Setup wizard to enable Internet Information Services.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

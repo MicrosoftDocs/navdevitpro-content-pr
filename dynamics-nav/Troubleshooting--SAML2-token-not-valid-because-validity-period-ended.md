@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: The SAML2 token is not valid because its validity period has ended."
+description: This topic contains information on how to troubleshoot The SAML2 token is not valid because its validity period has ended.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

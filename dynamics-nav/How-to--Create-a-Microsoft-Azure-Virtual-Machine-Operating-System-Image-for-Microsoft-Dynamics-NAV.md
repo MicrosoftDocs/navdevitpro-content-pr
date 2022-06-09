@@ -128,7 +128,7 @@ This topic describes how to create custom images in Microsoft Azure Gallery that
 
 #### To capture the image and add it to the Azure Image Gallery  
 
--   For instructions about how to capture the image and add it to the Azure Image Gallery, see [How to Capture an Image of a Virtual Machine Running Windows Server](https://go.microsoft.com/fwlink/?LinkID=299670).  
+-   For instructions about how to capture the image and add it to the Azure Image Gallery, see [How to Capture an Image of a Virtual Machine Running Windows Server](/azure/virtual-machines/capture-image-portal).  
 
 ## .NET Framework Security  
  We recommend that the image adheres to the guidance that is provided on [Microsoft Solution Accelerators](https://go.microsoft.com/fwlink/?LinkID=294849).

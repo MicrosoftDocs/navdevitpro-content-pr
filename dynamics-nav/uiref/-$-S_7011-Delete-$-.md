@@ -1,5 +1,6 @@
 ---
 title: "Delete"
+description: In this article, learn how you can use the Delete option to delete the Dynamics NAV object from the database. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

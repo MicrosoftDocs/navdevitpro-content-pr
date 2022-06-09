@@ -1,5 +1,6 @@
 ---
 title: "AutoUpdate Property"
+description: "The AutoUpdate Property sets whether a record in the database with the same primary key as the record in the imported XMLport is updated with values from the imported record."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

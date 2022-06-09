@@ -1,5 +1,6 @@
 ---
 title: "EXPORT Function (XMLport)"
+description: Details the EXPORT function (XMLport) which creates an XML data stream (XML document) and sends it to a chosen destination.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

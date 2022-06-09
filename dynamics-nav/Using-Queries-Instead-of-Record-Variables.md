@@ -1,5 +1,6 @@
 ---
 title: "Using Queries Instead of Record Variables"
+description: Learn how using a query can improve performance and also simplify the C/AL code that is required to perform the operation.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

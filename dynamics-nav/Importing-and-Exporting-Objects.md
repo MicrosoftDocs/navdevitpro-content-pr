@@ -1,5 +1,6 @@
 ---
 title: "Importing and Exporting Objects"
+description: "Describes how to import objects into Dynamics NAV and export objects from Dynamics NAV in the development environment or by using development environment commands."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

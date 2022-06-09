@@ -1,5 +1,6 @@
 ---
 title: "MARKEDONLY Function (Record)"
+description: "The MARKEDONLY Function (Record) activates a special filter which changes the view of a table to include only records marked by this function."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

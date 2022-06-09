@@ -1,5 +1,6 @@
 ---
 title: "XMLport Walkthroughs"
+description: Learn about end-to-end scenario-based walkthrough topics about XMLports that you can use to create and use XMLports. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "SETTASKREADY Function"
+description: SETTASKREADY Function Sets a task that runs a codeunit to the ready state. The task will not run unless it is in the ready state.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

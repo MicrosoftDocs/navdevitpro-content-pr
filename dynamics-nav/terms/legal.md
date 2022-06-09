@@ -1,5 +1,6 @@
 ---
 title: "Legal Resources for Microsoft Dynamics NAV"
+description: Learn where to find helpful articles about legal information for the Microsoft Dynamics NAV software. 
 author: tsiggaar
 ms.custom: na
 ms.date: 10/29/2016

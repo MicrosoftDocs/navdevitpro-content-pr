@@ -1,5 +1,6 @@
 ---
 title: "HYPERLINK Function"
+description: "The HYPERLINK Function passes a URL as an argument to an Internet browser, such as Windows Internet Explorer."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

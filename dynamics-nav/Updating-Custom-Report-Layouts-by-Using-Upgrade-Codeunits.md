@@ -1,5 +1,6 @@
 ---
 title: "Updating Custom Report Layouts by Using Upgrade Codeunits"
+description: Learn how you can update custom report layouts by creating upgrade codeunits to handle changes in report datasets that affect the report layouts.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

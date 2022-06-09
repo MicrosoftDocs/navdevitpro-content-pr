@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Microsoft Dynamics NAV and SharePoint"
+description: "This article describes how to resolve this issue: Microsoft Dynamics NAV and SharePoint. This article also includes links to additional information."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "ChartPartID Property"
+description: Details the syntax for the ChartPartID property. This property sets the ID of the chart to add to the page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Standard and User-Defined Functions"
+description: Describes the Standard and User-Defined Functions and includes recommendations and guidlines for creating new functions and parameters.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

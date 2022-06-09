@@ -1,5 +1,6 @@
 ---
 title: "OCX Data Type"
+description: "The OCX Data Type references a custom control, such as OCX or ActiveX control."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

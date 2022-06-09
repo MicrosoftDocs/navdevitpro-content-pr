@@ -1,5 +1,6 @@
 ---
 title: "OnClosePage Trigger"
+description: "This article provides syntax for the OnClosePage Trigger, which is executed as a page closes after the OnQueryClosePage Trigger is executed."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

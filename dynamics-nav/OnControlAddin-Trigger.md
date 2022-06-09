@@ -1,5 +1,6 @@
 ---
 title: "OnControlAddin Trigger"
+description: "This article provides the syntax, parameters, remarks, and a code example of the OnControlAddin Trigger."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

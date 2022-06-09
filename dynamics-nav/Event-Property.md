@@ -1,5 +1,6 @@
 ---
 title: "Event Property"
+description: The Event property specifies whether the function is used to publish or subscribe to an event and applies to C/AL functions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

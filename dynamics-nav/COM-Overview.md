@@ -1,5 +1,6 @@
 ---
 title: "COM Overview"
+description: The COM overview describes how you can use Component Object Model (COM) technologies in the Microsoft Dynamics NAV Development Environment.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

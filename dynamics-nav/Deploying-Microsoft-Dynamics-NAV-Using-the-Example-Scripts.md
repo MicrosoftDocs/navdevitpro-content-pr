@@ -1,5 +1,6 @@
 ---
 title: "Deploying Microsoft Dynamics NAV Using the Example Scripts"
+description: "Describes how to deploy Microsoft Dynamics NAV using the Example-1VM.ps1 and Example-2VM.ps1 scripts."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

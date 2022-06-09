@@ -1,5 +1,6 @@
 ---
 title: "How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets"
+description: "Describes how to export and import companies and other data using Windows PowerShell cmdlets."
 author: jswymer
 ms.custom: na
 ms.date: 10/24/2017

@@ -1,5 +1,6 @@
 ---
 title: "SuppressDispose Property"
+description: Learn how the SuppressDispose property specifies if a Microsoft .NET Framework object that is defined by a DotNet variable is disposed when it goes out of scope.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "C/AL Globals"
+description: C/AL Globals declares global variables, text constants, and functions in INCLUDE navnow.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

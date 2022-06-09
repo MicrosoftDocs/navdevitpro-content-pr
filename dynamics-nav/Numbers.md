@@ -1,5 +1,6 @@
 ---
 title: "Numbers"
+description: List of the topics for Numbers including BigInteger Data Type, Decimal Data Type, Integer Data Type, and Numeric Functions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

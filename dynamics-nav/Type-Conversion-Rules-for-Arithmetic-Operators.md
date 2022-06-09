@@ -1,5 +1,6 @@
 ---
 title: "Type Conversion Rules for Arithmetic Operators"
+description: This topic provides a complete overview of type conversion rules for the arithmetic operators.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

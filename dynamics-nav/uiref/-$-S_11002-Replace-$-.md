@@ -1,5 +1,6 @@
 ---
 title: "Replace"
+description: The Replace function replaces text that you find with other text.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

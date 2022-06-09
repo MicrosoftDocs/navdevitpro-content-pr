@@ -1,5 +1,6 @@
 ---
 title: "Differences and Limitations When Developing Pages for the Microsoft Dynamics NAV Universal App"
+description: "Describes the differences and limitations when developing pages for the Microsoft Dynamics NAV Universal App."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

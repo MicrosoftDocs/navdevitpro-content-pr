@@ -1,5 +1,6 @@
 ---
 title: "COMPANYNAME Function (Database)"
+description: Details the syntax for the COMPANYNAME function which provides the current company name and returns text or code.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

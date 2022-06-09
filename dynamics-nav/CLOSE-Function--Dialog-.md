@@ -1,5 +1,6 @@
 ---
 title: "CLOSE Function (Dialog)"
+description: Details the syntax for the CLOSE function. Closes a dialog window that has been opened by OPEN function.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

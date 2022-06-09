@@ -1,5 +1,6 @@
 ---
 title: "Codeunit Triggers"
+description: Details the syntax for the Codeunit Triggers for OnBeforeTestRun Trigger and OnAfterTestRun Trigger.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

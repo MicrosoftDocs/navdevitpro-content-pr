@@ -1,5 +1,6 @@
 ---
 title: "Options for Merging Objects"
+description: "This article provides guidelines on options given to users once objects are merged."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

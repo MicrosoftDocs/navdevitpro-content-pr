@@ -1,5 +1,6 @@
 ---
 title: "How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance"
+description: "Describes how to start, stop, restart, or remove a Microsoft Dynamics NAV Server instance by using the Microsoft Dynamics NAV Server Administration tool."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

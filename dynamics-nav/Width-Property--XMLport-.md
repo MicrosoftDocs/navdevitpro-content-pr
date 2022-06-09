@@ -1,5 +1,6 @@
 ---
 title: "Width Property (XMLport)"
+description: In this article, learn how the Width property (XMLport) sets the width of a data item of an XMLport.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Designing Reports"
+description: "Describes where to find information about how to design reports using RDLC and Micorosft Word."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Customer List in Page Designer"
+description: Learn how to display the same information in different clients. Pages cannot be viewed in the Microsoft Dynamics NAV Development Environment.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

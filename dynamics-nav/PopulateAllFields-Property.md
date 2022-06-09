@@ -1,5 +1,6 @@
 ---
 title: "PopulateAllFields Property"
+description: "This article describes the PopulateAllFields Property and provides its property value."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

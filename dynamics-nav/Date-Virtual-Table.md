@@ -1,5 +1,6 @@
 ---
 title: "Date Virtual Table"
+description: "The Date virtual table gives you easy access to days, weeks, months, quarters, and years."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

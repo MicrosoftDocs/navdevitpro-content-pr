@@ -1,5 +1,6 @@
 ---
 title: "RECORD Function (KeyRef)"
+description: Learn how the RECORD function (KeyRef) returns a RecordRef for the current record referred to by the key.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

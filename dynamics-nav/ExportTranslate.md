@@ -1,5 +1,6 @@
 ---
 title: "ExportTranslate"
+description: Details the syntax for the ExportTranslate object which exports UI text strings of objects from a specified database to a text file.  
 author: edupont04
 ms.custom: na
 ms.date: 10/14/2016

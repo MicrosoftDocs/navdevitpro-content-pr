@@ -1,5 +1,6 @@
 ---
 title: "DELETEALL Function (RecordRef)"
+description: "The DELETEALL Function (RecordRef) deletes all records in a table that fall within a specified range."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

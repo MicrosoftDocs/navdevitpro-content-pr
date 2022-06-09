@@ -1,5 +1,6 @@
 ---
 title: "TableType Property"
+description: Learn how the TableType property specifies the table type, as well as details about the property value.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

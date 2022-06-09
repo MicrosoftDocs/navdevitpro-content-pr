@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: HTTP Error 500 (or 500.21) - Internal Server Error Handler"
+description: "This article describes how to resolve this issue: HTTP Error 500 (or 500.21) - Internal Server Error Handler."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

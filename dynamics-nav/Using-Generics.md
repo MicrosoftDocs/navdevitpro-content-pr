@@ -1,5 +1,6 @@
 ---
 title: "Using Generics"
+description: Learn that in the .NET Framework, you can use generics to customize a method, class, structure, field, or property according to the data type that it acts upon. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

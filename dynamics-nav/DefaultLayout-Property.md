@@ -1,5 +1,6 @@
 ---
 title: "DefaultLayout Property"
+description: "The DefaultLayout Property specifies whether the report uses the built-in RDLC or Word report layout by default."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

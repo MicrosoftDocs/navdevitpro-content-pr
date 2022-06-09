@@ -1,5 +1,6 @@
 ---
 title: "Configuring Authentication and Single Sign-On Between Microsoft Dynamics NAV and SharePoint"
+description: Article details configuring authentication and single sign-on between Microsoft Dynamics NAV and SharePoint.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

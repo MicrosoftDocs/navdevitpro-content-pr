@@ -1,5 +1,6 @@
 ---
 title: "RANDOMIZE Function (Integer)"
+description: Learn how the RANDOMIZE function (Integer) generates a set of random numbers from which the [RANDOM Function (Integer)] will select a random number.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

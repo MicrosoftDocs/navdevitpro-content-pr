@@ -1,5 +1,6 @@
 ---
 title: "Migrating a Deployment to a New Microsoft Dynamics NAV Server Instance"
+description: "Describes how to migrate a deployment to a new Microsoft Dynamics NAV Server instance."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

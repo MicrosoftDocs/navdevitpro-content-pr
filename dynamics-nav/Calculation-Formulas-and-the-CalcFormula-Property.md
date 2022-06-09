@@ -1,5 +1,6 @@
 ---
 title: "Calculation Formulas and the CalcFormula Property"
+description: "A FlowField is associated with a calculation formula that determines how the FlowField is calculated. This article provides the syntax for the CalcFormula property."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "CAPTIONCLASSTRANSLATE Function"
+description: "The CAPTIONCLASSTRANSLATE Function returns a translated version of the caption string. The string is translated to the current local language."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

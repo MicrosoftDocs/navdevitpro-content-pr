@@ -1,5 +1,6 @@
 ---
 title: "REQUESTSESSIONUPDATE Function (SessionSettings)"
+description: Learn how the REQUESTSESSIONUPDATE function passes a SessionSettings object to the client to request a new session.
 ms.custom: na
 ms.date: 01/06/2017
 ms.reviewer: na

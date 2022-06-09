@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Link from a Report to a Report"
+description: Learn how to set up a report to include a link from the Customer - Top 10 List report to the Customer - Detail Trial Bal report.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

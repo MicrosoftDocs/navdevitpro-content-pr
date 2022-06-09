@@ -1,5 +1,6 @@
 ---
 title: "LAST Function (TestPage)"
+description: "The LAST Function (TestPage) sets the current row of the test page as the last row in the dataset."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

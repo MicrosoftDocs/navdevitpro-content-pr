@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: ADCS"
+description: Learn some common problems that can occur when you use Automated Data Capture Systems for Dynamics NAV. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Application Test Automation"
+description: "This article describes how to write application tests in C/AL and run them individually or collectively. A list of tags to use in tests is provided."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

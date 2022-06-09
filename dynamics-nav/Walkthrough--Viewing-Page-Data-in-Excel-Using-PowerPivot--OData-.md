@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Viewing Page Data in Excel Using PowerPivot (OData)"
+description: Learn how to use OData to expose a Microsoft Dynamics NAV 2018 page as a web service and then analyze the page data using Microsoft PowerPivot for Excel 2013.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

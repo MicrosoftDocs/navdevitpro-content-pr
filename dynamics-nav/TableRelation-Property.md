@@ -1,5 +1,6 @@
 ---
 title: "TableRelation Property"
+description: Learn how the TableRelation property sets relationships (links) to other tables, as well as additional details about the property.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

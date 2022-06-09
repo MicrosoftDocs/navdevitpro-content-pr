@@ -1,5 +1,6 @@
 ---
 title: "BitmapPos Property"
+description: "The BitmapPos Property sets the position of a bitmap. This article describes its application and property value."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

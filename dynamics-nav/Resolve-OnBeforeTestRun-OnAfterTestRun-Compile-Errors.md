@@ -1,5 +1,6 @@
 ---
 title: "Resolving OnBeforeTestRun and OnAfterTestRun Trigger Errors When Converting a Database"
+description: Learn how to use the development environment to change the signature of the C/AL OnBeforeTestRun and OnAfterTestRun trigger functions of the test runner codeunits.
 ms.custom: na
 ms.date: 03/20/2017
 ms.reviewer: na

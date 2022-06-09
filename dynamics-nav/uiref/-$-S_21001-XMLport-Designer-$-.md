@@ -1,5 +1,6 @@
 ---
 title: "XMLport Designer"
+description: XMLport Designer provides functionality for designing XMLports.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

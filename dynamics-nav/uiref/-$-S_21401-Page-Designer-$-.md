@@ -1,5 +1,6 @@
 ---
 title: "Page Designer"
+description: Page Designer provides functionality for designing pages.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

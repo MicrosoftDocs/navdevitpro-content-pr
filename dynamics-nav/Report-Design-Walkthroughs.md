@@ -1,5 +1,6 @@
 ---
 title: "Report Design Walkthroughs"
+description: In this article, learn about the end-to-end processes that you can follow to design and modify reports.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

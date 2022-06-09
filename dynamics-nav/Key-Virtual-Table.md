@@ -1,5 +1,6 @@
 ---
 title: "Key Virtual Table"
+description: "The Key virtual table (ID 2000000063) contains information about the keys that are defined in each table in the database."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "ISNULLGUID Function (GUID)"
+description: "The ISNULLGUID Function (GUID) indicates whether a value has been assigned to a GUID. A null GUID that consists only of zeros is valid but must never be used for references."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

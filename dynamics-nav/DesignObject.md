@@ -1,5 +1,6 @@
 ---
 title: "DesignObject"
+description: "The DesignObject opens the development environment and opens the specified object for design."
 author: edupont04
 ms.custom: na
 ms.date: 10/14/2016

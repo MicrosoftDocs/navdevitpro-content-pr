@@ -1,5 +1,6 @@
 ---
 title: "AutoCalcField Property"
+description: "The AutoCalcField property sets whether FlowFields should be automatically calculated. This article describes its applications and property value."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

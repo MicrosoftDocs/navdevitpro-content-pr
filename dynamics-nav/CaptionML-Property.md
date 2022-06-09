@@ -1,5 +1,6 @@
 ---
 title: "CaptionML Property"
+description: Details the syntax for the CaptionML property and sets the string that is used to identify a control or other object in the user interface.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

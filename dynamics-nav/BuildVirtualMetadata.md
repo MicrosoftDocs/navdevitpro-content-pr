@@ -1,5 +1,6 @@
 ---
 title: "BuildVirtualMetadata"
+description: "BuildVirtualMetadata regenerates C# and metadata information in Dynamics NAV virtual tables for a specified language."
 author: edupont04
 ms.custom: na
 ms.date: 10/14/2016

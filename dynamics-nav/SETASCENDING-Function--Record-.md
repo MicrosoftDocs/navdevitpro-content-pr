@@ -1,5 +1,6 @@
 ---
 title: "SETASCENDING Function (Record)"
+description: This topic contains information on the SETASCENDING function syntax, parameters, and examples.
 ms.custom: na
 ms.date: 03/13/2019
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "MenuItemType Property"
+description: "The MenuItemType Property sets the value for the type of menu item. This article describes its application, property value, and remarks."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

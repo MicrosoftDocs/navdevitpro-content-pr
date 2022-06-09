@@ -1,5 +1,6 @@
 ---
 title: "TextEncoding Property (XMLports)"
+description: Learn how the TextEncoding property (XMLports) specifies the text encoding format to use when you use an XMLport to export or import data as text.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

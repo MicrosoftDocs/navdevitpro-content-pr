@@ -1,5 +1,6 @@
 ---
 title: "EventFunction Property"
+description: The EventFunction property specifies the event publisher function that the event subscriber function subscribes to.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

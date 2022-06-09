@@ -1,5 +1,6 @@
 ---
 title: "QuickEntry Property"
+description: Learn how the QuickEntry property specifies if the page control should have input focus. The default value of the property is true.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Compressed Property"
+description: Details the syntax for the Compressed property and sets a value that specifies whether a BLOB is compressed.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

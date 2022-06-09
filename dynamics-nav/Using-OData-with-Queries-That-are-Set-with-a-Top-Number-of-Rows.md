@@ -1,5 +1,6 @@
 ---
 title: "Using OData with Queries That are Set with a Top Number of Rows"
+description: Learn that Dynamics NAV queries include the TopNumberOfRows Property and TOPNUMBEROFROWS Function that can be used to specify the maximum number of rows to include in the resulting dataset.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

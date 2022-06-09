@@ -1,5 +1,6 @@
 ---
 title: "OnOpenPage Trigger"
+description: "This article provides syntax for the OnOpenPage Trigger, which is executed after a page is initialized and run."  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

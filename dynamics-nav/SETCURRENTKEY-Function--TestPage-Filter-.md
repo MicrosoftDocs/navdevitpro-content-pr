@@ -1,5 +1,6 @@
 ---
 title: "SETCURRENTKEY Function (TestPage Filter)"
+description: SETCURRENTKEY Function (TestPage Filter) sets the specified fields in a dataset on a test page as the current key.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

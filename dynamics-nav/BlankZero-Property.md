@@ -1,5 +1,6 @@
 ---
 title: "BlankZero Property"
+description: "The BlankZero Property indicates whether the system displays zeros and No. This article describes its application and property value."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

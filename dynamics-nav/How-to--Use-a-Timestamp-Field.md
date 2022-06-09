@@ -1,5 +1,6 @@
 ---
 title: "How to: Use a Timestamp Field"
+description: "Describes how to set up and use a timestamp field in a table."
 ms.custom: na
 ms.date: 07/20/2016
 ms.reviewer: na

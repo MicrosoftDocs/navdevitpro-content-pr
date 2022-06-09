@@ -1,5 +1,6 @@
 ---
 title: "AsXmlNode Method"
+description: "The AsXmlNode Method converts the node to an XmlNode. This article describes its syntax and return value."
 ms.author: solsen
 ms.custom: na
 ms.date: 12/21/2017

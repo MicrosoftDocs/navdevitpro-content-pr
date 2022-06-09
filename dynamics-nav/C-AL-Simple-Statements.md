@@ -1,5 +1,6 @@
 ---
 title: "C/AL Simple Statements"
+description: "This article provides C/AL simple statements, which are single-line statements that are executed sequentially and do not alter the flow of execution of code."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

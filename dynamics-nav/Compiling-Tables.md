@@ -1,5 +1,6 @@
 ---
 title: "Compiling Tables"
+description: Describes requirements and restrictions for compiling a table object after you make changes to a table’s schema.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

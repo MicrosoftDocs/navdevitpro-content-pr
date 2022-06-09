@@ -1,5 +1,6 @@
 ---
 title: "DrillDownPageID Property"
+description: "The DrillDownPageID Property sets the ID of the page to use as a drill-down. This article describes its application and remarks."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

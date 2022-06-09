@@ -1,5 +1,6 @@
 ---
 title: "Indent Controls"
+description: Indent Controls specifies whether a column or columns (controls) are indented in a Repeater subtype control on a page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

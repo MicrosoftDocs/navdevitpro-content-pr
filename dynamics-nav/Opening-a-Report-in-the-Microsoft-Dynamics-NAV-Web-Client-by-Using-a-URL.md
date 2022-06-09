@@ -1,5 +1,6 @@
 ---
 title: "Opening a Report in the Microsoft Dynamics NAV Web Client by Using a URL"
+description: "This article describes how to open a report in the Microsoft Dynamics NAV Web Client by using a URL."
 ms.custom: na
 ms.date: 12/22/2016
 ms.reviewer: na

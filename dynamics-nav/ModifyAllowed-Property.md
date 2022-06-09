@@ -1,5 +1,6 @@
 ---
 title: "ModifyAllowed Property"
+description: Describes the ModifiedAllowed property and sets the value to determine whether users can modify records while using this page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

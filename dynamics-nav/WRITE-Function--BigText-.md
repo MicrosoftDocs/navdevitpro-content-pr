@@ -1,5 +1,6 @@
 ---
 title: "WRITE Function (BigText)"
+description: Learn how the WRITE function (BigText) streams a BigText object to a BLOB field in a table, as well as details about its syntax and property value. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

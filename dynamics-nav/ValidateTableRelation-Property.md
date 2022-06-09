@@ -1,5 +1,6 @@
 ---
 title: "ValidateTableRelation Property"
+description: Learn how the ValidateTableRelation property sets whether to validate a table relationship. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

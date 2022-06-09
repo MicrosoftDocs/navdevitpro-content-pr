@@ -1,5 +1,6 @@
 ---
 title: "ReqFilterFields Property"
+description: Learn how the ReqFilterFields property sets which fields are automatically included on the tab of the request page that is related to this data item.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

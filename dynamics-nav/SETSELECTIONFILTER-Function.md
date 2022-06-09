@@ -1,5 +1,6 @@
 ---
 title: "SETSELECTIONFILTER Function"
+description: This topic contains information on the SETSELECTIONFILTER Function syntax, parameters, remarks, and examples. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

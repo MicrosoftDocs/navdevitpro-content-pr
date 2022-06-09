@@ -1,5 +1,6 @@
 ---
 title: "ReqFilterHeading Property"
+description: Learn how the ReqFilterHeading property sets a caption for the request page tab that is related to this data item. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

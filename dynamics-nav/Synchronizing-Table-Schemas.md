@@ -1,5 +1,6 @@
 ---
 title: "Synchronizing Table Schemas"
+description: Learn how you can create and modify the table definition by using the Microsoft Dynamics NAV Development Environment.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

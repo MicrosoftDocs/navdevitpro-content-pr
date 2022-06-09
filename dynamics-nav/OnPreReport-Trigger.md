@@ -1,5 +1,6 @@
 ---
 title: "OnPreReport Trigger"
+description: "This article describes the OnPreReport Trigger, which is executed before a report is run."  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

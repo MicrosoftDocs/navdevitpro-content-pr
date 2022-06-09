@@ -1,5 +1,6 @@
 ---
 title: "How to: Export Your Solution to a Database Backup File"
+description: "Describes how to export your solution to a database backup file if you are deploying your own Dynamics NAV application on Microsoft Azure instead of CRONUS International Ltd."
 author: jswymer
 ms.custom: na
 ms.date: 06/05/2016

@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Query to Link Two Tables"
+description: Learn how to create a query that links two tables. You can also cerate a query that links to the Customer table and the Sales Line table. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Company-Level Security"
+description: Details the Company-Level Security for Dynamics NAV allowing you to set the user access for the database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

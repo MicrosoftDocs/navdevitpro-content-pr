@@ -1,5 +1,6 @@
 ---
 title: "MaxValue Property"
+description: "The MaxValue Property sets the maximum numeric value for a field. This article describes its application, property value, and remarks."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

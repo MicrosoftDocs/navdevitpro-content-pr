@@ -1,5 +1,6 @@
 ---
 title: "C/AL Symbol Menu"
+description: C/AL Symbol Menu shows variables, functions, and objects that are defined in the C/AL Globals window and provides information about the syntax and description of the variables, functions, and objects.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

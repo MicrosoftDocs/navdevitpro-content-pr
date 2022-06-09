@@ -1,5 +1,6 @@
 ---
 title: "DOWNLOADFROMSTREAM Function (File)"
+description: "The DOWNLOADFROMSTREAM Function (File) sends a file from Microsoft Dynamics NAV Server computer to the client computer."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

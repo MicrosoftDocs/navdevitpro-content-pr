@@ -1,5 +1,6 @@
 ---
 title: "Local Property"
+description: "The Local Property specifies if a function is local to the object on which the function is defined."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

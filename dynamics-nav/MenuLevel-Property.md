@@ -1,5 +1,6 @@
 ---
 title: "MenuLevel Property"
+description: "The MenuLevel Property sets the menu level for a control. Levels are indicated by indentation."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

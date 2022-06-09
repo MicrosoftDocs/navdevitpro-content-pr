@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Adding a FactBox to the Customer List Page"
+description: Learn how to add a FactBox to the customer list page and use it to display credit information about the selected customer.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

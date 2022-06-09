@@ -1,5 +1,6 @@
 ---
 title: "DecimalPlaces Property"
+description: "The DecimalPlaces Property sets display and storage requirements for the Decimal Data Type."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
