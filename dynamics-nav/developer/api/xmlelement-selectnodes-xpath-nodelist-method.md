@@ -1,5 +1,6 @@
 ---
 title: "SelectNodes Method"
+description: "The SelectNodes Method selects a list of nodes matching the XPath expression. This article describes its syntax, parameters, and return value."
 ms.author: solsen
 ms.custom: na
 ms.date: 12/27/2017

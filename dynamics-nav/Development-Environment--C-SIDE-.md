@@ -1,5 +1,6 @@
 ---
 title: "Development Environment (C/SIDE)"
+description: "Describes the Microsoft Dynamics NAV Development Environment, which is used to develop Dynamics NAV applications."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "EXPORT Method (XMLport)"
+description: "The EXPORT Method (XMLport) creates an XML data stream (XML document) and sends it to a chosen destination."
 ms.custom: na
 ms.date: 07/13/2017
 ms.reviewer: na

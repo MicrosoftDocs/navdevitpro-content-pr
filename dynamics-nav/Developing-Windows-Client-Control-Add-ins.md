@@ -1,5 +1,6 @@
 ---
 title: "Developing Windows Client Control Add-ins"
+description: "Describes how to develop Windows client control add-ins using Visual Studio, and distribute them as Microsoft .NET Framework-based assemblies."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

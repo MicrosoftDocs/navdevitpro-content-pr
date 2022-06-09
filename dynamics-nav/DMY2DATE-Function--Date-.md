@@ -1,5 +1,6 @@
 ---
 title: "DMY2DATE Function (Date)"
+description: "The DMY2DATE Function (Date) gets a Date object based on a day, month, and year. This article describes its syntax, property/return value, and example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
