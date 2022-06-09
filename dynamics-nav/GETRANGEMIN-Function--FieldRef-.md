@@ -1,5 +1,6 @@
 ---
 title: "GETRANGEMIN Function (FieldRef)"
+description: "The GETRANGEMIN Function (FieldRef) gets the minimum value in a range for a field. This article describes its syntax, property/return value, remarks, and example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

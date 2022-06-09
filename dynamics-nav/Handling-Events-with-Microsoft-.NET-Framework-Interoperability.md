@@ -1,5 +1,6 @@
 ---
 title: "Handling Events with Microsoft .NET Framework Interoperability"
+description: "Describes how to handle events with Microsoft .NET Framework Interoperability, which allows a DotNet type variable of a Dynamics NAV object to subscribe to events that are published by a .NET Framework class."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

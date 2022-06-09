@@ -1,5 +1,6 @@
 ---
 title: "GetRecIdFromKey"
+description: "The GetRecIdFromKey converts a key to a record ID. The key is always part of the page result."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
