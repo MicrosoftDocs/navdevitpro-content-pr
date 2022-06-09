@@ -1,5 +1,6 @@
 ---
 title: "Keyboard Shortcuts"
+description: "Provides an overview of shortcut key combinations in the Microsoft Dynamics NAV Windows client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

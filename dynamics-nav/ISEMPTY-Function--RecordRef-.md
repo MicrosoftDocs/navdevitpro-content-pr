@@ -1,5 +1,6 @@
 ---
 title: "ISEMPTY Function (RecordRef)"
+description: "The ISEMPTY Function (RecordRef) determines whether any records exist in a filtered set of records in a table."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
