@@ -1,5 +1,6 @@
 ---
 title: "InitValue Property"
+description: "This topic describes the InitValue property, which sets the initial value of this field when a user creates a new record."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "LinksAllowed Property"
+description: "The LinksAllowed Property sets whether links are allowed. This article describes its application, property value, and remarks."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

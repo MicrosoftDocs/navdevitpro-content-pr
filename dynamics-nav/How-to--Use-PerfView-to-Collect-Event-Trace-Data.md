@@ -1,5 +1,6 @@
 ---
 title: "How to: Use PerfView to Collect Event Trace Data"
+description: "This topic describes how to use PerfView to collect event trace data for Microsoft Dynamics NAV Server."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "PrintOnlyIfDetail Property"
+description: Learn how the PrintOnlyIfDetail property specifies whether to print data in a report for the parent data item when the child data item does not generate any output.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

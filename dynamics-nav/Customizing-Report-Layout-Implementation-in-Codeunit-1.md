@@ -1,5 +1,6 @@
 ---
 title: "Customizing Report Layout Implementation in Codeunit 1"
+description: Describes how to customize report layout implementation in codeunit 1 and provides the function call flow. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

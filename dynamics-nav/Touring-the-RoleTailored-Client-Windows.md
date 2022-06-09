@@ -1,5 +1,6 @@
 ---
 title: "Touring the RoleTailored Client Windows"
+description: Learn how RoleTailored clients use several windows to display information. Two of the key window types are the navigation window and task page window.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

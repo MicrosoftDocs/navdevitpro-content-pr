@@ -1,5 +1,6 @@
 ---
 title: "ShortCutKey Property"
+description: ShortCutKey Property sets a shortcut key for selecting a menu item.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

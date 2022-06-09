@@ -1,5 +1,6 @@
 ---
 title: "FunctionType Property (Test Codeunits)"
+description: Describes the FunctionType property (test codeunits) and provides property values and additional remarks. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

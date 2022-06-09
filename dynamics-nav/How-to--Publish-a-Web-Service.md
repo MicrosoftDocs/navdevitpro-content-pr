@@ -1,5 +1,6 @@
 ---
 title: "How to: Publish a Web Service"
+description: "This topic describes how to publish a web service in Microsoft Dynamics NAV so that it is available to service requests over the network."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

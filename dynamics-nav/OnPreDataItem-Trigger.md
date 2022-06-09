@@ -1,5 +1,6 @@
 ---
 title: "OnPreDataItem Trigger"
+description: "This article describes the OnPreDataItem Trigger, which is executed before a data item is processed."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

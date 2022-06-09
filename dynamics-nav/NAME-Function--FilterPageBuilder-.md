@@ -1,5 +1,6 @@
 ---
 title: "NAME Function (FilterPageBuilder)"
+description: Describes the NAME function which provides the name of a table filter control that is included on a filter page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "LinkedInTransaction Property"
+description: "The LinkedInTransaction Property gets and sets data from linked server data sources, such as Microsoft Office Excel, Access, or another SQL Server."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

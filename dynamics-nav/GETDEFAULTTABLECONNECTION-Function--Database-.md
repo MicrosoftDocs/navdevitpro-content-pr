@@ -1,5 +1,6 @@
 ---
 title: "GETDEFAULTTABLECONNECTION Function (Database)"
+description: Describes the GETDEFAULTTABLECONNECTION function (database) and provides syntax and parameters.
 ms.custom: na
 ms.date: 01/02/2020
 ms.reviewer: na

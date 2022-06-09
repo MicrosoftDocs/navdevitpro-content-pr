@@ -1,5 +1,6 @@
 ---
 title: "TRANSFERFIELDS Function (Record)"
+description: Learn how the TRANSFERFIELDS function (Record) copies all matching fields in one record to another record.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

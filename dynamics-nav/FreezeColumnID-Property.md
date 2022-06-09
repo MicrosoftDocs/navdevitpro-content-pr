@@ -1,5 +1,6 @@
 ---
 title: "FreezeColumnID Property"
+description: Describes the FreezeColumnID property and provides additional remarks.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

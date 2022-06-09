@@ -1,5 +1,6 @@
 ---
 title: "String Functions"
+description: Describes String Functions and provides the function's syntax, parameters, remarks, an example, and additional references.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

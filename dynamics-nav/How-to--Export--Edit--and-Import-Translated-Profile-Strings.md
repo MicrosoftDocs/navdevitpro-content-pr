@@ -1,5 +1,6 @@
 ---
 title: "How to: Export, Edit, and Import Translated Profile Strings"
+description: "This topic explains the process of exporting .resx files for translation, and then importing the translated .resx files for one or more profiles."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

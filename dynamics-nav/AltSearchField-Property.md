@@ -1,5 +1,6 @@
 ---
 title: "AltSearchField Property"
+description: "AltSearchField Property sets the Name Property of an alternative field used to perform lookups on the current field."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

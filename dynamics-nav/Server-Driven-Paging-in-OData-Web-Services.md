@@ -1,5 +1,6 @@
 ---
 title: "Server-Driven Paging in OData Web Services"
+description: Server-driven paging ensures that the quantity of data that is returned by an OData URI does not overwhelm nav_server or client program that you use to capture data.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

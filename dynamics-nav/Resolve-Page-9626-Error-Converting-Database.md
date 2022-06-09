@@ -1,6 +1,6 @@
 ---
 title: "Page 9626 New Page Patterns List Part Error When Converting to Dynamics NAV 2018"
-description: "Explains how to resolve the compilation error that you get for Page 9621 Add Page Fields when converting a database from Dynamics NAV 2017 to 2018."
+description: "Explains how to resolve the compilation error that you get for Page 9626 Add Page Fields when converting a database from Dynamics NAV 2017 to 2018."
 ms.custom: na
 ms.date: 11/27/2017
 ms.reviewer: na

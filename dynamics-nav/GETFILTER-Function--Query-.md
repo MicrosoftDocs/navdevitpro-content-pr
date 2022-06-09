@@ -1,5 +1,6 @@
 ---
 title: "GETFILTER Function (Query)"
+description: Describes the GETFILTER function (query) and provides syntax, parameters, return value, and an example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

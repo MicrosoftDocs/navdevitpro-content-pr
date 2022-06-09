@@ -1,5 +1,6 @@
 ---
 title: "RunPageLink Property"
+description: This article describes the RunPageLink property and provides additional remarks.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

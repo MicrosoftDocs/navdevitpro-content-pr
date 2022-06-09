@@ -1,5 +1,6 @@
 ---
 title: "How to: Start SQL Browser Service"
+description: "Describes how to start the SQL Server Browser Service."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

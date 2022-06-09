@@ -1,5 +1,6 @@
 ---
 title: "OnPostXMLport Trigger"
+description: "This article describes the OnPostXMLport Trigger, which is executed after the XMLPort is run."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

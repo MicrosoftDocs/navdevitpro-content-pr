@@ -1,5 +1,6 @@
 ---
 title: "HASVALUE Function (Media)"
+description: "The HASVALUE Function (Media) checks whether a Media data type field in a record has been initialized with a media object and that the specified media object exists in the database."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

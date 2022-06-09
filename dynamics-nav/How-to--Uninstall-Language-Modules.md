@@ -1,5 +1,6 @@
 ---
 title: "How to: Uninstall Language Modules"
+description: "Describes how to uninstall a language module by deleting the language from the database and uninstalling each component of the language module that was installed."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

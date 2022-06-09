@@ -1,5 +1,6 @@
 ---
 title: "How to: Export the Application Tables to a Dedicated Database"
+description: "Describes how to separate the application tables in an existing database in Dynamics NAV into two databases: an application database and a business data database."
 author: edupont04
 ms.custom: na
 ms.date: 10/14/2016

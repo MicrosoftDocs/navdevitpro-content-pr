@@ -1,5 +1,6 @@
 ---
 title: "How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance"
+description: "This topic describes how to mount or dismount tenant databases in Microsoft Dynamics NAV Administration Shell."
 author: edupont04
 ms.custom: na
 ms.date: 10/14/2016

@@ -1,5 +1,6 @@
 ---
 title: "ReadState Property"
+description: Learn how the ReadState property specifies which records are read and how they are locked when a query is executed.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

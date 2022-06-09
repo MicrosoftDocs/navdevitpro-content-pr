@@ -1,8 +1,8 @@
 ---
 title: "How to: Specify When UI Elements Are Removed"
+description: "Describes how to specify when UI elements are removed using the Microsoft Dynamics NAV Server Administration tool."
 author: edupont04
 ms.date: 07/07/2017
-
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

@@ -1,5 +1,6 @@
 ---
 title: "How to: Use PerfView to View Event Trace Data"
+description: "This topic describes how to use PerfView to view Microsoft Dynamics NAV Server event trace data that is stored in an event trace log (.etl) file."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

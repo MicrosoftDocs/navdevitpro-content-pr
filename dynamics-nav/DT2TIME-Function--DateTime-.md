@@ -1,5 +1,6 @@
 ---
 title: "DT2TIME Function (DateTime)"
+description: Describes the DT2TIME function (DateTime) and provides syntax, parameters, return value, and additional remarks.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

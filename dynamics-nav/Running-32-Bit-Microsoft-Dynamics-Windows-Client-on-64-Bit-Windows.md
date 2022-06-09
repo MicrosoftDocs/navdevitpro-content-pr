@@ -1,5 +1,6 @@
 ---
 title: "Running 32-Bit Microsoft Dynamics Windows Client on 64-Bit Windows"
+description: In this article, you learn about running 32-bit Microsoft Dynamics Windows Client on 64-bit Windows.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

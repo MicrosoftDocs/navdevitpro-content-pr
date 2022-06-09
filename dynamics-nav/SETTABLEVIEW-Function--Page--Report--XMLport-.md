@@ -1,5 +1,6 @@
 ---
 title: "SETTABLEVIEW Function (Page, Report, XMLport)"
+description: SETTABLEVIEW Function (Page, Report, XMLport) Applies the table view on the current record as the table view for the page, report, or XMLport.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

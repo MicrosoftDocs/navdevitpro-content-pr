@@ -1,5 +1,6 @@
 ---
 title: "Interactive Timeline Business Data Visualization"
+description: "The Interactive Timeline Business Data Visualization for Dynamics NAV provides a unique view on business data with an interactive user interface (UI) to change the business data."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

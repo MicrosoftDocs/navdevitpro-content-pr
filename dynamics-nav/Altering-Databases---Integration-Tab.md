@@ -1,5 +1,6 @@
 ---
 title: "Altering Databases - Integration Tab"
+description: "The Altering Databases Integration Tab specifies database settings that determine how Dynamics NAV integrates with SQL Server and external tools."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

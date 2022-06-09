@@ -1,5 +1,6 @@
 ---
 title: "ApplicationArea Property"
+description: "The ApplicationArea property sets the application areas that apply to the control. This article describes its applications, property values, and remarks."
 ms.custom: na
 ms.date: 09/12/2017
 ms.reviewer: na

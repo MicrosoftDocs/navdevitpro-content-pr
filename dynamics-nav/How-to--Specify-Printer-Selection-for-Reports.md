@@ -1,5 +1,6 @@
 ---
 title: "How to: Specify Printer Selection for Reports"
+description: "Describes how to set up reports so that they must be printed on a specific printer from the Microsoft Dynamics NAV Windows client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

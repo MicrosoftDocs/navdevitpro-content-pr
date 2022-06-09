@@ -1,5 +1,6 @@
 ---
 title: "RUNMODAL Function (Report)"
+description: In this article, learn how the RUNMODAL function (Report) loads and executes the report that you specify.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

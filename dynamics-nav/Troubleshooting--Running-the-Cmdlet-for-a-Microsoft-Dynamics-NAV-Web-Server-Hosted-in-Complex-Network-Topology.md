@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Running the Cmdlet for a Microsoft Dynamics NAV Web Server Hosted in Complex Network Topology"
+description: "This article describes how to resolve this issue: Running the Cmdlet for a Microsoft Dynamics NAV Web Server Hosted in Complex Network Topology."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

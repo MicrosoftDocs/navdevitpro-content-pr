@@ -1,6 +1,6 @@
 ---
 title: "FileName Property"
-description: The FileName property sets the name of the external file to read data from or write data to an XMLport.
+description: Discusses the FileName property which sets the name of the external file to read data from or write data to an XMLport.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

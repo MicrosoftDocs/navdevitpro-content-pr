@@ -1,5 +1,6 @@
 ---
 title: "Sample Windows PowerShell Scripts for Microsoft Dynamics NAV"
+description: This article provides sample Windows PowerShell scripts for Microsoft Dynamics NAV.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

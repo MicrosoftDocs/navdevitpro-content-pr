@@ -1,5 +1,6 @@
 ---
 title: "Encryption Functions"
+description: This article provides topic links to encryption functions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

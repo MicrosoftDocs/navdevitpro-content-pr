@@ -1,5 +1,6 @@
 ---
 title: "Page Designer Walkthroughs"
+description: "This article provides step-by-step instructions on how to create pages for the RoleTailored client." 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

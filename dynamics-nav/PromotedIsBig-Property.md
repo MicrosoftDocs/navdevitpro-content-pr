@@ -1,5 +1,6 @@
 ---
 title: "PromotedIsBig Property"
+description: Learn how the PromotedIsBig property sets a value that indicates whether the promoted action is displayed on the ribbon with a large icon.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

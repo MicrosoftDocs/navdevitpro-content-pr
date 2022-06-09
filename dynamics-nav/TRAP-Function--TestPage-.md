@@ -1,5 +1,6 @@
 ---
 title: "TRAP Function (TestPage)"
+description: Learn how the TRAP function (TestPage) traps the next test page that is invoked and assigns it to the test page variable.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

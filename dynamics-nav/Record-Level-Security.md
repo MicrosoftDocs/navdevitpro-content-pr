@@ -1,5 +1,6 @@
 ---
 title: "Record-Level Security"
+description: This article describes how record-level security lets you limit the access that a user has to the data in a table.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

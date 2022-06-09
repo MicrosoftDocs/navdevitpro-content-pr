@@ -1,5 +1,6 @@
 ---
 title: "Special Permission Sets"
+description: Describes Special Permission Sets and contains applications, remarks, and additional information.
 author: edupont04
 manager: edupont04
 ms.custom: na

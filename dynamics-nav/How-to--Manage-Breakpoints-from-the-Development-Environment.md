@@ -1,5 +1,6 @@
 ---
 title: "How to: Manage Breakpoints from the Development Environment"
+description: "Describes how to view, set, enable, disable, or delete breakpoints on individual lines of code within the development environment."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

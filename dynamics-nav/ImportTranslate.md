@@ -1,5 +1,6 @@
 ---
 title: "ImportTranslate"
+description: "This topic describes ImportTranslate, which imports UI text strings for objects from a text file to a specified Dynamics NAV database."
 author: edupont04
 ms.custom: na
 ms.date: 10/14/2016

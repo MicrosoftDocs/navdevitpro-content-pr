@@ -1,5 +1,6 @@
 ---
 title: "How to: Integrate Report Dataset Designer and Visual Studio Report Designer"
+description: "Describes how to integrate Report Dataset Designer and Visual Studio Designer, including creating and modifying client report definition (RDLC) report layouts."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

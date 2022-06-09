@@ -1,5 +1,6 @@
 ---
 title: "NAME Function (FieldRef)"
+description: Describes the syntax and provides code samples for the NAME function which provides the name of a field as a string.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

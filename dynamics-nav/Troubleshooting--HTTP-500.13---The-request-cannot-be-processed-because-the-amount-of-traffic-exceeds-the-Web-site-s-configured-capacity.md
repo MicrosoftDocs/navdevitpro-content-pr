@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: HTTP 500.13 - The request cannot be processed because the amount of traffic exceeds the Web site&#39;s configured capacity"
+description: "Learn how to resolve this issue: HTTP 500.13 - The request cannot be processed because the amount of traffic exceeds the Web site&#39;s configured capacity."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

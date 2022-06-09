@@ -1,5 +1,6 @@
 ---
 title: "Request Pages (XMLPorts)"
+description: In this article, learn how a request page is a dialog box that appears when an XMLport is run from Object Designer.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

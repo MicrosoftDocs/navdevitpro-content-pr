@@ -1,5 +1,6 @@
 ---
 title: "How to: Save a New Table"
+description: This article provides an overview of how to save a new table.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

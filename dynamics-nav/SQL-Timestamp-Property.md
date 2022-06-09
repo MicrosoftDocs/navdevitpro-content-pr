@@ -1,6 +1,6 @@
 ---
 title: "SQL Timestamp Property"
-ms.custom: na
+description: Describes the SQL Timestamp Property and includes applications, property values, remarks, and additional information.
 ms.date: 07/20/2016
 ms.reviewer: na
 ms.suite: na

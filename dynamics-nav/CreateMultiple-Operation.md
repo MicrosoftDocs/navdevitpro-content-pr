@@ -1,5 +1,6 @@
 ---
 title: "CreateMultiple Operation"
+description: Describes the CreateMultiple operation and provides its method signature, parameters, results, faults, and a usage example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

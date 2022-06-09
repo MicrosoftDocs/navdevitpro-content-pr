@@ -1,5 +1,6 @@
 ---
 title: "RESET Function (Record)"
+description: Learn how the RESET function (Record) removes all filters, including any special filters set by MARKEDONLY, and changes the current key to the primary key.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "HideValue Property"
+description: "The HideValue Property sets whether to show or hide a value for the user based on an expression."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

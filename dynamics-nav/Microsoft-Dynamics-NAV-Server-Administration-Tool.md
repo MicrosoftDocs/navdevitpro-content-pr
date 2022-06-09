@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Dynamics NAV Server Administration Tool"
+description: "The Microsoft Dynamics NAV Server Administration tool is a Microsoft Management Console (MMC) snap-in for creating and managing Microsoft Dynamics NAV Server instances."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

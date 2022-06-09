@@ -1,5 +1,6 @@
 ---
 title: "OnModify Trigger"
+description: "This article describes the OnModify Trigger, which is executed when a user modifies an existing record in a table."  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

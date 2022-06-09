@@ -1,5 +1,6 @@
 ---
 title: "PROFILEID Function (SessionSettings)"
+description: This article describes how the PROFILEID function gets or sets the profile ID property in a SessionSettings object.
 ms.custom: na
 ms.date: 01/06/2017
 ms.reviewer: na

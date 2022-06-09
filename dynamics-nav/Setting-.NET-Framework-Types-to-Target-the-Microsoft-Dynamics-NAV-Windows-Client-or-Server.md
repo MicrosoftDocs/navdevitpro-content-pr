@@ -1,5 +1,6 @@
 ---
 title: "Setting .NET Framework Types to Target the Microsoft Dynamics NAV Windows Client or Server"
+description: Setting .NET Framework Types to Target the Microsoft Dynamics NAV Windows Client or Server helps extend a navnow object by using .NET Framework interoperability.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

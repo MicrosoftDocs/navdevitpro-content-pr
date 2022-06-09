@@ -1,5 +1,6 @@
 ---
 title: "SETSTAMP Function (File)"
+description: This topic contains information on the SETSTAMP Function (File) syntax, parameters, property value/return value, and examples.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

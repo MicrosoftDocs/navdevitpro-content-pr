@@ -1,5 +1,6 @@
 ---
 title: "How to: Include Microsoft Dynamics Online Connect on Role Centers"
+description: "The RoleTailored client installation includes a control add-in that you can use on Role Centers to connect to and display information from Microsoft Dynamics Online Connect."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

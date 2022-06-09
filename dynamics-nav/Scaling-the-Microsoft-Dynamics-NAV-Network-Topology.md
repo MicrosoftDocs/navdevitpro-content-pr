@@ -1,5 +1,6 @@
 ---
 title: "Scaling the Microsoft Dynamics NAV Network Topology"
+description: This article provides a detailed description on scaling the Microsoft Dynamics NAV network topology.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

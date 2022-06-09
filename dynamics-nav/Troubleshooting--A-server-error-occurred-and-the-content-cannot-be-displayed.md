@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: A server error occurred and the content cannot be displayed"
+description: "This article describes how to resolve this error: A server error occurred and the content cannot be displayed."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

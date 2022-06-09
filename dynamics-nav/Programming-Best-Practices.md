@@ -1,5 +1,6 @@
 ---
 title: "Programming Best Practices"
+description: This topic describes best practices for developing Dynamics NAV applications, including activating objects and setting properties.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

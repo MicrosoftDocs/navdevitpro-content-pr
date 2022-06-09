@@ -1,5 +1,6 @@
 ---
 title: "SETCURRENTKEY, SETRANGE, SETFILTER, GETRANGEMIN, and GETRANGEMAX Functions"
+description: SETCURRENTKEY, SETRANGE, SETFILTER, GETRANGEMIN, and GETRANGEMAX Functions are used to filter records in a table
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

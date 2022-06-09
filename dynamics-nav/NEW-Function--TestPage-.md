@@ -1,5 +1,6 @@
 ---
 title: "NEW Function (TestPage)"
+description: Describes the syntax and code for the NEW Function sets the current row of the test page to an empty row in a dataset.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

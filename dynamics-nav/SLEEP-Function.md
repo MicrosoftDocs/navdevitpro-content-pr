@@ -1,5 +1,6 @@
 ---
 title: "SLEEP Function"
+description: Describes how to set the type instance to target the nav_windows (client-side object) or nav_server (server-side object) in Microsoft Dynamics NAV.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

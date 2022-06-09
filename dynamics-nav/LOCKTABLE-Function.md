@@ -1,5 +1,6 @@
 ---
 title: "LOCKTABLE Function"
+description: "Describes the purpose of and syntax for the LOCKTABLE Function in the Microsoft Dynamics NAV Development Environment."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

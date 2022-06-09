@@ -1,5 +1,6 @@
 ---
 title: "Permissions on Database Objects"
+description: "This article provides an overview of permissions and permission sets in Microsoft Dynamics NAV 2018."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

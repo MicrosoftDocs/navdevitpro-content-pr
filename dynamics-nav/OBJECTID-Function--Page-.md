@@ -1,5 +1,6 @@
 ---
 title: "OBJECTID Function (Page)"
+description: Describes the code and syntax for the OBJECTID function and returns a string in the "Page xxx" format.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

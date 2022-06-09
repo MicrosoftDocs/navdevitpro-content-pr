@@ -1,5 +1,6 @@
 ---
 title: "How to: Modify ADCS Functions"
+description: "Describes how to implement or change the functionality of an ADCS miniform function by creating or modifying a codeunit."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "READ Function (File)"
+description: This article describes how the READ function (File) reads from an MS-DOS encoded file or binary file.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

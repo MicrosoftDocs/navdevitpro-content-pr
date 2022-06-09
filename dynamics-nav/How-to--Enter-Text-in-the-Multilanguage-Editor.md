@@ -1,5 +1,6 @@
 ---
 title: "How to: Enter Text in the Multilanguage Editor"
+description: "Describes how use the Multilanguage Editor when you enter captions or text constants for a multilanguage-enabled application."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

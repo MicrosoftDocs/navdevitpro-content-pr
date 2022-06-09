@@ -1,5 +1,6 @@
 ---
 title: "Integration Concepts and Terminology"
+description: This article contains an overview of integration concepts and terminology.
 ms.custom: na
 ms.date: 10/24/2016
 ms.reviewer: na

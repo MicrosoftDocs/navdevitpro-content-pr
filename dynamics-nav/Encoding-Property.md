@@ -1,5 +1,6 @@
 ---
 title: "Encoding Property"
+description: Describes the ENcoding property and provides additional remarks.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

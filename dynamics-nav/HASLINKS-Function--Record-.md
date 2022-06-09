@@ -1,5 +1,6 @@
 ---
 title: "HASLINKS Function (Record)"
+description: "The HASLINKS Function (Record) determines whether a record contains any links. This article describes its syntax, property/return value, remarks, and example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

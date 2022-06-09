@@ -1,5 +1,6 @@
 ---
 title: "Database"
+description: This article contains links to database functions and data types.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

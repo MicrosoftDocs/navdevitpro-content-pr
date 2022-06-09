@@ -1,5 +1,6 @@
 ---
 title: "How to: Save a Codeunit"
+description: This article describes how to save a codeunit.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

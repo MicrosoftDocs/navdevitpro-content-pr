@@ -1,5 +1,6 @@
 ---
 title: "OnValidate (Page fields) Trigger"
+description: "This article provides syntax for the OnValidate (Page fields) Trigger, which is executed when a field loses focus after its value has been changed."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

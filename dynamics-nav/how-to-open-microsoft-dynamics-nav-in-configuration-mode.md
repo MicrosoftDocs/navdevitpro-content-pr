@@ -1,5 +1,6 @@
 ---
 title: "How to: Open Microsoft Dynamics NAV in Configuration Mode"
+description: "This topic describes how to open the Microsoft Dynamics NAV Windows client in configuration mode in order to configure a profile."
 ms.author: solsen
 ms.custom: na
 ms.date: 10/25/2016

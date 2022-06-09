@@ -1,5 +1,6 @@
 ---
 title: "Customer Experience Improvement Program and Microsoft Dynamics NAV Server"
+description: This article provides information on Microsoft Dynamics NAV Server and the Customer Experience Improvement Program (CEIP).
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

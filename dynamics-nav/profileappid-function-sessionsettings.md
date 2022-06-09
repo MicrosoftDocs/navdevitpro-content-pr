@@ -1,5 +1,6 @@
 ---
 title: "PROFILEAPPID Function (SessionSettings)"
+description: Learn how the PROFILEAPPID function gets or sets the ID of an extension, which provides a profile, in a SessionSettings object. 
 ms.custom: na
 ms.date: 01/06/2017
 ms.reviewer: na

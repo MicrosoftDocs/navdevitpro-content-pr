@@ -1,5 +1,6 @@
 ---
 title: "Managing Time Zones with Web Services"
+description: "Describes how to manage time zones with web services. Microsoft Dynamics NAV Server provides a Services Default Time Zone setting for defining the time zone in which web service calls run."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

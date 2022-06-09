@@ -1,5 +1,6 @@
 ---
 title: "Including Microsoft Dynamics Online Connect on Role Centers"
+description: "This topic describes including Microsoft Dynamics Online Connect on Role Centers in Microsoft Dynamics NAV 2018."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

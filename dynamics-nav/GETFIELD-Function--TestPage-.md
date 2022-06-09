@@ -1,5 +1,6 @@
 ---
 title: "GETFIELD Function (TestPage)"
+description: Describes the GETFIELD function (TestPage) and provides syntax, parameters, return value, and an example.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "MaintainSIFTIndex Property"
+description: "The MaintainSIFTIndex Property sets the value to determine whether SIFT structures should be created in SQL Server to support the corresponding SumIndexFields for the Microsoft Dynamics NAV key."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
-title: "OnAfterAssignVariable Trigger"
+title: "OnAfterAssignVariable Trigger" 
+description: Describes the OnAfterAssignVariable trigger which is executed after the value defined in the XML document is assigned to the text variable.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

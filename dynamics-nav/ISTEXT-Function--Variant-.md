@@ -1,5 +1,6 @@
 ---
 title: "ISTEXT Function (Variant)"
+description: "The ISTEXT Function (Variant) indicates whether a C/AL variant contains a Text variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

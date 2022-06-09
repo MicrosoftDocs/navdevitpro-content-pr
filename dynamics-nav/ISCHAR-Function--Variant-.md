@@ -1,5 +1,6 @@
 ---
 title: "ISCHAR Function (Variant)"
+description: "The ISCHAR Function (Variant) indicates whether a C/AL variant contains a Char variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

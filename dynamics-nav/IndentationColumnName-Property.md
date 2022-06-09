@@ -1,5 +1,6 @@
 ---
 title: "IndentationColumnName Property"
+description: "This topic describes the IndentationColumnName property, which sets the name of the hidden column that controls row indentation in a List page."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

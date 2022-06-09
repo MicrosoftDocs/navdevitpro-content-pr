@@ -1,5 +1,6 @@
 ---
 title: "NodeType Property"
+description: Discusses the NodeType property which sets the value to specify whether an XML object is an element or an attribute. This applies to XMLports.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

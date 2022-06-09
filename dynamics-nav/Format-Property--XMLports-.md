@@ -1,5 +1,6 @@
 ---
 title: "Format Property (XMLports)"
+description: Describes the Format property (XMLports) and provides additional remarks.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

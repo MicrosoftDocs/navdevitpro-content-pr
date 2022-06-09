@@ -1,5 +1,6 @@
 ---
 title: "IMPORTFILE Function (Media)"
+description: "IMPORTFILE Function (Media) adds a media type, such as a JPEG image, from a file to a Media data type field of a record for displaying the media with the record in the client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

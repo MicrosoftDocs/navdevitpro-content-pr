@@ -1,5 +1,6 @@
 ---
 title: "Creating and Customizing Cues"
+description: This article provides an overview of Cues and the tasks involved in creating and customizing a Cue for displaying on a page of the Dynamics NAV clients.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

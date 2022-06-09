@@ -1,5 +1,6 @@
 ---
 title: "Manual Synchronization of Table Mappings"
+description: "Describes how to manually synchronize Table Mappings, which associates a Dynamics NAV table (record type), such as Customer, with a Microsoft Dynamics 365 for Sales entity, such as Account."
 ms.custom: na
 ms.date: 10/24/2016
 ms.reviewer: na

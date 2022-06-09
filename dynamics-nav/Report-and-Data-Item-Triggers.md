@@ -1,5 +1,6 @@
 ---
 title: "Report and Data Item Triggers"
+description: Learn how triggers let you control how data is selected and retrieved in a more complex and effective way than you can achieve by using properties.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

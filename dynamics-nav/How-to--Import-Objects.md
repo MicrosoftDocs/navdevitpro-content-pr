@@ -1,5 +1,6 @@
 ---
 title: "How to: Import Objects"
+description: "Describes how to import application objects into the database from a file (.fob or .txt) by using the development environment UI or running finsql.exe with the ImportObjects command."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

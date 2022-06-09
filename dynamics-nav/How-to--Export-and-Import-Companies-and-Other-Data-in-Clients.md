@@ -1,5 +1,6 @@
 ---
 title: "How to: Export and Import Companies and Other Data in Clients"
+description: "Describes how to export and import companies and other data in clients from a Dynamics Nav database."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

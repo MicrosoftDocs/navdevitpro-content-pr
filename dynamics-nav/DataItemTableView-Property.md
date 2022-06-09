@@ -1,5 +1,6 @@
 ---
 title: "DataItemTableView Property"
+description: Describes the DataItemTableView property and provides sort and filter information.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

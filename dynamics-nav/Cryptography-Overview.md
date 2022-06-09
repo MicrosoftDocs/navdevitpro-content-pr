@@ -1,5 +1,6 @@
 ---
 title: "Cryptography Overview"
+description: This article provides a cryptography overview including encryption keys.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

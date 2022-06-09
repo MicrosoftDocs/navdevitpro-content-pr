@@ -1,5 +1,6 @@
 ---
 title: "Monitoring Microsoft Dynamics NAV Server Events"
+description: Describes monitoring Microsoft Dynamics NAV Server events to diagnose conditions and troubleshoot problems that affect operation and performance.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

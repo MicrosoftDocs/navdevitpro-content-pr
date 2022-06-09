@@ -1,5 +1,6 @@
 ---
 title: "OnPreXMLItem Trigger"
+description: "This article describes the OnPreXMLItem Trigger, which is executed after the table is initialized and before you start exporting data to an XML object." 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

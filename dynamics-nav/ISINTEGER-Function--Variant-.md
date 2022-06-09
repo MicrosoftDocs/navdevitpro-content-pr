@@ -1,5 +1,6 @@
 ---
 title: "ISINTEGER Function (Variant)"
+description: "The ISINTEGER Function (Variant) indicates whether a C/AL variant contains an Integer."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

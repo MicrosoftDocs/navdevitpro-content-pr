@@ -1,5 +1,6 @@
 ---
 title: "SETRECFILTER Function (RecordRef)"
+description: SETRECFILTER Function (RecordRef) Sets a filter on a record that is referred to by a RecordRef. This topic contains information on the SETRECFILTER Function (RecordRef) syntax, parameters, remarks, and examples.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

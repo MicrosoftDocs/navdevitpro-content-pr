@@ -1,5 +1,6 @@
 ---
 title: "PaperSourceFirstPage Property"
+description: "This article describes the PaperSourceFirstPage Property, which specifies which paper source to use when printing page one of the report."  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "ISACTIVE Function (Debugger)"
+description: "The ISACTIVE Function (Debugger) indicates whether the debugger is active. This article describes its syntax, property/return value, and remarks."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

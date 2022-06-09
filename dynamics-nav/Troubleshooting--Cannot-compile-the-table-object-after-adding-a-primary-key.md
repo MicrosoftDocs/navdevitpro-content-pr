@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Cannot compile the table object after adding a primary key"
+description: "This article describes how to resolve this error: Cannot compile the table object after adding a primary key."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

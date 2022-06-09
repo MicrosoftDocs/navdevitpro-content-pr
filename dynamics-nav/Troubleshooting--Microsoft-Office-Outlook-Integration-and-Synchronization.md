@@ -84,7 +84,7 @@ This topic lists some common problems that can occur when you use the Microsoft 
   
    For more information, see the following articles:  
   
--   [Knowledge Base article 830836: Event ID 9646 is logged when you try to send many messages in Exchange Server 2003](https://go.microsoft.com/fwlink/?LinkId=154865)  
+-   [Knowledge Base article 830836: Event ID 9646 is logged when you try to send many messages in Exchange Server 2003](https://support.microsoft.com/topic/event-id-9646-is-logged-on-the-exchange-server-2010-mailbox-server-when-you-access-a-mailbox-that-has-more-than-250-folders-by-using-an-imap4-client-9d361eb9-1e12-41fe-f3ff-39f2022c83d1)  
   
 -   [Knowledge Base article 830829: Your Exchange Server 2003 computer may stop responding after a MAPI client opens more than the default value of certain server objects](https://go.microsoft.com/fwlink/?LinkID=154446)  
   

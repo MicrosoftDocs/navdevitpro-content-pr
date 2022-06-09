@@ -1,5 +1,6 @@
 ---
 title: "ASCENDING Function (TestPage Filter)"
+description: "The ASCENDING Function (TestPage Filter) gets or sets the order in which to search through a dataset on a test page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

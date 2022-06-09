@@ -1,5 +1,6 @@
 ---
 title: "OnModifyRecord Trigger"
+description: "This article provides the syntax and return value of the OnModifyRecord Trigger, which is executed before a record is modified in the table." 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

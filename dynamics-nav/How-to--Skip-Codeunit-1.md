@@ -1,5 +1,6 @@
 ---
 title: "How to: Skip Codeunit 1"
+description: "Describes how to skip the triggers for codeunit 1 in a debugging scenario."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
