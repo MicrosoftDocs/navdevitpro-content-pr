@@ -1,5 +1,6 @@
 ---
 title: "CALCSUMS Function (Record)"
+description: "The CALCSUMS Function (Record) calculates the total of a column in a table. You specify which fields to calculate by using parameters."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

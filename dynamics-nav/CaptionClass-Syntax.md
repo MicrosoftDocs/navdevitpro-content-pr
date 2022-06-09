@@ -1,5 +1,6 @@
 ---
 title: "CaptionClass Syntax"
+description: "This topic describes the syntax of the CaptionClass functionality."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

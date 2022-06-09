@@ -1,5 +1,6 @@
 ---
 title: "C/AL Function Calls"
+description: "C/AL contains several functions that can be used for different purposes, such as string handling, text formatting, and database handling."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Calling External Web Services"
+description: "In Dynamics NAV, you can use the Windows Communication Foundation, which provides a set of reliable objects for calling web services to use with .NET Framework interoperability."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

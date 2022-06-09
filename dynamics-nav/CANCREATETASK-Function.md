@@ -1,5 +1,6 @@
 ---
 title: "CANCREATETASK Function"
+description: "The CANCREATETASK Function indicates whether the user has permission to create or run scheduled tasks."
 ms.custom: na
 ms.date: 11/08/2017
 ms.reviewer: na
@@ -10,7 +11,7 @@ ms.topic: article
 author: jswymer
 ---
 # CANCREATETASK Function
-Indicates whether the user that has permission to create or run scheduled tasks.  
+Indicates whether the user has permission to create or run scheduled tasks.  
 
 ## Syntax  
 

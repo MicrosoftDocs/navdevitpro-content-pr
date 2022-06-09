@@ -1,5 +1,6 @@
 ---
 title: "C/AL Editor Keyboard Shortcuts and Right-Click Actions"
+description: "This topic describes the keyboard shortcuts and right-click actions in the C/AL Editor."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "C/AL ASSERTERROR Statements"
+description: "ASSERTERROR statements are used in test functions to test how the application behaves under failing conditions."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

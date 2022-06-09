@@ -1,5 +1,6 @@
 ---
 title: "CalcFields Property"
+description: "The CalcFields Property sets a list of FlowFields to automatically calculate. This article describes its application and remarks."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
