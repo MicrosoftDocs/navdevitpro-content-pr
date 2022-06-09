@@ -1,5 +1,6 @@
 ---
 title: "Migrating to Multitenancy"
+description: "Describes how to migrate to multitenancy to make maintenance of the solution easier if it supports multiple customers with the same application functionality."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

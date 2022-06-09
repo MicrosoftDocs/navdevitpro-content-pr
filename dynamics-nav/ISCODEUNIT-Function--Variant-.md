@@ -1,5 +1,6 @@
 ---
 title: "ISCODEUNIT Function (Variant)"
+description: "The ISCODEUNIT Function (Variant) indicates whether a C/AL variant contains a Codeunit variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "ENCRYPT"
+description: Describes the ENCRYPT property and provides syntax, parameters, return value, and exceptions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

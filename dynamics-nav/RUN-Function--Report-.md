@@ -1,5 +1,6 @@
 ---
 title: "RUN Function (Report)"
+description: This article describes how the RUN function (Report) loads and executes the report that you specify.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

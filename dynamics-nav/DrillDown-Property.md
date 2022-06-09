@@ -1,5 +1,6 @@
 ---
 title: "DrillDown Property"
+description: "The DrillDown Property sets a drill-down for a field on a page. This article describes its application, property value, and remarks."
 ms.custom: na
 ms.date: 05/10/2017
 ms.reviewer: na

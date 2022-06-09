@@ -1,5 +1,6 @@
 ---
 title: "Authenticating Users with Active Directory Federation Services"
+description: "This article goes through the steps about how to set up AD FS authentication in AD FS Management console, and then how to configure it in."
 ms.custom: na
 ms.date: 01/25/2019
 ms.reviewer: na

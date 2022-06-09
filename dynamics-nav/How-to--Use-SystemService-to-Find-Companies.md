@@ -1,5 +1,6 @@
 ---
 title: "How to: Use SystemService to Find Companies"
+description: "Describes how to use the SystemService service to retrieve and print a list of companies."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

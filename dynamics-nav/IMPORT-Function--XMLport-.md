@@ -1,5 +1,6 @@
 ---
 title: "IMPORT Function (XMLport)"
+description: "The IMPORT Function (XMLport) reads and parses an incoming XML data stream (XML document)."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

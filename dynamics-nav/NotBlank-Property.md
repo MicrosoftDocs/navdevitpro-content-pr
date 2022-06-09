@@ -1,5 +1,6 @@
 ---
 title: "NotBlank Property"
+description: Discusses the NotBlank property which sets a value that specifies whether users must enter a value in the selected field or text box.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

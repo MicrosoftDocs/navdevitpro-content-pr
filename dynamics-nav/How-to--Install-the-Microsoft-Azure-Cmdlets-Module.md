@@ -1,5 +1,6 @@
 ---
 title: "How to: Install the Microsoft Azure Cmdlets Module"
+description: "This topic describes how to install the Microsoft Azure PowerShell module on the computer that you are using to deploy Dynamics NAV on Microsoft Azure."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

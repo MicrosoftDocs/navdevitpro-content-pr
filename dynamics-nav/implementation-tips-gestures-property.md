@@ -1,5 +1,6 @@
 ---
 title: "Implementation Tips for Gestures"
+description: "Describes implementation tips for gestures on the Microsoft Dynamics NAV Phone client."
 ms.custom: na
 ms.date: 10/10/2016
 ms.reviewer: na

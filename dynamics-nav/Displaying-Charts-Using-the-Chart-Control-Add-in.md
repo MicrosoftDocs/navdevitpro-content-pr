@@ -1,5 +1,6 @@
 ---
 title: "Displaying Charts Using the Chart Control Add-in"
+description: "In Dynamics NAV, you can graphically represent data in charts that you can display in the Microsoft Dynamics NAV Windows client using the Chart control add-in."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

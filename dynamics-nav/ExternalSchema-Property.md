@@ -1,5 +1,6 @@
 ---
 title: "ExternalSchema Property"
+description: Details the ExternalSchema property which specifies the name of the database schema for an external database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

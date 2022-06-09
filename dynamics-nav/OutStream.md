@@ -1,5 +1,6 @@
 ---
 title: "OutStream"
+description: "This article lists links to COPYSTREAM/OutStream functions."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

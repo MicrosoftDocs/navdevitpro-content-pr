@@ -1,5 +1,6 @@
 ---
 title: "PageType Property"
+description: "This article describes the PageType Property, which sets the type of page that is created."
 author: edupont04
 ms.custom: na
 ms.date: 02/02/2017

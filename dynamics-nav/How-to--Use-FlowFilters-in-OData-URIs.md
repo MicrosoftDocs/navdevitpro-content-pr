@@ -1,5 +1,6 @@
 ---
 title: "How to: Use FlowFilters in OData URIs"
+description: "Describes how to use FlowFilters in OData URIs. FlowFilters are a special kind of filter that you use to set ranges on calculations that are shown in FlowFields."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

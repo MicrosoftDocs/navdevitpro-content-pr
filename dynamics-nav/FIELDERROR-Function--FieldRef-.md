@@ -1,5 +1,6 @@
 ---
 title: "FIELDERROR Function (FieldRef)"
+description: Details the syntax and code for the FIELDERROR function which stops the execution of the code, causing a run-time error, and creates an error message.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

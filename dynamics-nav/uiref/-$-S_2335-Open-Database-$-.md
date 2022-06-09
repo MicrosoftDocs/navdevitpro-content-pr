@@ -1,5 +1,6 @@
 ---
 title: "Open Database"
+description: Open Database specifies the database that you want to open.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

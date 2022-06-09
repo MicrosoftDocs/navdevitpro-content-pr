@@ -1,5 +1,6 @@
 ---
 title: "CREATE Function (Automation)"
+description: Describes the CREATE function (automation) and provides syntax, parameters, return value, and example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

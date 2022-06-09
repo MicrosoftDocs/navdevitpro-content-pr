@@ -1,5 +1,6 @@
 ---
 title: "CONFIRM Function (Dialog)"
+description: "Describes the CONFIRM function (Dialog), which creates a dialog box that prompts the user for a yes or no answer. The dialog box is centered on the screen."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

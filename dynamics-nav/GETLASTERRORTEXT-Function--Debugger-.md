@@ -1,5 +1,6 @@
 ---
 title: "GETLASTERRORTEXT Function (Debugger)"
+description: Describes the GETLASTERRORTEXT function (debugger) and provides syntax and return value.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

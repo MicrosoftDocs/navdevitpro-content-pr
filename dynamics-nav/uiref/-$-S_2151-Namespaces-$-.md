@@ -1,5 +1,6 @@
 ---
 title: "Namespaces"
+description: Namespaces specifies namespaces for the XMLport that imports or exports data as XML.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

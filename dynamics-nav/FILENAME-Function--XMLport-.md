@@ -1,5 +1,6 @@
 ---
 title: "FILENAME Function (XMLport)"
+description: Describes the FILENAME function and provides the current value of the FileName Property of an XMLport and sets this property to a new value.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "ISEXPANDED Function (TestPage)"
+description: "The ISEXPANDED Function (TestPage) specifies if rows on a test page are expanded. This article describes its syntax, parameters, and property/return value."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

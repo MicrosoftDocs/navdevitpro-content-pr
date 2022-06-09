@@ -1,5 +1,6 @@
 ---
 title: "INSERT Function (RecordRef)"
+description: "This topic describes the INSERT function (RecordRef), which inserts a record into a table in Microsoft Dynamics Nav 2018."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

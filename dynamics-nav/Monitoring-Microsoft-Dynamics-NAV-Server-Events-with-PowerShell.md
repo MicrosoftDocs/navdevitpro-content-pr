@@ -1,5 +1,6 @@
 ---
 title: "Monitoring Microsoft Dynamics NAV Server Events with PowerShell"
+description: Describes monitoring Microsoft Dynamics NAV Server events with PowerShell by use th Get-WinEvent cmdlet.
 ms.custom: na
 ms.date: 01/22/2018
 ms.reviewer: na

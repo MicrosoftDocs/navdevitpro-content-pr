@@ -1,5 +1,6 @@
 ---
 title: "HASFILTER Function (RecordRef)"
+description: "The HASFILTER Function (RecordRef) determines whether a filter has been applied to the table that the RecordRef refers to."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

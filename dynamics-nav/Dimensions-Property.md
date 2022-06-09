@@ -1,5 +1,6 @@
 ---
 title: "Dimensions Property"
+description: "The Dimensions Property sets the dimensions of a variable that is to create a multi-dimensional variable (array)."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

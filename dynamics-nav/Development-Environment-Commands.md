@@ -1,5 +1,6 @@
 ---
 title: "Development Environment Commands"
+description: "Describes several commands that the finsql.exe Dynamics NAV file enables you to perform."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

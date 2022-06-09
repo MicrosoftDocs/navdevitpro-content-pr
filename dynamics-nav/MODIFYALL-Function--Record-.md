@@ -1,5 +1,6 @@
 ---
 title: "MODIFYALL Function (Record)"
+description: Details the syntax for the MODIFYALL function which modifies a field in all records within a range that you specify.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "SENDTRACETAG Function"
+description: This topic contains information on SENDTRACETAG Function syntax, parameters, remarks, and examples.
 ms.custom: na
 ms.date: 11/27/2017
 ms.reviewer: na

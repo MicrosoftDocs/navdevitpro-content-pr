@@ -1,5 +1,6 @@
 ---
 title: "How to: Install a Windows Client Control Add-in Assembly"
+description: "Describes how to install a Windows client control add-in, which is provided in one or more Microsoft Framework .NET-based assemblies."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

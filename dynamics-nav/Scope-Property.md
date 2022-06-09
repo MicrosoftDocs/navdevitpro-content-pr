@@ -1,5 +1,6 @@
 ---
 title: "Scope Property"
+description: This article provides a description of the Scope property.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "SetupComplete2.cmd File Example"
+description: Provides information regarding an example of the code for SetComplete2.cmd file on a Microsoft Azure virtual machine.
 author: jswymer
 ms.custom: na
 ms.date: 06/05/2016

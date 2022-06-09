@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Dynamics NAV Extension Packages"
+description: "Describes Microsoft Dynamics NAV extensions, which are deployed as packages."
 author: edupont04
 ms.custom: na
 ms.date: 09/16/2016

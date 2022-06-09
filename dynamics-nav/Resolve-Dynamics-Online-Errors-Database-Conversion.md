@@ -1,5 +1,6 @@
 ---
 title: "Mock Code for Codeunit 824 DO Encryption Mgt."
+description: Resolve compilation errors for Dynamics Online Payment Services codeunits that occur when converting a Microsoft Dynamics NAV 2016 database to Microsoft Dynamics NAV 2017.
 ms.custom: na
 ms.date: 03/20/2017
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "ISTRANSACTIONTYPE Function (Variant)"
+description: "The ISTRANSACTIONTYPE Function (Variant) indicates whether a C/AL variant contains a Transaction Type variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

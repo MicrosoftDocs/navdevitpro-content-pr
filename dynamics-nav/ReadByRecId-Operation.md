@@ -1,5 +1,6 @@
 ---
 title: "ReadByRecId Operation"
+description: In this article, learn how the ReadByRecId operation reads the record that is identified by the record ID. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

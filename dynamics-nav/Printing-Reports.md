@@ -1,5 +1,6 @@
 ---
 title: "Printing Reports"
+description: "This article provides UI locations you can specify page settings and page orientation for a printed report from."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

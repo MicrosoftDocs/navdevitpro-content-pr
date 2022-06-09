@@ -1,5 +1,6 @@
 ---
 title: "How to: Modify Menu Items in a MenuSuite"
+description: "This topic describes how to to create or modify menu items in a MenuSuite in Microsoft Dynamics NAV 2018."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

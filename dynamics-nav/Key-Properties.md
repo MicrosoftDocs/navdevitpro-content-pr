@@ -1,5 +1,6 @@
 ---
 title: "Key Properties"
+description: "Provides the properties for keys that are contained by Dynamics NAV."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

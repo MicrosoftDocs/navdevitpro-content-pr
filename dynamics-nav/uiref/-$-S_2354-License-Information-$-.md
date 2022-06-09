@@ -1,5 +1,6 @@
 ---
 title: "License Information"
+description: License Information shows the contents of the current license file.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

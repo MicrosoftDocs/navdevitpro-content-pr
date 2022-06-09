@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Dynamics NAV Windows PowerShell Cmdlets"
+description: "Microsoft Dynamics NAV 2018 includes Windows PowerShell cmdlets for administration and for development and file management of application object files and extension packages."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

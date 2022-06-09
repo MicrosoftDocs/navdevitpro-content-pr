@@ -1,5 +1,6 @@
 ---
 title: "GETFILTER Function (TestPage Filter)"
+description: Describes the GETFILTER function (TestPage filter) and provides syntax, parameters, and return value.
 ms.custom: na
 ms.date: 03/13/2019
 ms.reviewer: na

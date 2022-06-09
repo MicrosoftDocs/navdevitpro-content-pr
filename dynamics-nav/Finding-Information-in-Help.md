@@ -1,5 +1,8 @@
 ---
 title: "Finding Information in Help"
+description: This article provides an overview of the different ways to access Help information in Dynamics NAV.
+
+
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

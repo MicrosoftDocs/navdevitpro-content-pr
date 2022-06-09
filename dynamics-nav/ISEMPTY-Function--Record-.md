@@ -1,5 +1,6 @@
 ---
 title: "ISEMPTY Function (Record)"
+description: "The ISEMPTY Function (Record) determines whether a table or a filtered set of records is empty."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

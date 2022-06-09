@@ -1,5 +1,6 @@
 ---
 title: "How to: Sign Up for a Microsoft Azure Subscription"
+description: This article describes how to sign up for a Microsoft Azure subscription.
 author: jswymer
 ms.custom: na
 ms.date: 06/05/2016

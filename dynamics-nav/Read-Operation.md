@@ -1,5 +1,6 @@
 ---
 title: "Read Operation"
+description: Learn how the Read operation reads a single record along with other details about the operation, like its parameters and method signature.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

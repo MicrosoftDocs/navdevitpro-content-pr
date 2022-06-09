@@ -1,5 +1,6 @@
 ---
 title: "ISTIME Function (Variant)"
+description: "The ISTIME Function (Variant) indicates whether a C/AL variant contains a Time variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Request Pages"
+description: Learn how a request page is a page that is run before the report starts to execute. Request pages enable end users to specify options and filters for a report.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

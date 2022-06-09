@@ -1,5 +1,6 @@
 ---
 title: "How to: View and Sort Table Data"
+description: "Describes how to view the data directly by running the table from Object Designer and how to change the table sort order."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

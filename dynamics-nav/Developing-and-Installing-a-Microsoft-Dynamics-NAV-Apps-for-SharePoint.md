@@ -1,5 +1,6 @@
 ---
 title: "Developing and Installing a Microsoft Dynamics NAV Apps for SharePoint"
+description: "This topic describes the overall configuration of an app for SharePoint that uses Dynamics NAV data, with examples provided."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -185,7 +186,7 @@ You can also choose to only publish the project in Visual Studio. Then, you must
 
 If the SharePoint site has subsites, you can deploy the app to the subsites, or you can let users add the app manually, provided they have permission to add apps to their site. If you upload the [!INCLUDE[navnow](includes/navnow_md.md)] app to the App Catalog, it is automatically available for users to install when they browse apps under **From Your Organization**. When the app has been installed, users can choose the app and be directed to the [!INCLUDE[nav_web](includes/nav_web_md.md)] where they are signed in automatically.  
 
-If you want to preconfigure your users’ sites, you can deploy the app to one or more site templates. For more information, see the **Deploy a custom app** section in [Use the App Catalog to make custom business apps available for the SharePoint Online environment](https://go.microsoft.com/fwlink/?LinkId=309795) in the SharePoint Online admin center.  
+If you want to preconfigure your users’ sites, you can deploy the app to one or more site templates. For more information, see the **Deploy a custom app** section in [Use the App Catalog to make custom business apps available for the SharePoint Online environment](/sharepoint/use-app-catalog) in the SharePoint Online admin center.  
 
 In both cases, you can provide the users with SharePoint sites that give them access to view and modify [!INCLUDE[navnow](includes/navnow_md.md)] data and any other information that you want them to have access to. You can choose to combine this with the document library functionality in SharePoint so that documents that are exported from [!INCLUDE[navnow](includes/navnow_md.md)] are stored on the SharePoint site. <!-- For more information about storing documents to SharePoint, see [Integrating with Microsoft 365 and SharePoint Online](Integrating-with-Office-365-and-SharePoint-Online.md).-->  
 
@@ -197,4 +198,4 @@ In both cases, you can provide the users with SharePoint sites that give them ac
  [Troubleshooting: Microsoft Dynamics NAV and SharePoint](Troubleshooting--Microsoft-Dynamics-NAV-and-SharePoint.md)   
  [Select a Microsoft 365 plan for business](https://go.microsoft.com/fwlink/?LinkId=309050)   
  [How to: Create a basic provider-hosted app](https://go.microsoft.com/fwlink/?LinkId=308938)   
- [Use the App Catalog to make custom business apps available for your SharePoint Online environment](https://go.microsoft.com/fwlink/?LinkId=309795)
+ [Use the App Catalog to make custom business apps available for your SharePoint Online environment](/sharepoint/use-app-catalog)

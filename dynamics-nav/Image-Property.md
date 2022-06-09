@@ -1,5 +1,6 @@
 ---
 title: "Image Property"
+description: "The Image Property specifies the icon that you want to associate with an action or an activity button."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

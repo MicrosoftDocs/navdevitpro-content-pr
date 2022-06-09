@@ -1,5 +1,6 @@
 ---
 title: "SourceTableTemporary Property"
+description: Describes SourceTableTemporary Property and contains applications, remarks, and additional information.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

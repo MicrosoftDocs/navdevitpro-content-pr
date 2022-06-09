@@ -1,5 +1,6 @@
 ---
 title: "PRODUCTNAME Functions"
+description: This article provides a list of the PRODUCTNAME functions and the return value.
 ms.custom: na
 ms.date: 09/20/2016
 ms.reviewer: na

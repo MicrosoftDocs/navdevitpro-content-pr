@@ -1,5 +1,6 @@
 ---
 title: "Changes to Microsoft Dynamics NAV Server instance configuration"
+description: This article lists new or removed configuration settings for a Microsoft Dynamics NAV Server instance since the previous release. 
 ms.date: 08/24/2017
 ms.tgt_pltfrm: na
 ms.topic: article

@@ -1,5 +1,6 @@
 ---
 title: "How to: Set Up a Local Language for the ADCS Web Service"
+description: This article describes how to set up a local language for the ADCS web service. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

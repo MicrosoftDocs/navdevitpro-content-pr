@@ -1,5 +1,6 @@
 ---
 title: "OnBeforeModifyRecord Trigger"
+description: "This article describes the OnBeforeModifyRecord Trigger, which is executed after a record is read from the input stream and before the existing record in the database is modified."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

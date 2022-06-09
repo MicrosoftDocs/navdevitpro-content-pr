@@ -1,5 +1,6 @@
 ---
 title: "LENGTH Function (BigText)"
+description: "The LENGTH Function (BigText) retrieves the length of a BigText variable. This article describes its syntax, property/return value, remarks, and example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

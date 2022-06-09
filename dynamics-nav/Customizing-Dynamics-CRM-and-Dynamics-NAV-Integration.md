@@ -1,5 +1,6 @@
 ---
 title: "Customizing Dynamics 365 for Sales and Dynamics NAV Integration"
+description: This article describes how to get started with customizing Microsoft Dynamics for Sales and Dynamics NAV integration. 
 ms.custom: na
 ms.date: 12/05/2017
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "How to: Open Databases"
+description: "This topic describes how to open a database and a company, in that order, to work in the application."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

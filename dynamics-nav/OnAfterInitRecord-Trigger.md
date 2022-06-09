@@ -1,5 +1,6 @@
 ---
 title: "OnAfterInitRecord Trigger"
+description: Describes the OnAfterInitRecord trigger which is executed after a record is loaded and applies to XMLports.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Alter Database"
+description: Alter Database modifies a database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "LookupPageID Property"
+description: "The LookupPageID Property sets the ID of the page you want to use as a lookup."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "CREATEDATETIME Function (DateTime)"
+description: Describes the CREATEDATETIME function (DateTime) and provides syntax, parameters, return value, and an example. 
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

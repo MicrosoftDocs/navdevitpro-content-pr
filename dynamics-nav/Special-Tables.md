@@ -1,5 +1,6 @@
 ---
 title: "Special Tables"
+description: Describes Special Tables. The types of tables are Temporary, System and Virtual.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "OnDelete Trigger"
+description: "This article describes the OnDelete Trigger, which is executed when a user tries to delete a record."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

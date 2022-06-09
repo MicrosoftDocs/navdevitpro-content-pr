@@ -1,5 +1,6 @@
 ---
 title: "How to: Make a Report Available from a Page"
+description: "Describes how to make a report available from a page by adding the report to the pages' interface, allowing users to view the report."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

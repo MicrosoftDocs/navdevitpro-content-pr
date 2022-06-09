@@ -1,5 +1,6 @@
 ---
 title: "OnAfterInsertRecord Trigger"
+description: Discusses the OnAfterInsertRecord trigger which is executed after a record is inserted into a database table.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

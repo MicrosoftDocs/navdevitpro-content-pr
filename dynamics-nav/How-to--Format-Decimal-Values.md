@@ -1,5 +1,6 @@
 ---
 title: "How to: Format Decimal Values"
+description: "Describes how to format decimal values in Visual Studio Report Designer."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

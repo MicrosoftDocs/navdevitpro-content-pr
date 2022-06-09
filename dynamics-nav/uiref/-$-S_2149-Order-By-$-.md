@@ -1,5 +1,6 @@
 ---
 title: "Order By"
+description: Order By function sorts rows in a dataset from a query in ascending or descending order by a column or columns.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

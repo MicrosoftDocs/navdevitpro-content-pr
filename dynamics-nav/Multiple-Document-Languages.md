@@ -1,5 +1,6 @@
 ---
 title: "Multiple Document Languages"
+description: Describes multiple document languages via running a line of code can help handle translating to the user's language.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

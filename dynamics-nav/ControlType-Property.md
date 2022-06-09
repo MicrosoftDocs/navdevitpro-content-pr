@@ -1,5 +1,6 @@
 ---
 title: "ControlType Property"
+description: "Describes the ControlType property. Use this property when you select a Container, Group, or Field control type in Page Designer."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

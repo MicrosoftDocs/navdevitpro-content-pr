@@ -1,5 +1,6 @@
 ---
 title: "OPENVIEW Function (TestPage)"
+description: "This article provides syntax, parameters, and a code example of the OPENVIEW Function (TestPage), which opens a test page in view mode." 
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

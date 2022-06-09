@@ -1,5 +1,6 @@
 ---
 title: "HASVALUE Function (BLOB)"
+description: "The HASVALUE Function (BLOB) determines whether a binary large object (BLOB) has a value."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

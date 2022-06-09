@@ -1,5 +1,6 @@
 ---
 title: "How to: Export Objects"
+description: "Describes how to export objects to Dynamics NAV Object format (.fob) or Text format (.txt)."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

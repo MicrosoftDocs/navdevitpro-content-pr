@@ -1,5 +1,6 @@
 ---
 title: "ISOUTSTREAM Function (Variant)"
+description: "The ISOUTSTREAM Function (Variant) indicates whether a C/AL variant contains an OutStream variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

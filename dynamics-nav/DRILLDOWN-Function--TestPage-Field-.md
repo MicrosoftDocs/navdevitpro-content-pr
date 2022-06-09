@@ -1,5 +1,6 @@
 ---
 title: "DRILLDOWN Function (TestPage Field)"
+description: "The DRILLDOWN Function (TestPage Field) applies drill-down capability for a field on a test page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

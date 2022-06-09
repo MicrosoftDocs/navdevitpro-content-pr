@@ -1,5 +1,6 @@
 ---
 title: "Extending the Windows Client Using Control Add-ins"
+description: Provides an overview of extending the Windows client using control add-ins, developing control add-ins, using client control add-ins on pages.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

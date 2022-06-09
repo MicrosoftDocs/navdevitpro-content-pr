@@ -1,5 +1,6 @@
 ---
 title: "SID Function (Database)"
+description: SID Function (Database) retrieves the security identifier SID of a Windows user account.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

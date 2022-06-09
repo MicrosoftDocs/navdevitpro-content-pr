@@ -1,5 +1,6 @@
 ---
 title: "Automation Data Type"
+description: "The Automation Data Type is used to reference an automation server. This article describes how to use an automation server in Dynamics 365 for Financials."
 ms.custom: na
 ms.date: 06/07/2017
 ms.reviewer: na

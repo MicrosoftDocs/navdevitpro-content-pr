@@ -1,5 +1,6 @@
 ---
 title: "Integer Virtual Table"
+description: "The Integer virtual table (ID 2000000026) includes integers in the range –1,000,000,000 to 1,000,000,000 and contains only one field."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

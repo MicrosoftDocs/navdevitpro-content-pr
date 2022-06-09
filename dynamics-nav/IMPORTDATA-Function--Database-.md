@@ -1,5 +1,6 @@
 ---
 title: "IMPORTDATA Function (Database)"
+description: "The IMPORTDATA Function (Database) imports data from a file that has been exported from a Dynamics NAV database."
 author: edupont04
 manager: edupont04
 ms.custom: na

@@ -1,5 +1,6 @@
 ---
 title: "SETVALUE Function (TestPage Field)"
+description: SETVALUE Function (TestPage Field) sets a value for a field on a test page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

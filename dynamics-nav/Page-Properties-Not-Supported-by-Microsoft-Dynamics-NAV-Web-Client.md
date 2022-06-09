@@ -1,5 +1,6 @@
 ---
 title: "Page Properties Not Supported by Microsoft Dynamics NAV Web Client"
+description: "This article provides guidelines on page properties that are not supported by Microsoft Dynamics NAV Web Client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

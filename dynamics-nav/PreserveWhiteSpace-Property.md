@@ -1,5 +1,6 @@
 ---
 title: "PreserveWhiteSpace Property"
+description: "This article describes the PreserveWhiteSpace Property, which determines whether white space should be preserved in documents that are imported through an XMLport."  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

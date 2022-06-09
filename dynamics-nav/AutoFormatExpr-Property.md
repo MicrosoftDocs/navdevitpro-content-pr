@@ -1,5 +1,6 @@
 ---
 title: "AutoFormatExpr Property"
+description: "The AutoFormatExpr property sets a C/AL expression that specifies how to format data. This article describes its applications and remarks."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

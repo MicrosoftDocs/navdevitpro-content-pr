@@ -1,5 +1,6 @@
 ---
 title: "Windows Language List"
+description: Windows Language List lists all Windows languages.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

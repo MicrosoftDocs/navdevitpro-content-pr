@@ -1,5 +1,6 @@
 ---
 title: "How to: Use OData to Return-Obtain a Service Metadata (EDMX) Document"
+description: "Describes how to use OData to return-obtain a service metadata (EDMX) document."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

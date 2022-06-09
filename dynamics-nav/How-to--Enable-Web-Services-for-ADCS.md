@@ -1,5 +1,6 @@
 ---
 title: "How to: Enable Web Services for ADCS"
+description: "Describes how to enable web services for ADCS in order to use the Automated Data Capture System."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

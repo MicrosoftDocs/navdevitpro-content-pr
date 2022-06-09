@@ -1,5 +1,6 @@
 ---
 title: "SEEK Function (File)"
+description: This topic contains information on the SEEK Function syntax, remarks, and examples.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

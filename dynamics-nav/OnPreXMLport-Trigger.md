@@ -1,5 +1,6 @@
 ---
 title: "OnPreXMLport Trigger"
+description: "This article describes the OnPreXMLport Trigger, which is executed after the table views and filters are set and before the XMLport is run."  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

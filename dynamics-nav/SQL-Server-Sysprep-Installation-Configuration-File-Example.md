@@ -1,5 +1,6 @@
 ---
 title: "SQL Server Sysprep Installation Configuration File Example"
+description: Provides an example code of a configuration file that you can use for installing SQL Server 2012 with SysPrep.
 author: jswymer
 ms.custom: na
 ms.date: 06/05/2016

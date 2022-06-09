@@ -1,5 +1,6 @@
 ---
 title: "Menu Properties"
+description: Menu Properties modifies a menu for a department.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

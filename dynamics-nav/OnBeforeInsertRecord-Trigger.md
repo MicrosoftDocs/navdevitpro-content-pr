@@ -1,5 +1,6 @@
 ---
 title: "OnBeforeInsertRecord Trigger"
+description: "This article describes the OnBeforeInsertRecord Trigger, which executed after a record has been loaded and before it is inserted into a database table."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

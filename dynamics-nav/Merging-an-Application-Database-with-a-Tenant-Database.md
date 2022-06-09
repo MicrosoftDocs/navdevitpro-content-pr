@@ -1,5 +1,6 @@
 ---
 title: "Merging an Application Database with a Tenant Database"
+description: "Describes how to merge an application database with a tenant database in Microsoft Dynamics NAV 2018."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "CREATEGUID Function (GUID)"
+description: Describes the CREATEGUID function (GUID) and provides syntax and return value.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

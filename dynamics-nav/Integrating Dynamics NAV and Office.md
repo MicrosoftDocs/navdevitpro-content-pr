@@ -1,5 +1,6 @@
 ---
 title: "Integrating Dynamics NAV and Office"
+description: "Describes the features included in Dynamics NAV that work with Microsoft Office products, including Excel, Word, OneNote, Outlook, and SharePoint."
 author: jswymer
 manager: edupont
 ms.author: edupont

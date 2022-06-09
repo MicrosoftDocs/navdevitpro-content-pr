@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Dynamics Online Connect"
+description: "Microsoft Dynamics Online Connect is a Web service that displays Microsoft Dynamics product and business information from online sources."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

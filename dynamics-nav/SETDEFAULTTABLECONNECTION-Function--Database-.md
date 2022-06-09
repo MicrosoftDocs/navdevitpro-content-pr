@@ -1,5 +1,6 @@
 ---
 title: "SETDEFAULTTABLECONNECTION Function (Database)"
+description: SETDEFAULTTABLECONNECTION Function (Database)establishes a connection to an external database based on a previously registered connection of the specified type.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

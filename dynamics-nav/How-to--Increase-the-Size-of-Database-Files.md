@@ -1,5 +1,6 @@
 ---
 title: "How to: Increase the Size of Database Files"
+description: "Describes how to expand your Dynamics NAV SQL Server database by increasing the size of one or more of its constituent database files."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

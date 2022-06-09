@@ -1,5 +1,6 @@
 ---
 title: "CurrentPath Property"
+description: Describes the CurrentPath property and provides an example. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

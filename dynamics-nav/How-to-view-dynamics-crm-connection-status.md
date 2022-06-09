@@ -1,5 +1,6 @@
 ---
 title: "How to: View the Dynamics 365 for Sales Connection Status"
+description: "Describes how to view the status of the connection to Microsoft Dynamics 365 for Sales to determine whether the connection is working properly, has failed, or is disabled."
 ms.custom: na
 ms.date: 10/24/2016
 ms.reviewer: na

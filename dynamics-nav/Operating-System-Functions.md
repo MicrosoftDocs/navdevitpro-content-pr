@@ -1,5 +1,6 @@
 ---
 title: "Operating System Functions"
+description: "This article provides a list of links to various guidelines on Operating System functions."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

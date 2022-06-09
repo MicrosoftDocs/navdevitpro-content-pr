@@ -1,5 +1,6 @@
 ---
 title: "DISPLAYNAME Function"
+description: "The DISPLAYNAME Function gets the current display name for a company as it is stored in the system table 2000000006 Company."
 ms.custom: na
 ms.date: 03/11/2017
 ms.reviewer: na

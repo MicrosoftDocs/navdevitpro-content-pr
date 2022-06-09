@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Dynamics NAV Web Client Network Architecture"
+description: "Describes the four tiers that make up the architecture of the Microsoft Dynamics NAV web client network."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Column Filter"
+description: Column Filter sets a filter on the Column row of a query.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

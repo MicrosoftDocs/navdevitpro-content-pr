@@ -1,5 +1,6 @@
 ---
 title: "OnInit Trigger"
+description: "This article describes the OnInit Trigger, which initializes the user-defined variables on the page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

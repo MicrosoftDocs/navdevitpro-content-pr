@@ -1,5 +1,6 @@
 ---
 title: "How to: Format Date Values"
+description: "Describes how to modify date values in Report Dataset Designer to specify how they are formatted in the layout of a report."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

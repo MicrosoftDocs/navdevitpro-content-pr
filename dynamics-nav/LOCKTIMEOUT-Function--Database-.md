@@ -1,5 +1,6 @@
 ---
 title: "LOCKTIMEOUT Function (Database)"
+description: "LOCKTIMEOUT Function (Database) determines whether the lock time-out setting is set to On, and it can be used to override the default setting."
 author: edupont04
 ms.custom: na
 ms.date: 10/14/2016

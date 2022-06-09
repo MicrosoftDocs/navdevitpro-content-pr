@@ -1,5 +1,6 @@
 ---
 title: "PromotedOnly Property"
+description: Learn how the PromotedOnly property specifies whether the selected action is *promoted only*, which means that it will appear only on the **Home** tab in the ribbon.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

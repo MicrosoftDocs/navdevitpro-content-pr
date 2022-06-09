@@ -1,5 +1,6 @@
 ---
 title: "KEYCOUNT Function (RecordRef)"
+description: "KEYCOUNT Function (RecordRef) gets the number of keys that exist in the table that is referred to by the RecordRef."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

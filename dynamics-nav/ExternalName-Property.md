@@ -1,5 +1,6 @@
 ---
 title: "ExternalName Property"
+description: Details the ExternalName property which specifies the name of the original table in the external database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

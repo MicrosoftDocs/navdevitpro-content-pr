@@ -1,5 +1,6 @@
 ---
 title: "How to: Get the Microsoft Azure Image Name"
+description: "This topic describes how to get the name of the Microsoft Azure Marketplace image."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

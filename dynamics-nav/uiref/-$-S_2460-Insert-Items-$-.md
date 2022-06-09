@@ -1,5 +1,6 @@
 ---
 title: "Insert Items"
+description: Insert Items inserts a menu item into a department menu.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

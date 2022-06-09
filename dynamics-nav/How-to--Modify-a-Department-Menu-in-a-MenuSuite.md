@@ -1,5 +1,6 @@
 ---
 title: "How to: Modify a Department Menu in a MenuSuite"
+description: "Describes how to create or modify a department menu or shortcut menu with MenuSuite in Microsoft Dynamics NAV 2018."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

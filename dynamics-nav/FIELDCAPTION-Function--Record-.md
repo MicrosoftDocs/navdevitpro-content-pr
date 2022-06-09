@@ -1,5 +1,6 @@
 ---
 title: "FIELDCAPTION Function (Record)"
+description: Details the syntax and code samples for the FIELDCAPTION function and allows you to retrieve the caption.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "LinkFields Property"
+description: "LinkFields Property specifies the fields that are linked between two tables using the LinkTable Property."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

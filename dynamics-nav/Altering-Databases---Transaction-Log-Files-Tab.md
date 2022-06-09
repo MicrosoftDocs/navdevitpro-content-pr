@@ -1,5 +1,6 @@
 ---
 title: "Altering Databases - Transaction Log Files Tab"
+description: "The Altering Databases Transaction Log Files Tab increases the size of the existing transaction log files or adds new files to enable more transactions to be performed in the database."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "NUMBER Function (RecordRef)"
+description: Discusses the code and syntax for the NUMBER function (RecordRef) which provides the table ID (number) of the table.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

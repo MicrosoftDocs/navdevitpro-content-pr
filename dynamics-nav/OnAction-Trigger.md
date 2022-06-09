@@ -1,5 +1,6 @@
 ---
 title: "OnAction Trigger"
+description: Details the code and syntax for the OnAction trigger which is executed when a user selects an action on a page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

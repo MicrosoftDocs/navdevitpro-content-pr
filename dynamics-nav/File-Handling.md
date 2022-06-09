@@ -1,5 +1,6 @@
 ---
 title: "File Handling"
+description: Provides step-by-step instructions and best practices for file handling in Microsoft Dynamics NAV 2018.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

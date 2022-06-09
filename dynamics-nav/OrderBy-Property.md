@@ -1,5 +1,6 @@
 ---
 title: "OrderBy Property"
+description: "This article describes the OrderBy Property, as well as provides its property value and a code example."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

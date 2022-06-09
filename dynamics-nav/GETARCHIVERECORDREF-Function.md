@@ -1,5 +1,6 @@
 ---
 title: "GETARCHIVERECORDREF Function"
+description: Describes the GETARCHIVERECORDREF function and provides syntax and parameters.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

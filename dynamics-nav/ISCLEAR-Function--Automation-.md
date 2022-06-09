@@ -1,5 +1,6 @@
 ---
 title: "ISCLEAR Function (Automation)"
+description: "The ISCLEAR Function (Automation) checks whether an Automation object has been created or cleared."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "General C/AL Programming Format"
+description: This article provides an overview of general C/AL programming format with examples. 
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

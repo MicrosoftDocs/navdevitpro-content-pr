@@ -1,5 +1,6 @@
 ---
 title: "GETTABLE Function (RecordRef)"
+description: "The GETTABLE Function (RecordRef) gets the table of a Record variable and causes the RecordRef to refer to the same table."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

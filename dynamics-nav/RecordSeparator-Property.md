@@ -1,5 +1,6 @@
 ---
 title: "RecordSeparator Property"
+description: This article describes how the RecordSeparator property sets the string that is to be used to separate records.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

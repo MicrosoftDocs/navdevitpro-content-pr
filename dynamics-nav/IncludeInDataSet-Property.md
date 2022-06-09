@@ -1,5 +1,6 @@
 ---
 title: "IncludeInDataSet Property"
+description: "This topic describes the IncludeInDataSet property, which sets whether the C/AL variable's value is included in the dataset of the RoleTailored client."
 author: edupont04
 ms.custom: na
 ms.date: 12/08/2016

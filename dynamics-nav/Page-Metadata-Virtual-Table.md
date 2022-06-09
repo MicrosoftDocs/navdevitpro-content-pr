@@ -1,5 +1,6 @@
 ---
 title: "Page Metadata Virtual Table"
+description: "The Page Metadata virtual table contains data about the pages in the database."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

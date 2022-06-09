@@ -1,5 +1,6 @@
 ---
 title: "PagePartID Property"
+description: "This article describes the PagePartID Property, which sets a link to another page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

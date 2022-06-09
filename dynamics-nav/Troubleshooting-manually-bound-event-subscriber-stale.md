@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting Events - A manually bound event subscriber is stale and will no longer be called"
+description: "This article describes how to resolve this issue: A manually bound event subscriber is stale and will no longer be called."
 ms.custom: na
 ms.date: 09/26/2017
 ms.reviewer: na

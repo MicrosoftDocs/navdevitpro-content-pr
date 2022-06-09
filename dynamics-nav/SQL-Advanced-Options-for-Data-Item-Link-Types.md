@@ -1,5 +1,6 @@
 ---
 title: "SQL Advanced Options for Data Item Link Types"
+description: This topic discusses SQL Advanced Options and contains sample tables and and query and dataset examples.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

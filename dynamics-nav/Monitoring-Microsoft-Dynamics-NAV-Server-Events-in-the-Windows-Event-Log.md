@@ -1,5 +1,6 @@
 ---
 title: "Monitoring Microsoft Dynamics NAV Server Events in Event Viewer"
+description: Describes monitoring Dynamics NAV Server Events using Event Viewer to view the event logs in various folders.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

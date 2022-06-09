@@ -1,5 +1,6 @@
 ---
 title: "OnBeforeTestRun Trigger"
+description: Learn how the OnBeforeTestRun trigger executes before a test function of a test codeunit is run.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "SourceTableView Property (XMLports)"
+description: Describes SourceTableView Property (XMLports) and contains applications, remarks, and additional information.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

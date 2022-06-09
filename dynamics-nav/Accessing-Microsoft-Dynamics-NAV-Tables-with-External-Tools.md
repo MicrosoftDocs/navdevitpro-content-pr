@@ -1,5 +1,6 @@
 ---
 title: "Accessing Microsoft Dynamics NAV Tables with External Tools"
+description: "This article explains accessing data in Microsoft Dynamics NAV 2018 tables with external tools. Additional references are provided."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

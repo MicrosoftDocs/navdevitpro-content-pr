@@ -1,5 +1,6 @@
 ---
 title: "OnAssistEdit Trigger"
+description: Discusses the OnAssistEdit trigger which is executed in place of the AssistEdit property features that are provided in Microsoft Dynamics NAV.
 ms.custom: na
 ms.date: 05/10/2017
 ms.reviewer: na

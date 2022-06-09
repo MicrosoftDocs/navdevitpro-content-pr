@@ -1,5 +1,6 @@
 ---
 title: "Starting the Windows Client at the Command Prompt"
+description: Describes how to start the Windows Client at the Command Prompt by adding command-line parameters.
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 10/24/2016

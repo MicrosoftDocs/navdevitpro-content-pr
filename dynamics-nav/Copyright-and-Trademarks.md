@@ -1,5 +1,6 @@
 ---
 title: "Copyright and Trademarks"
+description: "This page provides information on notices and trademarks. Complying with all applicable copyright laws is the responsibility of the user."
 author: edupont04
 ms.custom: na
 ms.date: 06/04/2016

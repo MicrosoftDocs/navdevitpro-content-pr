@@ -1,5 +1,6 @@
 ---
 title: "Running Objects from the Development Environment"
+description: Learn that in Object Designer in the Microsoft Dynamics NAV Development Environment, you can run any object. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

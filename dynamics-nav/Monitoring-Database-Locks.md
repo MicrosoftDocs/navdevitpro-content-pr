@@ -1,5 +1,6 @@
 ---
 title: "Monitoring SQL Database Locks"
+description: Describes how monitoring SQL Database Locks uses locking to control access by multiple users to the same data at the same time. 
 ms.custom: na
 ms.date: 09/19/2016
 ms.reviewer: na
@@ -10,7 +11,7 @@ ms.prod: "dynamics-nav-2018"
 ---
 # Monitoring SQL Database Locks
 ## About Locks
-Microsoft SQL Server uses locking to control access by mutiple users to the same data at the same time. To protect a transaction against other transactions modifying the same data, the first transaction puts a lock on the data until it is done.
+Microsoft SQL Server uses locking to control access by multiple users to the same data at the same time. To protect a transaction against other transactions modifying the same data, the first transaction puts a lock on the data until it is done.
 
 When a database lock occurs, concurrent transactions are limited in their access to the affected data resource, as determined by the locking mode set by SQL Server. In the [!INCLUDE[navnow_md](includes/navnow_md.md)] client, depending on the locking mode, users may be blocked from completing transactions on the locked data, and will typically get a message that indicates lock condition.
 

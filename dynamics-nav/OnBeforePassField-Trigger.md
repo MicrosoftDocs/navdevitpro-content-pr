@@ -1,5 +1,6 @@
 ---
 title: "OnBeforePassField Trigger"
+description: "This article describes the OnBeforePassField Trigger, which is executed before a field is passed to the XML document."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "How to: Export and Import Permission Sets and Permissions"
+description: "Describes how to import and export permission sets and permissions as XML files."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "OnInitReport Trigger"
+description: "This article describes the OnInitReport Trigger, which is executed when the report is loaded."  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
