@@ -1,5 +1,6 @@
 ---
 title: "PROFILESYSTEMSCOPE Function (SessionSettings)"
+description: Learn how the PROFILESYSTEMSCOPE function gets or sets the profile scope property in a SessionSettings object.
 ms.custom: na
 ms.date: 01/06/2017
 ms.reviewer: na

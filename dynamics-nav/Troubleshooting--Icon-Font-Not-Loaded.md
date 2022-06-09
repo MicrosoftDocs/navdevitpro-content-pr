@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Icon Font Not Loaded"
+description: "This article describes how to resolve this issue: Icon Font Not Loaded. This article also includes references to additional information."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

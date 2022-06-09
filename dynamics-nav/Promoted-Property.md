@@ -1,5 +1,6 @@
 ---
 title: "Promoted Property"
+description: The Promoted property sets the value that indicates whether the selected action is promoted. It appears on the Home tab as well as the tab where is it defined. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
