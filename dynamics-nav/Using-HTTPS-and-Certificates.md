@@ -1,5 +1,6 @@
 ---
 title: "Using HTTPS and Certificates"
+description: Learn that to enable support for HTTPS on Microsoft Dynamics NAV Tablet client and Microsoft Dynamics NAV Phone client, you must implement security certificates.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

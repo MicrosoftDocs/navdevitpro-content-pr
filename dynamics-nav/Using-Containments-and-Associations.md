@@ -1,5 +1,6 @@
 ---
 title: "Using Containments and Associations"
+description: This article describes how containments and associations are relationships between pages in Dynamics NAV. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

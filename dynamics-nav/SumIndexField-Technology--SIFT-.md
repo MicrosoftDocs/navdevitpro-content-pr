@@ -1,5 +1,6 @@
 ---
 title: "SumIndexField Technology (SIFT)"
+description: Learn how the SumIndexField Technology (SIFT) lets you quickly calculate the sums of numeric data type (Decimal, Integer, BigInteger, and Duration) columns in tables.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

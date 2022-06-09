@@ -1,5 +1,6 @@
 ---
 title: "Using Namespaces with XMLports"
+description: Learn that when using the XMLport to import or export an XML document, you can set up multiple namespaces on the XMLport to make it compatible with an XML schema.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

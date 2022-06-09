@@ -1,5 +1,6 @@
 ---
 title: "Using Enumerations"
+description: This article describes that in the .NET Framework, an enumeration typically represents constant values as symbolic or literal names.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

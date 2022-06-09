@@ -1,5 +1,6 @@
 ---
 title: "SubType Property (Codeunit)"
+description: Learn how the SubType property (Codeunit) sets the codeunit to function as a normal, test, test runner, or upgrade codeunit.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
