@@ -1,5 +1,6 @@
 ---
 title: "Create Item"
+description: Create Item creates menu items in a department.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

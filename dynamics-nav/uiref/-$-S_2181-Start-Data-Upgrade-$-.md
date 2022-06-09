@@ -1,5 +1,6 @@
 ---
 title: "Start Data Upgrade"
+description: Start Data Upgrade specifies how to run the data upgrade.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

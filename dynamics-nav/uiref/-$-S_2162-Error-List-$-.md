@@ -1,5 +1,6 @@
 ---
 title: "Error List"
+description: Error List shows a list of errors and warnings, including obsolete constructs, that occur in your C/AL code.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

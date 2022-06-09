@@ -1,5 +1,6 @@
 ---
 title: "Available Databases"
+description: Available Databases shows a list of the SQL Server databases that you can access from navnow and that are currently available on this SQL Server instance.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

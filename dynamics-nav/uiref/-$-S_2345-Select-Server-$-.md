@@ -1,5 +1,6 @@
 ---
 title: "Select Server"
+description: Select Server selects the computer running SQL Server on which you want to create a new database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

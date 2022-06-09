@@ -1,5 +1,6 @@
 ---
 title: "Chart List"
+description: Chart List contains a list of charts that can be added to a page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

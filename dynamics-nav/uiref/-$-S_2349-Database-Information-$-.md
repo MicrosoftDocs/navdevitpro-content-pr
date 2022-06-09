@@ -1,5 +1,6 @@
 ---
 title: "Database Information"
+description: Database Information shows information about the database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

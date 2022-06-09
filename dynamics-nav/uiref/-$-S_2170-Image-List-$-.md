@@ -1,5 +1,6 @@
 ---
 title: "Image List"
+description: Image List shows images that you can associate with an action.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
