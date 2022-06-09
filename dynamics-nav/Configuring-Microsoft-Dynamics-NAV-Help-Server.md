@@ -1,5 +1,6 @@
 ---
 title: "Configuring Microsoft Dynamics NAV Help Server"
+description: Dynamics NAV Help deploys to a Help Server, which is a website installed on the specified server. The website provides context-sensitive help.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

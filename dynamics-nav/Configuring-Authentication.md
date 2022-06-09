@@ -1,5 +1,6 @@
 ---
 title: "Configuring Authentication"
+description: A list of articles for configuring user authentication and permissions for Dynamics NAV and Active Directory.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

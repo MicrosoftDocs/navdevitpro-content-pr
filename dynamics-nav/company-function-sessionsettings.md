@@ -1,5 +1,6 @@
 ---
 title: "Company Function (SessionSettings)"
+description: Details the syntax for the COMPANY function it gets or sets the company property in a SessionSettings object.
 ms.custom: na
 ms.date: 07/04/2017
 ms.reviewer: na

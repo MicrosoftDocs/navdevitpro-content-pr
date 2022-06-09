@@ -1,5 +1,6 @@
 ---
 title: "ColumnSpan Property"
+description: Details the syntax for the ColumnSpan property and sets the number of columns that a field spans in a GridLayout control.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -29,7 +30,7 @@ Sets the number of columns that a field spans in a GridLayout control.
  ![GridLayout showing column span](media/NAVGridLayoutColSpan.png "NAVGridLayoutColSpan")  
   
 > [!IMPORTANT]  
->  The ColumnSpan property is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. If the page displays in the [!INCLUDE[nav_web](includes/nav_web_md.md)], the property is ignored and the field will not span any columns.  
+> The ColumnSpan property is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. If the page displays in the [!INCLUDE[nav_web](includes/nav_web_md.md)], the property is ignored and the field will not span any columns.  
   
 ## See Also  
  [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How-to--Arrange-Fields-in-Rows-and-Columns-Using-the-GridLayout-Control.md)

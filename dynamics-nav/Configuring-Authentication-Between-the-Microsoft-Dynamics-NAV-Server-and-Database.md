@@ -1,5 +1,6 @@
 ---
 title: "Configuring Authentication Between the Microsoft Dynamics NAV Server and Database"
+description: Article details configuring authentication and single sign-on between Microsoft Dynamics NAV and database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
