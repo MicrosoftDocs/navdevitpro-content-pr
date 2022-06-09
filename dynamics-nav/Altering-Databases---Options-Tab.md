@@ -1,5 +1,6 @@
 ---
 title: "Altering Databases - Options Tab"
+description: "The Altering Databases Options Tab specifies database options that you set when you created the database."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

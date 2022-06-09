@@ -1,5 +1,6 @@
 ---
 title: "ATTACH Function (Debugger)"
+description: "The ATTACH Function (Debugger) activates the debugger and attaches it to the specified session."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

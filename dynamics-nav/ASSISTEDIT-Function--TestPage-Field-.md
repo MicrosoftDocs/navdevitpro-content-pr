@@ -1,5 +1,6 @@
 ---
 title: "ASSISTEDIT Function (TestPage Field)"
+description: "The ASSISTEDIT Function (TestPage Field) provides assist-edit functionality to a field on a test page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
