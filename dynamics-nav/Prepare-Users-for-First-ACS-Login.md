@@ -1,5 +1,6 @@
 ---
 title: "Prepare Users for First ACS Login"
+description: "This article provides guidelines on how you prepare users for their first ACS login once you have completed all of the steps needed to use Access Control service (ACS) to authenticate users."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

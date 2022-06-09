@@ -1,5 +1,6 @@
 ---
 title: "Printing Reports from a Background Session"
+description: "This article provides guidelines and printer selection selection rules for printing reports from a background session."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

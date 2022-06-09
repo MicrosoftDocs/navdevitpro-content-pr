@@ -1,5 +1,6 @@
 ---
 title: "PADSTR Function (Code, Text)"
+description: "This article provides syntax, parameters, property/return value, and a code example of the PADSTR Function (Code, Text), which changes the length of a string to a length that you define."  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
