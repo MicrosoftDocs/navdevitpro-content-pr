@@ -1,5 +1,6 @@
 ---
 title: "CLOSE Function (Query)"
+description: The following code shows the syntax of the CLOSE function. Query is a variable of the Query data type that specifies the query object.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

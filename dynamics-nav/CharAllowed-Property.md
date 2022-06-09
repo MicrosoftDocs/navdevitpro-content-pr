@@ -1,5 +1,6 @@
 ---
 title: "CharAllowed Property"
+description: Details the syntax for the CharAllowed property. Sets the range of characters the user can enter into this field or control.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "ClearOnLookup Property"
+description: Details the syntax for the ClearOnLookup property. Sets a value that determines whether the current contents of the field are deleted.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

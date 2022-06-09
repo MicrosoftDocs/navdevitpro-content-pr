@@ -1,5 +1,6 @@
 ---
 title: "CLOSE Function (RecordRef)"
+description: Details the syntax for the CLOSE Function (RecordRef). The RecordRef of a record in the table that you want to close.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Clustered Property"
+description: Details the syntax for the Clustered property. Sets a value that indicates whether the index is clustered. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

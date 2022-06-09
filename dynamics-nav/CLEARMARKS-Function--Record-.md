@@ -1,5 +1,6 @@
 ---
 title: "CLEARMARKS Function (Record)"
+description: Details the syntax for the CLEARMARKS function (Record), the record from which you want to remove all marks.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

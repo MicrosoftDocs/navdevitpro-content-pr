@@ -1,5 +1,6 @@
 ---
 title: "Cash Flow Chart Example"
+description: Details the syntax for the Cash Flow Chart example. It demonstrates how to use the Business Data Chart control add-in.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

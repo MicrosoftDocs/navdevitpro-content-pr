@@ -1,5 +1,6 @@
 ---
 title: "Client Types"
+description: Dynamics NAV clients interact with the Dynamics NAV database through NAV Server including the Windows, web, tablet, and phone clients.
 ms.custom: na
 ms.date: 04/01/2019
 ms.reviewer: na

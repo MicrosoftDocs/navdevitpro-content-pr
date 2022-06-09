@@ -1,5 +1,6 @@
 ---
 title: "Closing the Debugger"
+description: When you close the Debugger window, the debugger detaches from the session. The session continues running without the debugger attached.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
