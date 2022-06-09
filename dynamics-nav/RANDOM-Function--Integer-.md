@@ -1,5 +1,6 @@
 ---
 title: "RANDOM Function (Integer)"
+description: Learn how the RANDOM function (Integer) returns a pseudo-random number, as well as other details about the function.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

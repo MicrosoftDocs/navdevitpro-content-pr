@@ -1,5 +1,6 @@
 ---
 title: "RENAME Function (File)"
+description: Learn how the RENAME function (File) renames an ASCII or binary file, as well as other details about the function.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "REGISTERTABLECONNECTION Function (Database)"
+description: Learn how the REGISTERTABLECONNECTION function (Database) registers a table connection between Dynamics NAV and an external database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

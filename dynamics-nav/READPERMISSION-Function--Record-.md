@@ -1,5 +1,6 @@
 ---
 title: "READPERMISSION Function (Record)"
+description: Learn how the READPERMISSION function (Record) determines whether a user is granted read permission to the table that contains a record.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

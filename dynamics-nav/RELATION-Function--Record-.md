@@ -1,5 +1,6 @@
 ---
 title: "RELATION Function (Record)"
+description: This article describes how the RELATION function (Record) determines the table relationship of a given field.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

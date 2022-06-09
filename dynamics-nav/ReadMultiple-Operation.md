@@ -1,5 +1,6 @@
 ---
 title: "ReadMultiple Operation"
+description: Learn how the ReadMultiple operation reads a filtered set of records and returns an array of entities.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

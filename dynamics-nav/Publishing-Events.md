@@ -1,5 +1,6 @@
 ---
 title: "Publishing Events"
+description: Learn how an event is published by adding a C/AL function that is specifically set up as an event publisher. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

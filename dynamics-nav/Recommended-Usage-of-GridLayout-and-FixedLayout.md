@@ -1,5 +1,6 @@
 ---
 title: "Recommended Usage of GridLayout and FixedLayout"
+description: This topic explains some important guidelines for working with the GridLayout and FixedLayout controls.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
