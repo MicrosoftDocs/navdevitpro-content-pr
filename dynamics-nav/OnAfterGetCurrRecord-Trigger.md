@@ -1,5 +1,6 @@
 ---
 title: "OnAfterGetCurrRecord Trigger"
+description: Describes the OnAfterGetCurrRecord trigger which is executed after the current record is retrieved from the table.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

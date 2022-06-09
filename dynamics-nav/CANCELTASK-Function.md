@@ -1,5 +1,6 @@
 ---
 title: "CANCELTASK Function"
+description: "The CANCELTASK Function cancels and deletes a scheduled task that runs a specific codeunit."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

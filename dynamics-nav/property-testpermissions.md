@@ -1,5 +1,6 @@
 ---
 title: "TestPermissions Property"
+description: The TestPermissions property specifies a value that can be used to determine which permission sets are used on tests that are run by test codunits or test functions.
 ms.custom: na
 ms.date: 09/20/2016
 ms.reviewer: na

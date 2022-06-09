@@ -1,5 +1,6 @@
 ---
 title: "PartType Property"
+description: "This article describes the PartType Property, which sets the content type that can display in a part FactBox."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

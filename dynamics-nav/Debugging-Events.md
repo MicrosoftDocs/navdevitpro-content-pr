@@ -1,5 +1,6 @@
 ---
 title: "Debugging Events"
+description: "Debugging events is similar to debugging other C/AL code in an application, where the basic concept is the breakpoint."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

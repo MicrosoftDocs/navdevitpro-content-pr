@@ -1,5 +1,6 @@
 ---
 title: "AutoSplitKey Property"
+description: "The AutoSplitKey Property sets whether a key is automatically created for a new record placed between the current record and the previous record."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

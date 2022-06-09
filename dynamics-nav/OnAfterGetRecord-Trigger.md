@@ -1,5 +1,6 @@
 ---
 title: "OnAfterGetRecord Trigger"
+description: Describes the OnAfterGetRecord trigger which is executed after a record is retrieved from a table but before it is displayed to the user.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

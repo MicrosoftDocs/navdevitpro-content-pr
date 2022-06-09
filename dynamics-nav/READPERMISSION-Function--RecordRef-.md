@@ -1,5 +1,6 @@
 ---
 title: "READPERMISSION Function (RecordRef)"
+description: This article describes how the READPERMISSION function (RecordRef) determines if you can read from a table.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "TEXTMODE Function (File)"
+description: Learn how the TEXTMODE function (File) sets whether a file should be opened as an ASCII file or a binary file. Gets the current setting of this option for a file.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

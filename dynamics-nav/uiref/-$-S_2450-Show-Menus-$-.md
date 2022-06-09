@@ -1,5 +1,6 @@
 ---
 title: "Show Menus"
+description: Show Menus shows a menu in Navigation Pane Designer and the nav_windows.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

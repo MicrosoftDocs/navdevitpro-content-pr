@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating and Interacting with a Page Web Service (OData)"
+description: You can publish a Dynamics NAV page as an OData V3 web service, use it in a Visual Studio console application, and change data in Dynamics NAV.
 ms.custom: na
 ms.date: 10/08/2019
 ms.reviewer: na

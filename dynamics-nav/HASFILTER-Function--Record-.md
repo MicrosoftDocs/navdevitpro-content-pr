@@ -1,5 +1,6 @@
 ---
 title: "HASFILTER Function (Record)"
+description: "The HASFILTER Function (Record) determines whether a filter is attached to a record within the current filter group."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client"
+description: Learn how to debug an action in the Microsoft Dynamics NAV Windows client with the Dynamics NAV Debugger.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

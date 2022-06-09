@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Inserting Data from XML Documents to Multiple Tables"
+description: In this article, learn how to import data from a Sales Order XML document to a Dynamics NAV database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Table List"
+description: Table List lists the tables that the XML item in the XMLport should link to.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

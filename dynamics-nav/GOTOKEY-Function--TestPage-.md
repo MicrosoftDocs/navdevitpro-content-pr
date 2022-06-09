@@ -1,5 +1,6 @@
 ---
 title: "GOTOKEY Function (TestPage)"
+description: "The GOTOKEY Function (TestPage) finds the row in a dataset on the test page that is identified by the specified values."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

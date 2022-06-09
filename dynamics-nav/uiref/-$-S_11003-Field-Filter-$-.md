@@ -1,5 +1,6 @@
 ---
 title: "Field Filter"
+description: The Field Filter sets a field filter.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

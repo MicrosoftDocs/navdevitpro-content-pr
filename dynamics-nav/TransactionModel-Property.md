@@ -1,5 +1,6 @@
 ---
 title: "TransactionModel Property"
+description: Learn how the TransactionModel property specifies whether data is committed to the database during execution of a test function.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

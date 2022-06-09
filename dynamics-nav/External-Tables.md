@@ -1,5 +1,6 @@
 ---
 title: "External Tables"
+description: Article provides information about external tables, creating a Dynamics NAV companion table, and registering an external table connection.
 ms.custom: na
 ms.date: 05/15/2018
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Implementing Security Certificates in a Test Environment"
+description: Learn how to set up an environment to test integrating certificates into a configuration for connecting computers.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

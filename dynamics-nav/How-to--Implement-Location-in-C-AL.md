@@ -1,5 +1,6 @@
 ---
 title: "How to: Implement Location in C/AL"
+description: "Describes how to retrieve location information in C/AL."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

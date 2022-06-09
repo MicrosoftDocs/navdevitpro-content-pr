@@ -1,5 +1,6 @@
 ---
 title: "GETVIEW Function (RecordRef)"
+description: "The GETVIEW Function (RecordRef) returns a string that describes the current sort order, key, and filters on a table."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

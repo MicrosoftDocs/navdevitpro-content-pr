@@ -1,5 +1,6 @@
 ---
 title: "CardPageID Property"
+description: Details the syntax for the CardPageID property. Sets the card page that is associated with items in the current list page.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

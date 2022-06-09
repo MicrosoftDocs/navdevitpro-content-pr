@@ -1,5 +1,6 @@
 ---
 title: "NEXT Function (TestPage)"
+description: Details the code and syntax for the NEXT function which sets the current row of the test page as the next row in the dataset.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

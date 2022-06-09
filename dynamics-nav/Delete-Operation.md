@@ -1,5 +1,6 @@
 ---
 title: "Delete Operation"
+description: "The Delete Operation deletes a single record. This article describes its method signature, parameters, results, faults, and example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

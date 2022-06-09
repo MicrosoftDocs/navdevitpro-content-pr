@@ -1,6 +1,6 @@
 ---
 title: "Monitoring SQL Database Deadlocks"
-description: Learn how to monitor SQL database deadlocks.
+description: Describes how to handle monitoring SQL database deadlocks through setting up deadlock logging and the Windows Event Log.
 ms.custom: na
 ms.date: 09/19/2016
 ms.reviewer: na
@@ -49,7 +49,7 @@ By default, SQL Server uses an in-memory data structure called a *ring_buffer ta
 
     The event_file target writes event session output from a buffer to a disk file that you specify. There are two ways to do this:
     - From Object Explorer, open the session's **Properties**, and then on the **Data Storage** page, add an **event_file** type target.  
-    - Using a query, run the [ALTER EVENT SESSION](/sql/t-sql/statements/alter-event-session-transact-sql) transact-sql statement. For example:
+    - Using a query, run the [ALTER EVENT SESSION](/sql/t-sql/statements/alter-event-session-transact-sql?view=sql-server-2017&preserve-view=true) transact-sql statement. For example:
       ```
       ALTER EVENT SESSION [Demo Database NAV_deadlock_monitor]
           ON SERVER
@@ -58,7 +58,7 @@ By default, SQL Server uses an in-memory data structure called a *ring_buffer ta
             SET filename=N'C:\logging\mydeadlocks.xel',max_file_size=(10240)
           )
       ```
-    For more information see [Alter an Extended Events Session](/sql/relational-databases/extended-events/alter-an-extended-events-session) and [Targets for Extended Events in SQL Server](/sql/relational-databases/extended-events/targets-for-extended-events-in-sql-server).
+    For more information see [Alter an Extended Events Session](/sql/relational-databases/extended-events/alter-an-extended-events-session?view=sql-server-2017&preserve-view=true) and [Targets for Extended Events in SQL Server](/sql/relational-databases/extended-events/targets-for-extended-events-in-sql-server?view=sql-server-2017&preserve-view=true).
     
 2. Create a view in the [!INCLUDE[navnow](includes/navnow_md.md)] database that uses the new event_file target. 
 

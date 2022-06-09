@@ -1,5 +1,6 @@
 ---
 title: "Configuring Automated Data Capture System"
+description: Article details configuring the automated data capture system for inbound, outbound, and internal documents.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

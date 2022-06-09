@@ -1,5 +1,6 @@
 ---
 title: "Deploying Microsoft Dynamics NAV on Cloud Services Other Than Microsoft Azure"
+description: "Describes the work that is required to modify the provisioning tools for deploying Dynamics NAV on cloud services and virtual machines that are not on Azure."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

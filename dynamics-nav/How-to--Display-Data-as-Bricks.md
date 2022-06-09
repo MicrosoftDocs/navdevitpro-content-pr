@@ -1,5 +1,6 @@
 ---
 title: "How to: Display Data as Bricks"
+description: "Describes how to display data as bricks to optimize space and readability for data that appears in page types that have Repeater controls."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

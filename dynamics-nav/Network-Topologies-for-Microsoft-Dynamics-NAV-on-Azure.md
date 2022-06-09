@@ -1,5 +1,6 @@
 ---
 title: "Network Topologies for Microsoft Dynamics NAV on Azure"
+description: Discusses Network Topologies for Microsoft Dynamics NAV on Azure virtual machines and how to determine the deployment topology.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

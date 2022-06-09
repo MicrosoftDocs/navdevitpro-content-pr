@@ -1,5 +1,6 @@
 ---
 title: "CALCFIELDS Function (Record)"
+description: "The CALCFIELDS Function (Record) calculates the FlowFields in a record. The fields to calculate are specified by using parameters."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

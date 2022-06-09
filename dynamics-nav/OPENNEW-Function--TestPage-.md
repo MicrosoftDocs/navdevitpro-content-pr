@@ -1,5 +1,6 @@
 ---
 title: "OPENNEW Function (TestPage)"
+description: "This article provides syntax, parameters, and a code example for the OPENNEW Function (TestPage), which opens a blank test page in edit mode." 
 ms.custom: na
 ms.date: 03/25/2020
 ms.reviewer: na

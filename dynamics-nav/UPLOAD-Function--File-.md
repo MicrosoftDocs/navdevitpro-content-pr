@@ -1,5 +1,6 @@
 ---
 title: "UPLOAD Function (File)"
+description: Learn how UPLOAD function (File) sends a file from the client computer to the Microsoft Dynamics NAV Server computer.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

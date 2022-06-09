@@ -1,5 +1,6 @@
 ---
 title: "RUNMODAL Function (Page)"
+description: The RUNMODAL function creates, opens, and closes a page that you specify. When a page is run modally, no input can occur except for objects on the modal page. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

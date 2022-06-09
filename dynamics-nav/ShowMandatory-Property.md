@@ -1,5 +1,6 @@
 ---
 title: "ShowMandatory Property"
+description: ShowMandatory Property sets a value that specifies whether users must enter a value in the selected field or text box.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

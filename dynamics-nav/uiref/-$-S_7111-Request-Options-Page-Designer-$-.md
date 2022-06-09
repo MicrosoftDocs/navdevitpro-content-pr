@@ -1,5 +1,6 @@
 ---
 title: "Request Options Page Designer"
+description: Learn how you can use the Request Options Page Designer to design the Options FastTab of a request page. Request pages let users specify options and filters.   
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "C/AL Control Statements"
+description: "All the C/AL programs that you create consist of one or more statements, which are executed sequentially in top-down order. They are divided into 3 main groups."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

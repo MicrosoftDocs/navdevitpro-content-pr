@@ -1,5 +1,6 @@
 ---
 title: "How to: View Variables That Are in Scope"
+description: "Describes how to view all of the variables that are currently in scope on the Debugger page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

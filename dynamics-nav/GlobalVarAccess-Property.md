@@ -1,5 +1,6 @@
 ---
 title: "GlobalVarAccess Property"
+description: "GlobalVarAccess Property specifies whether global variables in the object that contains the event publisher function are accessible to event subscriber functions that subscribe to the published event."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

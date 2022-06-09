@@ -1,5 +1,6 @@
 ---
 title: "Changing the Design of Tables"
+description: Details the syntax for the Changing the Design of Tables. This allows you to modify the design of some of the tables after they have been in use.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Properties"
+description: Set the value of each property in the Value field. When you leave this field (by pressing Enter or by moving with the arrow keys), the property is updated. 
 author: edupont04
 ms.custom: na
 ms.date: 10/14/2016

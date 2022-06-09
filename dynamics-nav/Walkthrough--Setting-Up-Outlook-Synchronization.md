@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Setting Up Outlook Synchronization"
+description: Learn how to synchronize data, such as to-dos, contacts, and tasks, between Dynamics NAV and Microsoft Outlook. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

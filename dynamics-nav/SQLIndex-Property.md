@@ -1,5 +1,6 @@
 ---
 title: "SQLIndex Property"
+description: Describes SQLIndex Property and includes applications, remarks, and additional information.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

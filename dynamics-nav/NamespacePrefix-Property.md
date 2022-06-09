@@ -1,5 +1,6 @@
 ---
 title: "NamespacePrefix Property"
+description: Discusses the NamespacePrefix property which specifies the namespace prefix on an XMLport element that is declared in the Namespaces Property.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

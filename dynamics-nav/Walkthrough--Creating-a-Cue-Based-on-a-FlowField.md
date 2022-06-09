@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough: Creating a Cue Based on a FlowField"
-ms.custom: na
+description: Learn how to create a cue based on a flowfield and graphically show the number of entities in a table and view the entities in a filtered list.
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na

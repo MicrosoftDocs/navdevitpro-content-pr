@@ -1,5 +1,6 @@
 ---
 title: "Removing Elements from User InterfaceAccording to Application Area"
+description: "Describes how to remove elements from user interface according to the application area."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

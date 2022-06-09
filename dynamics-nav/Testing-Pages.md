@@ -1,5 +1,6 @@
 ---
 title: "Testing Pages"
+description: This article describes how you can use test page objects to simulate user interactions with the application.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

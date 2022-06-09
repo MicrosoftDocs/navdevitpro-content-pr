@@ -1,5 +1,6 @@
 ---
 title: "Action Icon Library"
+description: "Describes how to use images on actions that display in the ribbon and command bar menus by providing the name of the image."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

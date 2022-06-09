@@ -1,5 +1,6 @@
 ---
 title: "Setting up Hyperlinks in Word Report Layouts"
+description: Describes how you can set up hyperlinks on controls for text and picture fields.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Developer Option"
+description: "The Developer option for Microsoft Dynamics NAV 2018 installs components a developer would typically use to design applications for a customer company."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

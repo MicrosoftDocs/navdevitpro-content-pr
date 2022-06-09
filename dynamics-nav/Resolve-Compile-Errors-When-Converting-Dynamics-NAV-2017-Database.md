@@ -1,5 +1,6 @@
 ---
 title: "Compilation Errors When Converting a Microsoft Dynamics NAV 2017 Database"
+description: When you convert a Microsoft Dynamics NAV 2017 database to a newer Dynamics NAV version, you receive compilation errors in several standard Dynamics NAV objects.
 ms.custom: na
 ms.date: 11/20/2017
 ms.reviewer: na

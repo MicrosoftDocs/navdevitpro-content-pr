@@ -1,5 +1,6 @@
 ---
 title: "Using COM Technologies in Microsoft Dynamics NAV"
+description: "Learn how the Dynamics NAV supports COM technologies in two ways: using custom controls (OCXs) and as an automation controller."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

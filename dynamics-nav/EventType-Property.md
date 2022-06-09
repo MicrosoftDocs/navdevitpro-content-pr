@@ -1,5 +1,6 @@
 ---
 title: "EventType Property"
+description: The EventType property specifies the type of event that is published by the event publisher function.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

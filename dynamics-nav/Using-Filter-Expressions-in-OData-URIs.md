@@ -1,5 +1,6 @@
 ---
 title: "Using Filter Expressions in OData URIs"
+description: Learn how you can use filter expressions in OData URIs to limit the results that are returned in an AtomPub document.
 author: edupont04
 ms.author: solsen
 ms.custom: na

@@ -1,5 +1,6 @@
 ---
 title: "Available Server Instances"
+description: Available Server Instances shows the available nav_server instances that can connect to the database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

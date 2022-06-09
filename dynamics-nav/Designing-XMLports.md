@@ -1,5 +1,6 @@
 ---
 title: "Designing XMLports"
+description: "Describes how to design XMLports, which are used to export data from or import data to a Dynamics NAV database."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

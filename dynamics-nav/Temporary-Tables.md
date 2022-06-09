@@ -1,5 +1,6 @@
 ---
 title: "Temporary Tables"
+description: Learn how a temporary table is a temporary variable that holds a table. A temporary table is used as a buffer for table data in your C/AL programs.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

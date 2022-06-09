@@ -1,5 +1,6 @@
 ---
 title: "Extending Any Microsoft Dynamics NAV Client Using Control Add-ins"
+description: Details the syntax for the extending any Microsoft Dynamics NAV Client using Control Add-ins that add custom functionality. 
 author: SusanneWindfeldPedersen
 manager: edupont04
 ms.custom: na

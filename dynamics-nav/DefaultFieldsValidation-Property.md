@@ -1,5 +1,6 @@
 ---
 title: "DefaultFieldsValidation Property"
+description: "The DefaultFieldsValidation Property sets a value that indicates whether fields are validated."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

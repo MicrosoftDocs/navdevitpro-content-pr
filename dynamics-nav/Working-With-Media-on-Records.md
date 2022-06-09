@@ -1,5 +1,6 @@
 ---
 title: "Working With Media on Records"
+description: Learn how you can upload media, such as an image, to the database for displaying with records in the client. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

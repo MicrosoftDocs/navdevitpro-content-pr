@@ -1,5 +1,6 @@
 ---
 title: "MinValue Property"
+description: The MinValue property applies to page fields and is checked during validation. The control value is updated through the UI.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

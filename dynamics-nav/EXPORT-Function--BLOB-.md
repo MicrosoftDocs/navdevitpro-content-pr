@@ -1,5 +1,6 @@
 ---
 title: "EXPORT Function (BLOB)"
+description: Details the EXPORT function (BLOB) specifies whether you want to display a dialog box before the BLOB is exported.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

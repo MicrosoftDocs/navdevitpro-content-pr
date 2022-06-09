@@ -1,5 +1,6 @@
 ---
 title: "TABLECAPTION Function (Record)"
+description: Learn how the TABLECAPTION function (Record) gets the current caption of a table as a string, as well as details about its syntax and parameters.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

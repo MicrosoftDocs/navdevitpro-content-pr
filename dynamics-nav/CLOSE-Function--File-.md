@@ -1,5 +1,6 @@
 ---
 title: "CLOSE Function (File)"
+description: Details the syntax for the CLOSE function. Closes a file that has been opened by the OPEN Function (File).
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "PREVIOUS Function (TestPage)"
+description: "This article provides syntax, parameters, property/return value, and a code example of the PREVIOUS FUNCTION (TestPage)."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

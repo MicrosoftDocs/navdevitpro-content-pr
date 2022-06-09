@@ -1,5 +1,6 @@
 ---
 title: "Gesture Property"
+description: Learn how the Gesture property specifies a gesture that runs the action on a device with a touch interface, such as the phone client.
 ms.custom: na
 ms.date: 09/21/2016
 ms.reviewer: na

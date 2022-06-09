@@ -1,5 +1,6 @@
 ---
 title: "WORDLAYOUT Function"
+description: Learn how the WORDLAYOUT function gets the Word report layout that is used on a report and returns it as a data stream. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

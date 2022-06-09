@@ -1,5 +1,6 @@
 ---
 title: "IMPORT Function (BLOB)"
+description: "The IMPORT Function (BLOB) imports a binary large object (BLOB)."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

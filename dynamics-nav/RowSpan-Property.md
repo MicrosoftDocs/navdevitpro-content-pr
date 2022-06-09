@@ -1,5 +1,6 @@
 ---
 title: "RowSpan Property"
+description: In this article, learn how the RowSpan property sets the number of rows that a field spans in a GridLayout control. 
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

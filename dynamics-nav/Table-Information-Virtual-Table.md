@@ -1,5 +1,6 @@
 ---
 title: "Table Information Virtual Table"
+description: Learn how the Table Information virtual table (ID 2000000028) contains information about database tables.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

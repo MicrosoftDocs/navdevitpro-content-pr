@@ -1,5 +1,6 @@
 ---
 title: "SETTABLE Function (RecordRef)"
+description: SETTABLE Function (RecordRef) Sets the table to which a Record variable refers as the same table as a RecordRef variable.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Using Interfaces"
+description: Learn that with .NET Framework interoperability in C/AL, you can define variables for .NET Framework interface types.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

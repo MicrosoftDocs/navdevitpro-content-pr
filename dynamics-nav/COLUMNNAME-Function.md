@@ -1,5 +1,6 @@
 ---
 title: "COLUMNNAME Function"
+description: Details the syntax for the COLUMNNAME function and returns the name of a query column as a text string.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

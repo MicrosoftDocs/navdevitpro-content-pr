@@ -1,6 +1,6 @@
 ---
 title: "Exposing Methods and Properties in a Windows Client Control Add-in"
-description: Learn about exposing methods and properties in a Windows client control add-in.
+description: Details the syntax for exposing methods and properties in a Windows client control add-ins to add custom user interface controls.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -16,7 +16,7 @@ manager: edupont
 Control add-ins let you add custom user interface \(UI\) controls to pages in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. By using the basic control add-in definition interfaces, a control add-in is bound to a page only through the field that is applied with the control add-in. It is also bound to the page through the [SourceExpr Property](SourceExpr-Property.md), the [OnControlAddin Trigger](OnControlAddin-Trigger.md), and other triggers for exposed events. To extend UI controls on a page, you can expose methods and properties in a control add-in assembly so that they can be called by C/AL code on most page triggers.  
 
 ## Exposing Methods and Properties  
- To expose a public method or property in a control add-in, you add the method or property to the control add-in class and mark it by using the managed attribute [Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute]<!--(https://docs.microsoft.com/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute)--> in control add-in class.  
+ To expose a public method or property in a control add-in, you add the method or property to the control add-in class and mark it by using the managed attribute [Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute](/search/index?dataSource=previousVersions&search=Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) in control add-in class.  
 
  The following code example is from a control add-in class that exposes a simple method and property.  
 

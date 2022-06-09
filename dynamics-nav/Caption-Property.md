@@ -1,5 +1,6 @@
 ---
 title: "Caption Property"
+description: Details the syntax for the Caption property. Sets the text string for the object, control, or other element in user interface for the current language.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

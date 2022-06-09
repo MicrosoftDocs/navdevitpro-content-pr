@@ -1,5 +1,6 @@
 ---
 title: "GUIALLOWED Function"
+description: "The GUIALLOWED Function checks whether the C/AL code can show any information on the screen."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

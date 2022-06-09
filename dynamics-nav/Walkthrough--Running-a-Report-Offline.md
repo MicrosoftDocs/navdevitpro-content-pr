@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough: Running a Report Offline"
-description: Learn how to run a report offline.
+description: Learn how to view a report and view the dataset and layout on a computer that does not have Dynamics NAV installed.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -129,7 +129,7 @@ You can view a report and view the dataset and layout on a computer that does no
 
      ![Visual Studio ReportViewer control](media/Plat_ExportReport_ReportViewerCtrl.png "Plat\_ExportReport\_ReportViewerCtrl")  
 
-    If you do not see the ReportViewer control, or the ReportViewer control version in earlier than 14.0.0.0, then see  view see [Integrating Reporting Services Using ReportViewer Controls - Get Started](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started#adding-the-reportviewer-control-to-a-new-windows-forms-project) to learn how to add the control to a Windows form application project.
+    If you do not see the ReportViewer control, or the ReportViewer control version in earlier than 14.0.0.0, then see  view see [Integrating Reporting Services Using ReportViewer Controls - Get Started](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started) to learn how to add the control to a Windows form application project.
 
     > [!TIP]  
     >  If the **Toolbox** window is not visible, then on the **View** menu, choose **Toolbox**.  

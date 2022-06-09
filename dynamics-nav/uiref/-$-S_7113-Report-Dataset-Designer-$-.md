@@ -1,5 +1,6 @@
 ---
 title: "Report Dataset Designer"
+description: In this article, learn how you can use the Report Dataset Designer to design the dataset of a report.   
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

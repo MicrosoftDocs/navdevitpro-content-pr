@@ -1,5 +1,6 @@
 ---
 title: "Lookup Property"
+description: "The Lookup Property is used to provide a lookup window for a text box. This article describes its application, property value, and remarks."
 ms.custom: na
 ms.date: 05/10/2017
 ms.reviewer: na

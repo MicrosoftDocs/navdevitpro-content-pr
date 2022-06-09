@@ -1,5 +1,6 @@
 ---
 title: "ImportObjects"
+description: "ImportObjects imports objects from a file to the specified database."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

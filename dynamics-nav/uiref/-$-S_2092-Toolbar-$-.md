@@ -1,5 +1,6 @@
 ---
 title: "Toolbar"
+description: Toolbar pecifies whether the toolbar is displayed in the nav_dev_short.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

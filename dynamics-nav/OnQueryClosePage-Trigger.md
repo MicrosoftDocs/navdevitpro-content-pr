@@ -1,5 +1,6 @@
 ---
 title: "OnQueryClosePage Trigger"
+description: "This article provides syntax, parameters, and return value for the OnQueryClosePage Trigger."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

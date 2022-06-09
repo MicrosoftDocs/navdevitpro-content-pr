@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Deploying Microsoft Dynamics NAV on a Microsoft Azure Virtual Machine"
+description: Learn how to use the Example-1VM.ps1 script of the Microsoft Dynamics NAV Provisioning Tools for Microsoft Azure to deploy Dynamics NAV on Microsoft Azure.
 author: jswymer
 ms.custom: na
 ms.date: 06/05/2016

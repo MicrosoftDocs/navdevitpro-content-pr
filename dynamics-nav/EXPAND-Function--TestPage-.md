@@ -1,5 +1,6 @@
 ---
 title: "EXPAND Function (TestPage)"
+description: Describes the EXPAND function found on a test page. This will contain the rows that you want to expand.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

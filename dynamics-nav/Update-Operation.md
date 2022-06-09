@@ -1,5 +1,6 @@
 ---
 title: "Update Operation"
+description: Learn how the Update operation updates a single record. The updated record is passed as a reference and is updated with the latest version.     
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

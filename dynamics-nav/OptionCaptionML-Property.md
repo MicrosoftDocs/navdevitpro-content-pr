@@ -1,5 +1,6 @@
 ---
 title: "OptionCaptionML Property"
+description: "This article describes the OptionCaptionML Property, including how to enter OptionCaptionML values and a code example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

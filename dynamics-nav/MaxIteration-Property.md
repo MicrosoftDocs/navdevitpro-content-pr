@@ -1,5 +1,6 @@
 ---
 title: "MaxIteration Property"
+description: "The MaxIteration Property sets a limit on the number of times that a data item will be iterated when the report is run."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

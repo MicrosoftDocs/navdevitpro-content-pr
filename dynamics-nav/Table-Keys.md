@@ -1,5 +1,6 @@
 ---
 title: "Table Keys"
+description: Learn how the database management system, which is SQL Server, keeps track of each field by using the field number and the record's primary key.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

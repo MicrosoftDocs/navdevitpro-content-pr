@@ -1,5 +1,6 @@
 ---
 title: "ACTIVE Function (FieldRef)"
+description: "The ACTIVE Function (FieldRef) checks whether the field that is currently selected is enabled. This article describes its syntax, property/return value, remarks, and example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

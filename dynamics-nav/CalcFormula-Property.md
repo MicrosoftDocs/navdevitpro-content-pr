@@ -1,5 +1,6 @@
 ---
 title: "CalcFormula Property"
+description: "The CalcFormula Property sets the calculation for FlowFields. This article describes its application and remarks."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

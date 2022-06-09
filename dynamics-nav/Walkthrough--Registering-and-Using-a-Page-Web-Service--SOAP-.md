@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Registering and Using a Page Web Service (SOAP)"
+description: Learn how to publish a page as a web service and then interact with data from that page in a Visual Studio console application. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

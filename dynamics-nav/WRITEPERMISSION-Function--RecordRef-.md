@@ -1,5 +1,6 @@
 ---
 title: "WRITEPERMISSION Function (RecordRef)"
+description: In this article, learn how the WRITEPERMISSION function (RecordRef) determines if you can write to a table.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

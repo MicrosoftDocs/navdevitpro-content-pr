@@ -1,5 +1,6 @@
 ---
 title: "About Permissions"
+description: "Each permission set in Microsoft Dynamics NAV 2018 describes a set of access permissions. The types of permissions are read, insert, modify, delete, and execute."
 author: edupont04
 ms.custom: na
 ms.date: 08/05/2016

@@ -1,5 +1,6 @@
 ---
 title: "ADDTABLE Function"
+description: "The ADDTABLE function adds filter control for a table to a filter page. This article describes its syntax, return value, remarks, and example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

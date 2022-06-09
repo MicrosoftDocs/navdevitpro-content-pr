@@ -1,5 +1,6 @@
 ---
 title: "FieldValidate Property"
+description: Describes the FieldValidate property which sets a value that specifies if the values in the source field are validated by the OnValidate Trigger.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

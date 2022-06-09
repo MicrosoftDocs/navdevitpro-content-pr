@@ -1,5 +1,6 @@
 ---
 title: "Language Modules"
+description: "This topic describes language modules that can be installed to view Dynamics NAV in multiple languages."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

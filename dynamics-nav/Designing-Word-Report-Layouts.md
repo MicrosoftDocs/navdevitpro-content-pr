@@ -1,5 +1,6 @@
 ---
 title: "Designing Word Report Layouts"
+description: "Describes how to design Word report layouts, which act as a template for viewing and printing reports from Dynamics NAV clients."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

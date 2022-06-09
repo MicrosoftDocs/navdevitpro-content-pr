@@ -1,5 +1,6 @@
 ---
 title: "ISFILTERPAGEBUILDER Function (Variant)"
+description: "The ISFILTERPAGEBUILDER Function (Variant) indicates whether a C/AL variant contains a FilterPageBuilder variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

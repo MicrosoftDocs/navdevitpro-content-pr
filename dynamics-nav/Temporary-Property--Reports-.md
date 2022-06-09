@@ -1,5 +1,6 @@
 ---
 title: "Temporary Property (Reports)"
+description: Learn how the Temporary property (Reports) sets whether a temporary table is used to store the data set that is returned for columns of a data item. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

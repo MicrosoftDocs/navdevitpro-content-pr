@@ -1,5 +1,6 @@
 ---
 title: "How to: Disable Logging Events to the Windows Application Log"
+description: "Describes how to disable logging events to the Windows Application Log using the Microsoft Dynamics NAV Server Administration tool or by modifying CustomSettings.config."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

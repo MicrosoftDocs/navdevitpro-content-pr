@@ -1,5 +1,6 @@
 ---
 title: "TEMPORARYPATH Function"
+description: Learn how the TEMPORARYPATH function gets the path of the directory where the temporary file for Dynamics NAV is stored.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

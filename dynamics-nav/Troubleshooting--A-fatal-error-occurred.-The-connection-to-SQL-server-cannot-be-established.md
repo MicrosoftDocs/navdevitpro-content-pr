@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: A fatal error occurred. The connection to SQL server cannot be established"
+description: "Learn how to resolve this error: A fatal error occurred. The connection to SQL server cannot be established."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

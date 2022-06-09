@@ -1,5 +1,6 @@
 ---
 title: "How to: Use Streams to Write to Text Files"
+description: "This topic shows you how to use the OutStream object to write to a text file."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

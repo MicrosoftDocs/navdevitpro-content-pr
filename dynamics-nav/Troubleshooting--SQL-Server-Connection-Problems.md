@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: SQL Server Connection Problems"
+description: This topic describes configuration changes that you can try to resolve SQL Server connection problems.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

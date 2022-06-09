@@ -1,5 +1,6 @@
 ---
 title: "Working with Microsoft Dynamics NAV Setup"
+description: Learn how you can install and configure Microsoft Dynamics NAV Setup and set up the necessary configuration files.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

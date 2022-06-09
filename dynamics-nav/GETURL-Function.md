@@ -1,5 +1,6 @@
 ---
 title: "GETURL Function"
+description: "The GETURL Function generates a URL for the specified client target that is based on the configuration of the Microsoft Dynamics NAV Server instance."
 ms.custom: na
 ms.date: 02/10/2017
 ms.reviewer: na

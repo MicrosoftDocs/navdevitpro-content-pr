@@ -1,5 +1,6 @@
 ---
 title: "DEFAULTLAYOUT Function"
+description: "The DEFAULTLAYOUT Function gets the default built-in layout type that is used on a specified report."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

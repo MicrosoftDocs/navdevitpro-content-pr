@@ -1,5 +1,6 @@
 ---
 title: "OPTIONCAPTION Function (FieldRef)"
+description: "This article provides syntax, parameters, property/return value, and a code example for the OPTIONCAPTION Function (FieldRef), which gets the option caption of the field that is currently selected."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

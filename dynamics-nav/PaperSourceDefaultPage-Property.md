@@ -1,5 +1,6 @@
 ---
 title: "PaperSourceDefaultPage Property"
+description: "This article describes the PaperSourceDefaultPage Property, which specifies the default paper source to use when printing the report."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

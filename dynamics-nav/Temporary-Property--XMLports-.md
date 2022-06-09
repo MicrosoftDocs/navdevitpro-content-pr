@@ -1,5 +1,6 @@
 ---
 title: "Temporary Property (XMLports)"
+description: Learn how the Temporary property (XMLports) sets whether a temporary table is created to store the records imported using the XMLport.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

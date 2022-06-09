@@ -1,5 +1,6 @@
 ---
 title: "ReqFilterHeadingML Property"
+description: Learn how the ReqFilterHeadingML property sets the text used as a ReqFilterHeading Property for a request page tab.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

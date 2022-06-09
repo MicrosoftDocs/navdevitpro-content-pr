@@ -1,5 +1,6 @@
 ---
 title: "LinkedObject Property"
+description: "LinkedObject Property is used to link to SQL Server objects. This article describes its application and remarks."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

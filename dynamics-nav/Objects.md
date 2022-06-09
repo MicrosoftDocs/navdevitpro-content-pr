@@ -1,5 +1,6 @@
 ---
 title: "Objects"
+description: Discusses topics that describe all of the objects that make up the development environment of Microsoft Dynamics NAV 2018.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

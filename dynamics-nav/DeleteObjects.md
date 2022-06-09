@@ -1,5 +1,6 @@
 ---
 title: "DeleteObjects"
+description: "DeleteObjects Deletes objects from the specified Dynamics NAV database. This article describes its syntax, remarks, and example."
 author: jswymer
 ms.custom: na
 ms.date: 10/14/2016

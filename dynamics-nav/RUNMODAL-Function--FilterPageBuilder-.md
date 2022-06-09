@@ -1,5 +1,6 @@
 ---
 title: "RUNMODAL Function (FilterPageBuilder)"
+description: Learn how the RUNMODAL function builds and runs the filter page that includes the filter controls that are stored in FilterPageBuilder object instance.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

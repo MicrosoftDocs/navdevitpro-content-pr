@@ -1,5 +1,6 @@
 ---
 title: "NEXT Function (RecordRef)"
+description: Details the code and syntax for the NEXT function which steps through a specified number of records and retrieves a record.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

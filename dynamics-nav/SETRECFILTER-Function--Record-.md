@@ -1,5 +1,6 @@
 ---
 title: "SETRECFILTER Function (Record)"
+description: SETRECFILTER Function (Record) Sets the values in the current key of the current record as a record filter.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

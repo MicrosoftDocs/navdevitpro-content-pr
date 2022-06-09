@@ -1,5 +1,6 @@
 ---
 title: "TableIDExpr Property"
+description: Learn how the TableIDExpr property sets the ID of the table to which you want to apply a table filter, as well as other details about the property.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "C/AL Functions"
+description: "The C/AL functions in this section are grouped according to the data type that they support or according to a category."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

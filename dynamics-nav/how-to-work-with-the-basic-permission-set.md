@@ -1,5 +1,6 @@
 ---
 title: "How to: Work with the BASIC Permission Set"
+description: "Describes how to work with the BASIC permission set, which primarily functions as a prerequisite to open the client and show all pages."
 author: edupont04
 manager: edupont04
 ms.custom: na

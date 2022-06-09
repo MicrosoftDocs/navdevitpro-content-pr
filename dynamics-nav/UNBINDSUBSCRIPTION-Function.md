@@ -1,5 +1,6 @@
 ---
 title: "UNBINDSUBSCRIPTION Function"
+description: Learn how the UNBINDSUBSCRIPTION function unbinds the event subscriber functions from in the codeunit instance.   
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

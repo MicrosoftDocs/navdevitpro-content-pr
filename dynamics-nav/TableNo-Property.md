@@ -1,5 +1,6 @@
 ---
 title: "TableNo Property"
+description: Learn how the TableNo property sets a record parameter by reference to the table on the OnRun trigger.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

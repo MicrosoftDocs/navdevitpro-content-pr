@@ -1,6 +1,6 @@
 ---
 title: "Modifying, Uninstalling, or Repairing Microsoft Dynamics NAV"
-description: Learn how to modify, uninstall, or repair Microsoft Dynamics NAV.
+description: Describes the process to modify, uninstall, or repair Microsoft Dynamics NAV 2018 components and resolve various issues.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -54,7 +54,7 @@ If you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup on a computer
 ### With SQL Server Express  
  If you did not have SQL Server on your computer when you installed the demo database, then [!INCLUDE[navnow](includes/navnow_md.md)] Setup installed SQL Server 2016 Express Edition to host the database. To remove the demo database, follow these steps:  
   
-1.  Download and install [Microsoft SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms).  
+1.  Download and install [Microsoft SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms.  
   
 2.  Use SQL Server Management Studio Express to remove the [!INCLUDE[navnow](includes/navnow_md.md)] demo database, which is called **Demo Database \(7-1\)**. By default, the database is installed to the **NAVDEMO** SQL Server instance.  
   

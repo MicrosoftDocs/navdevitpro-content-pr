@@ -1,5 +1,6 @@
 ---
 title: "($ N_9990 Code Coverage $)"
+description: ($ N_9990 Code Coverage $) specifies the extent to which the application code is covered by tests.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

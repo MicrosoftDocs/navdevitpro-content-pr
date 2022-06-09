@@ -1,5 +1,6 @@
 ---
 title: "Automating the Upgrade Process using Sample Windows PowerShell Scripts"
+description: "This article describes how to use automation to upgrade a single Dynamics NAV database or multiple Dynamics NAV databases that use the same application."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

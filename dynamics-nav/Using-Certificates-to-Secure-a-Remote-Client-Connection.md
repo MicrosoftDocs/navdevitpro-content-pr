@@ -1,5 +1,6 @@
 ---
 title: "Using Certificates to Secure a Remote Client Connection"
+description: Learn how you can use service certificates to help secure RoleTailored client connections over a wide area network (WAN).
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

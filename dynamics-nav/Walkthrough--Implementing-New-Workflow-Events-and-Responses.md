@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Implementing New Workflow Events and Responses"
+description: Learn how to add a new workflow event and a new workflow response to the application code and then register the involved object relations.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

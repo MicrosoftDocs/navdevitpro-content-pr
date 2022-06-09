@@ -1,5 +1,6 @@
 ---
 title: "Table View"
+description: Table View specifies the sorting and filtering for the data item.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

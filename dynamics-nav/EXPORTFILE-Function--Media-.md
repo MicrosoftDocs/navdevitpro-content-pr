@@ -1,5 +1,6 @@
 ---
 title: "EXPORTFILE Function (Media)"
+description: Details the EXPORTFILE function, exports the media object, such as an image, that is currently used to record to a file on your computer or network. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "VALUE Function (FieldRef, TestPage Field)"
+description: Learn how the VALUE function (FieldRef, TestPage Field) sets or gets the value of the field that is currently selected.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

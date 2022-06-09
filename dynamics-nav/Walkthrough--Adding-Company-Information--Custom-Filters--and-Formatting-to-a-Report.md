@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report"
+description: Learn how to add features such as formatting, custom filters, company logo, and company name to the report.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

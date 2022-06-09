@@ -1,5 +1,6 @@
 ---
 title: "Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example-2VM Script"
+description: "This topic describes the Example-2VM.ps1 script of the Microsoft Dynamics NAV Provisioning Tools for Microsoft Azure."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

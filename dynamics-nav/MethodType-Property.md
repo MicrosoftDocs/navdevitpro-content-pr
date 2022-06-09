@@ -1,5 +1,6 @@
 ---
 title: "MethodType Property"
+description: "MethodType Property sets a date or totals type method on the query column. The method is applied by the Method Property."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

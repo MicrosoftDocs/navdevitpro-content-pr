@@ -1,5 +1,6 @@
 ---
 title: "C/AL Constants"
+description: "A constant is the simplest type of operand used in C/AL. The value of a constant cannot be changed during the execution of the code."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

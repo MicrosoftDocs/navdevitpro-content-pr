@@ -1,5 +1,6 @@
 ---
 title: "Handling UI Interaction When Working with Web Services"
+description: "Describes how to handle UI interaction when publishing and consuming web services."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "How to: Use OData to Return-Obtain an AtomPub Document"
+description: "Describes how to use OData to return-obtain an AtomPub document."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

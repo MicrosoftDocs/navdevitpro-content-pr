@@ -1,5 +1,6 @@
 ---
 title: "Configuring Microsoft SQL Server"
+description: The topics presented describe actions that you can take after installing Microsoft Dynamics NAV and SQL Server to integrate the two products.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

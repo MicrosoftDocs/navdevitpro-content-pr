@@ -1,5 +1,6 @@
 ---
 title: "C/AL Database Functions and Performance on SQL Server"
+description: "This topic describes the relationship between basic database functions in C/AL and SQL statements."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

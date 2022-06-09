@@ -1,5 +1,6 @@
 ---
 title: "Configure Microsoft Dynamics NAV Components for ACS"
+description: Lists additional articles for the Configure Microsoft Dynamics NAV Components for Access Control Service which will be retired soon.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

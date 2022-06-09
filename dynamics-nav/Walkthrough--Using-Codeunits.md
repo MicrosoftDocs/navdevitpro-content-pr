@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Using Codeunits"
+description: Learn how to create one codeunit that has two functions and create one codeunti that has two codeunit variables.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

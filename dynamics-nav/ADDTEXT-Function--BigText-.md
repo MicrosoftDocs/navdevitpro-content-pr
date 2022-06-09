@@ -1,5 +1,6 @@
 ---
 title: "ADDTEXT Function (BigText)"
+description: "The ADDTEXT function (BigText) adds a text string to a BigText variable. This article describes its syntax, remarks, and examples."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

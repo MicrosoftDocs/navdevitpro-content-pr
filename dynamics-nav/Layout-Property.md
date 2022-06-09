@@ -1,5 +1,6 @@
 ---
 title: "Layout Property"
+description: "The Layout Property sets whether the fields in Group controls are arranged horizontally in a row or vertically in a column."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

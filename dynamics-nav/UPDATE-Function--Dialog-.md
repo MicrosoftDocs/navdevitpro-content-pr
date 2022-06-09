@@ -1,5 +1,6 @@
 ---
 title: "UPDATE Function (Dialog)"
+description: Learn how the UPDATE function (Dialog) updates the value of a '\#'-or '@' field in the active window.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

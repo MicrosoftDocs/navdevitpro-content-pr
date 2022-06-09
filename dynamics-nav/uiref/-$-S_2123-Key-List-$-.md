@@ -1,5 +1,6 @@
 ---
 title: "Key List"
+description: Key List sets the key field or fields on which to sort the data.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

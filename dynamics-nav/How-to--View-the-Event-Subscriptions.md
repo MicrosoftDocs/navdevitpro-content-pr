@@ -1,5 +1,6 @@
 ---
 title: "How to: View the Event Subscriptions"
+description: "Describes how to view information about all the subscribers to events in an application from the Even Subscriptions page which is in the Dynamics NAV client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

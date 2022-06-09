@@ -1,5 +1,6 @@
 ---
 title: "CAPTION Function (FieldRef, TestPage Field)"
+description: Details the syntax for the CAPTION function (FieldRef, TestPage Field). Gets the current caption of a field as a String.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

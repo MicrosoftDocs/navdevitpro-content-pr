@@ -1,5 +1,6 @@
 ---
 title: "PRINT Function"
+description: "This article provides syntax and parameters of the PRINT Function, which prints a specified report without running the request page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating and Using a Client Control Add-in"
+description: Learn how to create a Dynamics NAV control add-in to add custom functionality and use it on a Dynamics NAV page.
 author: jswymer
 description: Learn how to create and use a client control add-in.
 ms.custom: na
@@ -44,7 +45,7 @@ In a typical business scenario, developers create control add-ins using Microsof
 
     |PushpinBlue.png|PushpinGreen.png|PushpinRed.png|
     |:------:|:------:|:----:|
-    |![Pushpin Blue](media/PushpinBlue.png "Pushpin Blue")  |![Pushpin Green](media/PushpinGreen.png "Pushpin Green")|![Pushpin Red](media/PushpinRed.png "Pushpin Red")|
+    |![Icon for a blue pushpin.](media/PushpinBlue.png "Pushpin Blue")  |![Pushpin Green](media/PushpinGreen.png "Pushpin Green")|![Icon for a red pushpin.](media/PushpinRed.png "Pushpin Red")|
 
 -   (Optional) Create a style sheet, for example Style.css, that can be used for styling the map in the client.
 

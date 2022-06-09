@@ -1,5 +1,6 @@
 ---
 title: "Resume Data Upgrade"
+description: Resume Data Upgrade specifies which Upgrade functions to rerun when you resume a data upgrade process that has been suspended.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

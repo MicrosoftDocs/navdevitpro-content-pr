@@ -1,5 +1,6 @@
 ---
 title: "Action Designer"
+description: Action Designer adds actions to the menu bar of a page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

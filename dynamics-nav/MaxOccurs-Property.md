@@ -1,5 +1,6 @@
 ---
 title: "MaxOccurs Property"
+description: "The MaxOccurs Property sets a value that indicates the maximum number of times an element can occur."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

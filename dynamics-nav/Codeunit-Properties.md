@@ -1,5 +1,6 @@
 ---
 title: "Codeunit Properties"
+description: Details the syntax for the properties that apply to the Codeunit object, variables, text constants, functions, parameters, and return values.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

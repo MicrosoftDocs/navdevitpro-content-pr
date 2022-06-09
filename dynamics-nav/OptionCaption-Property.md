@@ -1,5 +1,6 @@
 ---
 title: "OptionCaption Property"
+description: "This article describes the OptionCaption Property, which sets the text string options that are displayed to the user."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Access By Permission"
+description: Access By Permission specifies an object to which users must have certain permissions before the related UI element is accessible to the user.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

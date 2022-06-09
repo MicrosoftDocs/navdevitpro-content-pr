@@ -1,5 +1,6 @@
 ---
 title: "SETPOSITION Function (RecordRef)"
+description: SETPOSITION Function (RecordRef) Sets the fields in a primary key on a record to the values specified in the String parameter.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

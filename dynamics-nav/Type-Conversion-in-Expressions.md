@@ -1,5 +1,6 @@
 ---
 title: "Type Conversion in Expressions"
+description: This topic describes type conversions in C/AL expressions. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

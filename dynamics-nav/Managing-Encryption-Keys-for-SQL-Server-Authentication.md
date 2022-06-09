@@ -1,5 +1,6 @@
 ---
 title: "Managing Encryption Keys for SQL Server Authentication"
+description: "Describes how to manage encryption keys for SQL Server authentication by using Microsoft Dynamics NAV Administration Shell."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

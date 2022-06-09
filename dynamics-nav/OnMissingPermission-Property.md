@@ -1,5 +1,6 @@
 ---
 title: "OnMissingPermission Property"
+description: "This article describes the OnMissingPermission Property and provides its property value."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

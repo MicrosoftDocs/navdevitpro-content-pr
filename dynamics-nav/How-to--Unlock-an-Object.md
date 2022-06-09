@@ -1,5 +1,6 @@
 ---
 title: "How to: Unlock an Object"
+description: "Describes how to lock and unlock objects to prevent other developers from making changes while you work with those objects."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

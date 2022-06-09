@@ -1,5 +1,6 @@
 ---
 title: "ReverseSign Property"
+description: Learn how the ReverseSign property changes negative values into positive values and positive values into negative values in a column of a resulting query dataset.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

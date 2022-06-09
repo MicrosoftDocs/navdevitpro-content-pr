@@ -1,5 +1,6 @@
 ---
 title: "CLOSE Function (TestPage)"
+description: Details the syntax for the CLOSE function (TestPage). This closes an open test page which should be a test codeunit.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

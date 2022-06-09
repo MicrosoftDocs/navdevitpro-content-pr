@@ -1,5 +1,6 @@
 ---
 title: "RENAME Function (RecordRef)"
+description: This article describes how the RENAME function (RecordRef) changes the value of a primary key in a table.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "AutoFormatType Property"
+description: "The AutoFormatType Property sets a value that determines how data is formatted, together with the C/AL expression in the AutoFormatExpr Property."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

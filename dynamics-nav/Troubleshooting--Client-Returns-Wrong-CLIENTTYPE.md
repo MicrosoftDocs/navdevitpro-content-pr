@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Client Returns Wrong CLIENTTYPE"
+description: "This article describes how to resolve this error: Client Returns Wrong CLIENTTYPE. It also provides links to additional resources for assistance."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "UpdatePropagation Property"
+description: Learn how the  UpdatePropagation property sets a value that specifies what happens when a main page with a subpart is updated.
 ms.custom: na
 ms.date: 05/04/2018
 ms.reviewer: na

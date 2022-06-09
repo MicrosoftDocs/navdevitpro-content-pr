@@ -1,5 +1,6 @@
 ---
 title: "SKIPSYSTEMTRIGGERS Function (Debugger)"
+description: SKIPSYSTEMTRIGGERS Function (Debugger) enables the debugger to skip code that is inside system triggers.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

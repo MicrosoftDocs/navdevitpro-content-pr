@@ -1,5 +1,6 @@
 ---
 title: "CLEARLASTERROR Function"
+description: Details the syntax for the CLEARLASTERROR function and determines whether an error has occurred and to see the last error message that was generated.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

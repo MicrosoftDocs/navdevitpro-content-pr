@@ -1,5 +1,6 @@
 ---
 title: "GLOBALLANGUAGE Function"
+description: "The GLOBALLANGUAGE Function gets and sets the current global language setting. This article describes its syntax, property/return value, and remarks."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

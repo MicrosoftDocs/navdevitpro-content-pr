@@ -1,5 +1,6 @@
 ---
 title: "Legal Resources for Microsoft Dynamics NAV Universal Apps"
+description: Learn where to find helpful articles about legal information for Microsoft Dynamics NAV Universal Apps. 
 author: tsiggaar
 ms.custom: na
 ms.date: 11/01/2016

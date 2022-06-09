@@ -1,5 +1,6 @@
 ---
 title: "LEN Function (File)"
+description: "The LEN Function (File) gets the length of an ASCII or binary file. This article describes its syntax, property/return value, remarks, and example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

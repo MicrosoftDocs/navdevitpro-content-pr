@@ -1,5 +1,6 @@
 ---
 title: "IMPORTFILE Function (MediaSet)"
+description: "The IMPORTFILE Function (MediaSet) adds a media, such as a JPEG image, to the MediaSet data type field of a record for displaying the media in the client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

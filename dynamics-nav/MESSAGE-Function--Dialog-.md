@@ -1,5 +1,6 @@
 ---
 title: "MESSAGE Function (Dialog)"
+description: "The MESSAGE Function (Dialog) displays a text string in a message window. This article describes its syntax, remarks, programming guidelines, and example."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

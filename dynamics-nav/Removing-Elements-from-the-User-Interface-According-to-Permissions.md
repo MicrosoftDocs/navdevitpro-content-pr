@@ -1,5 +1,6 @@
 ---
 title: "Removing Elements from the User Interface According to Permissions"
+description: Learn how you can configure Microsoft Dynamics NAV to show and hide user interface elements based on the license or the user's permissions to the underlying tables.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

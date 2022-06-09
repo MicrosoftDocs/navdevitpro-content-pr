@@ -1,5 +1,6 @@
 ---
 title: "PAGE.RUNMODAL Function"
+description: "This article provides syntax, parameters, property/return value, and a code example of the PAGE.RUNMODAL Function."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "USERSECURITYID Function"
+description: Learn how the USERSECURITYID function gets the unique identifier of the user that is logged on to the current session.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

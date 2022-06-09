@@ -1,5 +1,6 @@
 ---
 title: "EXPORTSTREAM Function (Media)"
+description: Details the syntax for EXPORTSTREAM function which exports the current media object (such as a JPEG image) that is used on record to an OUTSTREAM object.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

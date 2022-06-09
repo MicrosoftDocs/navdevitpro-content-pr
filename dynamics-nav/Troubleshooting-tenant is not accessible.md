@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Tenant 'default' is not accessible"
+description: This topic describes how to troubleshoot when you get the error message Tenant 'default' is not accessible.
 ms.custom: na
 ms.date: 02/13/2018
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "COMMIT Function (Database)"
+description: Details the syntax for the COMMIT function and ends the current write transaction manually or automatically.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "How to: Export and Import Encryption Keys"
+description: "Describes how to export and import encryption keys on the Microsoft Dynamics NAV Server instance."
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 10/25/2016

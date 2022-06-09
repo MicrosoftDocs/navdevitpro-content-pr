@@ -1,5 +1,6 @@
 ---
 title: "RECORD Function (FieldRef)"
+description: Learn how the RECORD function (FieldRef) gets the RecordRef of the field that is currently selected.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

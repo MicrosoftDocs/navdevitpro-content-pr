@@ -1,5 +1,6 @@
 ---
 title: "LANGUAGEID Function (SessionSettings)"
+description: "The LANGUAGEID Function (SessionSettings) gets or sets the language ID property in a SessionSettings object."
 ms.custom: na
 ms.date: 01/06/2017
 ms.reviewer: na

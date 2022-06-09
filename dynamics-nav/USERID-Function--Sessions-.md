@@ -1,5 +1,6 @@
 ---
 title: "USERID Function (Sessions)"
+description: Learn how the USERID function (Sessions) gets the user name of the user account that is logged on to the current session.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

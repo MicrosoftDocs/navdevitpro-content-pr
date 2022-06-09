@@ -1,5 +1,6 @@
 ---
 title: "Basic Page Operations"
+description: "This article provides a list of default operations that are exposed to consumers when publishing a page as a SOAP web service."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

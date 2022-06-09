@@ -1,5 +1,6 @@
 ---
 title: "SourceTable Property (XMLports)"
+description: Describes SourceTable Property (XMLports) and contains applications, remarks, and additional information.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

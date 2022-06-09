@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client"
+description: Develop a codeunit that creates a file on Microsoft Dynamics NAV Server, opens and writes some data to a file, and then downloads that file to a RoleTailored client.
 ms.custom: na
 ms.date: 08/26/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Field List"
+description: Field List specifies all fields in the table that you selected.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

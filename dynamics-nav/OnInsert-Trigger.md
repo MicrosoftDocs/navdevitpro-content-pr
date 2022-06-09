@@ -1,5 +1,6 @@
 ---
 title: "OnInsert Trigger"
+description: "This article describes the OnInsert Trigger, which is executed when a user inserts a new record into the table." 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

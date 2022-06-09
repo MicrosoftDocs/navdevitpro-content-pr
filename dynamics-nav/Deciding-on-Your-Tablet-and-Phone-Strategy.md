@@ -1,5 +1,6 @@
 ---
 title: "Deciding on Your Tablet and Phone Strategy"
+description: "This topic explains the different options for developing for the Microsoft Dynamics NAV Tablet client and Microsoft Dynamics NAV Phone client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

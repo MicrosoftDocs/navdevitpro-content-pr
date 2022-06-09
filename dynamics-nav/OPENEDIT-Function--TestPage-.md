@@ -1,5 +1,6 @@
 ---
 title: "OPENEDIT Function (TestPage)"
+description: "This article provides syntax, parameters, and a code examples of the OPENEDIT Function (TestPage), which opens a test page in edit mode."  
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Resolving My Settings Page Implementation After a Database Conversion"
+description: Learn that when you convert a Microsoft Dynamics NAV 2016 database, the My Settings page in the Microsoft Dynamics NAV Web client will not work properly.
 ms.custom: na
 ms.date: 03/20/2017
 ms.reviewer: na

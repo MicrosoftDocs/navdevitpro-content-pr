@@ -1,5 +1,6 @@
 ---
 title: "TODAY Function (Date)"
+description: This article describes how the TODAY function (Date) gets the current date that is used by the client.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
