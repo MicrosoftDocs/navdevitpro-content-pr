@@ -1,5 +1,6 @@
 ---
 title: "Testing With Permission Sets"
+description: Learn how you can write application tests in C/AL that use specific permission sets when the test is run. 
 ms.custom: na
 ms.date: 09/20/2016
 ms.reviewer: na

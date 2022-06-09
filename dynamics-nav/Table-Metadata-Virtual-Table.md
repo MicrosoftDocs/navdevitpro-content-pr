@@ -1,5 +1,6 @@
 ---
 title: "Table Metadata Virtual Table"
+description: Learn how the Table Metadata virtual table (ID 2000000136) contains data about the tables in database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

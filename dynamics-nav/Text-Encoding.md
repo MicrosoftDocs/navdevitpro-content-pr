@@ -1,5 +1,6 @@
 ---
 title: "Text Encoding"
+description: Learn how text encoding is the process of transforming bytes of data into readable characters for users of a system or program.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Test Pages"
+description: Learn how you can use test pages to mimic actual pages so that you can test the code the page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

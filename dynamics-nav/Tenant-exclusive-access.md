@@ -1,5 +1,6 @@
 ---
 title: "Tenant Exclusive Access"
+description: Learn about tenant exclusive access and how to configure that access based on different scenarios.
 ms.custom: na
 ms.date: 12/28/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "TestPage Filter Functions"
+description: Learn how the filter functions enable you to filter data that can be accessed on a test page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
