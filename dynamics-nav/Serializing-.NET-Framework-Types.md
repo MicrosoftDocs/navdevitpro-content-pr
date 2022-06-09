@@ -1,5 +1,6 @@
 ---
 title: "Serializing .NET Framework Types"
+description: Serializing .NET Framework Types is the process of converting an object into a format that can transmitted across a network connection.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
