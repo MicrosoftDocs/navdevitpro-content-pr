@@ -1,5 +1,6 @@
 ---
 title: "OnDeleteRecord Trigger"
+description: "This article describes the syntax and return value of the OnDeleteRecord Trigger, which is executed before a record is deleted from the table."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

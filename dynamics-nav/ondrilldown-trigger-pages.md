@@ -1,5 +1,6 @@
 ---
 title: "OnDrillDown Trigger"
+description: "This article describes the OnDrillDown Trigger, which overrides the default drill-down behavior defined in the table definition for the FlowField."
 ms.custom: na
 ms.date: 05/10/2017
 ms.reviewer: na

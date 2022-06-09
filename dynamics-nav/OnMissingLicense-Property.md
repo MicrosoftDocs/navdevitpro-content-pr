@@ -1,5 +1,6 @@
 ---
 title: "OnMissingLicense Property"
+description: "This article describes the OnMissingLicense Property and provides its property value."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

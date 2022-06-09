@@ -1,5 +1,6 @@
 ---
 title: "OnPostReport Trigger"
+description: "This article describes the OnPostReport Trigger, which is executed after a report is run."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

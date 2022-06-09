@@ -1,5 +1,6 @@
 ---
 title: "OnPostDataItem Trigger"
+description: "This article describes the OnPostDataItem Trigger, which is executed after a data item is processed."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

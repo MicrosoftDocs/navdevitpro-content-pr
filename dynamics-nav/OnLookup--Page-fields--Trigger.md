@@ -1,5 +1,6 @@
 ---
 title: "OnLookup (Page fields) Trigger"
+description: "This article describes the syntax and parameters of the OnLookup (Page fields) Trigger, which is executed in place of the normal lookup features for the current page."  
 ms.custom: na
 ms.date: 05/10/2017
 ms.reviewer: na
