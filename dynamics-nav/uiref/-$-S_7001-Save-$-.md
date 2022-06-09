@@ -1,5 +1,6 @@
 ---
 title: "Save"
+description: Learn how Save saves changes that have been made to a Dynamics NAV object.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

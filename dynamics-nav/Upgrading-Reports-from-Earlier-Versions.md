@@ -1,5 +1,6 @@
 ---
 title: "Upgrading Reports from Earlier Versions"
+description: Learn that you want to use reports from earlier versions of Dynamics NAV, you must upgrade the reports before you can run or modify them.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: Report Label Designer
+description: Learn how you can use the Report Label Designer to add labels to reports. You add labels that are not related to a data item in this window.   
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

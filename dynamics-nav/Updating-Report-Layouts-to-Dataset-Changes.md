@@ -1,5 +1,6 @@
 ---
 title: "Updating Report Layouts to Dataset Changes"
+description: Learn how the report layouts that are used on the report must to be updated to the changes when you make changes to the report dataset.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

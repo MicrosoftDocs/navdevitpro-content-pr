@@ -1,5 +1,6 @@
 ---
 title: "Upgrade Codeunits"
+description: Learn how you use upgrade codeunits when you make changes to a table definition, either from the Microsoft Dynamics NAV Development Environment or during an upgrade.
 author: jswymer
 ms.custom: na
 ms.date: 10/14/2016

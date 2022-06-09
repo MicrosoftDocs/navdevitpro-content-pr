@@ -1,5 +1,6 @@
 ---
 title: "Upgrading to Microsoft Dynamics NAV 2018"
+description: Learn how to upgrade to Microsoft Dynamics NAV 2018. The upgrade process depends on different factors, like the version of Dynamics NAV that you are upgrading from.
 ms.custom: na
 ms.date: 05/04/2018
 ms.reviewer: na

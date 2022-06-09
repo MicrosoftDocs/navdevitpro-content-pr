@@ -1,5 +1,6 @@
 ---
 title: "Upgrading the Data"
+description: Learn that to upgrade the data, you must first convert the database (technical upgrade) and then the upgrade of the actual data.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
