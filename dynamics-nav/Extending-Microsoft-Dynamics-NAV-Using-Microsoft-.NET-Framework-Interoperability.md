@@ -1,5 +1,6 @@
 ---
 title: "Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability"
+description: Details using the Microsoft .NET framework to extend Microsoft Dynamics NAV. This offers an alternative to COM as an extension.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

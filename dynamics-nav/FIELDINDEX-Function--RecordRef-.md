@@ -1,5 +1,6 @@
 ---
 title: "FIELDINDEX Function (RecordRef)"
+description: Details the syntax for the FIELDINDEX function which gets the FieldRef of the specified index in the table that is referred to by the RecordRef.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

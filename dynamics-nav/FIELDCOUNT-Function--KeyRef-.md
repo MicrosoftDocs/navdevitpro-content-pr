@@ -1,5 +1,6 @@
 ---
 title: "FIELDCOUNT Function (KeyRef)"
+description: Details the code and syntax for the FIELDCOUNT function provides the number of fields that have been defined in a key.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

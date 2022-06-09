@@ -1,6 +1,7 @@
 ---
-author: SusanneWindfeldPedersen
 title: "Upgrading Extensions"
+description: Details the code and syntax used for upgrading extensions as well as converting older extensions to new frameworks.
+author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 01/22/2018
 ms.reviewer: na

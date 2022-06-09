@@ -1,5 +1,6 @@
 ---
 title: "Extension Packages Capability Support Matrix"
+description: Details a list of extension capability in the form of a matrix to help get started in Development AL.
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 01/16/2018

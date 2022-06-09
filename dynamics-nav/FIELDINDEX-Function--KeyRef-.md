@@ -1,5 +1,6 @@
 ---
 title: "FIELDINDEX Function (KeyRef)"
+description: Details the syntax for the FIELDINDEX function which provides the FieldRef of the field that is indexed in the key referred to by the KeyRef variable.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
