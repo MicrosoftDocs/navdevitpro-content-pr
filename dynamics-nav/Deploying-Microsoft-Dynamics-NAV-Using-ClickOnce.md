@@ -1,5 +1,6 @@
 ---
 title: "Deploying Microsoft Dynamics NAV Using ClickOnce"
+description: "This article contains instructions for deploying the Microsoft Dynamics NAV Windows client using the ClickOnce deployment technology."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

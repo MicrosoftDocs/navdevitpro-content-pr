@@ -1,5 +1,6 @@
 ---
-title: "DELSTR Function (Code, Text)"
+title: "DELSTR Function (Code,Text)"
+description: "The DELSTR Function (Code,Text) deletes a substring inside a string (text or code)."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

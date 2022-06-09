@@ -1,5 +1,6 @@
 ---
 title: "Designing for Different Screen Sizes on Tablet and Phone"
+description: "Describes the form factor considerations and guidelines to use when designing for different screen sizes."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Deploying the Microsoft Dynamics NAV Web Server Components in a Demonstration Environment"
+description: "Describes how to install the major components of the Microsoft Dynamics NAV 2018 on a single computer."
 ms.custom: na
 ms.date: 09/21/2017
 ms.reviewer: na

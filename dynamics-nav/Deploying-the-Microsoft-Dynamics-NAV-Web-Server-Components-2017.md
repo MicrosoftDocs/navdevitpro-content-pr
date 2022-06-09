@@ -1,5 +1,6 @@
 ---
 title: "Deploying the Microsoft Dynamics NAV Web Server Components"
+description: "This section contains information about the deployment of the Microsoft Dynamics NAV Web Server components, including installation on IIS."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Designing MenuSuites"
+description: "Describes how to design MenuSuites, which contain menu content that is displayed in the Microsoft Dynamics NAV Windows client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "DeleteAllowed Property"
+description: "The DeleteAllowed Property sets a value that specifies whether users can delete records while using the page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -12,7 +13,7 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # DeleteAllowed Property
-Sets a value that specifies whether users can delete records while using the  page.  
+Sets a value that specifies whether users can delete records while using the page.  
   
 ## Applies To  
   
