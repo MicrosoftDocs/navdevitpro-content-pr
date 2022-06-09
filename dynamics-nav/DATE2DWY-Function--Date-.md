@@ -1,5 +1,6 @@
 ---
 title: "DATE2DWY Function (Date)"
+description: "The DATE2DWY Function (Date) gets the day of the week, week number, or year of a Date Data Type."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "DefaultNamespace Property"
+description: "The DefaultNamespace Property specifies the default namespace for both the IMPORT Function and EXPORT Function."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -12,7 +13,7 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # DefaultNamespace Property
-Specifies the default namespace for both the [IMPORT Function \(XMLport\)](IMPORT-Function--XMLport-.md) and [EXPORT Function \(XMLport\)](EXPORT-Function--XMLport-.md) functions.  
+Specifies the default namespace for both the [IMPORT Function \(XMLport\)](IMPORT-Function--XMLport-.md) and [EXPORT Function \(XMLport\)](EXPORT-Function--XMLport-.md).  
   
 ## Applies To  
   

@@ -1,5 +1,6 @@
 ---
 title: "Debugger Keyboard Shortcuts"
+description: "This article describes the keyboard shortcuts that are available from the Debugger window."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

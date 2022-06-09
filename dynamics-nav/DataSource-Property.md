@@ -1,5 +1,6 @@
 ---
 title: "DataSource Property"
+description: "The DataSource Property sets the field to associate with a column of a query."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

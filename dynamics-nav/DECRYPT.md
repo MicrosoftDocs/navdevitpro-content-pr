@@ -1,5 +1,6 @@
 ---
 title: "DECRYPT"
+description: "DECRYPT takes a string as input and returns the decrypted value of the string."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
