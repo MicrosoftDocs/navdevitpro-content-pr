@@ -1,5 +1,6 @@
 ---
 title: "Exporting and Importing Companies and Other Data"
+description: Details how to Export and Import Data such as global data, application data, and application objects to or from a Dynamics NAV database.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

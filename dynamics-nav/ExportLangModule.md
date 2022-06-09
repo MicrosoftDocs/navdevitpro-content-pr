@@ -1,5 +1,6 @@
 ---
 title: "ExportLangModule"
+description: Details the syntax for the ExportLangModule and exports a language module from the specified database to a file.
 author: edupont04
 ms.custom: na
 ms.date: 10/14/2016

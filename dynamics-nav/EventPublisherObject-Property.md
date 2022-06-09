@@ -1,5 +1,6 @@
 ---
 title: "EventPublisherObject Property"
+description: The EventPublisherObject property specifies the object that contains the event publisher function that the event subscriber responds to.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

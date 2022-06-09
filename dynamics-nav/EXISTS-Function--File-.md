@@ -1,5 +1,6 @@
 ---
 title: "EXISTS Function (File)"
+description: The EXISTS function determines whether a file exists and returns true if the file exists; otherwise, false.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

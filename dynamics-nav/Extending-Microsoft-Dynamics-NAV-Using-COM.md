@@ -1,5 +1,6 @@
 ---
 title: "Extending Microsoft Dynamics NAV Using COM"
+description: This section details how you can extend the Microsoft Dynamics NAV Windows client by using Component Object Model (COM) technologies. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

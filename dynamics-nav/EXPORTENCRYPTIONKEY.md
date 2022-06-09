@@ -1,5 +1,6 @@
 ---
 title: "EXPORTENCRYPTIONKEY"
+description: Details the EXPORTENCRYPTIONKEY which returns a password protected temporary filepath containing the encryption key.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

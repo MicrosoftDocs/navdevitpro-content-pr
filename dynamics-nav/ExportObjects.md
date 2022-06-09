@@ -1,5 +1,6 @@
 ---
 title: "ExportObjects"
+description: Details the syntax for ExportObjects and exports objects from the specified database in .txt or .fob formats.
 author: edupont04
 ms.custom: na
 ms.date: 10/14/2016

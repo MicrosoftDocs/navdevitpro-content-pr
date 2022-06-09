@@ -1,5 +1,6 @@
 ---
 title: "EXECUTE Function"
+description: The EXECUTE function runs a report in preview or processing-only mode without showing the request page in the client.
 author: edupont04
 manager: edupont04
 ms.custom: na
