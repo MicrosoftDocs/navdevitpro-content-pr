@@ -1,5 +1,6 @@
 ---
 title: "Multilanguage Editor"
+description: Multilanguage Editor specifies text in multiple languages.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

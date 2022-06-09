@@ -1,5 +1,6 @@
 ---
 title: "Custom Controls"
+description: Custom Controls lists all OCX controls that are registered on the client computer.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

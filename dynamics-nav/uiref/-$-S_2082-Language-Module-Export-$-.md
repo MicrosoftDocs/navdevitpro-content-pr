@@ -1,5 +1,6 @@
 ---
 title: "Language Module Export"
+description: Language Module Export exports a language module.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

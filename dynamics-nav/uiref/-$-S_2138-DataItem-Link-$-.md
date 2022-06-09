@@ -1,5 +1,6 @@
 ---
 title: "DataItem Link"
+description: DataItem Link specifies the relationship between fields in the current data item and reference fields on a parent data item.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

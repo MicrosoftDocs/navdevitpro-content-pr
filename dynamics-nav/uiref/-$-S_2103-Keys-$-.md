@@ -1,5 +1,6 @@
 ---
 title: "Keys"
+description: Keys shows all keys that have been defined in the table that you selected in the Table Designer.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
