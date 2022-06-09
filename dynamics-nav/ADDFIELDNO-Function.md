@@ -1,5 +1,6 @@
 ---
 title: "ADDFIELDNO Function"
+description: "The ADDFIELDNO function adds a table field to the filter control for a table on the filter page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

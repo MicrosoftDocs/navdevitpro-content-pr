@@ -1,5 +1,6 @@
 ---
 title: "Accessing Columns of a Query Dataset"
+description: "This article explains accessing the query in the reading state. The syntax to retrieve the value of columns in the current active row of the dataset is provided."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

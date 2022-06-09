@@ -1,5 +1,6 @@
 ---
 title: "Adding a FactBox to Page"
+description: "This article describes how to add a Factbox to a page and the page types that support it. A Factbox is used to display content like pages, charts, and system parts."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Accessibility"
+description: "This article contains information about the available accessibility features in Microsoft Dynamics NAV 2018. Additional topics are provided."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

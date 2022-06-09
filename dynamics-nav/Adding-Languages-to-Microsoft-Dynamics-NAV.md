@@ -1,5 +1,6 @@
 ---
 title: "Adding Languages to Microsoft Dynamics NAV"
+description: "This article explains how to add languages displayed on the user interface to Microsoft Dynamics NAV by importing a language module or a multilanguage file."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

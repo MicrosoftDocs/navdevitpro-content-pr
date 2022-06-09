@@ -1,5 +1,6 @@
 ---
 title: "Accessing Objects in Other Databases or on Linked Servers"
+description: "This article describes how to access objects outside the current database or server from Microsoft Dynamics NAV by linking to an appropriately defined view."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

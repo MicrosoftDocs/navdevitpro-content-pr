@@ -1,5 +1,6 @@
 ---
 title: "ABS Function (Decimal, Integer, BigInteger)"
+description: "The ABS function calculates the absolute value of a number (Decimal, Integer or BigInteger). ABS always returns a positive numeric value or zero."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

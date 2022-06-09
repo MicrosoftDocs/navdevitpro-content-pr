@@ -1,5 +1,6 @@
 ---
 title: "Altering Databases - Advanced Tab"
+description: "The Altering Databases Advanced Tab specifies how locking is handled in the database and specifies the start ID for elements on new objects."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

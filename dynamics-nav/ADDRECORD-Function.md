@@ -1,5 +1,6 @@
 ---
 title: "ADDRECORD Function"
+description: "The ADDRECORD function adds a filter control for a table to a filter page. The table is specified by a record data type variable that is passed to the function."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

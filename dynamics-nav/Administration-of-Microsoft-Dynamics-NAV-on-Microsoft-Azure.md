@@ -1,5 +1,6 @@
 ---
 title: "Administration of Microsoft Dynamics NAV on Microsoft Azure"
+description: "This article discusses the administration concepts and tasks for Dynamics NAV deployments on Microsoft Azure."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
