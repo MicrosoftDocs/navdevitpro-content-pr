@@ -1,5 +1,6 @@
 ---
 title: "How to: View or Modify Properties on a Key"
+description: "Describes how to view or modify key properties for a table or a field."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

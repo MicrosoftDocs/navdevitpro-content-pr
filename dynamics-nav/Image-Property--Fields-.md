@@ -1,5 +1,6 @@
 ---
 title: "Image Property (Fields)"
+description: "The Image Property (Fields) specifies the image to display on a Cue. This article describes its syntax, property value, and remarks."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

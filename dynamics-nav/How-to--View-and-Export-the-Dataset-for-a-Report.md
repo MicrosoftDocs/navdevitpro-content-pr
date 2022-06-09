@@ -1,5 +1,6 @@
 ---
 title: "How to: View and Export the Dataset for a Report"
+description: "Describes how to view and export the dataset for a report using the About This Report feature."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

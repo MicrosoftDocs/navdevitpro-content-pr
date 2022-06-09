@@ -1,5 +1,6 @@
 ---
 title: "How to: Verify the Paper Size"
+description: "Describes how to verify the paper size after you create a RDLC report layout."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "ID Property"
+description: "The ID Property sets a unique numeric ID for this codeunit, table, page, report, XMLport, or control."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
