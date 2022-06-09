@@ -1,5 +1,6 @@
 ---
 title: "How to: Use Event Viewer to Collect and View Trace Events"
+description: "Describes how to enable Dynamics NAV Debug logs in Event Viewer."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "How to: Use Logman to Collect Event Trace Data"
+description: "This article describes how to use logman to collect event trace data for Microsoft Dynamics NAV Server."
 ms.custom: na
 ms.date: 01/02/2018
 ms.reviewer: na

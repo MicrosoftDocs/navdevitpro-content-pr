@@ -1,5 +1,6 @@
 ---
 title: "How to: Sort a Query Dataset in Ascending or Descending Order"
+description: "Describes how to sort a query dataset in ascending or descending order by one or more selected columns."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

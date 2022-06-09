@@ -1,5 +1,6 @@
 ---
 title: "How to: Specify the Start ID Offset of Elements on Objects"
+description: "Describes how to use the start ID to identify a set of elements in your application."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

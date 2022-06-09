@@ -1,5 +1,6 @@
 ---
 title: "How to: Subscribe to Events in a .NET Framework Type"
+description: "With .NET Framework interoperability in Dynamics NAV objects, you can configure a DotNet variable to subscribe to events that are published by a .NET Framework type."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

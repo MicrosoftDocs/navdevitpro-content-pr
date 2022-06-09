@@ -1,5 +1,6 @@
 ---
 title: "How to: Use Option Strings in Multilanguage Implementations"
+description: "Describes how to use option string in multilanguage implementations."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
