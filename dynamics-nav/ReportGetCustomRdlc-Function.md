@@ -1,5 +1,6 @@
 ---
 title: "ReportGetCustomRdlc Function"
+description: Learn how the ReportGetCustomRdlc function loads the proper custom RDLC layout for a report at run time and uses the layout to render the report.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

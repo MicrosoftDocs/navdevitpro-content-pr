@@ -1,5 +1,6 @@
 ---
 title: "ROUNDDATETIME Function (DateTime)"
+description: Learn how the ROUNDDATETIME function (DateTime) rounds a DateTime, as well as other details about the function, like its parameters and return value. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

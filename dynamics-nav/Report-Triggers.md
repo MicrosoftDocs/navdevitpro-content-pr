@@ -1,5 +1,6 @@
 ---
 title: "Report Triggers"
+description: This article describes how when you run a report, the report triggers are called in a specific order.  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

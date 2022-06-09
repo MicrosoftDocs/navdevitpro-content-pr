@@ -1,5 +1,6 @@
 ---
 title: "RUN Function (Page)"
+description: Learn how the RUN function (Page) creates and launches a page that you specify. You can use CLEAR Function to remove the page.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

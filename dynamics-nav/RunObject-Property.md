@@ -1,5 +1,6 @@
 ---
 title: "RunObject Property"
+description: Learn how the RunObject property sets the object you want to run immediately when the action is activated.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
