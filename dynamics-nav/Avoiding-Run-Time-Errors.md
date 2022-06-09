@@ -1,5 +1,6 @@
 ---
 title: "Avoiding Run-Time Errors"
+description: "This article explains how to find and correct run-time errors, how to avoid them, and an example of what to look for."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

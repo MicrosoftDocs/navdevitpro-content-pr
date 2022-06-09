@@ -1,5 +1,6 @@
 ---
 title: "BREAK Function (Report, XMLport)"
+description: "The BREAK Function (Report, XMLport) exits from a loop or a trigger in a data item trigger of a report or XMLport."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

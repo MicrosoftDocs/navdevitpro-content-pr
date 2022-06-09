@@ -1,5 +1,6 @@
 ---
 title: "Best Practices with Microsoft Dynamics NAV Events"
+description: "This topic provides naming and coding guidelines for using events in Dynamics NAV."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

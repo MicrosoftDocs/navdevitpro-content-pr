@@ -1,5 +1,6 @@
 ---
 title: "AutoIncrement Property"
+description: "The AutoIncrement Property sets whether the field value should be automatically incremented."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

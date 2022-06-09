@@ -1,5 +1,6 @@
 ---
 title: "BigText Functions"
+description: "This article references the ADDTEXT, GETSUBTEXT, LENGTH, TEXTPOS, and WRITE functions."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
