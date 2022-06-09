@@ -1,5 +1,6 @@
 ---
 title: "OnRename Trigger"
+description: "This article describes the OnRename Trigger, which is executed when a user tries to rename a record." 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

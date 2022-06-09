@@ -1,5 +1,6 @@
 ---
 title: "OptionString Property"
+description: "This article describes the OptionString Property, which sets the option values for a field, text box, or variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

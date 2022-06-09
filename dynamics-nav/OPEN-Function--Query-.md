@@ -1,5 +1,6 @@
 ---
 title: "OPEN Function (Query)"
+description: "This article provides syntax, return value, and a code example for OPEN Function (Query), which Runs a query object and generates a dataset that can be read."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

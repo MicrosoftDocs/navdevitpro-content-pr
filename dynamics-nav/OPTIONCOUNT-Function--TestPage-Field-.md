@@ -1,5 +1,6 @@
 ---
 title: "OPTIONCOUNT Function (TestPage Field)"
+description: "This article provides syntax, parameters, and property/return value of the OPTIONCOUNT Function (TestPage Field), which gets the number of options in a field on a test page."  
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
