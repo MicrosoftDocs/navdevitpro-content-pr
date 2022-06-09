@@ -1,5 +1,6 @@
 ---
 title: "OnAfterGetRecord (XMLports) Trigger"
+description: Describes the OnAfterGetRecord trigger which is executed after a record is retrieved from a table and before it's exported to an XML document.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

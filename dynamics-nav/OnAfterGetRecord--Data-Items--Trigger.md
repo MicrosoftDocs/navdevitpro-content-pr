@@ -1,5 +1,6 @@
 ---
 title: "OnAfterGetRecord (Data Items) Trigger"
+description: Describes the OnAfterGetRecord (Data Items) trigger which is executed each time a record is retrieved from the data item.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

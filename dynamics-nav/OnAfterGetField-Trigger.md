@@ -1,5 +1,6 @@
 ---
 title: "OnAfterGetField Trigger"
+description: Describes the OnAfterGetField trigger which is executed after a field is passed to the XML document.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
