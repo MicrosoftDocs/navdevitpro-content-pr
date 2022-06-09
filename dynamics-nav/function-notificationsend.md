@@ -1,5 +1,6 @@
 ---
 title: "SEND Function (Notification)"
+description: Describes the SEND function (notification) and provides the return value and an example.
 ms.custom: na
 ms.date: 09/20/2016
 ms.reviewer: na

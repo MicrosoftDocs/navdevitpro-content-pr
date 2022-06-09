@@ -1,5 +1,6 @@
 ---
 title: "Asynchronous Considerations"
+description: "This article describes the limitations regarding asynchronous communication one must consider when writing control add-ins that work on all display targets"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

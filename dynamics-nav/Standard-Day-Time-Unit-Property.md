@@ -1,5 +1,6 @@
 ---
 title: "Standard Day-Time Unit Property"
+description: Describes the Standard Day-Time Unit Property. This property has been deprecated. If you set it on a field, it will have no impact on the user interface.
 ms.custom: na
 ms.date: 04/06/2018
 ms.reviewer: na

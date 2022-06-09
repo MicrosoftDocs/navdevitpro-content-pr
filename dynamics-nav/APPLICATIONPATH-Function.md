@@ -1,5 +1,6 @@
 ---
 title: "APPLICATIONPATH Function"
+description: "The APPLICATIONPATH function returns the path of the directory where the executable file for Dynamics NAV is installed."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

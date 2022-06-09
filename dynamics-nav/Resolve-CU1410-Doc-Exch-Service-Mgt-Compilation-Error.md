@@ -1,5 +1,6 @@
 ---
 title: "Resolving Codeunit 1410 Doc. Exch. Service Mgt. Error When Converting a Database"
+description: This article describes how to use the development environment to change the DotNet data type variables.
 ms.custom: na
 ms.date: 05/12/2021
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "SERIALNUMBER Function (Database)"
+description: SERIALNUMBER Function (Database) Gets a string that contains the serial number of the license file for your system.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

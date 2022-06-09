@@ -1,5 +1,6 @@
 ---
 title: "How to: Set Up Scheduled Synchronization by Using the Job Queue"
+description: This article describes how to set up scheduled synchronization by using the job queue.
 ms.custom: na
 ms.date: 10/24/2016
 ms.reviewer: na

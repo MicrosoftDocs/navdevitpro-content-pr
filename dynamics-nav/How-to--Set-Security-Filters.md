@@ -1,5 +1,6 @@
 ---
 title: "How to: Set Security Filters"
+description: This article describes how to set security filters. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

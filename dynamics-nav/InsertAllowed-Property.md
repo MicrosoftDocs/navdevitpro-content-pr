@@ -1,5 +1,6 @@
 ---
 title: "InsertAllowed Property"
+description: "This topic describes the InsertAllowed property, which sets a value to specify whether users can add records while using a page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

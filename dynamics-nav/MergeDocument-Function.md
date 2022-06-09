@@ -1,5 +1,6 @@
 ---
 title: "MergeDocument Function"
+description: "MergeDocument Function loads the custom Word layout that is currently set up to use on the report and renders it in the targeted format, such as Word or PDF."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

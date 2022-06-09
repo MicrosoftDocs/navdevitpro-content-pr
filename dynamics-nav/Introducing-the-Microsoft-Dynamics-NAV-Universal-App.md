@@ -1,5 +1,6 @@
 ---
 title: "Introducing the Microsoft Dynamics NAV Universal App"
+description: "The app displaying the Microsoft Dynamics NAV Tablet client and Phone client is targeted at users in businesses that want to access data from a tablet or a phone."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Query Objects and Performance"
+description: Learn how a query is a new object in Microsoft Dynamics NAV 2018 that you use to specify a set of data that you want to read from the Dynamics NAV database. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

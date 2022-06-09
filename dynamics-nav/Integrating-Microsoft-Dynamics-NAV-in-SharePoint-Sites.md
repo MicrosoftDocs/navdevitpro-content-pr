@@ -1,5 +1,6 @@
 ---
 title: "Integrating Microsoft Dynamics NAV in SharePoint Sites"
+description: "Describes how Dynamics NAV data can be shown in a SharePoint site, and can modify the data on the SharePoint site through the Microsoft Dynamics NAV Web client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

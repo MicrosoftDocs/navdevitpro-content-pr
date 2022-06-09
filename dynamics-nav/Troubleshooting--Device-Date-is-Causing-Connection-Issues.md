@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Device Date is Causing Connection Issues"
+description: "This article describes how to resolve this issue: Device Date is Causing Connection Issues."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

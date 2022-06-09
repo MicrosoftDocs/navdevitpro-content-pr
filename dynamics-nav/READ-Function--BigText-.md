@@ -1,5 +1,6 @@
 ---
 title: "READ Function (BigText)"
+description: Learn how the READ function (BigText) streams a BigText object that is stored as a BLOB in a table to a BigText variable.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

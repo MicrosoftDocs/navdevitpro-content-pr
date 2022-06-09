@@ -1,5 +1,6 @@
 ---
 title: "SingleInstance Property"
+description: SingleInstance Property sets whether a single instance of the codeunit and codeunit variables are instantiated.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

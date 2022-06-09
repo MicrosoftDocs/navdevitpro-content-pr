@@ -1,5 +1,6 @@
 ---
 title: "SessionSettings Data Type"
+description: The SessionSettings data type is a complex data type for passing user personalization settings for a client session as an object.
 ms.custom: na
 ms.date: 06/08/2017
 ms.reviewer: na

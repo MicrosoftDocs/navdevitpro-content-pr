@@ -1,5 +1,6 @@
 ---
 title: "SETRANGE Function (FieldRef)"
+description: SETRANGE Function (FieldRef) Sets a simple filter on a field, such as a single range or a single value.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

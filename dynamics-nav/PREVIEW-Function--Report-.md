@@ -1,5 +1,6 @@
 ---
 title: "PREVIEW Function (Report)"
+description: "This article provides syntax and a code example of the PREVIEW Function (Report), which indicates whether a report is being printed in preview mode."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

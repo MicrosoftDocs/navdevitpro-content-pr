@@ -1,5 +1,6 @@
 ---
 title: "STOP Function (Debugger)"
+description: Describes the STOP Function (Debugger) and includes syntax, property value/return value, and additional information.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

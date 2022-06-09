@@ -1,5 +1,6 @@
 ---
 title: "Report Metadata Virtual Table"
+description: Learn how the Report Metadata virtual table (ID 2000000139) contains data about the report in the database.
 ms.custom: na
 ms.date: 06/10/2021
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Creating Table Definitions from SQL Server Objects (Linked Objects)"
+description: This article describes creating table definitions from SQL Server objects (linked objects).
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

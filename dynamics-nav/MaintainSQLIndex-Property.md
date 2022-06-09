@@ -1,5 +1,6 @@
 ---
 title: "MaintainSQLIndex Property"
+description: "The MaintainSQLIndex Property sets a value that indicates whether a SQL Server index that corresponds to the Microsoft Dynamics NAV key should be created."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

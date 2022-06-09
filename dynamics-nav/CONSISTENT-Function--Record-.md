@@ -1,5 +1,6 @@
 ---
 title: "CONSISTENT Function (Record)"
+description: "Describes the CONSISTENT function (Record), which marks a table as being consistent (true) or inconsistent (false)."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

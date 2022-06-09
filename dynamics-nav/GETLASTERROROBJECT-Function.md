@@ -1,5 +1,6 @@
 ---
 title: "GETLASTERROROBJECT Function"
+description: Describes the GETLASTERROROBJECT function and provides, syntax, return value, and an example.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

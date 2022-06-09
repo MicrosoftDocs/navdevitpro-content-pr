@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Dynamics NAV Server Settings"
+description: "Describes what the Microsoft Dynamics NAV Server settings are used for and how to modify them."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Reports that are saved as Excel or Word files are blank"
+description: "This article describes how to resolve this issue: Reports that are saved as Excel or Word files are blank."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

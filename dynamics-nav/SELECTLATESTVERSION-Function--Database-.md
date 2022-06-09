@@ -1,5 +1,6 @@
 ---
 title: "SELECTLATESTVERSION Function (Database)"
+description: This topic contains information on the SELECTLATESTVERSION Function (Database) syntax, remarks, and additional information.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

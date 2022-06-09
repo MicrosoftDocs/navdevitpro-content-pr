@@ -1,5 +1,6 @@
 ---
 title: "RECALL Function (Notification)"
+description: Describes the RECALL function (notification) and provides the return value and an example.
 ms.custom: na
 ms.date: 09/20/2016
 ms.reviewer: na

@@ -1,6 +1,7 @@
 ---
 author: edupont04
 title: "LOADPACKAGEDATA Function"
+description: "The LOADPACKAGEDATA Function loads default, or starting, table data into the specified table of an extension during installation."
 ms.custom: na
 ms.date: 11/02/2016
 ms.reviewer: na

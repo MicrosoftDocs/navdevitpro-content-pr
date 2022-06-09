@@ -1,5 +1,6 @@
 ---
 title: "INSSTR Function (Code, Text)"
+description: "This topic describes Microsoft Dynamics Nav 2018's INSSTR function (Code, Text), which inserts a substring into a string."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

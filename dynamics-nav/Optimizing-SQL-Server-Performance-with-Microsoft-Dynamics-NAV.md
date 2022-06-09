@@ -1,5 +1,6 @@
 ---
 title: "Optimizing SQL Server Performance with Microsoft Dynamics NAV"
+description: "This article provides links to guidelines how to optimize SQL server performance with Dynamics NAV."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

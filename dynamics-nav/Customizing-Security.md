@@ -1,5 +1,6 @@
 ---
 title: "Customizing Security"
+description: This article provides security customization options to limit user access beyond the permission level.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

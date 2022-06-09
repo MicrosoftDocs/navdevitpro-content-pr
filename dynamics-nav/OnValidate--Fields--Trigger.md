@@ -1,5 +1,6 @@
 ---
 title: "OnValidate (Fields) Trigger"
+description: "This article describes the OnValidate (Fields) Trigger, which is executed when user input is validated." 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

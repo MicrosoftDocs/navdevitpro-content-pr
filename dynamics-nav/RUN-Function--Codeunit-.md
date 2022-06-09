@@ -1,5 +1,6 @@
 ---
 title: "RUN Function (Codeunit)"
+description: In this article, you can learn how the RUN function (Codeunit) loads and executes the unit of C/AL code you specify.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

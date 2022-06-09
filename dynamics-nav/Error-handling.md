@@ -1,5 +1,6 @@
 ---
 title: "Error Handling Methods"
+description: This article provides links to error handling functions.
 ms.custom: na
 ms.date: 10/17/2017
 ms.reviewer: na

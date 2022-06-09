@@ -77,9 +77,9 @@ We recommend that you secure [!INCLUDE[navnow](includes/navnow_md.md)] data that
   
 1. Download and install Microsoft Application Request Routing for IIS. You can use one of the following links:  
   
-   -   [Microsoft Application Request Routing Version 2 for IIS 7 \(x64\)](https://go.microsoft.com/fwlink/?LinkID=265360)  
+   -   [Microsoft Application Request Routing Version 2 for IIS 7 \(x64\)](/iis/extensions/installing-application-request-routing-arr/install-application-request-routing-version-2)  
   
-   -   [Microsoft Application Request Routing Version 2 for IIS 7 \(x86\)](https://go.microsoft.com/fwlink/?LinkID=265361)  
+   -   [Microsoft Application Request Routing Version 2 for IIS 7 \(x86\)](/iis/extensions/installing-application-request-routing-arr/install-application-request-routing-version-2)  
   
 2. On the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open the web.config file for the web server instance for [!INCLUDE[nav_web](includes/nav_web_md.md)]. Use a text editor, such as Notepad.  
   

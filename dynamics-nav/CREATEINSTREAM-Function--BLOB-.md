@@ -1,5 +1,6 @@
 ---
 title: "CREATEINSTREAM Function (BLOB)"
+description: Describes the CREATEINSTREAM function (BLOB) and provides syntax and parameters.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

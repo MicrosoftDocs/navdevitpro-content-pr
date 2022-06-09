@@ -1,5 +1,6 @@
 ---
 title: "Setting Database Owner and Security Administration Permissions"
+description: Describes steps for Setting Database Owner and Security Administration Permissions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

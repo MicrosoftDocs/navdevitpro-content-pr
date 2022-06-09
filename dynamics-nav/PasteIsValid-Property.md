@@ -1,5 +1,6 @@
 ---
 title: "PasteIsValid Property"
+description: "This article describes the PasteIsValid Property and provides its property value."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

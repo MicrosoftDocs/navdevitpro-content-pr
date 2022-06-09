@@ -1,5 +1,6 @@
 ---
 title: "OnLookup (Fields) Trigger"
+description: "This article describes the OnLookup (Fields) Trigger, which causes the system to display a lookup page."  
 ms.custom: na
 ms.date: 05/10/2017
 ms.reviewer: na

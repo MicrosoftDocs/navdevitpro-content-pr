@@ -1,5 +1,6 @@
 ---
 title: "IsUpdated Operation"
+description: "The IsUpdated Operation checks if an object has been updated since the key was obtained, which prevents a concurrency management failure."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "Resolving Table 5330 CRM Connection Setup Error When Converting a Database"
+description: Resolve the compilation error that you get for Table 5330 CRM Connection Setup when converting a Microsoft Dynamics NAV 2016 database to Microsoft Dynamics NAV 2017.
 ms.custom: na
 ms.date: 03/20/2017
 ms.reviewer: na

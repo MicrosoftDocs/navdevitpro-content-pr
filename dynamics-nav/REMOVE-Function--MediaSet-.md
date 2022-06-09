@@ -1,5 +1,6 @@
 ---
 title: "REMOVE Function (MediaSet)"
+description: This article describes how the REMOVE function (MediaSet) removes a media object from a MediaSet of a record.
 ms.custom: na
 ms.date: 11/17/2016
 ms.reviewer: na

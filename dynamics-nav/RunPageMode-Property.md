@@ -1,5 +1,6 @@
 ---
 title: "RunPageMode Property"
+description: This article provides a general overview of the RunPageMode property.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

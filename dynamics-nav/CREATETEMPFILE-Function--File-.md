@@ -1,5 +1,6 @@
 ---
 title: "CREATETEMPFILE Function (File)"
+description: Describes the CREATETEMPFILE function (file) and provides syntax, parameters, and an example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

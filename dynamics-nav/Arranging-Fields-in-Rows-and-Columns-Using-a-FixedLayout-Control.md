@@ -1,5 +1,6 @@
 ---
 title: "Arranging Fields in Rows and Columns Using a FixedLayout Control"
+description: "This article describes the layout and behavior of fields in a FixedLayout control on a page."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "COPYFILTERS Function (Record)"
+description: "Copies all the filters set by the SETFILTER Function (Record) or the SETRANGE Function (Record) from one record to another."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

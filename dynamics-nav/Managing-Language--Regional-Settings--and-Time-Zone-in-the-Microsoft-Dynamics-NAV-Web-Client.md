@@ -1,5 +1,6 @@
 ---
 title: "Managing Language, Regional Settings, and Time Zone in the Microsoft Dynamics NAV Web Client"
+description: "This topic describes how to set the language, regional settings, and time zone for the Microsoft Dynamics NAV Web client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

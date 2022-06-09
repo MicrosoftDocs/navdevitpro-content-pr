@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting HTTP Error 500.21 Internal Server Error Handler aspNetCore has a bad module AspNetCoreModule in its module list"
+description: "Learn how to resolve this issue: HTTP Error 500.21 - Internal Server Error Handler 'aspNetCore' has a bad module 'AspNetCoreModule' in its module list."
 ms.custom: na
 ms.date: 09/20/2017
 ms.reviewer: na

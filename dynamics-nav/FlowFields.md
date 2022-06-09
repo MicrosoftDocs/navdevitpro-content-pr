@@ -1,5 +1,6 @@
 ---
 title: "FlowFields"
+description: Describes FlowFields and provides the types and an example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "How to: Set an Icon on an Activity Button"
+description: This article describes how to set an icon on an activity button.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

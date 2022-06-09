@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: Microsoft Dynamics NAV Web Client does have styles and images are missing"
+description: "Learn how to resolve this issue: Microsoft Dynamics NAV Web Client does have styles and images are missing."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "OnBeforeOpen Trigger"
+description: "This article describes the OnBeforeOpen Trigger, which is executed before a query is run and the dataset is generated."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

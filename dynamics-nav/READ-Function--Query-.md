@@ -1,5 +1,6 @@
 ---
 title: "READ Function (Query)"
+description: This article describes how the READ function (Query) reads data from a row in the resulting dataset of a query.
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

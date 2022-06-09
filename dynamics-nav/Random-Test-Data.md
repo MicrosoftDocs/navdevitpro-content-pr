@@ -1,5 +1,6 @@
 ---
 title: "Random Test Data"
+description: Learn how you can use codeunit 130440 Library – Random to help generate random data for your application tests. 
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

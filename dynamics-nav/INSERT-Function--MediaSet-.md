@@ -1,5 +1,6 @@
 ---
 title: "INSERT Function (MediaSet)"
+description: "This topic describes the INSERT function (MediaSet), which adds a media object that already exists in the database to a MediaSet of a record."
 ms.custom: na
 ms.date: 11/17/2016
 ms.reviewer: na

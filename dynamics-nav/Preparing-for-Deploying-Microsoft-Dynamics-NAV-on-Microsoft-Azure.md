@@ -1,5 +1,6 @@
 ---
 title: "Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure"
+description: "This article provides step-by-step guidelines on preparing for deploying Microsoft Dynamics NAV on Microsoft Azure."
 author: jswymer
 ms.custom: na
 ms.date: 06/05/2016

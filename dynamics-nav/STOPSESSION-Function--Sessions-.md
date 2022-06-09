@@ -1,5 +1,6 @@
 ---
 title: "STOPSESSION Function (Sessions)"
+description: Describes the STOPSESSION Function (Sessions) and provides the function's syntax, parameters, remarks, an example, and additional references.
 ms.custom: na
 ms.date: 02/08/2017
 ms.reviewer: na

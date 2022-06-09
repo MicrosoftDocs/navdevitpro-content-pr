@@ -1,5 +1,6 @@
 ---
 title: "How to: Rename Companies"
+description: This article provides a detailed overview of how to rename companies.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

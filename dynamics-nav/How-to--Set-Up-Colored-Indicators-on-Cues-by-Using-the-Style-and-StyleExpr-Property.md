@@ -1,5 +1,6 @@
 ---
 title: "How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property"
+description: This article describes how to set up colored indicators on cues by using the Style and StyleExpr property.
 ms.custom: na
 ms.date: 06/02/2017
 ms.reviewer: na

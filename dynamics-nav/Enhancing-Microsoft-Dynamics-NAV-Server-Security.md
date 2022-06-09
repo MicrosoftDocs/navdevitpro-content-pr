@@ -1,5 +1,6 @@
 ---
 title: "Enhancing Microsoft Dynamics NAV Server Security"
+description: Describes enhancing Microsoft Dynamics NAV Server security through a login account, disk quotas, limiting prot access, and data encryption.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

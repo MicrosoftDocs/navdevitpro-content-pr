@@ -1,5 +1,6 @@
 ---
 title: "ASBOOLEAN Function (TestPage Field)"
+description: "The ASBOOLEAN Function (TestPage Field) converts the value in a field on a test page to a Boolean data type."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

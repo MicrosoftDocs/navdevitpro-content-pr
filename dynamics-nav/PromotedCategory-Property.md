@@ -1,5 +1,6 @@
 ---
 title: "PromotedCategory Property"
+description: Learn how the PromotedCategory property sets a category for a promoted action. This article also includes links to more information for your reference.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

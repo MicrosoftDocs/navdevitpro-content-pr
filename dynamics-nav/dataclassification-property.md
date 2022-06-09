@@ -1,5 +1,6 @@
 ---
 title: "DataClassification Property"
+description: Describes the DataClassification property and provides the classification property values.
 ms.author: jswymer
 ms.custom: na
 ms.date: 03/13/2018

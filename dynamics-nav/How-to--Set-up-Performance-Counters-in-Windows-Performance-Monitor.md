@@ -1,5 +1,6 @@
 ---
 title: "How to: Set up Performance Counters in Windows Performance Monitor"
+description: This article describes how to set up performance counters in Windows Performance Monitor.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

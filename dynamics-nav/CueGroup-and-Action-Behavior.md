@@ -1,5 +1,6 @@
 ---
 title: "CueGroup and Action Behavior"
+description: Describes CueGroup and action behavior to visually provide a way to show the number of entities in a table and view the entities in a filtered list.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

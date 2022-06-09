@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Dynamics NAV Performance Counters"
+description: "Describes the performance counters that are available in Dynamics NAV for monitoring Microsoft Dynamics NAV Server instances."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

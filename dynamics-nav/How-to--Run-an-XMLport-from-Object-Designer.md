@@ -1,5 +1,6 @@
 ---
 title: "How to: Run an XMLport from Object Designer"
+description: This article provides a detailed overview of how to run an XMLport from Object Designer.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

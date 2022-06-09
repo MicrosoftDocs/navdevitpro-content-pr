@@ -1,5 +1,6 @@
 ---
 title: "Ellipsis Property"
+description: Describes the Ellipsis property and its property value.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

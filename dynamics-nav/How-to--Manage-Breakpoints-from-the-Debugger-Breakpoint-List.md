@@ -1,5 +1,6 @@
 ---
 title: "How to: Manage Breakpoints from the Debugger Breakpoint List"
+description: "Describes how to view, set, enable, disable, or delete breakpoints from the Debugger Breakpoint List."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

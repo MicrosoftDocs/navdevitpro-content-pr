@@ -1,5 +1,6 @@
 ---
 title: "STARTSESSION Function (Sessions)"
+description: Describes the STARTSESSION Function (Sessions) and includes syntax, parameters, and remarks.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

@@ -1,5 +1,6 @@
 ---
 title: "ISBYTE Function (Variant)"
+description: "The ISBYTE Function (Variant) indicates whether a C/AL variant contains a Byte data type variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

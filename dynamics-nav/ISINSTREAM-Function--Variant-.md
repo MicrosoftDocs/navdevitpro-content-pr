@@ -1,5 +1,6 @@
 ---
 title: "ISINSTREAM Function (Variant)"
+description: "The ISINSTREAM Function (Variant) indicates whether a C/AL variant contains an InStream variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

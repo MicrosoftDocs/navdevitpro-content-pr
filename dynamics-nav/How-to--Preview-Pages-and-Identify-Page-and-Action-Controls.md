@@ -1,5 +1,6 @@
 ---
 title: "How to: Preview Pages and Identify Page and Action Controls"
+description: "This topic describes how to preview pages and identify page and action controls in the Microsoft Dynamics NAV Windows client."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

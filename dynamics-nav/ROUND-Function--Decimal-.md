@@ -1,5 +1,6 @@
 ---
 title: "ROUND Function (Decimal)"
+description: Learn how the ROUND function (Decimal) rounds the value of a numeric variable, and learn other details about the function.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

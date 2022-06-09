@@ -1,5 +1,6 @@
 ---
 title: "Server Option"
+description: The Server option is available on the Choose an installation option page in navnowlong Setup.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

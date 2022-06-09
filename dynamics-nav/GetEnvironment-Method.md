@@ -1,5 +1,6 @@
 ---
 title: "GetEnvironment Method"
+description: Describes the GetEnvironment method and provides the method signature, return value, and an example.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

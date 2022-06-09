@@ -1,5 +1,6 @@
 ---
 title: "DataItemLink Property (Reports)"
+description: Describes the DataItemLink Property (reports) and provides syntax with descriptions.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

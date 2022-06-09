@@ -1,5 +1,6 @@
 ---
 title: "SOAP Web Services"
+description: Describes SOAP Web Services. SOAP web services enable full flexibility for building operation-centric services.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

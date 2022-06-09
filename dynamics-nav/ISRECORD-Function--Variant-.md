@@ -1,5 +1,6 @@
 ---
 title: "ISRECORD Function (Variant)"
+description: "The ISRECORD Function (Variant) indicates whether a C/AL variant contains a Record variable."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

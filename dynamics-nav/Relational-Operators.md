@@ -1,5 +1,6 @@
 ---
 title: "Relational Operators"
+description: Learn how the relational operators are used to compare expressions, as well as valid uses of relational operators.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

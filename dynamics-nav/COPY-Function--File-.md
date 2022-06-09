@@ -1,5 +1,6 @@
 ---
 title: "COPY Function (File)"
+description: "This document describes the COPY function (File), which copies a file from one specified location to another."
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
