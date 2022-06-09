@@ -1,5 +1,6 @@
 ---
 title: "How to: Increase the Size of Transaction Log Files"
+description: "Describes how to expand your transaction log by increasing the size of one or more of its constituent files."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
