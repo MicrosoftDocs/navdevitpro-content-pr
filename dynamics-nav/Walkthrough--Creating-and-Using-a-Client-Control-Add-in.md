@@ -2,6 +2,7 @@
 title: "Walkthrough: Creating and Using a Client Control Add-in"
 description: Learn how to create a Dynamics NAV control add-in to add custom functionality and use it on a Dynamics NAV page.
 author: jswymer
+description: Learn how to create and use a client control add-in.
 ms.custom: na
 ms.date: 12/12/2017
 ms.reviewer: na
