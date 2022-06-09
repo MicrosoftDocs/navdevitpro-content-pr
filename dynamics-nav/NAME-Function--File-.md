@@ -1,5 +1,6 @@
 ---
 title: "NAME Function (File)"
+description: Describes the syntax and code for the NAME Function which provides the name of an ASCII or binary file.
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
