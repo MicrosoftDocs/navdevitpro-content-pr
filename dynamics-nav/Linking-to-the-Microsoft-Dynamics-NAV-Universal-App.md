@@ -1,5 +1,6 @@
 ---
 title: "Linking to the Microsoft Dynamics NAV Universal App"
+description: "Describes how to link to the Microsoft Dynamics NAV Universal App by constructing a URL."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

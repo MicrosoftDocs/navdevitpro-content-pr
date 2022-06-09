@@ -1,5 +1,6 @@
 ---
 title: "LOCKTABLE Function (Record)"
+description: "The LOCKTABLE Function (Record) locks a table to protect it from write transactions that conflict with each other."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

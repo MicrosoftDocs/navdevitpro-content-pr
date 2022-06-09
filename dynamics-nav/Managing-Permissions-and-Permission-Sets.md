@@ -1,5 +1,6 @@
 ---
 title: "Managing Permissions and Permission Sets"
+description: "Describes how to manage permissions and permission sets in the Dynamics NAV database."
 author: edupont04
 manager: edupont
 ms.custom: na

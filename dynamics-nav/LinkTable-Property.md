@@ -1,5 +1,6 @@
 ---
 title: "LinkTable Property"
+description: "The LinkTable Property sets the table that this XML item should be linked to. This article describes its application, remarks, and information about exporting and importing."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

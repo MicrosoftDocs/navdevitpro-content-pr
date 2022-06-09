@@ -1,5 +1,6 @@
 ---
 title: "Maintaining Table Relationships on SQL Server"
+description: "Describes various ways of maintaining the table relationships on SQL Server."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

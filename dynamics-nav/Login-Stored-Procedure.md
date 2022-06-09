@@ -1,5 +1,6 @@
 ---
 title: "Login Stored Procedure"
+description: "A login stored procedure is a stored procedure that you can use to perform predefined functions after a user logs on to the Microsoft Dynamics NAV Development Environment."
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
