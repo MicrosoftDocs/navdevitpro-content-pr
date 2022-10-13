@@ -22,8 +22,8 @@ The functionality in the default version of [!INCLUDE [navnow_md](includes/navno
 > [!div class="mx-tdCol2BreakAll"]
 > |Name  |Location  |Description|
 > |---------|---------|---------|
-> |Business functionality docs|[https://docs.microsoft.com/en-us/dynamics-nav-app/](/dynamics-nav-app/) |Use this library to learn about business functionality. |
-> |Development and administration docs|[https://docs.microsoft.com/en-us/dynamics-nav/](/dynamics-nav/)|Use this content to learn how to extend, customize, and administrate [!INCLUDE [navnow_md](includes/navnow_md.md)].|
+> |Business functionality docs|[Microsoft Dynamics NAV documentation](/dynamics-nav-app/) |Use this library to learn about business functionality. |
+> |Development and administration docs|[Developer and IT-Pro Help for Microsoft Dynamics NAV](/dynamics-nav/)|Use this content to learn how to extend, customize, and administrate [!INCLUDE [navnow_md](includes/navnow_md.md)].|
 
 ### Customize and extend the user assistance
 

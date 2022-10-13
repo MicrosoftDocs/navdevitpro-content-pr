@@ -30,9 +30,9 @@ ms.prod: "dynamics-nav-2018"
 |Learn how to develop with the new development environment|[Getting Started](developer/devenv-get-started.md) |
 
 <!--## Feedback
-At the bottom of each article, you can submit feedback either for the product or for the documentation. For more information, see the [Microsoft Docs Contributor Guide](https://docs.microsoft.com/contribute/#create-quality-issues).-->
+At the bottom of each article, you can submit feedback either for the product or for the documentation. For more information, see the [Microsoft Docs Contributor Guide](https://learn.microsoft.com/contribute/#create-quality-issues).-->
 
-<!--Previously submitted feedback has not been deleted but is no longer visible online. Please read the [Docs.microsoft.com blog](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs) for more information. -->
+<!--Previously submitted feedback has not been deleted but is no longer visible online. Please read the [learn.microsoft.com blog](https://learn.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs) for more information. -->
 
 ## See Also
 
