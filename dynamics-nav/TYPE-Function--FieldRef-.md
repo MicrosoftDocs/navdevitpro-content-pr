@@ -38,7 +38,6 @@ Type := FieldRef.TYPE
 |-------------------|--------------|  
 |CustomerRecref|RecordRef|  
 |MyFieldRef|FieldRef|  
-|varType|Variant|  
   
 |Text constant|ENU value|  
 |-------------------|---------------|  
