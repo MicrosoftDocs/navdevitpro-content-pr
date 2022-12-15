@@ -67,21 +67,19 @@ Sets the FlowFields that you specify to be automatically calculated when the rec
   
 ```  
 // Using CALCFIELDS  
-IF (Customer.FIND(’-’)=true) THEN  
+IF Customer.FINDSET THEN  
   REPEAT  
     Customer.CALCFIELDS(Balance,"Net Change");  
     … // Do some additional processing.  
-  UNTIL (Customer.NEXT=0)  
+  UNTIL Customer.NEXT = 0;  
   
 // Using SETAUTOCALCFIELDS  
 Customer.SETAUTOCALCFIELDS(Balance,"Net Change");  
-IF (Customer.FIND(’-’)=true) THEN  
+IF Customer.FINDSET THEN  
   REPEAT  
     // Customer.Balance and Customer."Net Change" have been auto calculated.  
-    … //Do some additional processing.  
-  
-  UNTIL (Customer.NEXT=0)  
-  
+    … //Do some additional processing.    
+  UNTIL Customer.NEXT = 0;    
 ```  
   
 ## Example 2 
