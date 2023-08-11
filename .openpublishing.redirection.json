@@ -9769,6 +9769,11 @@
       "source_path": "dynamics-nav/dataclassification-property.md",
       "redirect_url": "/dynamics-nav/",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics-nav/classifying-data-sensitivity.md",
+      "redirect_url": "/dynamics-nav/",
+      "redirect_document_id": "false"
     }
   ]
 }

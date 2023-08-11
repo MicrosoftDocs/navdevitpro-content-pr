@@ -63,7 +63,7 @@
 ## [Customizing Dynamics 365 for Sales and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)
 ## [Multilanguage Development](Multilanguage-Development.md)
 ## [Instrumenting for Telemetry](instrumenting-application-for-telemetry.md)
-## [Classifying Data](classifying-data.md)
+<!-- ## [Classifying Data](classifying-data.md) -->
 ## [Testing the Application](Testing-the-Application.md)
 ## [Debugging](Debugging.md)
 ## [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)
@@ -312,7 +312,7 @@
 ## [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)
 ## [Managing Users](Managing-Users.md)
 ## [Managing Companies](Managing-Companies.md)
-## [Classifying Data](classifying-data.md)
+<!-- ## [Classifying Data](classifying-data.md) -->
 ## [Administration in the Development Environment](Administration-in-the-Development-Environment.md)
 ## [Optimizing SQL Server Performance with Microsoft Dynamics NAV](Optimizing-SQL-Server-Performance-with-Microsoft-Dynamics-NAV.md)
 ## [Monitoring Microsoft Dynamics NAV Server](Monitoring-Microsoft-Dynamics-NAV-Server.md)
