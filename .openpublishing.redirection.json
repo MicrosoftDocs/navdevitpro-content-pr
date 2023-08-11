@@ -9764,6 +9764,11 @@
       "source_path": "dynamics-nav/api-reference/v2.0/resources/dynamics_vendorPurchase.md",
       "redirect_url": "/dynamics365/business-central/dev-itpro/api-reference/v2.0",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics-nav/dataclassification-property.md",
+      "redirect_url": "/dynamics-nav/",
+      "redirect_document_id": "false"
     }
   ]
 }
