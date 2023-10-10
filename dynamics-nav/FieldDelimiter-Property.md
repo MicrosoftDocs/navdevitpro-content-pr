@@ -33,7 +33,9 @@ Specifies the text delimiter for a field.
 ## Remarks  
 The default value is " (double straight quotes).  
 
-You can set the field delimiter in C/AL code so that the XMLport can import and export records with different delimiters. For example, if your XMLport must import from a file or stream where one record uses commas and another uses an empty string, you can change the field delimiter property at run time.  
+You can set the field delimiter in C/AL code so that the XMLport can import and export records with different delimiters. For example, if your XMLport must import from a file or stream where one record uses commas and another uses an empty string, you can change the field delimiter property at run time.
+
+Escaping the field delimiter within the field value as documented in [RFC 4180 standard](https://www.ietf.org/rfc/rfc4180.txt) is not respected.
 
 ## See Also  
 [Properties](Properties.md)
