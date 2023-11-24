@@ -174,7 +174,7 @@
       href: resources/dynamics_irs1099.md
       items: 
         - name: Get IRS 1099
-          href: api/dynamics_irs1099_get.md)
+          href: api/dynamics_irs1099_get.md
         - name: Create IRS 1099
           href: api/dynamics_create_irs1099.md
         - name: Update IRS 1099
