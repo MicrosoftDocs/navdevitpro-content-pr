@@ -1,0 +1,467 @@
+- name: API for Dynamics 365 Business Central Beta
+  expanded: true
+  items: 
+    - name: API Beta Overview
+      href: index.md
+    - name: Moving from Beta to V1.0
+      href: ../api-reference/v1.0/moving-from-beta-to-v1.md
+    - name: Enabling the APIs for Dynamics 365 Business Central
+      href: ../enabling-apis-for-dynamics-nav.md
+    - name: Endpoints for the APIs
+      href: ../endpoints-apis-for-dynamics.md
+    - name: Working with Webhooks
+      href: dynamics_subscriptions.md
+    - name: Error Codes
+      href: dynamics_error_codes.md
+    - name: Account
+      href: resources/dynamics_account.md
+      items: 
+        - name: Get account
+          href: api/dynamics_account_get.md
+    - name: Aged accounts payable
+      href: resources/dynamics_agedaccountspayable.md
+      items: 
+        - name: Get aged accounts payable
+          href: api/dynamics_agedaccountspayable_get.md
+    - name: Aged accounts receivable
+      href: resources/dynamics_agedaccountsreceivable.md
+      items: 
+        - name: Get aged accounts receivable
+          href: api/dynamics_agedaccountsreceivable_get.md
+    - name: Balance sheet
+      href: resources/dynamics_balancesheet.md
+      items: 
+        - name: Get balance sheet
+          href: api/dynamics_balancesheet_get.md
+    - name: Cash flow statement
+      href: resources/dynamics_cashflowstatement.md
+      items: 
+        - name: Get cash flow statement
+          href: api/dynamics_cashflowstatement_get.md
+    - name: Companies
+      href: resources/dynamics_companies.md
+      items: 
+        - name: Get companies
+          href: api/dynamics_companies_get.md
+    - name: Company information
+      href: resources/dynamics_companyinformation.md
+      items: 
+        - name: Get company information
+          href: api/dynamics_companyinformation_get.md
+        - name: Update company information
+          href: api/dynamics_companyinformation_update.md
+    - name: Complex types
+      href: resources/dynamics_complextypes.md
+    - name: Countries/regions
+      href: resources/dynamics_countriesregions.md
+      items: 
+        - name: Get countries/regions
+          href: api/dynamics_countriesregions_get.md
+        - name: Create countries/regions
+          href: api/dynamics_create_countriesregions.md
+        - name: Update countries/regions
+          href: api/dynamics_countriesregions_update.md
+        - name: Delete countries/regions
+          href: api/dynamics_countriesregions_delete.md
+    - name: Currencies
+      href: resources/dynamics_currencies.md
+      items: 
+        - name: Get currencies
+          href: api/dynamics_currencies_get.md
+        - name: Create currencies
+          href: api/dynamics_create_currencies.md
+        - name: Update currencies
+          href: api/dynamics_currencies_update.md
+        - name: Delete currencies
+          href: api/dynamics_currencies_delete.md
+    - name: Customer
+      href: resources/dynamics_customer.md
+      items: 
+        - name: Get customer
+          href: api/dynamics_customer_get.md
+        - name: Create customer
+          href: api/dynamics_create_customer.md
+        - name: Update customer
+          href: api/dynamics_customer_update.md
+        - name: Delete customer
+          href: api/dynamics_customer_delete.md
+        - name: Get customer default dimensions
+          href: api/dynamics_customer_get_defaultdimensions.md
+        - name: Create customer default dimensions
+          href: api/dynamics_customer_create_defaultdimensions.md
+        - name: Update customer default dimensions
+          href: api/dynamics_customer_update_defaultdimensions.md
+        - name: Delete customer default dimensions
+          href: api/dynamics_customer_delete_defaultdimensions.md
+    - name: Customer payment
+      href: resources/dynamics_customerpayment.md
+      items: 
+        - name: Get customer payment
+          href: api/dynamics_customerpayment_get.md
+        - name: Create customer payment
+          href: api/dynamics_create_customerpayment.md
+        - name: Update customer payment
+          href: api/dynamics_customerpayment_update.md
+        - name: Delete customer payment
+          href: api/dynamics_customerpayment_delete.md
+    - name: Customer payments journal
+      href: resources/dynamics_customerpaymentsjournal.md
+      items: 
+        - name: Get customer payments journal
+          href: api/dynamics_customerpaymentsjournal_get.md
+        - name: Create customer payments journal
+          href: api/dynamics_create_customerpaymentsjournal.md
+        - name: Update customer payments journal
+          href: api/dynamics_customerpaymentsjournal_update.md
+        - name: Delete customer payments journal
+          href: api/dynamics_customerpaymentsjournal_delete.md
+    - name: Customer sales
+      href: resources/dynamics_customersales.md
+      items: 
+        - name: Get customer sales
+          href: api/dynamics_customersales_get.md
+    - name: Dimension
+      href: resources/dynamics_dimension.md
+      items: 
+        - name: Get dimension
+          href: api/dynamics_dimension_get.md
+    - name: Dimension line
+      href: resources/dynamics_dimensionline.md
+      items: 
+        - name: Get dimension line
+          href: api/dynamics_dimensionline_get.md
+        - name: Create dimension line
+          href: api/dynamics_create_dimensionline.md
+        - name: Update dimension line
+          href: api/dynamics_dimensionline_update.md
+        - name: Delete dimension line
+          href: api/dynamics_dimensionline_delete.md
+    - name: Dimension value
+      href: resources/dynamics_dimensionvalue.md
+      items: 
+        - name: Get dimension value
+          href: api/dynamics_dimensionvalue_get.md
+    - name: Employee
+      href: resources/dynamics_employee.md
+      items: 
+        - name: Get employee
+          href: api/dynamics_employee_get.md
+        - name: Create employee
+          href: api/dynamics_create_employee.md
+        - name: Update employee
+          href: api/dynamics_employee_update.md
+        - name: Delete employee
+          href: api/dynamics_employee_delete.md
+        - name: Get employee default dimensions
+          href: api/dynamics_employee_get_defaultdimensions.md
+        - name: Create employee default dimensions
+          href: api/dynamics_employee_create_defaultdimensions.md
+        - name: Update employee default dimensions
+          href: api/dynamics_employee_update_defaultdimensions.md
+        - name: Delete employee default dimensions
+          href: api/dynamics_employee_delete_defaultdimensions.md
+    - name: General ledger entries
+      href: resources/dynamics_generalledgerentries.md
+      items: 
+        - name: Get general ledger entries
+          href: api/dynamics_generalledgerentries_get.md
+    - name: Income statement
+      href: resources/dynamics_incomestatement.md
+      items: 
+        - name: Get income statement
+          href: api/dynamics_incomestatement_get.md
+    - name: IRS 1099
+      href: resources/dynamics_irs1099.md
+      items: 
+        - name: Get IRS 1099
+          href: api/dynamics_irs1099_get.md)
+        - name: Create IRS 1099
+          href: api/dynamics_create_irs1099.md
+        - name: Update IRS 1099
+          href: api/dynamics_irs1099_update.md
+        - name: Delete IRS 1099
+          href: api/dynamics_irs1099_delete.md
+    - name: Item
+      href: resources/dynamics_item.md
+      items: 
+        - name: Get item
+          href: api/dynamics_item_get.md
+        - name: Create item
+          href: api/dynamics_create_item.md
+        - name: Update item
+          href: api/dynamics_item_update.md
+        - name: Delete item
+          href: api/dynamics_item_delete.md
+        - name: Get item default dimensions
+          href: api/dynamics_item_get_defaultdimensions.md
+        - name: Create item default dimensions
+          href: api/dynamics_item_create_defaultdimensions.md
+        - name: Update item default dimensions
+          href: api/dynamics_item_update_defaultdimensions.md
+        - name: Delete item default dimensions
+          href: api/dynamics_item_delete_defaultdimensions.md
+    - name: Item categories
+      href: resources/dynamics_itemcategories.md
+      items: 
+        - name: Get item categories
+          href: api/dynamics_itemcategories_get.md
+        - name: Create item categories
+          href: api/dynamics_create_itemcategories.md
+        - name: Update item categories
+          href: api/dynamics_itemcategories_update.md
+        - name: Delete item categories
+          href: api/dynamics_itemcategories_delete.md
+    - name: Journal
+      href: resources/dynamics_journal.md
+      items: 
+        - name: Get journal
+          href: api/dynamics_journal_get.md
+        - name: Create journal
+          href: api/dynamics_create_journal.md
+        - name: Update journal
+          href: api/dynamics_journal_update.md
+        - name: Delete journal
+          href: api/dynamics_journal_delete.md
+    - name: Journal line
+      href: resources/dynamics_journalline.md
+      items: 
+        - name: Get journal line
+          href: api/dynamics_journalline_get.md
+        - name: Create journal line
+          href: api/dynamics_create_journalline.md
+        - name: Update journal line
+          href: api/dynamics_journalline_update.md
+        - name: Delete journal line
+          href: api/dynamics_journalline_delete.md
+    - name: Payment methods
+      href: resources/dynamics_paymentmethods.md
+      items: 
+        - name: Get payment methods
+          href: api/dynamics_paymentmethods_get.md
+        - name: Create payment methods
+          href: api/dynamics_create_paymentmethods.md
+        - name: Update payment methods
+          href: api/dynamics_paymentmethods_update.md
+        - name: Delete payment methods
+          href: api/dynamics_paymentmethods_delete.md
+    - name: Payment terms
+      href: resources/dynamics_paymentterms.md
+      items: 
+        - name: Get payment terms
+          href: api/dynamics_paymentterms_get.md
+        - name: Create payment terms
+          href: api/dynamics_create_paymentterms.md
+        - name: Update payment terms
+          href: api/dynamics_paymentterms_update.md
+        - name: Delete payment terms
+          href: api/dynamics_paymentterms_delete.md
+    - name: Picture
+      href: resources/dynamics_picture.md
+      items: 
+        - name: Get picture
+          href: api/dynamics_picture_get.md
+        - name: Create picture
+          href: api/dynamics_create_picture.md
+        - name: Update picture
+          href: api/dynamics_picture_update.md
+        - name: Delete picture
+          href: api/dynamics_picture_delete.md
+    - name: Purchase invoice
+      href: resources/dynamics_purchaseinvoice.md
+      items: 
+        - name: Get purchase invoice
+          href: api/dynamics_purchaseinvoice_get.md
+        - name: Create purchase invoice
+          href: api/dynamics_create_purchaseinvoice.md
+        - name: Update purchase invoice
+          href: api/dynamics_purchaseinvoice_update.md
+        - name: Delete purchase invoice
+          href: api/dynamics_purchaseinvoice_delete.md
+    - name: Purchase invoice line
+      href: resources/dynamics_purchaseinvoiceline.md
+      items: 
+        - name: Get purchase invoice line
+          href: api/dynamics_purchaseinvoiceline_get.md
+        - name: Create purchase invoice line
+          href: api/dynamics_create_purchaseinvoiceline.md
+        - name: Update purchase invoice line
+          href: api/dynamics_purchaseinvoiceline_update.md
+        - name: Delete purchase invoice line
+          href: api/dynamics_purchaseinvoiceline_delete.md
+    - name: Retained earnings statement
+      href: resources/dynamics_retainedearningsstatement.md
+      items: 
+        - name: Get retained earnings statement
+          href: api/dynamics_retainedearningsstatement_get.md
+    - name: Sales invoice
+      href: resources/dynamics_salesinvoice.md
+      items: 
+        - name: Get sales invoice
+          href: api/dynamics_salesinvoice_get.md
+        - name: Create sales invoice
+          href: api/dynamics_create_salesinvoice.md
+        - name: Update sales invoice
+          href: api/dynamics_salesinvoice_update.md
+        - name: Delete sales invoice
+          href: api/dynamics_salesinvoice_delete.md
+    - name: Sales invoice line
+      href: resources/dynamics_salesinvoiceline.md
+      items: 
+        - name: Get sales invoice line
+          href: api/dynamics_salesinvoiceline_get.md
+        - name: Create sales invoice line
+          href: api/dynamics_create_salesinvoiceline.md
+        - name: Update sales invoice line
+          href: api/dynamics_salesinvoiceline_update.md
+        - name: Delete sales invoice line
+          href: api/dynamics_salesinvoiceline_delete.md
+    - name: Sales credit memo
+      href: resources/dynamics_salescreditmemo.md
+      items: 
+        - name: Get sales credit memo
+          href: api/dynamics_salescreditmemo_get.md
+        - name: Create sales credit memo
+          href: api/dynamics_create_salescreditmemo.md
+        - name: Update sales credit memo
+          href: api/dynamics_salescreditmemo_update.md
+        - name: Delete sales credit memo
+          href: api/dynamics_salescreditmemo_delete.md
+    - name: Sales credit memo line
+      href: resources/dynamics_salescreditmemoline.md
+      items: 
+        - name: Get sales credit memo line
+          href: api/dynamics_salescreditmemoline_get.md
+        - name: Create sales credit memo line
+          href: api/dynamics_create_salescreditmemoline.md
+        - name: Update sales credit memo line
+          href: api/dynamics_salescreditmemoline_update.md
+        - name: Delete sales credit memo line
+          href: api/dynamics_salescreditmemoline_delete.md
+    - name: Sales order
+      href: resources/dynamics_salesorder.md
+      items: 
+        - name: Get sales order
+          href: api/dynamics_salesorder_get.md
+        - name: Create sales order
+          href: api/dynamics_create_salesorder.md
+        - name: Update sales order
+          href: api/dynamics_salesorder_update.md
+        - name: Delete sales order
+          href: api/dynamics_salesorder_delete.md
+    - name: Sales order line
+      href: resources/dynamics_salesorderline.md
+      items: 
+        - name: Get sales order line
+          href: api/dynamics_salesorderline_get.md
+        - name: Create sales order line
+          href: api/dynamics_create_salesorderline.md
+        - name: Update sales order line
+          href: api/dynamics_salesorderline_update.md
+        - name: Delete sales order line
+          href: api/dynamics_salesorderline_delete.md
+    - name: Sales quote
+      href: resources/dynamics_salesquote.md
+      items: 
+        - name: Get sales quote
+          href: api/dynamics_salesquote_get.md
+        - name: Create sales quote
+          href: api/dynamics_create_salesquote.md
+        - name: Update sales quote
+          href: api/dynamics_salesquote_update.md
+        - name: Delete sales quote
+          href: api/dynamics_salesquote_delete.md
+    - name: Sales quote line
+      href: resources/dynamics_salesquoteline.md
+      items: 
+        - name: Get sales quote line
+          href: api/dynamics_salesquoteline_get.md
+        - name: Create sales quote line
+          href: api/dynamics_create_salesquoteline.md
+        - name: Update sales quote line
+          href: api/dynamics_salesquoteline_update.md
+        - name: Delete sales quote line
+          href: api/dynamics_salesquoteline_delete.md
+    - name: Shipment methods
+      href: resources/dynamics_shipmentmethods.md
+      items: 
+        - name: Get shipment methods
+          href: api/dynamics_shipmentmethods_get.md
+        - name: Create shipment methods
+          href: api/dynamics_create_shipmentmethods.md
+        - name: Update shipment methods
+          href: api/dynamics_shipmentmethods_update.md
+        - name: Delete shipment methods
+          href: api/dynamics_shipmentmethods_delete.md
+    - name: Subscription
+      href: resources/dynamics_subscription.md
+      items: 
+        - name: Get subscription
+          href: api/dynamics_subscription_get.md
+        - name: Create subscription
+          href: api/dynamics_subscription_create.md
+        - name: Update subscription
+          href: api/dynamics_subscription_update.md
+        - name: Delete subscription
+          href: api/dynamics_subscription_delete.md
+    - name: Tax area
+      href: resources/dynamics_taxarea.md
+      items: 
+        - name: Get tax area
+          href: api/dynamics_taxarea_get.md
+        - name: Create tax area
+          href: api/dynamics_create_taxarea.md
+        - name: Update tax area
+          href: api/dynamics_taxarea_update.md
+        - name: Delete tax area
+          href: api/dynamics_taxarea_delete.md
+    - name: Tax groups
+      href: resources/dynamics_taxgroups.md
+      items: 
+        - name: Get tax groups
+          href: api/dynamics_taxgroups_get.md
+        - name: Create tax groups
+          href: api/dynamics_create_taxgroups.md
+        - name: Update tax groups
+          href: api/dynamics_taxgroups_update.md
+        - name: Delete tax groups
+          href: api/dynamics_taxgroups_delete.md
+    - name: Trial balance
+      href: resources/dynamics_trialbalance.md
+      items: 
+        - name: Get trial balance
+          href: api/dynamics_trialbalance_get.md
+    - name: Units of measure
+      href: resources/dynamics_unitsofmeasure.md
+      items: 
+        - name: Get units of measure
+          href: api/dynamics_unitsofmeasure_get.md
+        - name: Create units of measure
+          href: api/dynamics_create_unitsofmeasure.md
+        - name: Update units of measure
+          href: api/dynamics_unitsofmeasure_update.md
+        - name: Delete units of measure
+          href: api/dynamics_unitsofmeasure_delete.md
+    - name: Vendor
+      href: resources/dynamics_vendor.md
+      items: 
+        - name: Get vendor
+          href: api/dynamics_vendor_get.md
+        - name: Create vendor
+          href: api/dynamics_create_vendor.md
+        - name: Update vendor
+          href: api/dynamics_vendor_update.md
+        - name: Delete vendor
+          href: api/dynamics_vendor_delete.md
+        - name: Get vendor default dimensions
+          href: api/dynamics_vendor_get_defaultdimensions.md
+        - name: Create vendor default dimensions
+          href: api/dynamics_vendor_create_defaultdimensions.md
+        - name: Update vendor default dimensions
+          href: api/dynamics_vendor_update_defaultdimensions.md
+        - name: Delete vendor default dimensions
+          href: api/dynamics_vendor_delete_defaultdimensions.md
+    - name: Vendor purchases
+      href: resources/dynamics_vendorpurchases.md
+      items: 
+        - name: Get vendor purchases
+          href: api/dynamics_vendorpurchases_get.md
