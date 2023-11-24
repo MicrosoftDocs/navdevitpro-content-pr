@@ -1,0 +1,30 @@
+- name: Testing With Permission Sets
+  href: testing-permissionsets.md
+  items: 
+    - name: TestPermissions Property
+      href: property-testpermissions.md
+    - name: OnBeforeTestRun Trigger
+      href: trigger-onbeforetestrun.md
+    - name: OnAfterTestRun Trigger
+      href: trigger-onaftertestrun.md
+    - name: Converting a Database
+      href: upgrade-convertingdatabase.md
+- name: Notifications
+  href: notifications-developing.md
+  items: 
+    - name: MESSAGE Function (Notification)
+      href: function-notificationmessage.md
+    - name: SCOPE Function (Notification)
+      href: function-notificationscope.md
+    - name: SEND Function (Notification)
+      href: function-notificationsend.md
+    - name: ADDACTION Function (Notification)
+      href: function-notificationaddaction.md
+    - name: GETDATA Function (Notification)
+      href: function-notificationgetdata.md
+    - name: SETDATA Function (Notification)
+      href: function-notificationsetdata.md
+- name: Draft content
+  items: 
+    - name: Microsoft Dynamics NAV Web Services Overview
+      href: webservices-overview-partial.md
