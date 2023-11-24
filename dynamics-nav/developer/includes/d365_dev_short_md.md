@@ -1,1 +1,0 @@
-AL Language development environment
